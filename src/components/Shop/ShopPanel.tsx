@@ -83,14 +83,14 @@ function CountryCard({ id, probability, coins, onBuy }: CountryCardProps) {
           <h3 className="text-sm font-semibold text-slate-200 truncate">
             {t(`countries.${id}.name`, id)}
           </h3>
-          <Badge
-            className={`mt-0.5 text-[10px] px-1.5 py-0 ${rarity.badgeClass}`}
+          <span
+            className={`inline-flex items-center gap-1 rounded-full border font-medium mt-0.5 text-[10px] px-1.5 py-0 ${rarity.badgeClass}`}
           >
             <span aria-hidden="true" className="mr-1">
               {rarity.symbol}
             </span>
             {t(`rarity.${rarity.key}`, rarity.label)}
-          </Badge>
+          </span>
         </div>
       </div>
       <Button
@@ -245,8 +245,8 @@ export function ShopPanel({
   const upgradeIds = SHOP_UPGRADES.map((u) => u.id);
 
   const tabs: { id: Tab; label: string }[] = [
-    { id: "countries", label: t("shop.tab.countries", "Países") },
-    { id: "upgrades", label: t("shop.tab.upgrades", "Upgrades") },
+    { id: "countries", label: t("shop.tabs.countries", "Países") },
+    { id: "upgrades", label: t("shop.tabs.upgrades", "Upgrades") },
   ];
 
   return (

@@ -749,7 +749,7 @@ export function App(): React.ReactElement {
           isNew={rollIsNew}
           onClose={() => dispatch({ type: "CLOSE_ROLL_RESULT" })}
           onViewOnMap={(id) => {
-            selectCountry(id);
+            handleZoomToCountry(id);
             dispatch({ type: "CLOSE_ROLL_RESULT" });
             dispatch({ type: "SET_PANEL", payload: "progress" });
           }}
