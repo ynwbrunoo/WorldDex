@@ -29,7 +29,8 @@
     "annualBirths": "Estimated annual births",
     "firstUnlock": "First time!",
     "alreadyHave": "Duplicate",
-    "spacebar": "Press [Space] to roll"
+    "spacebar": "Press [Space] to roll",
+    "spacebarToClose": "按[空格]关闭"
   },
   "country": {
     "population": "Population",
@@ -199,7 +200,8 @@
     "group_opep": {
       "name": "欧佩克",
       "description": "解锁石油输出国组织成员。"
-    }
+    },
+    "hideCompleted": "隐藏完成"
   },
   "tutorial": {
     "title": "How to Play",
@@ -1151,5 +1153,15 @@
       "title": "🌍 准备开始玩吧！",
       "desc": "现在就看你了！祝你在解锁整个世界的旅程中好运，一次一个诞生。"
     }
+  },
+  "shop": {
+    "lockedCount": "{{count}} 个被屏蔽的国家/地区"
+  },
+  "rarity": {
+    "legendary": "传奇",
+    "epic": "史诗",
+    "rare": "稀有的",
+    "uncommon": "异常",
+    "common": "常见的"
   }
 }

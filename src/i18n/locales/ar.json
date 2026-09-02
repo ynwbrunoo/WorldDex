@@ -29,7 +29,8 @@
     "annualBirths": "الولادات السنوية المقدرة",
     "firstUnlock": "المرة الأولى!",
     "alreadyHave": "ينسخ",
-    "spacebar": "Press [Space] to roll"
+    "spacebar": "Press [Space] to roll",
+    "spacebarToClose": "اضغط على [مسافة] للإغلاق"
   },
   "country": {
     "population": "سكان",
@@ -199,7 +200,8 @@
     "group_opep": {
       "name": "أوبك",
       "description": "يفتح أعضاء منظمة الدول المصدرة للبترول."
-    }
+    },
+    "hideCompleted": "إخفاء كاملة"
   },
   "tutorial": {
     "title": "كيفية اللعب",
@@ -1151,5 +1153,15 @@
       "title": "🌍 Pronto a Jogar!",
       "desc": "Agora é contigo! Boa sorte na tua jornada para desbloquear o mundo inteiro, um nascimento de cada vez."
     }
+  },
+  "shop": {
+    "lockedCount": "{{count}} البلدان المحظورة"
+  },
+  "rarity": {
+    "legendary": "الأسطوري",
+    "epic": "ملحمي",
+    "rare": "نادر",
+    "uncommon": "غير عادي",
+    "common": "شائع"
   }
 }

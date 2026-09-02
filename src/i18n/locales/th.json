@@ -29,7 +29,8 @@
     "annualBirths": "ประมาณการการเกิดประจำปี",
     "firstUnlock": "ครั้งแรก!",
     "alreadyHave": "ทำซ้ำ",
-    "spacebar": "Press [Space] to roll"
+    "spacebar": "Press [Space] to roll",
+    "spacebarToClose": "กด [Space] เพื่อปิด"
   },
   "country": {
     "population": "ประชากร",
@@ -199,7 +200,8 @@
     "group_opep": {
       "name": "โอเปก",
       "description": "ปลดล็อคสมาชิกขององค์การประเทศผู้ส่งออกน้ำมัน"
-    }
+    },
+    "hideCompleted": "ซ่อนเสร็จสมบูรณ์"
   },
   "tutorial": {
     "title": "วิธีการเล่น",
@@ -1120,7 +1122,7 @@
     "done": "เสร็จสิ้น ✓",
     "progress": "Passo {{current}} de {{total}}",
     "step1": {
-      "title": "👋 Bem-vindo ao WorldDex!",
+      "title": "😏 ยินดีต้อนรับสู่ WorldDex!",
       "desc": "Aqui vais colecionar todos os países do mundo através de sorteios baseados na verdadeira taxa de natalidade global. Vamos ver como funciona?"
     },
     "step2": {
@@ -1151,5 +1153,15 @@
       "title": "🌍 Pronto a Jogar!",
       "desc": "Agora é contigo! Boa sorte na tua jornada para desbloquear o mundo inteiro, um nascimento de cada vez."
     }
+  },
+  "shop": {
+    "lockedCount": "{{count}} ประเทศที่ถูกบล็อก"
+  },
+  "rarity": {
+    "legendary": "ตำนาน",
+    "epic": "มหากาพย์",
+    "rare": "หายาก",
+    "uncommon": "ผิดปกติ",
+    "common": "ทั่วไป"
   }
 }

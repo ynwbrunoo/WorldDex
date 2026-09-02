@@ -29,7 +29,8 @@
     "annualBirths": "Nascite annuali stimate",
     "firstUnlock": "Prima volta!",
     "alreadyHave": "Duplicato",
-    "spacebar": "Press [Space] to roll"
+    "spacebar": "Press [Space] to roll",
+    "spacebarToClose": "Premi [Spazio] per chiudere"
   },
   "country": {
     "population": "Popolazione",
@@ -200,7 +201,8 @@
     "india_500": {
       "name": "Namasté!",
       "description": "Ruota l'India 500 volte."
-    }
+    },
+    "hideCompleted": "Nascondi completato"
   },
   "tutorial": {
     "title": "Come giocare",
@@ -1152,5 +1154,15 @@
       "title": "🌍 Pronto per giocare!",
       "desc": "Ora tocca a te! Buona fortuna nel tuo viaggio per sbloccare il mondo intero, una nascita alla volta."
     }
+  },
+  "shop": {
+    "lockedCount": "{{count}} paesi bloccati"
+  },
+  "rarity": {
+    "legendary": "Leggendario",
+    "epic": "Epico",
+    "rare": "Raro",
+    "uncommon": "Insolito",
+    "common": "Comune"
   }
 }

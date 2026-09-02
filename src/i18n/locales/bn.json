@@ -29,7 +29,8 @@
     "annualBirths": "আনুমানিক বার্ষিক জন্ম",
     "firstUnlock": "প্রথমবার!",
     "alreadyHave": "ডুপ্লিকেট",
-    "spacebar": "Press [Space] to roll"
+    "spacebar": "Press [Space] to roll",
+    "spacebarToClose": "বন্ধ করতে [স্পেস] টিপুন"
   },
   "country": {
     "population": "জনসংখ্যা",
@@ -199,7 +200,8 @@
     "group_opep": {
       "name": "ওপেক",
       "description": "পেট্রোলিয়াম রপ্তানিকারক দেশগুলির সংস্থার সদস্যদের আনলক করে৷"
-    }
+    },
+    "hideCompleted": "সম্পূর্ণ লুকান"
   },
   "tutorial": {
     "title": "কিভাবে খেলতে হয়",
@@ -1151,5 +1153,15 @@
       "title": "🌍 খেলার জন্য প্রস্তুত!",
       "desc": "এখন এটা আপনার উপর নির্ভর করে! এক সময়ে একটি জন্ম সমগ্র বিশ্বকে আনলক করার জন্য আপনার যাত্রায় শুভকামনা।"
     }
+  },
+  "shop": {
+    "lockedCount": "{{count}}টি অবরুদ্ধ দেশ"
+  },
+  "rarity": {
+    "legendary": "কিংবদন্তি",
+    "epic": "মহাকাব্য",
+    "rare": "বিরল",
+    "uncommon": "অস্বাভাবিক",
+    "common": "সাধারণ"
   }
 }

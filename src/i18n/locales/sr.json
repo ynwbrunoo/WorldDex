@@ -29,7 +29,8 @@
     "annualBirths": "Процењена годишња рођења",
     "firstUnlock": "Први пут!",
     "alreadyHave": "Дупликат",
-    "spacebar": "Press [Space] to roll"
+    "spacebar": "Press [Space] to roll",
+    "spacebarToClose": "Притисните [Спаце] да затворите"
   },
   "country": {
     "population": "Популација",
@@ -200,7 +201,8 @@
     "group_opep": {
       "name": "ОПЕЦ",
       "description": "Откључава чланове Организације земаља извозница нафте."
-    }
+    },
+    "hideCompleted": "Сакриј довршено"
   },
   "tutorial": {
     "title": "Како играти",
@@ -1152,5 +1154,15 @@
       "title": "🌍 Спремни за игру!",
       "desc": "Сада је на вама! Срећно на вашем путу да откључате цео свет, једно по рођење."
     }
+  },
+  "shop": {
+    "lockedCount": "{{цоунт}} блокираних земаља"
+  },
+  "rarity": {
+    "legendary": "Легендарни",
+    "epic": "Епиц",
+    "rare": "Ретко",
+    "uncommon": "Необично",
+    "common": "Цоммон"
   }
 }

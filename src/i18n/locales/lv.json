@@ -29,7 +29,8 @@
     "annualBirths": "Paredzamie ikgadējie dzimušie",
     "firstUnlock": "Pirmo reizi!",
     "alreadyHave": "Dublikāts",
-    "spacebar": "Press [Space] to roll"
+    "spacebar": "Press [Space] to roll",
+    "spacebarToClose": "Nospiediet [Space], lai aizvērtu"
   },
   "country": {
     "population": "Iedzīvotāju skaits",
@@ -198,7 +199,8 @@
     "group_opep": {
       "name": "OPEC",
       "description": "Atbloķē Naftas eksportētājvalstu organizācijas biedrus."
-    }
+    },
+    "hideCompleted": "Paslēpt pabeigtu"
   },
   "tutorial": {
     "title": "Kā spēlēt",
@@ -1150,5 +1152,15 @@
       "title": "🌍 Gatavs spēlēt!",
       "desc": "Tagad tas ir atkarīgs no jums! Veiksmi jūsu ceļojumā, lai atvērtu visu pasauli, pa vienai dzimšanai."
     }
+  },
+  "shop": {
+    "lockedCount": "{{count}} bloķētas valstis"
+  },
+  "rarity": {
+    "legendary": "Leģendārais",
+    "epic": "Épico",
+    "rare": "Raro",
+    "uncommon": "Incomum",
+    "common": "Comum"
   }
 }

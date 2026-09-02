@@ -29,7 +29,8 @@
     "annualBirths": "Geschätzte jährliche Geburten",
     "firstUnlock": "Zum ersten Mal!",
     "alreadyHave": "Duplikat",
-    "spacebar": "Press [Space] to roll"
+    "spacebar": "Press [Space] to roll",
+    "spacebarToClose": "Drücken Sie zum Schließen die [Leertaste]."
   },
   "country": {
     "population": "Bevölkerung",
@@ -200,7 +201,8 @@
     "india_500": {
       "name": "Namaste!",
       "description": "Drehen Sie Indien 500 Mal um."
-    }
+    },
+    "hideCompleted": "Komplett ausblenden"
   },
   "tutorial": {
     "title": "Spielanleitung",
@@ -1152,5 +1154,15 @@
       "title": "🌍 Bereit zum Spielen!",
       "desc": "Jetzt liegt es an Ihnen! Viel Glück auf Ihrer Reise, die ganze Welt zu erschließen, eine Geburt nach der anderen."
     }
+  },
+  "shop": {
+    "lockedCount": "{{count}} blockierte Länder"
+  },
+  "rarity": {
+    "legendary": "Legendär",
+    "epic": "Epos",
+    "rare": "Selten",
+    "uncommon": "Ungewöhnlich",
+    "common": "Gemeinsam"
   }
 }

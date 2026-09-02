@@ -29,7 +29,8 @@
     "annualBirths": "Szacunkowe roczne urodzenia",
     "firstUnlock": "Pierwszy raz!",
     "alreadyHave": "Duplikat",
-    "spacebar": "Press [Space] to roll"
+    "spacebar": "Press [Space] to roll",
+    "spacebarToClose": "Naciśnij [Spację], aby zamknąć"
   },
   "country": {
     "population": "Populacja",
@@ -200,7 +201,8 @@
     "india_500": {
       "name": "Namaste!",
       "description": "Obróć Indie 500 razy."
-    }
+    },
+    "hideCompleted": "Ukryj ukończony"
   },
   "tutorial": {
     "title": "Jak grać",
@@ -1152,5 +1154,15 @@
       "title": "🌍 Gotowy do gry!",
       "desc": "Teraz to zależy od Ciebie! Powodzenia na Twojej drodze do odblokowania całego świata, jedno narodziny na raz."
     }
+  },
+  "shop": {
+    "lockedCount": "{{count}} zablokowane kraje"
+  },
+  "rarity": {
+    "legendary": "Legendarny",
+    "epic": "Epicki",
+    "rare": "Raro",
+    "uncommon": "Niezwykłe",
+    "common": "Comum"
   }
 }

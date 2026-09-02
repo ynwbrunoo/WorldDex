@@ -29,7 +29,8 @@
     "annualBirths": "Nascimentos anuais estimados",
     "firstUnlock": "Primeira vez!",
     "alreadyHave": "Duplicado",
-    "spacebar": "Pressiona [Espaço] para girar"
+    "spacebar": "Pressiona [Espaço] para girar",
+    "spacebarToClose": "Pressione [Espaço] para fechar"
   },
   "country": {
     "population": "População",
@@ -212,7 +213,8 @@
     "rarity_rare_5": {
       "name": "Colecionador Raro",
       "description": "Desbloqueia 5 países de raridade Rara."
-    }
+    },
+    "hideCompleted": "Esconder completas"
   },
   "tutorial": {
     "title": "Como Jogar",
@@ -1159,7 +1161,8 @@
         "name": "Menos Azar",
         "description": "Reduz o número de duplicados necessários para o Pity em 25%."
       }
-    }
+    },
+    "lockedCount": "{{count}} países bloqueados"
   },
   "completion": {
     "title": "Parabéns! 🌍",
@@ -1214,5 +1217,12 @@
       "title": "🌍 Pronto a Jogar!",
       "desc": "Agora é contigo! Boa sorte na tua jornada para desbloquear o mundo inteiro, um nascimento de cada vez."
     }
+  },
+  "rarity": {
+    "legendary": "Lendário",
+    "epic": "Épico",
+    "rare": "Raro",
+    "uncommon": "Incomum",
+    "common": "Comum"
   }
 }

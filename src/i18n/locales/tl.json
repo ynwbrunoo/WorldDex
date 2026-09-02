@@ -29,7 +29,8 @@
     "annualBirths": "Tinatayang taunang kapanganakan",
     "firstUnlock": "First time!",
     "alreadyHave": "Duplicate",
-    "spacebar": "Press [Space] to roll"
+    "spacebar": "Press [Space] to roll",
+    "spacebarToClose": "Pindutin ang [Space] para isara"
   },
   "country": {
     "population": "Populasyon",
@@ -198,7 +199,8 @@
     "group_opep": {
       "name": "OPEC",
       "description": "Binubuksan ang mga miyembro ng Organization of Petroleum Exporting Countries."
-    }
+    },
+    "hideCompleted": "Itago nang kumpleto"
   },
   "tutorial": {
     "title": "Paano maglaro",
@@ -1119,7 +1121,7 @@
     "done": "Terminar ✓",
     "progress": "Passo {{current}} de {{total}}",
     "step1": {
-      "title": "👋 Bem-vindo ao WorldDex!",
+      "title": "👋 Maligayang pagdating sa WorldDex!",
       "desc": "Aqui vais colecionar todos os países do mundo através de sorteios baseados na verdadeira taxa de natalidade global. Vamos ver como funciona?"
     },
     "step2": {
@@ -1150,5 +1152,15 @@
       "title": "🌍 Handa nang Maglaro!",
       "desc": "Ngayon ikaw na ang bahala! Good luck sa iyong paglalakbay upang i-unlock ang buong mundo, isang kapanganakan sa isang pagkakataon."
     }
+  },
+  "shop": {
+    "lockedCount": "{{count}} mga na-block na bansa"
+  },
+  "rarity": {
+    "legendary": "Maalamat",
+    "epic": "Epic",
+    "rare": "Bihira",
+    "uncommon": "Hindi karaniwan",
+    "common": "Karaniwan"
   }
 }

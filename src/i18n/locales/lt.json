@@ -29,7 +29,8 @@
     "annualBirths": "Numatomas metinis gimimų skaičius",
     "firstUnlock": "Pirmą kartą!",
     "alreadyHave": "Pasikartoti",
-    "spacebar": "Press [Space] to roll"
+    "spacebar": "Press [Space] to roll",
+    "spacebarToClose": "Norėdami uždaryti, paspauskite [tarpas]"
   },
   "country": {
     "population": "Gyventojų skaičius",
@@ -198,7 +199,8 @@
     "group_opep": {
       "name": "OPEC",
       "description": "Atrakina Naftą eksportuojančių šalių organizacijos narius."
-    }
+    },
+    "hideCompleted": "Slėpti baigta"
   },
   "tutorial": {
     "title": "Kaip žaisti",
@@ -1119,7 +1121,7 @@
     "done": "Baigti ✓",
     "progress": "Passo {{current}} de {{total}}",
     "step1": {
-      "title": "👋 Bem-vindo ao WorldDex!",
+      "title": "👋 Sveiki atvykę į WorldDex!",
       "desc": "Čia surinksite visas pasaulio šalis traukdami pagal tikrąjį pasaulinį gimstamumą. Pažiūrėkime, kaip tai veikia?"
     },
     "step2": {
@@ -1150,5 +1152,15 @@
       "title": "🌍 Pronto a Jogar!",
       "desc": "Dabar tai priklauso nuo jūsų! Sėkmės jūsų kelionėje, kad atrakintumėte visą pasaulį, po vieną gimimą."
     }
+  },
+  "shop": {
+    "lockedCount": "Užblokuotų šalių: {{count}}"
+  },
+  "rarity": {
+    "legendary": "Legendinis",
+    "epic": "Epas",
+    "rare": "Retas",
+    "uncommon": "Incomum",
+    "common": "Comum"
   }
 }

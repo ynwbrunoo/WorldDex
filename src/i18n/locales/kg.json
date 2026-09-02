@@ -29,7 +29,8 @@
     "annualBirths": "Nascimentos anuais estimados",
     "firstUnlock": "Primeira vez!",
     "alreadyHave": "Duplicado",
-    "spacebar": "Pressiona [Espaço] para girar"
+    "spacebar": "Pressiona [Espaço] para girar",
+    "spacebarToClose": "Bweta [Espaço] mu kanga"
   },
   "country": {
     "population": "População",
@@ -220,7 +221,7 @@
       "name": "Colecionador Raro",
       "description": "Desbloqueia 5 países de raridade Rara."
     },
-    "hideCompleted": "Fisa yabhu"
+    "hideCompleted": "Esconder completas"
   },
   "tutorial": {
     "title": "Como Jogar",
@@ -1172,7 +1173,7 @@
         "description": "Reduz o número de duplicados necessários para o Pity em 25%."
       }
     },
-    "lockedCount": "{{count}} ixi iobhe",
+    "lockedCount": "{{count}} países bloqueados",
     "lockedCount_other": "{{count}} ixi iobhe"
   },
   "completion": {
@@ -1207,7 +1208,7 @@
     "done": "Mane ✓",
     "progress": "Kadi {{current}} ya {{total}}",
     "step1": {
-      "title": "👋 Mbote mu WorldDex!",
+      "title": "👋 Bem-vindo ao WorldDex!",
       "desc": "Tu landa nza."
     },
     "step2": {
@@ -1238,5 +1239,12 @@
       "title": "🌍 Mane!",
       "desc": "Banda!"
     }
+  },
+  "rarity": {
+    "legendary": "Kinkulu",
+    "epic": "Yanene",
+    "rare": "Yampasi",
+    "uncommon": "Yansivi",
+    "common": "Yampamba"
   }
 }

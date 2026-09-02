@@ -29,7 +29,8 @@
     "annualBirths": "Nascimentos anuais estimados",
     "firstUnlock": "Primeira vez!",
     "alreadyHave": "Duplicado",
-    "spacebar": "Pressiona [Espaço] para girar"
+    "spacebar": "Pressiona [Espaço] para girar",
+    "spacebarToClose": "Yika [Espaço] loku yika"
   },
   "country": {
     "population": "População",
@@ -220,7 +221,7 @@
       "name": "Colecionador Raro",
       "description": "Desbloqueia 5 países de raridade Rara."
     },
-    "hideCompleted": "Fisa yabhu"
+    "hideCompleted": "Esconder completas"
   },
   "tutorial": {
     "title": "Como Jogar",
@@ -1172,7 +1173,7 @@
         "description": "Reduz o número de duplicados necessários para o Pity em 25%."
       }
     },
-    "lockedCount": "{{count}} ixi iobhe",
+    "lockedCount": "{{count}} países bloqueados",
     "lockedCount_other": "{{count}} ixi iobhe"
   },
   "completion": {
@@ -1207,7 +1208,7 @@
     "done": "Mala ✓",
     "progress": "Onepa {{current}} ko {{total}}",
     "step1": {
-      "title": "👋 Benvindu ko WorldDex!",
+      "title": "👋 Bem-vindo ao WorldDex!",
       "desc": "Tu tala olofeleviya viwa."
     },
     "step2": {
@@ -1238,5 +1239,12 @@
       "title": "🌍 Mala!",
       "desc": "Katuka!"
     }
+  },
+  "rarity": {
+    "legendary": "Ulandu",
+    "epic": "Ekemãlo",
+    "rare": "Cilu",
+    "uncommon": "Cikaluke",
+    "common": "Caswa"
   }
 }

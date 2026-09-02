@@ -29,7 +29,8 @@
     "annualBirths": "Kadirio la kuzaliwa kwa kila mwaka",
     "firstUnlock": "Mara ya kwanza!",
     "alreadyHave": "Nakala",
-    "spacebar": "Press [Space] to roll"
+    "spacebar": "Press [Space] to roll",
+    "spacebarToClose": "Bonyeza [Space] ili kufunga"
   },
   "country": {
     "population": "Idadi ya watu",
@@ -198,7 +199,8 @@
     "group_opep": {
       "name": "OPEC",
       "description": "Inafungua wanachama wa Shirika la Nchi Zinazouza Petroli."
-    }
+    },
+    "hideCompleted": "Ficha kamili"
   },
   "tutorial": {
     "title": "Jinsi ya Kucheza",
@@ -1119,7 +1121,7 @@
     "done": "Maliza ✓",
     "progress": "Passo {{current}} de {{total}}",
     "step1": {
-      "title": "👋 Bem-vindo ao WorldDex!",
+      "title": "👋 Karibu kwenye WorldDex!",
       "desc": "Aqui vais colecionar todos os países do mundo através de sorteios baseados na verdadeira taxa de natalidade global. Vamos ver como funciona?"
     },
     "step2": {
@@ -1150,5 +1152,15 @@
       "title": "🌍 Tayari Kucheza!",
       "desc": "Sasa ni juu yako! Bahati nzuri katika safari yako ya kufungua ulimwengu mzima, kuzaliwa mara moja."
     }
+  },
+  "shop": {
+    "lockedCount": "nchi {{count}} zilizozuiwa"
+  },
+  "rarity": {
+    "legendary": "Hadithi",
+    "epic": "Epic",
+    "rare": "Nadra",
+    "uncommon": "Isiyo ya kawaida",
+    "common": "Kawaida"
   }
 }

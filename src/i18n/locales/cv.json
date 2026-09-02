@@ -27,7 +27,8 @@
     "estimatedChance": "Prubabilidadi",
     "spacebar": "Pressiona [Espasu] pa gira",
     "alreadyHave": "Duplikadu",
-    "firstUnlock": "Puméru bês!"
+    "firstUnlock": "Puméru bês!",
+    "spacebarToClose": "Karka [Espaço] pa fexa"
   },
   "country": {
     "population": "População",
@@ -219,7 +220,7 @@
       "name": "Kolesionador Raru",
       "description": "Desblokeia 5 país Raru."
     },
-    "hideCompleted": "Skondi Konpletus"
+    "hideCompleted": "Esconder completas"
   },
   "tutorial": {
     "title": "Como Jogar",
@@ -1171,7 +1172,7 @@
         "description": "Reduz o número de duplicados necessários para o Pity em 25%."
       }
     },
-    "lockedCount": "{{count}} país blokiadu",
+    "lockedCount": "{{count}} países bloqueados",
     "lockedCount_other": "{{count}} país blokiadu"
   },
   "completion": {
@@ -1206,7 +1207,7 @@
     "done": "Termina ✓",
     "progress": "Pasu {{current}} di {{total}}",
     "step1": {
-      "title": "👋 Benvindu ao WorldDex!",
+      "title": "👋 Bem-vindo ao WorldDex!",
       "desc": "Prepara-ba pa un jornada à volta di mundu. Nu ba dexa-m mostra-u as mekanikas."
     },
     "step2": {
@@ -1237,5 +1238,12 @@
       "title": "🌍 Prontu a Jogar!",
       "desc": "Agora é contigo! Boa sorte na tua jornada."
     }
+  },
+  "rarity": {
+    "legendary": "Lendáriu",
+    "epic": "Épiku",
+    "rare": "Raru",
+    "uncommon": "Inkomun",
+    "common": "Kumun"
   }
 }

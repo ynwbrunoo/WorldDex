@@ -29,7 +29,8 @@
     "annualBirths": "推定年間出生数",
     "firstUnlock": "初めて！",
     "alreadyHave": "重複",
-    "spacebar": "Press [Space] to roll"
+    "spacebar": "Press [Space] to roll",
+    "spacebarToClose": "[スペース]を押して閉じます"
   },
   "country": {
     "population": "人口",
@@ -200,7 +201,8 @@
     "india_500": {
       "name": "ナマステ！",
       "description": "インドを500回転させます。"
-    }
+    },
+    "hideCompleted": "非表示完了"
   },
   "tutorial": {
     "title": "遊び方",
@@ -1152,5 +1154,15 @@
       "title": "🌍 すぐにプレイできます!",
       "desc": "あとはあなた次第です！一度に 1 つずつ誕生しながら、全世界のロックを解除する旅の幸運を祈ります。"
     }
+  },
+  "shop": {
+    "lockedCount": "{{count}} か国がブロックされています"
+  },
+  "rarity": {
+    "legendary": "伝説の",
+    "epic": "すごい",
+    "rare": "レア",
+    "uncommon": "普通でない",
+    "common": "一般"
   }
 }

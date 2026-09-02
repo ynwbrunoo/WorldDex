@@ -29,7 +29,8 @@
     "annualBirths": "לידה שנתית משוערת",
     "firstUnlock": "פעם ראשונה!",
     "alreadyHave": "לְשַׁכְפֵּל",
-    "spacebar": "Press [Space] to roll"
+    "spacebar": "Press [Space] to roll",
+    "spacebarToClose": "לחץ על [רווח] כדי לסגור"
   },
   "country": {
     "population": "אוּכְלוֹסִיָה",
@@ -198,7 +199,8 @@
     "group_opep": {
       "name": "אופ\"ק",
       "description": "פותח חברים בארגון מדינות ייצוא נפט."
-    }
+    },
+    "hideCompleted": "הסתר שלם"
   },
   "tutorial": {
     "title": "איך לשחק",
@@ -1150,5 +1152,15 @@
       "title": "🌍 מוכן לשחק!",
       "desc": "עכשיו זה תלוי בך! בהצלחה במסע שלך לפתוח את כל העולם, לידה אחת בכל פעם."
     }
+  },
+  "shop": {
+    "lockedCount": "{{count}} מדינות חסומות"
+  },
+  "rarity": {
+    "legendary": "אַגָדִי",
+    "epic": "אֶפּוֹס",
+    "rare": "נָדִיר",
+    "uncommon": "יוֹצֵא דוֹפֶן",
+    "common": "מְשׁוּתָף"
   }
 }

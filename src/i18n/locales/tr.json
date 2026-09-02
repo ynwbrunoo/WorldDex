@@ -29,7 +29,8 @@
     "annualBirths": "Tahmini yıllık doğumlar",
     "firstUnlock": "İlk kez!",
     "alreadyHave": "Kopyalamak",
-    "spacebar": "Press [Space] to roll"
+    "spacebar": "Press [Space] to roll",
+    "spacebarToClose": "Kapatmak için [Boşluk] tuşuna basın"
   },
   "country": {
     "population": "Nüfus",
@@ -200,7 +201,8 @@
     "india_500": {
       "name": "Namaste!",
       "description": "Hindistan'ı 500 kez döndürün."
-    }
+    },
+    "hideCompleted": "Tamamlananları gizle"
   },
   "tutorial": {
     "title": "Nasıl Oynanır",
@@ -1152,5 +1154,15 @@
       "title": "🌍 Oynamaya Hazır!",
       "desc": "Artık karar size kalmış! Her seferinde bir doğum olmak üzere tüm dünyanın kilidini açma yolculuğunuzda iyi şanslar."
     }
+  },
+  "shop": {
+    "lockedCount": "{{count}} engellenen ülke"
+  },
+  "rarity": {
+    "legendary": "Efsanevi",
+    "epic": "Destansı",
+    "rare": "Nadir",
+    "uncommon": "Olağan dışı",
+    "common": "Yaygın"
   }
 }

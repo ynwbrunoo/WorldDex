@@ -29,7 +29,8 @@
     "annualBirths": "अनुमानित वार्षिक जन्म",
     "firstUnlock": "पहली बार!",
     "alreadyHave": "डुप्लिकेट",
-    "spacebar": "Press [Space] to roll"
+    "spacebar": "Press [Space] to roll",
+    "spacebarToClose": "बंद करने के लिए [स्पेस] दबाएँ"
   },
   "country": {
     "population": "जनसंख्या",
@@ -200,7 +201,8 @@
     "group_opep": {
       "name": "ओपेक",
       "description": "पेट्रोलियम निर्यातक देशों के संगठन के सदस्यों को अनलॉक करता है।"
-    }
+    },
+    "hideCompleted": "पूरा छिपाएँ"
   },
   "tutorial": {
     "title": "कैसे खेलने के लिए",
@@ -1152,5 +1154,15 @@
       "title": "🌍 Pronto a Jogar!",
       "desc": "Agora é contigo! Boa sorte na tua jornada para desbloquear o mundo inteiro, um nascimento de cada vez."
     }
+  },
+  "shop": {
+    "lockedCount": "{{गिनती}} अवरुद्ध देश"
+  },
+  "rarity": {
+    "legendary": "प्रसिद्ध",
+    "epic": "महाकाव्य",
+    "rare": "दुर्लभ",
+    "uncommon": "असामान्य",
+    "common": "सामान्य"
   }
 }

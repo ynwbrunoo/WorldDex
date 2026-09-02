@@ -29,7 +29,8 @@
     "annualBirths": "Naixements anuals estimats",
     "firstUnlock": "Primera vegada!",
     "alreadyHave": "Duplicat",
-    "spacebar": "Press [Space] to roll"
+    "spacebar": "Press [Space] to roll",
+    "spacebarToClose": "Premeu [Espai] per tancar-lo"
   },
   "country": {
     "population": "Població",
@@ -197,7 +198,8 @@
     },
     "group_opep": {
       "description": "Desbloqueja membres de l'Organització de Països Exportadors de Petroli."
-    }
+    },
+    "hideCompleted": "Amaga completa"
   },
   "tutorial": {
     "title": "Com jugar",
@@ -1149,5 +1151,15 @@
       "title": "🌍 A punt per jugar!",
       "desc": "Ara et toca a tu! Molta sort en el teu viatge per desbloquejar el món sencer, un naixement a la vegada."
     }
+  },
+  "shop": {
+    "lockedCount": "{{count}} països bloquejats"
+  },
+  "rarity": {
+    "legendary": "Llegendari",
+    "epic": "Èpica",
+    "rare": "Rar",
+    "uncommon": "Inusual",
+    "common": "Comú"
   }
 }

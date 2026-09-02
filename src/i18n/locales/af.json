@@ -29,7 +29,8 @@
     "annualBirths": "Geskatte jaarlikse geboortes",
     "firstUnlock": "Eerste keer!",
     "alreadyHave": "Duplikaat",
-    "spacebar": "Press [Space] to roll"
+    "spacebar": "Press [Space] to roll",
+    "spacebarToClose": "Druk [Spasie] om toe te maak"
   },
   "country": {
     "population": "Bevolking",
@@ -198,7 +199,8 @@
     "group_opep": {
       "name": "OPEC",
       "description": "Ontsluit lede van die Organisasie van Petroleumuitvoerlande."
-    }
+    },
+    "hideCompleted": "Versteek volledig"
   },
   "tutorial": {
     "title": "Hoe om te speel",
@@ -1150,5 +1152,15 @@
       "title": "🌍 Gereed om te speel!",
       "desc": "Nou is dit aan jou! Sterkte op jou reis om die hele wêreld te ontsluit, een geboorte op 'n slag."
     }
+  },
+  "shop": {
+    "lockedCount": "{{count}} geblokkeerde lande"
+  },
+  "rarity": {
+    "legendary": "Legendaries",
+    "epic": "Epiese",
+    "rare": "Skaars",
+    "uncommon": "Ongewoon",
+    "common": "Algemeen"
   }
 }

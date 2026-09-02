@@ -101,10 +101,11 @@ export function CompletionModal({
       <AnimatePresence>
         {isOpen && (
           <motion.div
+            key="completion-modal-root"
             className="fixed inset-0 z-[100] flex items-center justify-center p-4"
             initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
+            animate={{ opacity: 1, pointerEvents: "auto" }}
+            exit={{ opacity: 0, pointerEvents: "none" }}
             transition={{ duration: 0.3 }}
             role="dialog"
             aria-modal="true"

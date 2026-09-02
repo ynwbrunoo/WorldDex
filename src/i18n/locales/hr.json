@@ -29,7 +29,8 @@
     "annualBirths": "Procijenjena godišnja rođenja",
     "firstUnlock": "Prvi put!",
     "alreadyHave": "Duplikat",
-    "spacebar": "Press [Space] to roll"
+    "spacebar": "Press [Space] to roll",
+    "spacebarToClose": "Pritisnite [Razmaknica] za zatvaranje"
   },
   "country": {
     "population": "Stanovništvo",
@@ -198,7 +199,8 @@
     "group_opep": {
       "name": "OPEC",
       "description": "Otključava članove Organizacije zemalja izvoznica nafte."
-    }
+    },
+    "hideCompleted": "Sakrij dovršeno"
   },
   "tutorial": {
     "title": "How to Play",
@@ -1119,7 +1121,7 @@
     "done": "Terminar ✓",
     "progress": "Passo {{current}} de {{total}}",
     "step1": {
-      "title": "👋 Bem-vindo ao WorldDex!",
+      "title": "👋 Dobrodošli u WorldDex!",
       "desc": "Aqui vais colecionar todos os países do mundo através de sorteios baseados na verdadeira taxa de natalidade global. Vamos ver como funciona?"
     },
     "step2": {
@@ -1150,5 +1152,15 @@
       "title": "🌍 Spremni za igru!",
       "desc": "Sada je na vama! Sretno na vašem putu otključavanja cijelog svijeta, jedno po jedno rođenje."
     }
+  },
+  "shop": {
+    "lockedCount": "{{count}} blokiranih zemalja"
+  },
+  "rarity": {
+    "legendary": "Legendarno",
+    "epic": "Ep",
+    "rare": "Rijetko",
+    "uncommon": "Neobično",
+    "common": "Uobičajeno"
   }
 }

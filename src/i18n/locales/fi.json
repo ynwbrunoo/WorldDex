@@ -29,7 +29,8 @@
     "annualBirths": "Arvioitu vuotuinen syntyvyys",
     "firstUnlock": "Ensimmäistä kertaa!",
     "alreadyHave": "Kopioi",
-    "spacebar": "Press [Space] to roll"
+    "spacebar": "Press [Space] to roll",
+    "spacebarToClose": "Sulje painamalla [Välilyönti]"
   },
   "country": {
     "population": "Väestö",
@@ -198,7 +199,8 @@
     "group_opep": {
       "name": "OPEC",
       "description": "Avaa öljynviejämaiden järjestön jäsenet."
-    }
+    },
+    "hideCompleted": "Piilota valmis"
   },
   "tutorial": {
     "title": "Kuinka pelata",
@@ -1119,7 +1121,7 @@
     "done": "Valmis ✓",
     "progress": "Passo {{current}} de {{total}}",
     "step1": {
-      "title": "👋 Bem-vindo ao WorldDex!",
+      "title": "👋 Tervetuloa WorldDexiin!",
       "desc": "Aqui vais colecionar todos os países do mundo através de sorteios baseados na verdadeira taxa de natalidade global. Vamos ver como funciona?"
     },
     "step2": {
@@ -1150,5 +1152,15 @@
       "title": "🌍 Pronto a Jogar!",
       "desc": "Agora é contigo! Boa sorte na tua jornada para desbloquear o mundo inteiro, um nascimento de cada vez."
     }
+  },
+  "shop": {
+    "lockedCount": "{{count}} estettyä maata"
+  },
+  "rarity": {
+    "legendary": "Legendaarinen",
+    "epic": "Eeppinen",
+    "rare": "Harvinainen",
+    "uncommon": "Epätavallinen",
+    "common": "Yleistä"
   }
 }

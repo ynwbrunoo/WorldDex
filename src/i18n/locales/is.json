@@ -29,7 +29,8 @@
     "annualBirths": "Áætlaðar árlegar fæðingar",
     "firstUnlock": "Fyrsta skiptið!",
     "alreadyHave": "Afrit",
-    "spacebar": "Press [Space] to roll"
+    "spacebar": "Press [Space] to roll",
+    "spacebarToClose": "Ýttu á [Blás] til að loka"
   },
   "country": {
     "population": "Mannfjöldi",
@@ -198,7 +199,8 @@
     "group_opep": {
       "name": "OPEC",
       "description": "Opnar meðlimi Samtaka olíuútflutningslanda."
-    }
+    },
+    "hideCompleted": "Fela heill"
   },
   "tutorial": {
     "title": "Hvernig á að spila",
@@ -1150,5 +1152,15 @@
       "title": "🌍 Pronto a Jogar!",
       "desc": "Agora é contigo! Boa sorte na tua jornada para desbloquear o mundo inteiro, um nascimento de cada vez."
     }
+  },
+  "shop": {
+    "lockedCount": "{{count}} lönd á bannlista"
+  },
+  "rarity": {
+    "legendary": "Legendary",
+    "epic": "Epic",
+    "rare": "Sjaldgæft",
+    "uncommon": "Óvenjulegt",
+    "common": "Algengt"
   }
 }

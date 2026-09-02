@@ -76,9 +76,13 @@ export function RollResultModal({
   return (
     <AnimatePresence>
       {isOpen && (
-        <div
+        <motion.div
+          key="roll-modal-wrapper"
           className="fixed inset-0 z-40 flex items-center justify-center p-4 sm:p-6"
           onKeyDown={handleKeyDown}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1, pointerEvents: "auto" }}
+          exit={{ opacity: 0, pointerEvents: "none", transition: { duration: 0.2 } }}
         >
           {/* Backdrop */}
           <motion.div
@@ -88,6 +92,23 @@ export function RollResultModal({
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           />
+
+          {/* Casino Glow */}
+          {(() => {
+            const hex = getCountryRarity(country.birthProbability).hexColor;
+            return (
+              <motion.div
+                className="absolute inset-0 pointer-events-none"
+                style={{ boxShadow: `inset 0 0 120px 20px ${hex}66` }}
+                initial={{ opacity: 0.5 }}
+                animate={{ 
+                  opacity: [0.5, 1, 0.5], 
+                  transition: { duration: 3, repeat: Infinity, ease: "easeInOut" } 
+                }}
+                exit={{ opacity: 0, transition: { duration: 0.2 } }}
+              />
+            );
+          })()}
 
           {/* Card */}
           <motion.div
@@ -147,9 +168,7 @@ export function RollResultModal({
                     <span aria-hidden="true" className="mr-1">
                       {symbol}
                     </span>
-                    {label === "Lendário"
-                      ? `🌟 LENDÁRIO 🌟`
-                      : label.toUpperCase()}
+                    {country.birthProbability < 0.0005 ? `🌟 ${t("rarity.legendary", "LENDÁRIO").toUpperCase()} 🌟` : t(`rarity.${getCountryRarity(country.birthProbability).key}`, label).toUpperCase()}
                   </motion.div>
                 );
               })()}
@@ -249,7 +268,7 @@ export function RollResultModal({
               />
             )}
           </motion.div>
-        </div>
+        </motion.div>
       )}
     </AnimatePresence>
   );

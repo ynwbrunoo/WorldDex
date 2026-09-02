@@ -29,7 +29,8 @@
     "annualBirths": "Geschatte jaarlijkse geboorten",
     "firstUnlock": "Eerste keer!",
     "alreadyHave": "Duplicaat",
-    "spacebar": "Press [Space] to roll"
+    "spacebar": "Press [Space] to roll",
+    "spacebarToClose": "Druk op [Spatie] om te sluiten"
   },
   "country": {
     "population": "Bevolking",
@@ -198,7 +199,8 @@
     "group_opep": {
       "name": "OPEC",
       "description": "Ontgrendelt leden van de Organisatie van Olie-exporterende Landen."
-    }
+    },
+    "hideCompleted": "Verbergen voltooid"
   },
   "tutorial": {
     "title": "Hoe te spelen",
@@ -1150,5 +1152,15 @@
       "title": "🌍 Pronto a Jogar!",
       "desc": "Agora é contigo! Boa sorte na tua jornada para desbloquear o mundo inteiro, um nascimento de cada vez."
     }
+  },
+  "shop": {
+    "lockedCount": "{{count}} geblokkeerde landen"
+  },
+  "rarity": {
+    "legendary": "Legendarisch",
+    "epic": "Épico",
+    "rare": "Zeldzaam",
+    "uncommon": "Ongebruikelijk",
+    "common": "Gewoon"
   }
 }

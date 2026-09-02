@@ -29,7 +29,8 @@
     "annualBirths": "تخمین تولد سالانه",
     "firstUnlock": "اولین بار!",
     "alreadyHave": "تکراری",
-    "spacebar": "Press [Space] to roll"
+    "spacebar": "Press [Space] to roll",
+    "spacebarToClose": "Pressione [Espaço] para fechar"
   },
   "country": {
     "population": "جمعیت",
@@ -199,7 +200,8 @@
     "group_opep": {
       "name": "اوپک",
       "description": "اعضای سازمان کشورهای صادرکننده نفت را باز می کند."
-    }
+    },
+    "hideCompleted": "پنهان کردن کامل"
   },
   "tutorial": {
     "title": "چگونه بازی کنیم",
@@ -1151,5 +1153,15 @@
       "title": "🌍 آماده بازی!",
       "desc": "حالا به شما بستگی دارد! در سفر خود برای باز کردن قفل تمام جهان، یک تولد در یک زمان موفق باشید."
     }
+  },
+  "shop": {
+    "lockedCount": "{{count}} کشور مسدود شده است"
+  },
+  "rarity": {
+    "legendary": "افسانه ای",
+    "epic": "حماسه",
+    "rare": "نادر",
+    "uncommon": "غیر معمول",
+    "common": "مشترک"
   }
 }

@@ -29,7 +29,8 @@
     "annualBirths": "예상 연간 출생",
     "firstUnlock": "처음으로!",
     "alreadyHave": "복제하다",
-    "spacebar": "Press [Space] to roll"
+    "spacebar": "Press [Space] to roll",
+    "spacebarToClose": "닫으려면 [Space]를 누르세요."
   },
   "country": {
     "population": "인구",
@@ -199,7 +200,8 @@
     "group_opep": {
       "name": "OPEC",
       "description": "석유 수출국 기구의 회원을 잠금 해제합니다."
-    }
+    },
+    "hideCompleted": "숨기기 완료"
   },
   "tutorial": {
     "title": "플레이 방법",
@@ -1151,5 +1153,15 @@
       "title": "🌍 플레이 준비 완료!",
       "desc": "이제 그것은 당신에게 달려 있습니다! 한 번에 하나씩, 전 세계를 잠금 해제하는 여정에 행운을 빕니다."
     }
+  },
+  "shop": {
+    "lockedCount": "차단된 국가 {{count}}개"
+  },
+  "rarity": {
+    "legendary": "전설적인",
+    "epic": "서사시",
+    "rare": "희귀한",
+    "uncommon": "특이한",
+    "common": "Comum"
   }
 }

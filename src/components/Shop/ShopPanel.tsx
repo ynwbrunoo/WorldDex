@@ -89,7 +89,7 @@ function CountryCard({ id, probability, coins, onBuy }: CountryCardProps) {
             <span aria-hidden="true" className="mr-1">
               {rarity.symbol}
             </span>
-            {rarity.label}
+            {t(`rarity.${rarity.key}`, rarity.label)}
           </Badge>
         </div>
       </div>

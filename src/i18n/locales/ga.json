@@ -29,7 +29,8 @@
     "annualBirths": "Breitheanna bliantúla measta",
     "firstUnlock": "Chéad uair!",
     "alreadyHave": "Dúblach",
-    "spacebar": "Press [Space] to roll"
+    "spacebar": "Press [Space] to roll",
+    "spacebarToClose": "Brúigh [Space] chun dúnadh"
   },
   "country": {
     "population": "Daonra",
@@ -198,7 +199,8 @@
     "group_opep": {
       "name": "ETOP",
       "description": "Díghlasálann sé baill d'Eagraíocht na dTíortha Onnmhairithe Peitriliam."
-    }
+    },
+    "hideCompleted": "Folaigh iomlán"
   },
   "tutorial": {
     "title": "Conas a Seinn",
@@ -1150,5 +1152,15 @@
       "title": "🌍 Réidh le himirt!",
       "desc": "Anois tá sé suas duit! Ádh mór ar do thuras chun an domhan ar fad a dhíghlasáil, breith amháin ag an am."
     }
+  },
+  "shop": {
+    "lockedCount": "{{count}} dtír a bhfuil bac orthu"
+  },
+  "rarity": {
+    "legendary": "Finscéalach",
+    "epic": "Epic",
+    "rare": "Annamh",
+    "uncommon": "Neamhghnách",
+    "common": "Coitianta"
   }
 }

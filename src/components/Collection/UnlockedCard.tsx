@@ -73,7 +73,7 @@ export function UnlockedCard({
               <span aria-hidden="true" className="mr-1">
                 {rarity.symbol}
               </span>
-              {rarity.label}
+              {t(`rarity.${rarity.key}`, rarity.label)}
             </span>
           )}
         </div>

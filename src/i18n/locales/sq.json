@@ -29,7 +29,8 @@
     "annualBirths": "Lindjet vjetore të vlerësuara",
     "firstUnlock": "Hera e pare!",
     "alreadyHave": "Dublikatë",
-    "spacebar": "Press [Space] to roll"
+    "spacebar": "Press [Space] to roll",
+    "spacebarToClose": "Shtypni [Space] për ta mbyllur"
   },
   "country": {
     "population": "Popullsia",
@@ -198,7 +199,8 @@
     "group_opep": {
       "name": "OPEC",
       "description": "Zhbllokon anëtarët e Organizatës së Vendeve Eksportuese të Naftës."
-    }
+    },
+    "hideCompleted": "Fshehja e plotë"
   },
   "tutorial": {
     "title": "Si për të luajtur",
@@ -1150,5 +1152,15 @@
       "title": "🌍 Gati për të luajtur!",
       "desc": "Tani varet nga ju! Fat i mirë në udhëtimin tuaj për të zhbllokuar të gjithë botën, një lindje në një kohë."
     }
+  },
+  "shop": {
+    "lockedCount": "{{count}} shtete të bllokuara"
+  },
+  "rarity": {
+    "legendary": "Legjendar",
+    "epic": "Epik",
+    "rare": "E rrallë",
+    "uncommon": "E pazakontë",
+    "common": "E zakonshme"
   }
 }

@@ -29,7 +29,8 @@
     "annualBirths": "Очаквани годишни раждания",
     "firstUnlock": "Първи път!",
     "alreadyHave": "Дубликат",
-    "spacebar": "Press [Space] to roll"
+    "spacebar": "Press [Space] to roll",
+    "spacebarToClose": "Натиснете [Интервал], за да затворите"
   },
   "country": {
     "population": "Население",
@@ -199,7 +200,8 @@
     "group_opep": {
       "name": "ОПЕК",
       "description": "Отключва членовете на Организацията на страните износителки на петрол."
-    }
+    },
+    "hideCompleted": "Скриването е завършено"
   },
   "tutorial": {
     "title": "Как се играе",
@@ -1120,7 +1122,7 @@
     "done": "Terminar ✓",
     "progress": "Passo {{current}} de {{total}}",
     "step1": {
-      "title": "👋 Bem-vindo ao WorldDex!",
+      "title": "👋 Добре дошли в WorldDex!",
       "desc": "Aqui vais colecionar todos os países do mundo através de sorteios baseados na verdadeira taxa de natalidade global. Vamos ver como funciona?"
     },
     "step2": {
@@ -1151,5 +1153,15 @@
       "title": "🌍 Готови за игра!",
       "desc": "Сега всичко зависи от вас! Успех в пътуването ви, за да отключите целия свят, едно раждане наведнъж."
     }
+  },
+  "shop": {
+    "lockedCount": "{{count}} блокирани държави"
+  },
+  "rarity": {
+    "legendary": "Легендарен",
+    "epic": "Épico",
+    "rare": "рядко",
+    "uncommon": "необичайно",
+    "common": "Чести"
   }
 }

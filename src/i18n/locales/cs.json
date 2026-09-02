@@ -29,7 +29,8 @@
     "annualBirths": "Odhadované roční porody",
     "firstUnlock": "Poprvé!",
     "alreadyHave": "Duplikát",
-    "spacebar": "Press [Space] to roll"
+    "spacebar": "Press [Space] to roll",
+    "spacebarToClose": "Stisknutím [Mezerník] zavřete"
   },
   "country": {
     "population": "Populace",
@@ -198,7 +199,8 @@
     "group_opep": {
       "name": "OPEC",
       "description": "Odemyká členy Organizace zemí vyvážejících ropu."
-    }
+    },
+    "hideCompleted": "Skrýt dokončeno"
   },
   "tutorial": {
     "title": "Jak hrát",
@@ -1150,5 +1152,15 @@
       "title": "🌍 Připraveno ke hře!",
       "desc": "Teď je to na vás! Hodně štěstí na vaší cestě k odemknutí celého světa, jedno narození po druhém."
     }
+  },
+  "shop": {
+    "lockedCount": "Počet blokovaných zemí: {{count}}"
+  },
+  "rarity": {
+    "legendary": "Legendární",
+    "epic": "Epos",
+    "rare": "Vzácný",
+    "uncommon": "Neobvyklý",
+    "common": "Společný"
   }
 }

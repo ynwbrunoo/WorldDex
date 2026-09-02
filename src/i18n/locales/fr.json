@@ -29,7 +29,8 @@
     "annualBirths": "Naissances annuelles estimées",
     "firstUnlock": "Première fois !",
     "alreadyHave": "Doublon",
-    "spacebar": "Appuyez sur [Espace] pour tourner"
+    "spacebar": "Appuyez sur [Espace] pour tourner",
+    "spacebarToClose": "Appuyez sur [Espace] pour fermer"
   },
   "country": {
     "population": "Population",
@@ -200,7 +201,8 @@
     "india_500": {
       "name": "Namasté !",
       "description": "Faites pivoter l'Inde 500 fois."
-    }
+    },
+    "hideCompleted": "Masquer complètement"
   },
   "tutorial": {
     "title": "Comment Jouer",
@@ -1152,5 +1154,15 @@
       "title": "🌍 Prêt à jouer !",
       "desc": "Maintenant, c'est à vous de décider ! Bonne chance dans votre voyage pour débloquer le monde entier, une naissance à la fois."
     }
+  },
+  "shop": {
+    "lockedCount": "{{count}} pays bloqués"
+  },
+  "rarity": {
+    "legendary": "Légendaire",
+    "epic": "Épique",
+    "rare": "Rare",
+    "uncommon": "Inhabituel",
+    "common": "Commun"
   }
 }

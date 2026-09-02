@@ -29,7 +29,8 @@
     "annualBirths": "Beräknade årliga födslar",
     "firstUnlock": "Första gången!",
     "alreadyHave": "Duplicera",
-    "spacebar": "Press [Space] to roll"
+    "spacebar": "Press [Space] to roll",
+    "spacebarToClose": "Tryck på [Mellanslag] för att stänga"
   },
   "country": {
     "population": "Befolkning",
@@ -198,7 +199,8 @@
     "group_opep": {
       "name": "OPEC",
       "description": "Låser upp medlemmar i Organisationen för oljeexporterande länder."
-    }
+    },
+    "hideCompleted": "Göm komplett"
   },
   "tutorial": {
     "title": "Hur man spelar",
@@ -1150,5 +1152,15 @@
       "title": "🌍 Redo att spela!",
       "desc": "Nu är det upp till dig! Lycka till på din resa för att låsa upp hela världen, en födelse i taget."
     }
+  },
+  "shop": {
+    "lockedCount": "{{count}} blockerade länder"
+  },
+  "rarity": {
+    "legendary": "Legendarisk",
+    "epic": "Episk",
+    "rare": "Sällsynt",
+    "uncommon": "Ovanlig",
+    "common": "Gemensam"
   }
 }

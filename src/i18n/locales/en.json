@@ -29,7 +29,8 @@
     "annualBirths": "Estimated annual births",
     "firstUnlock": "First time!",
     "alreadyHave": "Duplicate",
-    "spacebar": "Press [Space] to roll"
+    "spacebar": "Press [Space] to roll",
+    "spacebarToClose": "Press [Space] to close"
   },
   "country": {
     "population": "Population",
@@ -212,7 +213,8 @@
     "rarity_rare_5": {
       "name": "Rare Collector",
       "description": "Unlock 5 countries of Rare rarity."
-    }
+    },
+    "hideCompleted": "Hide complete"
   },
   "tutorial": {
     "title": "How to Play",
@@ -1158,7 +1160,8 @@
         "name": "Less Bad Luck",
         "description": "Reduz o número de duplicados necessários para o Pity em 25%."
       }
-    }
+    },
+    "lockedCount": "{{count}} blocked countries"
   },
   "completion": {
     "title": "Congratulations! 🌍",
@@ -1182,7 +1185,7 @@
     "done": "Finish ✓",
     "progress": "Step {{current}} of {{total}}",
     "step1": {
-      "title": "👋 Bem-vindo ao WorldDex!",
+      "title": "👋 Welcome to WorldDex!",
       "desc": "Here you will collect all countries in the world through draws based on the true global birth rate. Let's see how it works?"
     },
     "step2": {
@@ -1213,5 +1216,12 @@
       "title": "🌍 Ready to Play!",
       "desc": "Now it's up to you! Good luck on your journey to unlock the entire world, one birth at a time."
     }
+  },
+  "rarity": {
+    "legendary": "Legendary",
+    "epic": "Epic",
+    "rare": "Rare",
+    "uncommon": "Unusual",
+    "common": "Common"
   }
 }

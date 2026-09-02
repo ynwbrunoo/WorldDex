@@ -29,7 +29,8 @@
     "annualBirths": "Nascimentos anuais estimados",
     "firstUnlock": "Primeira vez!",
     "alreadyHave": "Duplicado",
-    "spacebar": "Pressiona [Espaço] para girar"
+    "spacebar": "Pressiona [Espaço] para girar",
+    "spacebarToClose": "Pressione [Espaço] para fechar"
   },
   "country": {
     "population": "População",
@@ -192,7 +193,8 @@
     "rarity_rare_5": {
       "name": "Colecionador Raro",
       "description": "Desbloqueia 5 países de raridade Rara."
-    }
+    },
+    "hideCompleted": "Esconder completas"
   },
   "tutorial": {
     "title": "Como Jogar",
@@ -1140,5 +1142,15 @@
       "title": "🌍 Pronto para Jogar!",
       "desc": "Agora é com você! Boa sorte na sua jornada para desbloquear o mundo inteiro, um nascimento de cada vez."
     }
+  },
+  "shop": {
+    "lockedCount": "{{count}} países bloqueados"
+  },
+  "rarity": {
+    "legendary": "Lendário",
+    "epic": "Épico",
+    "rare": "Raro",
+    "uncommon": "Incomum",
+    "common": "Comum"
   }
 }

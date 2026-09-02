@@ -29,7 +29,8 @@
     "annualBirths": "Nacimientos anuales estimados",
     "firstUnlock": "¡Primera vez!",
     "alreadyHave": "Duplicado",
-    "spacebar": "Presiona [Espacio] para girar"
+    "spacebar": "Presiona [Espacio] para girar",
+    "spacebarToClose": "Presione [Espacio] para cerrar"
   },
   "country": {
     "population": "Población",
@@ -200,7 +201,8 @@
     "india_500": {
       "name": "¡Namasté!",
       "description": "Gira la India 500 veces."
-    }
+    },
+    "hideCompleted": "Ocultar completo"
   },
   "tutorial": {
     "title": "Cómo Jugar",
@@ -1152,5 +1154,15 @@
       "title": "🌍 ¡Listo para jugar!",
       "desc": "¡Ahora depende de ti! Buena suerte en tu viaje para desbloquear el mundo entero, un nacimiento a la vez."
     }
+  },
+  "shop": {
+    "lockedCount": "{{count}} países bloqueados"
+  },
+  "rarity": {
+    "legendary": "Legendario",
+    "epic": "Épico",
+    "rare": "Extraño",
+    "uncommon": "Inusual",
+    "common": "Común"
   }
 }

@@ -29,7 +29,8 @@
     "annualBirths": "Орієнтовна щорічна народжуваність",
     "firstUnlock": "Перший раз!",
     "alreadyHave": "дублікат",
-    "spacebar": "Press [Space] to roll"
+    "spacebar": "Press [Space] to roll",
+    "spacebarToClose": "Натисніть [Пробіл], щоб закрити"
   },
   "country": {
     "population": "Населення",
@@ -200,7 +201,8 @@
     "india_500": {
       "name": "Намасте!",
       "description": "Поверніть Індію 500 разів."
-    }
+    },
+    "hideCompleted": "Приховати завершено"
   },
   "tutorial": {
     "title": "Як грати",
@@ -1152,5 +1154,15 @@
       "title": "🌍 Готовий грати!",
       "desc": "Тепер справа за вами! Успіхів у вашій подорожі, щоб відкрити весь світ, одне народження за раз."
     }
+  },
+  "shop": {
+    "lockedCount": "{{count}} заблокованих країн"
+  },
+  "rarity": {
+    "legendary": "Легендарний",
+    "epic": "Епос",
+    "rare": "Рідкісний",
+    "uncommon": "Незвичайний",
+    "common": "Поширений"
   }
 }

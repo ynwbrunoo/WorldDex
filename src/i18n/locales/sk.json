@@ -29,7 +29,8 @@
     "annualBirths": "Odhadované ročné pôrody",
     "firstUnlock": "Prvýkrát!",
     "alreadyHave": "Duplicitné",
-    "spacebar": "Press [Space] to roll"
+    "spacebar": "Press [Space] to roll",
+    "spacebarToClose": "Zatvorte stlačením [medzerníka]"
   },
   "country": {
     "population": "Obyvateľstvo",
@@ -198,7 +199,8 @@
     "group_opep": {
       "name": "OPEC",
       "description": "Odomkne členov Organizácie krajín vyvážajúcich ropu."
-    }
+    },
+    "hideCompleted": "Skryť dokončené"
   },
   "tutorial": {
     "title": "Ako hrať",
@@ -1150,5 +1152,15 @@
       "title": "🌍 Pronto a Jogar!",
       "desc": "Agora é contigo! Boa sorte na tua jornada para desbloquear o mundo inteiro, um nascimento de cada vez."
     }
+  },
+  "shop": {
+    "lockedCount": "Počet blokovaných krajín: {{count}}"
+  },
+  "rarity": {
+    "legendary": "Legendárny",
+    "epic": "Epické",
+    "rare": "Zriedkavé",
+    "uncommon": "Nezvyčajné",
+    "common": "Bežné"
   }
 }

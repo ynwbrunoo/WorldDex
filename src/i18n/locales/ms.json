@@ -29,7 +29,8 @@
     "annualBirths": "Anggaran kelahiran tahunan",
     "firstUnlock": "Pertama kali!",
     "alreadyHave": "Pendua",
-    "spacebar": "Press [Space] to roll"
+    "spacebar": "Press [Space] to roll",
+    "spacebarToClose": "Tekan [Ruang] untuk menutup"
   },
   "country": {
     "population": "Penduduk",
@@ -198,7 +199,8 @@
     "group_opep": {
       "name": "OPEC",
       "description": "Membuka kunci ahli Pertubuhan Negara Pengeksport Petroleum."
-    }
+    },
+    "hideCompleted": "Sembunyikan lengkap"
   },
   "tutorial": {
     "title": "Cara Bermain",
@@ -1150,5 +1152,15 @@
       "title": "🌍 Sedia untuk Bermain!",
       "desc": "Sekarang terpulang kepada anda! Semoga berjaya dalam perjalanan anda untuk membuka kunci seluruh dunia, satu kelahiran pada satu masa."
     }
+  },
+  "shop": {
+    "lockedCount": "{{count}} negara yang disekat"
+  },
+  "rarity": {
+    "legendary": "Lagenda",
+    "epic": "Epik",
+    "rare": "Raro",
+    "uncommon": "Incomum",
+    "common": "Comum"
   }
 }

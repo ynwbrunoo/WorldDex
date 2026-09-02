@@ -29,7 +29,8 @@
     "annualBirths": "Nascimentos anuais estimados",
     "firstUnlock": "Primeira vez!",
     "alreadyHave": "Duplicado",
-    "spacebar": "Pressiona [Espaço] para girar"
+    "spacebar": "Pressiona [Espaço] para girar",
+    "spacebarToClose": "Banda [Espaço] phala kujika"
   },
   "country": {
     "population": "População",
@@ -220,7 +221,7 @@
       "name": "Colecionador Raro",
       "description": "Desbloqueia 5 países de raridade Rara."
     },
-    "hideCompleted": "Fisa yabhu"
+    "hideCompleted": "Esconder completas"
   },
   "tutorial": {
     "title": "Como Jogar",
@@ -1172,7 +1173,7 @@
         "description": "Reduz o número de duplicados necessários para o Pity em 25%."
       }
     },
-    "lockedCount": "{{count}} ixi iobhe",
+    "lockedCount": "{{count}} países bloqueados",
     "lockedCount_other": "{{count}} ixi iobhe"
   },
   "completion": {
@@ -1207,7 +1208,7 @@
     "done": "Zubha ✓",
     "progress": "Dikunda {{current}} kia {{total}}",
     "step1": {
-      "title": "👋 Benvindu mu WorldDex!",
+      "title": "👋 Bem-vindo ao WorldDex!",
       "desc": "Iza tu monekele o mundu."
     },
     "step2": {
@@ -1238,5 +1239,12 @@
       "title": "🌍 Zubha!",
       "desc": "Tu batika!"
     }
+  },
+  "rarity": {
+    "legendary": "Misendu",
+    "epic": "Nguzu",
+    "rare": "Yadikota",
+    "uncommon": "Kiyakamba",
+    "common": "Yakamba"
   }
 }

@@ -29,7 +29,8 @@
     "annualBirths": "Hinnanguline aastane sündimus",
     "firstUnlock": "Esimest korda!",
     "alreadyHave": "Duplikaat",
-    "spacebar": "Press [Space] to roll"
+    "spacebar": "Press [Space] to roll",
+    "spacebarToClose": "Pressione [Espaço] para fechar"
   },
   "country": {
     "population": "Rahvaarv",
@@ -198,7 +199,8 @@
     "group_opep": {
       "name": "OPEC",
       "description": "Avab Naftat Eksportivate Riikide Organisatsiooni liikmed."
-    }
+    },
+    "hideCompleted": "Peida valmis"
   },
   "tutorial": {
     "title": "Kuidas mängida",
@@ -1150,5 +1152,15 @@
       "title": "🌍 Mängimiseks valmis!",
       "desc": "Nüüd on see teie otsustada! Edu teekonnal, et avada kogu maailm, üks sünnitus korraga."
     }
+  },
+  "shop": {
+    "lockedCount": "{{count}} blokeeritud riiki"
+  },
+  "rarity": {
+    "legendary": "Legendaarne",
+    "epic": "Eepiline",
+    "rare": "Harv",
+    "uncommon": "Ebatavaline",
+    "common": "Levinud"
   }
 }

@@ -29,7 +29,8 @@
     "annualBirths": "Nașteri anuale estimate",
     "firstUnlock": "Prima data!",
     "alreadyHave": "Duplicat",
-    "spacebar": "Press [Space] to roll"
+    "spacebar": "Press [Space] to roll",
+    "spacebarToClose": "Apăsați [Spațiu] pentru a închide"
   },
   "country": {
     "population": "Populația",
@@ -198,7 +199,8 @@
     "group_opep": {
       "name": "OPEC",
       "description": "Deblochează membrii Organizației Țărilor Exportatoare de Petrol."
-    }
+    },
+    "hideCompleted": "Ascunde complet"
   },
   "tutorial": {
     "title": "Cum să joci",
@@ -1150,5 +1152,15 @@
       "title": "🌍 Gata de joc!",
       "desc": "Acum depinde de tine! Mult succes în călătoria ta pentru a debloca întreaga lume, câte o naștere pe rând."
     }
+  },
+  "shop": {
+    "lockedCount": "{{count}} țări blocate"
+  },
+  "rarity": {
+    "legendary": "Legendar",
+    "epic": "Epic",
+    "rare": "Rar",
+    "uncommon": "Neobişnuit",
+    "common": "Comun"
   }
 }

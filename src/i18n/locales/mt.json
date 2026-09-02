@@ -29,7 +29,8 @@
     "annualBirths": "Twelid annwali stmat",
     "firstUnlock": "L-ewwel darba!",
     "alreadyHave": "Duplikat",
-    "spacebar": "Press [Space] to roll"
+    "spacebar": "Press [Space] to roll",
+    "spacebarToClose": "Agħfas [Spazju] biex tagħlaq"
   },
   "country": {
     "population": "Popolazzjoni",
@@ -198,7 +199,8 @@
     "group_opep": {
       "name": "OPEC",
       "description": "Jiftaħ membri tal-Organizzazzjoni tal-Pajjiżi Esportaturi taż-Żejt."
-    }
+    },
+    "hideCompleted": "Aħbi kompluta"
   },
   "tutorial": {
     "title": "Kif tilgħab",
@@ -1150,5 +1152,15 @@
       "title": "🌍 Lest biex tilgħab!",
       "desc": "Issa f’idejk! Xorti tajba fil-vjaġġ tiegħek biex tiftaħ id-dinja kollha, twelid wieħed kull darba."
     }
+  },
+  "shop": {
+    "lockedCount": "{{count}} pajjiżi imblukkati"
+  },
+  "rarity": {
+    "legendary": "Lendário",
+    "epic": "Épico",
+    "rare": "Raro",
+    "uncommon": "Incomum",
+    "common": "Comum"
   }
 }

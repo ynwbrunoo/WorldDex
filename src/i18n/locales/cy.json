@@ -29,7 +29,8 @@
     "annualBirths": "Amcangyfrif o enedigaethau blynyddol",
     "firstUnlock": "Tro cyntaf!",
     "alreadyHave": "Dyblyg",
-    "spacebar": "Press [Space] to roll"
+    "spacebar": "Press [Space] to roll",
+    "spacebarToClose": "Pwyswch [Space] i gau"
   },
   "country": {
     "population": "Poblogaeth",
@@ -198,7 +199,8 @@
     "group_opep": {
       "name": "OPEC",
       "description": "Yn datgloi aelodau o Sefydliad y Gwledydd Allforio Petroliwm."
-    }
+    },
+    "hideCompleted": "Cuddio yn gyflawn"
   },
   "tutorial": {
     "title": "Sut i Chwarae",
@@ -1150,5 +1152,15 @@
       "title": "🌍 Barod i Chwarae!",
       "desc": "Nawr mae i fyny i chi! Pob lwc ar eich taith i ddatgloi'r byd i gyd, un enedigaeth ar y tro."
     }
+  },
+  "shop": {
+    "lockedCount": "{{count}} o wledydd wedi'u rhwystro"
+  },
+  "rarity": {
+    "legendary": "Chwedlonol",
+    "epic": "Epig",
+    "rare": "Prin",
+    "uncommon": "Anarferol",
+    "common": "Cyffredin"
   }
 }

@@ -29,7 +29,8 @@
     "annualBirths": "Ước tính số ca sinh hàng năm",
     "firstUnlock": "Lần đầu tiên!",
     "alreadyHave": "Nhân bản",
-    "spacebar": "Press [Space] to roll"
+    "spacebar": "Press [Space] to roll",
+    "spacebarToClose": "Nhấn [Space] để đóng"
   },
   "country": {
     "population": "Dân số",
@@ -198,7 +199,8 @@
     "group_opep": {
       "name": "OPEC",
       "description": "Mở khóa các thành viên của Tổ chức các nước xuất khẩu dầu mỏ."
-    }
+    },
+    "hideCompleted": "Ẩn hoàn tất"
   },
   "tutorial": {
     "title": "Cách chơi",
@@ -1150,5 +1152,15 @@
       "title": "🌍 Sẵn sàng để chơi!",
       "desc": "Bây giờ tùy thuộc vào bạn! Chúc bạn may mắn trên hành trình mở khóa toàn bộ thế giới, mỗi lần sinh ra một lần."
     }
+  },
+  "shop": {
+    "lockedCount": "{{count}} quốc gia bị chặn"
+  },
+  "rarity": {
+    "legendary": "Huyền thoại",
+    "epic": "Sử thi",
+    "rare": "Hiếm",
+    "uncommon": "Bất thường",
+    "common": "Chung"
   }
 }

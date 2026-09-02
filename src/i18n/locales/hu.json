@@ -29,7 +29,8 @@
     "annualBirths": "Éves születések becsült száma",
     "firstUnlock": "Először!",
     "alreadyHave": "Másolat",
-    "spacebar": "Press [Space] to roll"
+    "spacebar": "Press [Space] to roll",
+    "spacebarToClose": "Nyomja meg a [Szóköz] gombot a bezáráshoz"
   },
   "country": {
     "population": "Lakosság",
@@ -198,7 +199,8 @@
     "group_opep": {
       "name": "OPEC",
       "description": "Felszabadítja a Kőolaj-exportáló Országok Szervezetének tagjait."
-    }
+    },
+    "hideCompleted": "Elrejtés kész"
   },
   "tutorial": {
     "title": "Hogyan kell játszani",
@@ -1150,5 +1152,15 @@
       "title": "🌍 Készen áll a játékra!",
       "desc": "Most rajtad múlik! Sok sikert az egész világ feltárásához vezető úton, egy-egy születéssel."
     }
+  },
+  "shop": {
+    "lockedCount": "{{count}} letiltott ország"
+  },
+  "rarity": {
+    "legendary": "Legendás",
+    "epic": "Epikus",
+    "rare": "Ritka",
+    "uncommon": "Szokatlan",
+    "common": "Közös"
   }
 }

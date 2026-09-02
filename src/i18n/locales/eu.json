@@ -29,7 +29,8 @@
     "annualBirths": "Urteko gutxi gorabeherako jaiotzak",
     "firstUnlock": "Lehen aldiz!",
     "alreadyHave": "Bikoiztu",
-    "spacebar": "Press [Space] to roll"
+    "spacebar": "Press [Space] to roll",
+    "spacebarToClose": "Pressione [Espaço] para fechar"
   },
   "country": {
     "population": "Biztanleria",
@@ -198,7 +199,8 @@
     "group_opep": {
       "name": "OPEC",
       "description": "Petrolioa Esportatzen duten Herrialdeen Erakundeko kideak desblokeatzen ditu."
-    }
+    },
+    "hideCompleted": "Ezkutatu osoa"
   },
   "tutorial": {
     "title": "Nola jokatu",
@@ -1119,7 +1121,7 @@
     "done": "Amaitu ✓",
     "progress": "{{current}}/{{total}} urratsa",
     "step1": {
-      "title": "👋 Bem-vindo ao WorldDex!",
+      "title": "👋 Ongi etorri WorldDex-era!",
       "desc": "Hemen munduko herrialde guztiak bilduko dituzu benetako jaiotza-tasan oinarritutako zozketa bidez. Ea nola funtzionatzen duen?"
     },
     "step2": {
@@ -1150,5 +1152,15 @@
       "title": "🌍 Jolasteko prest!",
       "desc": "Orain zure esku dago! Zorte on mundu osoa desblokeatzeko bidaian, jaiotza bat aldi berean."
     }
+  },
+  "shop": {
+    "lockedCount": "Blokeatutako {{count}} herrialde"
+  },
+  "rarity": {
+    "legendary": "Kondairazkoa",
+    "epic": "Epikoa",
+    "rare": "Arraroa",
+    "uncommon": "Ezohikoa",
+    "common": "Ohikoa"
   }
 }
