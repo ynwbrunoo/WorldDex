@@ -1115,7 +1115,7 @@
   "tour": {
     "skip": "Hoppa över självstudiekursen",
     "next": "Nästa ➔",
-    "prev": "⬅ Anterior",
+    "prev": "← Anterior",
     "done": "Avsluta ✓",
     "progress": "Steg {{current}} av {{total}}",
     "step1": {

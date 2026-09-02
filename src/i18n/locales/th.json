@@ -1116,7 +1116,7 @@
   "tour": {
     "skip": "ข้ามบทช่วยสอน",
     "next": "ถัดไป ➔",
-    "prev": "⬅ ก่อนหน้า",
+    "prev": "← ก่อนหน้า",
     "done": "เสร็จสิ้น ✓",
     "progress": "Passo {{current}} de {{total}}",
     "step1": {

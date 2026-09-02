@@ -1117,7 +1117,7 @@
   "tour": {
     "skip": "Tutorial überspringen",
     "next": "Weiter ➔",
-    "prev": "⬅ Zurück",
+    "prev": "← Zurück",
     "done": "Beenden ✓",
     "progress": "Schritt {{current}} von {{total}}",
     "step1": {

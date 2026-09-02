@@ -134,7 +134,7 @@ export function RollResultModal({
             <div className="px-5 py-4 flex flex-col items-center">
               {/* Rarity Label */}
               {(() => {
-                const { label, colorClass } = getCountryRarity(
+                const { label, colorClass, symbol } = getCountryRarity(
                   country.birthProbability,
                 );
                 return (
@@ -144,6 +144,7 @@ export function RollResultModal({
                     transition={{ delay: 0.2, type: "spring", damping: 12 }}
                     className={`text-[10px] font-black tracking-[0.2em] mb-3 ${colorClass}`}
                   >
+                    <span aria-hidden="true" className="mr-1">{symbol}</span>
                     {label === "Lendário"
                       ? `🌟 LENDÁRIO 🌟`
                       : label.toUpperCase()}

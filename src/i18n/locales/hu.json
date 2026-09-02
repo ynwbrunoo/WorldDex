@@ -1115,7 +1115,7 @@
   "tour": {
     "skip": "Oktatóprogram kihagyása",
     "next": "Következő ➔",
-    "prev": "⬅ Előző",
+    "prev": "← Előző",
     "done": "Befejezés ✓",
     "progress": "{{total}}/{{current}}. lépés",
     "step1": {

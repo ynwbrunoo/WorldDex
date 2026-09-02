@@ -1117,7 +1117,7 @@
   "tour": {
     "skip": "Pomiń samouczek",
     "next": "Dalej ➔",
-    "prev": "⬅ Poprzedni",
+    "prev": "← Poprzedni",
     "done": "Zakończ ✓",
     "progress": "Krok {{current}} z {{total}}",
     "step1": {

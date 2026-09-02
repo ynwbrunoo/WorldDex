@@ -1115,7 +1115,7 @@
   "tour": {
     "skip": "Langkau Tutorial",
     "next": "Seterusnya ➔",
-    "prev": "⬅ Sebelumnya",
+    "prev": "← Sebelumnya",
     "done": "Selesai ✓",
     "progress": "Langkah {{current}} daripada {{total}}",
     "step1": {

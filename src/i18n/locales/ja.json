@@ -1117,7 +1117,7 @@
   "tour": {
     "skip": "チュートリアルをスキップ",
     "next": "次へ ➔",
-    "prev": "⬅ 前へ",
+    "prev": "← 前へ",
     "done": "終了 ✓",
     "progress": "ステップ {{current}} / {{total}}",
     "step1": {

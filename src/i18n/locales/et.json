@@ -1115,7 +1115,7 @@
   "tour": {
     "skip": "Jäta õpetus vahele",
     "next": "Järgmine ➔",
-    "prev": "⬅ Eelmine",
+    "prev": "← Eelmine",
     "done": "Lõpeta ✓",
     "progress": "Samm {{current}}/{{total}}",
     "step1": {

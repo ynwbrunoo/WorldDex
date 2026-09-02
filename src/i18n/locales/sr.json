@@ -1117,7 +1117,7 @@
   "tour": {
     "skip": "Скип Туториал",
     "next": "Следеће ➔",
-    "prev": "⬅ Anterior",
+    "prev": "← Anterior",
     "done": "Заврши ✓",
     "progress": "Корак {{current}} од {{total}}",
     "step1": {

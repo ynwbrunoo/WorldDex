@@ -1115,7 +1115,7 @@
   "tour": {
     "skip": "Pular Tutorial",
     "next": "Seuraava ➔",
-    "prev": "⬅ Anterior",
+    "prev": "← Anterior",
     "done": "Valmis ✓",
     "progress": "Passo {{current}} de {{total}}",
     "step1": {

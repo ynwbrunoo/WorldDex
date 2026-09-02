@@ -1203,7 +1203,7 @@
     "shop": "Kitanda",
     "shopDesc": "Sumba idima mu kitanda.",
     "next": "Kienhiki ➔",
-    "prev": "⬅ Nvula",
+    "prev": "← Nvula",
     "done": "Zubha ✓",
     "progress": "Dikunda {{current}} kia {{total}}",
     "step1": {

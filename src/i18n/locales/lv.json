@@ -1115,7 +1115,7 @@
   "tour": {
     "skip": "Pular Tutorial",
     "next": "Nākamais ➔",
-    "prev": "⬅ Iepriekšējais",
+    "prev": "← Iepriekšējais",
     "done": "Pabeigt ✓",
     "progress": "{{current}}. darbība no {{total}}",
     "step1": {

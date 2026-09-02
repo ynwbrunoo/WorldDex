@@ -1116,7 +1116,7 @@
   "tour": {
     "skip": "跳过教程",
     "next": "下一步 ➔",
-    "prev": "⬅ 上一页",
+    "prev": "← 上一页",
     "done": "完成 ✓",
     "progress": "第 {{current}} 步（共 {{total}} 步）",
     "step1": {

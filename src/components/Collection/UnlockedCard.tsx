@@ -70,6 +70,7 @@ export function UnlockedCard({
             <span
               className={`text-[9px] px-1.5 py-0.5 rounded uppercase font-bold tracking-wider ${rarity.badgeClass}`}
             >
+              <span aria-hidden="true" className="mr-1">{rarity.symbol}</span>
               {rarity.label}
             </span>
           )}

@@ -1116,7 +1116,7 @@
   "tour": {
     "skip": "튜토리얼 건너뛰기",
     "next": "다음 ➔",
-    "prev": "⬅ 이전",
+    "prev": "← 이전",
     "done": "마침 ✓",
     "progress": "{{total}} 단계 중 {{current}} 단계",
     "step1": {

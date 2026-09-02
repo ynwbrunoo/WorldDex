@@ -1115,7 +1115,7 @@
   "tour": {
     "skip": "Sgipio Tiwtorial",
     "next": "Nesaf ➔",
-    "prev": "⬅ Blaenorol",
+    "prev": "← Blaenorol",
     "done": "Gorffen ✓",
     "progress": "Cam {{current}} o {{total}}",
     "step1": {

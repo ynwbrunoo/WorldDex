@@ -1115,7 +1115,7 @@
   "tour": {
     "skip": "Pular Tutorial",
     "next": "Próximo ➔",
-    "prev": "⬅ Anterior",
+    "prev": "← Anterior",
     "done": "Terminar ✓",
     "progress": "Korak {{current}} od {{total}}",
     "step1": {

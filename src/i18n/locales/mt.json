@@ -1115,7 +1115,7 @@
   "tour": {
     "skip": "Aqbeż Tutorial",
     "next": "Li jmiss ➔",
-    "prev": "⬅ Preċedenti",
+    "prev": "← Preċedenti",
     "done": "Temm ✓",
     "progress": "Pass {{current}} minn {{total}}",
     "step1": {

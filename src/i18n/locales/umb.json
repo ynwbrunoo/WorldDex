@@ -1203,7 +1203,7 @@
     "shop": "Ocilombo",
     "shopDesc": "Landa ofeleviya vocilombo.",
     "next": "Okwenda ➔",
-    "prev": "⬅ Enyima",
+    "prev": "← Enyima",
     "done": "Mala ✓",
     "progress": "Onepa {{current}} ko {{total}}",
     "step1": {

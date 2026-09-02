@@ -1115,7 +1115,7 @@
   "tour": {
     "skip": "Slepptu kennslu",
     "next": "Næst ➔",
-    "prev": "⬅ Fyrri",
+    "prev": "← Fyrri",
     "done": "Klára ✓",
     "progress": "Skref {{current}} af {{total}}",
     "step1": {

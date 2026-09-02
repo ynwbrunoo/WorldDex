@@ -1115,7 +1115,7 @@
   "tour": {
     "skip": "Bỏ qua phần hướng dẫn",
     "next": "Tiếp theo ➔",
-    "prev": "⬅ Trước đó",
+    "prev": "← Trước đó",
     "done": "Kết thúc ✓",
     "progress": "Bước {{current}} trong tổng số {{total}}",
     "step1": {

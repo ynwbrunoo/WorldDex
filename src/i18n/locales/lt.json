@@ -1115,7 +1115,7 @@
   "tour": {
     "skip": "Praleisti mokymo programą",
     "next": "Kitas ➔",
-    "prev": "⬅ Ankstesnis",
+    "prev": "← Ankstesnis",
     "done": "Baigti ✓",
     "progress": "Passo {{current}} de {{total}}",
     "step1": {

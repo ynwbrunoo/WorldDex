@@ -6,7 +6,7 @@ import React, {
   useRef,
 } from "react";
 import { useTranslation } from "react-i18next";
-import { Map, List, Clock, Trophy, Settings, Store } from "lucide-react";
+import { Map, List, Clock, Trophy, Settings, Store, Maximize2, Minimize2 } from "lucide-react";
 
 // Core
 import { useGameState } from "@/hooks/useGameState";
@@ -144,6 +144,7 @@ export function App(): React.ReactElement {
     }
   }, [state.toasts, playAchievement]);
 
+  const [isMobileMaximized, setIsMobileMaximized] = useState(false);
   const [needsLanguageSelect, setNeedsLanguageSelect] = useState(() => {
     return localStorage.getItem("worlddex_lang_selected") !== "true";
   });
@@ -363,7 +364,7 @@ export function App(): React.ReactElement {
     state.showTutorial,
   ]);
 
-  return (
+return (
     <div className="h-[100dvh] overflow-x-hidden overflow-y-auto lg:overflow-hidden bg-surface-950 text-slate-100 flex flex-col">
       {/* Header */}
       <Header dispatch={dispatch} isMuted={isMuted} toggleMute={toggleMute} />
@@ -371,11 +372,32 @@ export function App(): React.ReactElement {
       {/* Main layout */}
       <div className="flex-1 flex flex-col lg:flex-row min-h-0 pointer-events-auto overflow-y-auto lg:overflow-hidden">
         {/* ── Left/Main: Map + Roll button ─────────────────── */}
-        <main className="flex-1 flex flex-col p-2 sm:p-3 gap-3 min-h-[50vh] lg:min-h-0 relative z-10 shrink-0">
+        <main
+          className={`flex-1 flex flex-col p-2 sm:p-3 gap-3 ${
+            isMobileMaximized ? "min-h-[100dvh]" : "min-h-[50vh]"
+          } lg:min-h-0 relative z-10 shrink-0`}
+        >
           <div
             id="tour-map"
-            className="flex-1 rounded-xl overflow-hidden min-h-[250px] relative bg-surface-900"
+            className={`flex-1 rounded-xl overflow-hidden ${
+              isMobileMaximized ? "min-h-0 h-full" : "min-h-[250px]"
+            } relative bg-surface-900`}
           >
+            {/* Mobile Maximize Toggle */}
+            <button
+              type="button"
+              onClick={() => setIsMobileMaximized(!isMobileMaximized)}
+              className="absolute top-3 left-3 z-30 lg:hidden p-2 bg-surface-800/80 hover:bg-surface-700/90 backdrop-blur-sm border border-slate-700/50 rounded-lg text-slate-300 hover:text-white transition-colors shadow-sm"
+              aria-label={
+                isMobileMaximized ? "Minimizar mapa" : "Maximizar mapa"
+              }
+            >
+              {isMobileMaximized ? (
+                <Minimize2 className="w-5 h-5" />
+              ) : (
+                <Maximize2 className="w-5 h-5" />
+              )}
+            </button>
             <WorldMap
               unlockedIds={unlockedIds}
               lastRolledId={state.lastRolledCountryId}
@@ -389,6 +411,7 @@ export function App(): React.ReactElement {
                 } else {
                   selectCountry(id);
                   dispatch({ type: "SET_PANEL", payload: "progress" });
+                  setIsMobileMaximized(false);
                   // Scroll to panel on mobile
                   setTimeout(() => {
                     document
@@ -567,7 +590,9 @@ export function App(): React.ReactElement {
         {/* ── Right panel: Tabs ──────────────────────────── */}
         <aside
           id="main-aside"
-          className="w-full lg:w-96 xl:w-[420px] flex flex-col border-t lg:border-t-0 lg:border-l border-slate-800/60 bg-surface-900/40"
+          className={`w-full lg:w-[450px] flex-col shrink-0 lg:border-l border-slate-700/50 bg-surface-900/50 relative z-20 ${
+            isMobileMaximized ? "hidden lg:flex" : "flex"
+          }`}
           aria-label="Panel lateral"
         >
           {/* Tab nav */}

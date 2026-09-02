@@ -1115,7 +1115,7 @@
   "tour": {
     "skip": "Léim Teagaisc",
     "next": "Ar Aghaidh ➔",
-    "prev": "⬅ Roimhe seo",
+    "prev": "← Roimhe seo",
     "done": "Críochnaigh ✓",
     "progress": "Céim {{current}} de {{total}}",
     "step1": {

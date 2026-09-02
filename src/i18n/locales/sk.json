@@ -1115,7 +1115,7 @@
   "tour": {
     "skip": "Preskočiť návod",
     "next": "Ďalej ➔",
-    "prev": "⬅ Predchádzajúce",
+    "prev": "← Predchádzajúce",
     "done": "Dokončiť ✓",
     "progress": "Krok {{current}} z {{total}}",
     "step1": {

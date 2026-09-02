@@ -1115,7 +1115,7 @@
   "tour": {
     "skip": "Kapërceni tutorialin",
     "next": "Tjetra ➔",
-    "prev": "⬅ E mëparshme",
+    "prev": "← E mëparshme",
     "done": "Përfundoni ✓",
     "progress": "Hapi {{current}} nga {{total}}",
     "step1": {

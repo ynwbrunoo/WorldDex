@@ -1117,7 +1117,7 @@
   "tour": {
     "skip": "Eğiticiyi Atla",
     "next": "Sonraki ➔",
-    "prev": "⬅ Önceki",
+    "prev": "← Önceki",
     "done": "Bitir ✓",
     "progress": "{{current}}. adım / {{total}}",
     "step1": {

@@ -1115,7 +1115,7 @@
   "tour": {
     "skip": "Handleiding overslaan",
     "next": "Volgende ➔",
-    "prev": "⬅ Vorige",
+    "prev": "← Vorige",
     "done": "Voltooi ✓",
     "progress": "Stap {{current}} van {{total}}",
     "step1": {

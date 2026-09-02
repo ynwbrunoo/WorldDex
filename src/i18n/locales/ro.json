@@ -1115,7 +1115,7 @@
   "tour": {
     "skip": "Omite tutorialul",
     "next": "Următorul ➔",
-    "prev": "⬅ Anterior",
+    "prev": "← Anterior",
     "done": "Terminare ✓",
     "progress": "Pasul {{current}} din {{total}}",
     "step1": {

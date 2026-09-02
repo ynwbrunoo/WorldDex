@@ -1115,7 +1115,7 @@
   "tour": {
     "skip": "Spring selvstudie over",
     "next": "Næste ➔",
-    "prev": "⬅ Tidligere",
+    "prev": "← Tidligere",
     "done": "Afslut ✓",
     "progress": "Trin {{current}} af {{total}}",
     "step1": {

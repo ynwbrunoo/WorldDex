@@ -1203,7 +1203,7 @@
     "shop": "Zandu",
     "shopDesc": "Sumba mambu mu zandu.",
     "next": "Landa ➔",
-    "prev": "⬅ Vutuka",
+    "prev": "← Vutuka",
     "done": "Mane ✓",
     "progress": "Kadi {{current}} ya {{total}}",
     "step1": {

@@ -1114,7 +1114,7 @@
   "tour": {
     "skip": "Omet el tutorial",
     "next": "Següent ➔",
-    "prev": "⬅ Anterior",
+    "prev": "← Anterior",
     "done": "Acabat ✓",
     "progress": "Pas {{current}} de {{total}}",
     "step1": {

@@ -1115,7 +1115,7 @@
   "tour": {
     "skip": "Pular Tutorial",
     "next": "Hurrengoa ➔",
-    "prev": "⬅ Anterior",
+    "prev": "← Anterior",
     "done": "Amaitu ✓",
     "progress": "{{current}}/{{total}} urratsa",
     "step1": {

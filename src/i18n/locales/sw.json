@@ -1115,7 +1115,7 @@
   "tour": {
     "skip": "Ruka Mafunzo",
     "next": "Próximo ➔",
-    "prev": "⬅ Anterior",
+    "prev": "← Anterior",
     "done": "Maliza ✓",
     "progress": "Passo {{current}} de {{total}}",
     "step1": {

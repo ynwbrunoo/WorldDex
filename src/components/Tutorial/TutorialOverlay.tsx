@@ -25,7 +25,7 @@ export function TutorialOverlay({
       allowKeyboardControl: true, // Let them use arrows, but escape is blocked by allowClose: false
       overlayColor: "rgba(0,0,0,0.85)",
       nextBtnText: t("tour.next", "Próximo ➔"),
-      prevBtnText: t("tour.prev", "⬅ Anterior"),
+      prevBtnText: t("tour.prev", "← Anterior"),
       doneBtnText: t("tour.done", "Terminar ✓"),
       progressText: t("tour.progress", "Passo {{current}} de {{total}}"),
       onDestroyStarted: () => {
@@ -77,6 +77,9 @@ export function TutorialOverlay({
             skipBtn.style.fontSize = "0.85rem";
             skipBtn.style.fontWeight = "500";
             skipBtn.style.cursor = "pointer";
+            skipBtn.style.outline = "none";
+            skipBtn.style.boxShadow = "none";
+            skipBtn.tabIndex = -1; // Prevent driver.js from auto-focusing this specific button
             skipBtn.style.whiteSpace = "nowrap";
 
             skipBtn.onclick = () => {
@@ -116,6 +119,8 @@ export function TutorialOverlay({
             btn.style.whiteSpace = "nowrap";
             btn.style.flex = "1"; // Allow buttons to flex if needed
             btn.style.textAlign = "center";
+              btn.style.minHeight = "44px";
+              btn.style.padding = "8px 16px";
             if (btn.classList.contains("driver-popover-next-btn")) {
               btn.style.backgroundColor = "#0891b2";
             }
