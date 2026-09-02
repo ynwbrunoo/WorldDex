@@ -2,12 +2,14 @@ import React, { useCallback } from "react";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { Shuffle } from "lucide-react";
+import { COUNTRIES } from "@/data/countries";
 
 interface RollButtonProps {
   onRoll: () => void;
   isRolling: boolean;
   disabled?: boolean;
   rouletteText?: string | null;
+  highlightId?: string | null;
 }
 
 /**
@@ -19,6 +21,7 @@ export function RollButton({
   isRolling,
   disabled = false,
   rouletteText,
+  highlightId,
 }: RollButtonProps): React.ReactElement {
   const { t } = useTranslation();
 
@@ -48,9 +51,20 @@ export function RollButton({
         "relative group inline-flex items-center justify-center gap-3 overflow-hidden",
         "w-full py-5 rounded-3xl",
         "text-xl font-black tracking-widest text-white uppercase truncate",
-        "bg-gradient-to-br from-accent-500 to-blue-600",
-        "border-b-4 border-r-2 border-accent-700",
-        "shadow-[0_8px_30px_rgba(6,182,212,0.5),inset_0_4px_10px_rgba(255,255,255,0.4)]",
+        (() => {
+          if (isRolling && highlightId) {
+            const hlCountry = COUNTRIES.find((c) => c.id === highlightId);
+            if (hlCountry) {
+              const p = hlCountry.birthProbability;
+              if (p < 0.0005) return "bg-gradient-to-br from-amber-400 to-orange-500 border-b-4 border-r-2 border-amber-600 shadow-[0_8px_30px_rgba(251,191,36,0.6),inset_0_4px_10px_rgba(255,255,255,0.4)] text-white";
+              if (p < 0.0025) return "bg-gradient-to-br from-purple-500 to-fuchsia-600 border-b-4 border-r-2 border-purple-700 shadow-[0_8px_30px_rgba(192,132,252,0.6),inset_0_4px_10px_rgba(255,255,255,0.4)] text-white";
+              if (p < 0.01) return "bg-gradient-to-br from-blue-400 to-indigo-500 border-b-4 border-r-2 border-blue-600 shadow-[0_8px_30px_rgba(96,165,250,0.6),inset_0_4px_10px_rgba(255,255,255,0.4)] text-white";
+              if (p < 0.05) return "bg-gradient-to-br from-emerald-400 to-teal-500 border-b-4 border-r-2 border-emerald-600 shadow-[0_8px_30px_rgba(52,211,153,0.6),inset_0_4px_10px_rgba(255,255,255,0.4)] text-white";
+              return "bg-gradient-to-br from-slate-400 to-slate-500 border-b-4 border-r-2 border-slate-600 shadow-[0_8px_30px_rgba(148,163,184,0.6),inset_0_4px_10px_rgba(255,255,255,0.4)] text-white";
+            }
+          }
+          return "bg-gradient-to-br from-accent-500 to-blue-600 border-b-4 border-r-2 border-accent-700 shadow-[0_8px_30px_rgba(6,182,212,0.5),inset_0_4px_10px_rgba(255,255,255,0.4)] text-white";
+        })(),
         "transition-all duration-150",
         "focus:outline-none focus-visible:ring-4 focus-visible:ring-accent-400 focus-visible:ring-offset-2 focus-visible:ring-offset-surface-950",
         isRolling || disabled

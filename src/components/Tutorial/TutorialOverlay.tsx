@@ -58,7 +58,8 @@ export function TutorialOverlay({
           footer.style.display = "flex";
           footer.style.alignItems = "center";
           footer.style.justifyContent = "space-between";
-          footer.style.gap = "10px";
+          footer.style.flexWrap = "wrap";
+          footer.style.gap = "12px";
 
           // Add skip button
           let skipBtn = footer.querySelector(
@@ -76,12 +77,28 @@ export function TutorialOverlay({
             skipBtn.style.fontSize = "0.85rem";
             skipBtn.style.fontWeight = "500";
             skipBtn.style.cursor = "pointer";
+            skipBtn.style.whiteSpace = "nowrap";
 
             skipBtn.onclick = () => {
               tour.destroy();
               onComplete();
             };
             footer.insertBefore(skipBtn, footer.firstChild);
+          }
+          
+          // Prevent the progress text from wrapping awkwardly
+          const progressText = footer.querySelector('.driver-popover-progress-text') as HTMLElement;
+          if (progressText) {
+            progressText.style.whiteSpace = "nowrap";
+            progressText.style.fontSize = "0.85rem";
+          }
+          
+          const navBtns = footer.querySelector('.driver-popover-navigation-btns') as HTMLElement;
+          if (navBtns) {
+            navBtns.style.display = "flex";
+            navBtns.style.gap = "8px";
+            navBtns.style.flexWrap = "wrap";
+            navBtns.style.justifyContent = "flex-end";
           }
         }
 
@@ -96,6 +113,9 @@ export function TutorialOverlay({
             btn.style.textShadow = "none";
             btn.style.border = "none";
             btn.style.borderRadius = "8px";
+            btn.style.whiteSpace = "nowrap";
+            btn.style.flex = "1"; // Allow buttons to flex if needed
+            btn.style.textAlign = "center";
             if (btn.classList.contains("driver-popover-next-btn")) {
               btn.style.backgroundColor = "#0891b2";
             }

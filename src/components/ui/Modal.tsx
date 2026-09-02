@@ -13,6 +13,7 @@ interface ModalProps {
   maxWidth?: string;
   /** If true, clicking the backdrop closes the modal. Default: true. */
   closeOnBackdrop?: boolean;
+  hideCloseButton?: boolean;
 }
 
 /**

@@ -34,6 +34,7 @@ import { TutorialOverlay } from "@/components/Tutorial/TutorialOverlay";
 import { SettingsModal } from "@/components/Settings/SettingsModal";
 import { ResetModal } from "@/components/Modals/ResetModal";
 import { AboutDataModal } from "@/components/Modals/AboutDataModal";
+import { InitialLanguageModal } from "@/components/Modals/InitialLanguageModal";
 import { PrivacyModal } from "@/components/Modals/PrivacyModal";
 import { ImportExportModal } from "@/components/Modals/ImportExportModal";
 import { CompletionModal } from "@/components/Modals/CompletionModal";
@@ -143,6 +144,10 @@ export function App(): React.ReactElement {
     }
   }, [state.toasts, playAchievement]);
 
+  const [needsLanguageSelect, setNeedsLanguageSelect] = useState(() => {
+    return localStorage.getItem("worlddex_lang_selected") !== "true";
+  });
+
   const userCountryId = useUserCountry();
 
   const [highlightId, setHighlightId] = useState<string | null>(null);
@@ -172,17 +177,10 @@ export function App(): React.ReactElement {
     // Determine the result upfront
     const targetCountry = generateRollResult();
 
-    // Get rarity shadow color
-    const rarity = getCountryRarity(targetCountry.birthProbability);
-    // We parse out just the color value from the text class if possible, or use a map
-    const colorMap: Record<string, string> = {
-      Lendário: "rgba(251, 191, 36, 0.4)",
-      Épico: "rgba(192, 132, 252, 0.4)",
-      Raro: "rgba(96, 165, 250, 0.4)",
-      Incomum: "rgba(52, 211, 153, 0.4)",
-      Comum: "transparent",
-    };
-    setRollingRarityColor(colorMap[rarity.label] || "transparent");
+    // Only glow blue if it's a new country, so the user knows they got something new
+    // but doesn't know the rarity yet (surprise!)
+    const isNew = !unlockedIds.has(targetCountry.id);
+    setRollingRarityColor(isNew ? "rgba(59, 130, 246, 0.4)" : "transparent");
 
     playSuspense(); // The rising tension sound
 
@@ -518,6 +516,7 @@ export function App(): React.ReactElement {
                     onRoll={handleRoll}
                     isRolling={isRolling}
                     disabled={state.showTutorial}
+                    highlightId={highlightId}
                     rouletteText={
                       highlightId
                         ? t(`countries.${highlightId}.name`, {
@@ -732,9 +731,16 @@ export function App(): React.ReactElement {
         unlockedCount={progress.unlockedCount}
       />
 
+      {/* Initial Language Selector */}
+      {needsLanguageSelect && (
+        <InitialLanguageModal
+          onComplete={() => setNeedsLanguageSelect(false)}
+        />
+      )}
+
       {/* Tutorial */}
       <TutorialOverlay
-        isOpen={state.showTutorial}
+        isOpen={state.showTutorial && !needsLanguageSelect}
         onComplete={() => dispatch({ type: "COMPLETE_TUTORIAL" })}
         onDismiss={() => dispatch({ type: "DISMISS_TUTORIAL" })}
       />
