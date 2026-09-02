@@ -1,67 +1,67 @@
-﻿# 🌍 WorldDex: Onde Nascerias?
+﻿# 🌍 WorldDex: Where Would You Be Born?
 
-> **"Desbloqueia o mundo, um nascimento de cada vez."**
+> **"Unlock the world, one birth at a time."**
 
-O **WorldDex** é um jogo interativo estilo *gacha/roleta* que responde a uma pergunta fascinante: *"Se nascesses agora mesmo, em que parte do mundo calharias?"*
+**WorldDex** is an interactive *gacha/roulette-style* game that answers a fascinating question: *"If you were born right now, where in the world would it be?"*
 
-Baseado em dados demográficos reais e estimativas de taxas de natalidade globais, o jogo simula a probabilidade exata de nasceres em cada país. Países como a Índia ou Nigéria saem muito frequentemente (raridade **Comum**), enquanto que o Vaticano, Islândia ou Cabo Verde são incrivelmente raros (**Lendário**).
-
----
-
-## ✨ Funcionalidades Principais (Como Funciona)
-
-- 🎲 **Roleta Demográfica**: Ao clicares em "Rolar", a probabilidade de um país calhar é exatamente igual à probabilidade real de nascer lá no mundo real.
-- 🗺️ **Mapa Interativo**: Todos os países que desbloqueias pintam-se no teu passaporte mundial interativo em 3D/2D.
-- 🏆 **Conquistas Globais**: Completa blocos continentais, organizações (PALOP, UE, NATO, BRICS) e ganha títulos de explorador.
-- 🛒 **Loja e Upgrades**: Os países repetidos dão-te "Moedas de Duplicado". Usa-as para comprar upgrades de sorte (*Luck*), o cobiçado *Autoclicker*, e multiplicadores.
-- 🌍 **Multilíngue**: Suporte brutal para **+50 idiomas**, incluindo traduções manuais detalhadas para **Crioulo de Cabo Verde**, **Kimbundu**, **Umbundu** e **Kikongo**.
-- 🛡️ **Pity System**: Não tens sorte nenhuma? O jogo tem um sistema de misericórdia que te garante um país novo após `X` tentativas frustradas consecutivas!
+Based on real demographic data and global birth rate estimates, the game simulates the exact probability of you being born in every country. Countries like India or Nigeria drop very frequently (**Common** rarity), whereas places like the Vatican, Iceland, or Cape Verde are incredibly rare (**Legendary**).
 
 ---
 
-## 🚀 Como Abrir e Executar Localmente
+## ✨ Main Features (How It Works)
 
-Queres testar ou modificar o jogo no teu computador? É super simples!
+- 🎲 **Demographic Roulette**: When you click "Roll", the drop rate for a country perfectly matches the real-world probability of being born there.
+- 🗺️ **Interactive Map**: Every country you unlock paints your global passport on an interactive 2D/3D map.
+- 🏆 **Global Achievements**: Complete continental blocks, geopolitical organizations (PALOP, EU, NATO, BRICS), and earn explorer titles.
+- 🛒 **Shop & Upgrades**: Duplicate countries reward you with "Duplicate Coins". Use them to buy Luck upgrades, the highly coveted Autoclicker, and multipliers.
+- 🌍 **Multilingual**: Massive support for **50+ languages**, including detailed manual translations for **Cape Verdean Creole**, **Kimbundu**, **Umbundu**, and **Kikongo**.
+- 🛡️ **Pity System**: Having terrible luck? The game features a pity system that guarantees a brand new country after `X` consecutive duplicate rolls!
 
-### Pré-requisitos
-Vais precisar de ter o **[Node.js](https://nodejs.org/)** instalado no teu computador (a versão recomendada LTS).
+---
 
-### Passos:
-1. **Abre o Terminal** na pasta do projeto.
-2. **Instala as dependências** correndo o seguinte comando:
+## 🚀 How to Run Locally
+
+Want to test or modify the game on your machine? It's super simple!
+
+### Prerequisites
+You'll need to have **[Node.js](https://nodejs.org/)** installed on your computer (LTS version recommended).
+
+### Steps:
+1. **Open your Terminal** in the project folder.
+2. **Install dependencies** by running the following command:
    ```bash
    npm install
    ```
-3. **Inicia o servidor de desenvolvimento**:
+3. **Start the development server**:
    ```bash
    npm run dev
    ```
-4. 🎉 **Feito!** O terminal vai mostrar-te um link (geralmente `http://localhost:5173`). Clica nele ou copia para o teu browser (Chrome, Edge, Firefox) para começares a jogar!
+4. 🎉 **Done!** The terminal will show you a local link (usually `http://localhost:5173`). Click it or copy it into your browser (Chrome, Edge, Firefox) to start playing!
 
 ---
 
-## 🌐 Como Fazer o Deploy (Colocar Online)
+## 🌐 How to Deploy (Put it Online)
 
-O projeto está otimizado para plataformas de alojamento modernas como o **Netlify** ou **Vercel**.
+The project is fully optimized for modern hosting platforms like **Netlify** or **Vercel**.
 
-**Método rápido (Netlify Drop):**
-1. Na pasta do projeto, corre `npm run build`.
-2. Isto vai criar uma pasta chamada `dist`.
-3. Pega nessa pasta `dist` e arrasta-a diretamente para o [Netlify Drop](https://app.netlify.com/drop). O teu site fica online em 5 segundos!
+**Quick Method (Netlify Drop):**
+1. In the project folder, run `npm run build`.
+2. This will generate a `dist` folder.
+3. Grab the `dist` folder and drag it directly into [Netlify Drop](https://app.netlify.com/drop). Your site will be online in 5 seconds!
 
-*(O projeto já inclui um ficheiro `netlify.toml` que resolve automaticamente os problemas de links e navegação).*
-
----
-
-## ⚖️ Avisos Legais e Privacidade (Legal Info)
-
-O WorldDex foi desenhado com o respeito pelo utilizador no centro da sua arquitetura:
-
-- 🔒 **Privacidade Total (Offline-First)**: O jogo **não possui bases de dados externas**, não usa cookies de rastreamento de marketing nem envia qualquer informação tua para a nuvem. Todo o teu progresso, moedas e configurações são guardados **exclusivamente de forma local** no teu dispositivo (no `localStorage` do browser).
-- 💾 **Exportar/Importar**: Como não há contas na nuvem, és tu que controlas os teus dados. Podes descarregar o teu save num ficheiro no menu de definições, e carregá-lo noutro telemóvel/PC.
-- 📊 **Dados Demográficos**: As probabilidades de nascimento e raridades foram calculadas com base em relatórios anuais globais da ONU e bancos de dados demográficos mundiais (referentes aos últimos anos). Estes valores são estimativas aproximadas para fins **lúdicos, estatísticos e educativos**, podendo não refletir flutuações demográficas diárias exatas.
-- 🎨 **Ativos (Assets)**: Ícones e vetores topográficos (*TopoJSON*) são derivados de recursos open-source de domínio público ou licenças MIT.
+*(The project already includes a `netlify.toml` file that automatically resolves routing and SPA linking issues).*
 
 ---
-*Criado com ❤️ usando React, TypeScript, TailwindCSS e Vite.*
+
+## ⚖️ Legal & Privacy Info
+
+WorldDex was designed with user respect at the core of its architecture:
+
+- 🔒 **Total Privacy (Offline-First)**: The game **has no external databases**, uses no marketing tracking cookies, and sends absolutely zero personal information to the cloud. All your progress, coins, and settings are saved **exclusively locally** on your device (via the browser's `localStorage`).
+- 💾 **Export/Import**: Since there are no cloud accounts, you control your data. You can download your save file from the settings menu and load it onto another phone or PC.
+- 📊 **Demographic Data**: Birth probabilities and rarities were calculated using global annual reports from the UN and world demographic databases (from recent years). These figures are approximate estimates intended for **entertainment, statistical, and educational purposes**, and may not reflect exact daily demographic fluctuations.
+- 🎨 **Assets**: Icons and topographic vectors (*TopoJSON*) are derived from open-source public domain resources or MIT-licensed assets.
+
+---
+*Built with ❤️ using React, TypeScript, TailwindCSS, and Vite.*
 
