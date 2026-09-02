@@ -12,16 +12,18 @@ import { LanguageSelector } from "@/components/Settings/LanguageSelector";
 
 interface InitialLanguageModalProps {
   onComplete: () => void;
+  onLanguageConfirm: (lang: string) => void;
 }
 
 export function InitialLanguageModal({
   onComplete,
+  onLanguageConfirm,
 }: InitialLanguageModalProps): React.ReactElement {
   const { i18n } = useTranslation();
   const [selectedLang, setSelectedLang] = useState(i18n.language || "pt-PT");
 
   const handleConfirm = () => {
-    i18n.changeLanguage(selectedLang);
+    onLanguageConfirm(selectedLang);
     localStorage.setItem("worlddex_lang_selected", "true");
     onComplete();
   };

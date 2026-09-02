@@ -769,6 +769,7 @@ export function App(): React.ReactElement {
       {needsLanguageSelect && (
         <InitialLanguageModal
           onComplete={() => setNeedsLanguageSelect(false)}
+          onLanguageConfirm={handleLanguageChange}
         />
       )}
 
