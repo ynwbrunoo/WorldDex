@@ -1,0 +1,1154 @@
+{
+  "app": {
+    "title": "WorldDex",
+    "subtitle": "Fungua ulimwengu, kuzaliwa mara moja."
+  },
+  "header": {
+    "howToPlay": "Jinsi ya Kucheza",
+    "aboutData": "Kuhusu Takwimu",
+    "resetProgress": "Weka Upya Maendeleo",
+    "privacy": "Faragha",
+    "localStorageNotice": "Maendeleo yamehifadhiwa kwenye kifaa hiki"
+  },
+  "nav": {
+    "progress": "Maendeleo",
+    "collection": "Mkusanyiko",
+    "history": "Historia",
+    "achievements": "Mafanikio",
+    "settings": "Mipangilio"
+  },
+  "roll": {
+    "button": "Roll",
+    "rolling": "Inaendelea...",
+    "newCountry": "Nchi mpya imefunguliwa!",
+    "duplicate": "Tayari ulikuwa na nchi hii - endelea!",
+    "viewOnMap": "Tazama kwenye ramani",
+    "close": "Funga",
+    "estimatedChance": "Nafasi iliyokadiriwa",
+    "population": "Idadi ya watu",
+    "annualBirths": "Kadirio la kuzaliwa kwa kila mwaka",
+    "firstUnlock": "Mara ya kwanza!",
+    "alreadyHave": "Nakala",
+    "spacebar": "Press [Space] to roll"
+  },
+  "country": {
+    "population": "Idadi ya watu",
+    "annualBirths": "Kadirio la kuzaliwa kwa kila mwaka",
+    "birthChance": "Nafasi ya kuzaliwa hapa",
+    "capital": "Mtaji",
+    "continent": "Bara",
+    "status": {
+      "locked": "Bado imefungwa",
+      "unlocked": "Imefunguliwa"
+    },
+    "rollCount": "Ilionekana {{count}} wakati",
+    "rollCount_other": "Ilionekana mara {{count}}",
+    "firstUnlocked": "Ilifunguliwa mnamo {{tarehe}}",
+    "zoomToCountry": "Kituo kwenye ramani",
+    "notFound": "Nchi haijapatikana",
+    "clickToExplore": "Bofya nchi ili kuchunguza"
+  },
+  "progress": {
+    "title": "Maendeleo",
+    "unlocked": "Imefunguliwa",
+    "unlockedCount": "{{count}} / {{jumla}} ya nchi",
+    "percentage": "{{thamani}}% imekamilika",
+    "remaining": "Zimesalia nchi {{count}}",
+    "totalRolls": "Total Rolls",
+    "duplicates": "Nakala",
+    "longestStreak": "Mfululizo bora bila nakala",
+    "continents": "Maendeleo kwa bara"
+  },
+  "collection": {
+    "title": "Mkusanyiko",
+    "search": "Tafuta nchi...",
+    "sort": {
+      "label": "Panga kwa",
+      "recent": "Iliyofunguliwa hivi majuzi",
+      "alphabetical": "Kialfabeti",
+      "mostRolled": "Wengi wamevingirisha",
+      "continent": "Bara"
+    },
+    "empty": "Bado hujafungua nchi zozote. Ipe Roll!",
+    "noResults": "Hakuna nchi zinazolingana na utafutaji wako.",
+    "rolls": "{{count}} roll",
+    "rolls_other": "{{count}} safu",
+    "sortChanceDesc": "Highest Chance",
+    "sortChanceAsc": "Lowest Chance"
+  },
+  "history": {
+    "title": "Historia",
+    "filter": {
+      "all": "Wote",
+      "new": "Mpya",
+      "duplicates": "Nakala"
+    },
+    "clearHistory": "Futa historia",
+    "clearConfirmTitle": "Je, ungependa kufuta historia?",
+    "clearConfirmMessage": "Kitendo hiki hakiwezi kutenduliwa. Historia ya orodha itafutwa kabisa.",
+    "clearConfirm": "Wazi",
+    "clearCancel": "Ghairi",
+    "empty": "Bado hujafanya matoleo yoyote. Anza sasa!",
+    "emptyFiltered": "Hakuna safu zinazolingana na kichujio hiki.",
+    "new": "Mpya",
+    "duplicate": "Nakala",
+    "rollNumber": "Roll #{{nambari}}"
+  },
+  "achievements": {
+    "title": "Mafanikio",
+    "locked": "Imefungwa",
+    "unlocked": "Imefunguliwa",
+    "unlockedOn": "Ilifunguliwa mnamo {{tarehe}}",
+    "progress": "{{current}} / {{jumla}}",
+    "newUnlock": "Mafanikio yamefunguliwa!",
+    "firstStep": {
+      "name": "Hatua ya Kwanza",
+      "description": "Fungua nchi yako ya kwanza."
+    },
+    "explorer": {
+      "name": "Mchunguzi",
+      "description": "Fungua nchi 10."
+    },
+    "traveller": {
+      "name": "Msafiri",
+      "description": "Fungua nchi 25."
+    },
+    "cartographer": {
+      "name": "Mchoraji ramani",
+      "description": "Fungua nchi 50."
+    },
+    "worldCollector1": {
+      "name": "Mkusanyaji wa Dunia I",
+      "description": "Fungua nchi 75."
+    },
+    "worldCollector2": {
+      "name": "Mtoza II wa Dunia",
+      "description": "Fungua nchi 100."
+    },
+    "worldCollector3": {
+      "name": "Mtoza III wa Dunia",
+      "description": "Fungua nchi 125."
+    },
+    "halfwayThere": {
+      "name": "Hapo katikati",
+      "description": "Fungua 50% ya nchi zote."
+    },
+    "continentalExplorer": {
+      "name": "Mchunguzi wa Bara",
+      "description": "Kamilisha bara zima."
+    },
+    "continentalMaster": {
+      "name": "Mwalimu wa Bara",
+      "description": "Kamilisha mabara matatu."
+    },
+    "aroundTheWorld": {
+      "name": "Duniani kote",
+      "description": "Kamilisha mabara yote."
+    },
+    "worldComplete": {
+      "name": "Dunia Imekamilika",
+      "description": "Fungua nchi na maeneo yote."
+    },
+    "luckyStreak": {
+      "name": "Mfululizo wa Bahati",
+      "description": "Fungua nchi 5 mpya mfululizo bila nakala."
+    },
+    "persistent": {
+      "name": "Kudumu",
+      "description": "Fanya jumla ya safu 100."
+    },
+    "dedicated": {
+      "name": "Imejitolea",
+      "description": "Fanya jumla ya safu 500."
+    },
+    "home_sweet_home": {
+      "name": "Nyumbani Tamu",
+      "description": "Umeitangaza nchi unayoishi kwa sasa!"
+    },
+    "group_palop": {
+      "name": "PALOP",
+      "description": "Hufungua nchi zote za Kiafrika zinazozungumza Kireno."
+    },
+    "group_brics": {
+      "name": "BRICS",
+      "description": "Hufungua nchi kuu za kizuizi cha BRICS (na wanachama wapya)."
+    },
+    "group_eu": {
+      "name": "Umoja wa Ulaya",
+      "description": "Hufungua nchi zote wanachama wa Umoja wa Ulaya."
+    },
+    "group_nato": {
+      "name": "KUZALIWA",
+      "description": "Inafungua nchi zote wanachama wa NATO."
+    },
+    "india_500": {
+      "name": "Namaste!",
+      "description": "Zungusha India mara 500."
+    },
+    "group_g7": {
+      "description": "Inafungua mataifa yote ya G7."
+    },
+    "group_mercosul": {
+      "name": "Mercosur",
+      "description": "Hufungua Nchi Wanachama wa Mercosur."
+    },
+    "group_asean": {
+      "description": "Hufungua nchi za Jumuiya ya Mataifa ya Kusini Mashariki mwa Asia."
+    },
+    "group_opep": {
+      "name": "OPEC",
+      "description": "Inafungua wanachama wa Shirika la Nchi Zinazouza Petroli."
+    }
+  },
+  "tutorial": {
+    "title": "Jinsi ya Kucheza",
+    "step1": "Bofya <b></b> ili kugundua ni nchi gani unaweza kuzaliwa.",
+    "step2": "Kila nchi ina makadirio ya uwezekano kulingana na sehemu yake ya kuzaliwa duniani kote - si bahati nasibu sawa!",
+    "step3": "Unapofungua nchi kwa mara ya kwanza, itapakwa rangi kwenye ramani ya dunia.",
+    "step4": "Bofya nchi kwenye ramani au katika mkusanyiko wako ili kuona mji mkuu, idadi ya watu, na makadirio ya nafasi.",
+    "step5": "Kamilisha mabara, pata mafanikio na ujaribu kufungua ulimwengu mzima.",
+    "step6": "Maendeleo yako yanahifadhiwa kwenye kifaa hiki pekee - hakuna akaunti, hakuna ufuatiliaji.",
+    "previous": "Iliyotangulia",
+    "next": "Inayofuata",
+    "skip": "Ruka mafunzo",
+    "finish": "Anza kucheza!",
+    "dontShowAgain": "Usionyeshe tena",
+    "stepOf": "Hatua ya {{current}} ya {{jumla}}",
+    "restart": "Tazama mafunzo",
+    "rollDesc": "Bofya kitufe ili kurudisha bahati yako na kugundua nchi mpya! (Kidokezo: Unaweza kutumia upau wa [Nafasi] kwenye kibodi yako ili kucheza haraka na kufunga madirisha).",
+    "collectionDesc": "Hapa unaona nchi ambazo tayari umefungua. Unaweza kupanga kulingana na nadra, bara au tarehe! Ukiwa umebakiza nchi 15 kufikia mwisho, utaweza kuona ni zipi ambazo hukuzikosa.",
+    "achievementsDesc": "Malengo kamili, kuanzia kukusanya vizuizi vya kiuchumi (kama vile BRICS au Umoja wa Ulaya) hadi kuinua India mara 500, ili kushinda medali.",
+    "historyDesc": "Kagua michezo yako yote ya awali na ujue ni muda gani uliopita ulifungua nchi."
+  },
+  "settings": {
+    "title": "Mipangilio",
+    "language": "Lugha",
+    "languageLabel": "Chagua lugha",
+    "data": "Data na Faragha",
+    "exportProgress": "Maendeleo ya kuuza nje",
+    "importProgress": "Ingiza maendeleo",
+    "resetProgress": "Weka upya maendeleo",
+    "restartTutorial": "Tazama mafunzo",
+    "aboutData": "Kuhusu data",
+    "privacy": "Faragha",
+    "searchLanguage": "Search language..."
+  },
+  "modals": {
+    "aboutData": {
+      "title": "Kuhusu Takwimu",
+      "intro": "Uwezekano wa kuzaliwa ni makadirio yanayokokotolewa kulingana na data inayopatikana kuhusu watoto waliozaliwa kila mwaka kwa kila nchi.",
+      "methodology": "Mbinu",
+      "methodologyText": "Uwezekano wa kuzaliwa katika nchi fulani huhesabiwa kama sehemu ya makadirio ya kuzaliwa kwa mwaka katika nchi hiyo ikilinganishwa na jumla ya ulimwengu. Tunatumia data ya takriban kutoka Benki ya Dunia na Umoja wa Mataifa (Matarajio ya Idadi ya Watu Duniani). Thamani ni makadirio na huenda zisionyeshe takwimu za hivi majuzi zaidi.",
+      "sensitivity": "Kumbuka juu ya unyeti wa kisiasa",
+      "sensitivityText": "Mipaka, maeneo, na utambuzi wa nchi ni masuala nyeti kisiasa. Kujumuishwa kwa eneo katika mchezo huu kunatumikia madhumuni ya elimu na kijiografia na hakujumuishi msimamo wa kisiasa. Data hurahisishwa kwa mchezo wa burudani.",
+      "updates": "Masasisho ya data",
+      "updatesText": "Data ya idadi ya watu inabadilika kwa wakati. Mradi huu unalenga kusasisha data ipasavyo lakini hauhakikishi usahihi wa wakati halisi.",
+      "sources": "Vyanzo",
+      "sourcesList": [
+        "Benki ya Dunia - Viashiria vya Maendeleo ya Dunia",
+        "UN - Matarajio ya Idadi ya Watu Duniani 2022",
+        "Dunia Asilia - Data ya kijiografia (kikoa cha umma)",
+        "dunia-atlas (TopoJSON) - Data ya ramani"
+      ],
+      "close": "Funga"
+    },
+    "privacy": {
+      "title": "Faragha na Masharti",
+      "project": "Huu ni mradi wa elimu na burudani bila malipo, usio wa kibiashara.",
+      "noData": "Hakuna data ya kibinafsi inayokusanywa.",
+      "localStorage": "Maendeleo yako yanahifadhiwa katika hifadhi ya ndani ya kifaa chako (LocalStore). Hakuna habari inayotumwa kwa seva.",
+      "noCookies": "Mchezo huu hautumii vidakuzi. Uhifadhi wa ndani pekee ndio unaotumika kuhifadhi mapendeleo na maendeleo yako.",
+      "noTracking": "Hakuna uchanganuzi, ufuatiliaji, utangazaji au mifumo ya watu wengine.",
+      "borders": "Data ya kijiografia, idadi ya watu, na mipaka ni makadirio na inaweza kuwa haijakamilika au imepitwa na wakati. Mradi huu hauchukui msimamo wa kisiasa kuhusu mipaka, maeneo, au utambuzi wa serikali.",
+      "license": "Nambari ya chanzo inapatikana chini ya leseni ya MIT.",
+      "attribution": "Sifa",
+      "close": "Funga"
+    },
+    "reset": {
+      "title": "Weka Upya Maendeleo",
+      "message": "Je, una uhakika? Maendeleo, mkusanyiko, historia na mafanikio yako yote yatafutwa kabisa. Kitendo hiki hakiwezi kutenduliwa.",
+      "confirm": "Ndiyo, futa kila kitu",
+      "cancel": "Ghairi"
+    },
+    "importExport": {
+      "title": "Ingiza / Hamisha Maendeleo",
+      "exportTitle": "Hamisha",
+      "exportDescription": "Hamisha maendeleo yako kama faili ya JSON ili kuhifadhi nakala au kuhamishia kwenye kifaa kingine.",
+      "exportButton": "Hamisha faili ya JSON",
+      "importTitle": "Ingiza",
+      "importDescription": "Ingiza faili ya JSON iliyohamishwa hapo awali. Maendeleo yako ya sasa yatabadilishwa.",
+      "importWarning": "Onyo: maendeleo yako ya sasa yatabadilishwa na faili iliyoingizwa.",
+      "importButton": "Chagua faili ya JSON",
+      "importSuccess": "Maendeleo yameletwa kwa ufanisi!",
+      "importError": "Faili batili au iliyoharibika. Hakikisha faili ilihamishwa na mchezo huu.",
+      "close": "Funga"
+    }
+  },
+  "continents": {
+    "africa": "Afrika",
+    "asia": "Asia",
+    "europe": "Ulaya",
+    "northAmerica": "Amerika ya Kaskazini",
+    "southAmerica": "Amerika ya Kusini",
+    "oceania": "Oceania"
+  },
+  "data": {
+    "estimated": "Inakadiriwa",
+    "source": "Chanzo",
+    "year": "Mwaka wa data",
+    "approximation": "Maadili haya ni makadirio."
+  },
+  "errors": {
+    "mapLoad": "Haikuweza kupakia ramani. Jaribu kupakia upya ukurasa.",
+    "dataCorrupt": "Data iliyohifadhiwa imeharibika. Maendeleo yamewekwa upya.",
+    "importFailed": "Haikuweza kuleta faili.",
+    "unknown": "Hitilafu isiyotarajiwa imetokea."
+  },
+  "accessibility": {
+    "languageSelector": "Chagua lugha",
+    "flagOf": "Bendera ya {{nchi}}",
+    "rollButton": "Roll — chora nchi bila mpangilio",
+    "closeModal": "Funga",
+    "mainMap": "Ramani ya ulimwengu inayoingiliana",
+    "lockedCountry": "{{nchi}} — imefungwa",
+    "unlockedCountry": "{{nchi}} — imefunguliwa",
+    "rolledCountry": "{{country}} — imetoka sasa hivi",
+    "progressBar": "{{thamani}}% ya nchi zimefunguliwa",
+    "achievementLocked": "Mafanikio yamefungwa: {{name}}",
+    "achievementUnlocked": "Mafanikio yamefunguliwa: {{name}}"
+  },
+  "countries": {
+    "AF": {
+      "name": "Afghanistan",
+      "capital": "Kabul"
+    },
+    "AL": {
+      "name": "Albania",
+      "capital": "Tirana"
+    },
+    "DZ": {
+      "name": "Algeria",
+      "capital": "Algiers"
+    },
+    "AD": {
+      "name": "Andora",
+      "capital": "Andora la Vella"
+    },
+    "AO": {
+      "name": "Angola",
+      "capital": "Luanda"
+    },
+    "AG": {
+      "name": "Antigua na Barbuda",
+      "capital": "St. John's"
+    },
+    "AR": {
+      "name": "Argentina",
+      "capital": "Buenos Aires"
+    },
+    "AM": {
+      "name": "Armenia",
+      "capital": "Yerevan"
+    },
+    "AU": {
+      "name": "Australia",
+      "capital": "Canberra"
+    },
+    "AT": {
+      "name": "Austria",
+      "capital": "Vienna"
+    },
+    "AZ": {
+      "name": "Azerbaijan",
+      "capital": "Baku"
+    },
+    "BS": {
+      "name": "Bahamas",
+      "capital": "Nassau"
+    },
+    "BH": {
+      "name": "Bahrain",
+      "capital": "Manama"
+    },
+    "BD": {
+      "name": "Bangladesh",
+      "capital": "Dhaka"
+    },
+    "BB": {
+      "name": "Barbados",
+      "capital": "Bridgetown"
+    },
+    "BY": {
+      "name": "Belarus",
+      "capital": "Minsk"
+    },
+    "BE": {
+      "name": "Ubelgiji",
+      "capital": "Brussels"
+    },
+    "BZ": {
+      "name": "Belize",
+      "capital": "Belmopan"
+    },
+    "BJ": {
+      "name": "Benin",
+      "capital": "Porto-Novo"
+    },
+    "BT": {
+      "name": "Bhutan",
+      "capital": "Thimphu"
+    },
+    "BO": {
+      "name": "Bolivia",
+      "capital": "Sucre"
+    },
+    "BA": {
+      "name": "Bosnia na Herzegovina",
+      "capital": "Sarajevo"
+    },
+    "BW": {
+      "name": "Botswana",
+      "capital": "Gaborone"
+    },
+    "BR": {
+      "name": "Brazil",
+      "capital": "Brasília"
+    },
+    "BN": {
+      "name": "Brunei",
+      "capital": "Bandar Seri Begawan"
+    },
+    "BG": {
+      "name": "Bulgaria",
+      "capital": "Sofia"
+    },
+    "BF": {
+      "name": "Burkina Faso",
+      "capital": "Ouagadougou"
+    },
+    "BI": {
+      "name": "Burundi",
+      "capital": "Gitega"
+    },
+    "CV": {
+      "name": "Cape Verde",
+      "capital": "Praia"
+    },
+    "KH": {
+      "name": "Kambodia",
+      "capital": "Phnom Penh"
+    },
+    "CM": {
+      "name": "Kamerun",
+      "capital": "Yaoundé"
+    },
+    "CA": {
+      "name": "Kanada",
+      "capital": "Ottawa"
+    },
+    "CF": {
+      "name": "Jamhuri ya Afrika ya Kati",
+      "capital": "Bangui"
+    },
+    "TD": {
+      "name": "Chad",
+      "capital": "N'Djamena"
+    },
+    "CL": {
+      "name": "Chile",
+      "capital": "Santiago"
+    },
+    "CN": {
+      "name": "China",
+      "capital": "Beijing"
+    },
+    "CO": {
+      "name": "Kolombia",
+      "capital": "Bogota"
+    },
+    "KM": {
+      "name": "Komoro",
+      "capital": "Moroni"
+    },
+    "CG": {
+      "name": "Kongo",
+      "capital": "Brazzaville"
+    },
+    "CD": {
+      "name": "Jamhuri ya Kidemokrasia ya Kongo",
+      "capital": "Kinshasa"
+    },
+    "CR": {
+      "name": "Kosta Rika",
+      "capital": "San Jose"
+    },
+    "CI": {
+      "name": "Ivory Coast",
+      "capital": "Yamoussoukro"
+    },
+    "HR": {
+      "name": "Kroatia",
+      "capital": "Zagreb"
+    },
+    "CU": {
+      "name": "Kuba",
+      "capital": "Havana"
+    },
+    "CY": {
+      "name": "Kupro",
+      "capital": "Nicosia"
+    },
+    "CZ": {
+      "name": "Jamhuri ya Czech",
+      "capital": "Prague"
+    },
+    "DK": {
+      "name": "Denmark",
+      "capital": "Copenhagen"
+    },
+    "DJ": {
+      "name": "Djibouti",
+      "capital": "Djibouti"
+    },
+    "DM": {
+      "name": "Dominika",
+      "capital": "Roseau"
+    },
+    "DO": {
+      "name": "Jamhuri ya Dominika",
+      "capital": "Santo Domingo"
+    },
+    "EC": {
+      "name": "Ekuador",
+      "capital": "Quito"
+    },
+    "EG": {
+      "name": "Misri",
+      "capital": "Cairo"
+    },
+    "SV": {
+      "name": "El Salvador",
+      "capital": "San Salvador"
+    },
+    "GQ": {
+      "name": "Guinea ya Ikweta",
+      "capital": "Malabo"
+    },
+    "ER": {
+      "name": "Eritrea",
+      "capital": "Asmara"
+    },
+    "EE": {
+      "name": "Estonia",
+      "capital": "Tallinn"
+    },
+    "SZ": {
+      "name": "Eswatini",
+      "capital": "Mbabane"
+    },
+    "ET": {
+      "name": "Ethiopia",
+      "capital": "Addis Ababa"
+    },
+    "FJ": {
+      "name": "Fiji",
+      "capital": "Suva"
+    },
+    "FI": {
+      "name": "Ufini",
+      "capital": "Helsinki"
+    },
+    "FR": {
+      "name": "Ufaransa",
+      "capital": "Paris"
+    },
+    "GA": {
+      "name": "Gabon",
+      "capital": "Libreville"
+    },
+    "GM": {
+      "name": "Gambia",
+      "capital": "Banjul"
+    },
+    "GE": {
+      "name": "Georgia",
+      "capital": "Tbilisi"
+    },
+    "DE": {
+      "name": "Ujerumani",
+      "capital": "Berlin"
+    },
+    "GH": {
+      "name": "Ghana",
+      "capital": "Accra"
+    },
+    "GR": {
+      "name": "Ugiriki",
+      "capital": "Athene"
+    },
+    "GD": {
+      "name": "Grenada",
+      "capital": "St. George"
+    },
+    "GT": {
+      "name": "Guatemala",
+      "capital": "Mji wa Guatemala"
+    },
+    "GN": {
+      "name": "Guinea",
+      "capital": "Conakry"
+    },
+    "GW": {
+      "name": "Guinea-Bissau",
+      "capital": "Bissau"
+    },
+    "GY": {
+      "name": "Guyana",
+      "capital": "Georgetown"
+    },
+    "HT": {
+      "name": "Haiti",
+      "capital": "Port-au-Prince"
+    },
+    "HN": {
+      "name": "Honduras",
+      "capital": "Tegucigalpa"
+    },
+    "HU": {
+      "name": "Hungaria",
+      "capital": "Budapest"
+    },
+    "IS": {
+      "name": "Iceland",
+      "capital": "Reykjavík"
+    },
+    "IN": {
+      "name": "India",
+      "capital": "New Delhi"
+    },
+    "ID": {
+      "name": "Indonesia",
+      "capital": "Jakarta"
+    },
+    "IR": {
+      "name": "Iran",
+      "capital": "Tehran"
+    },
+    "IQ": {
+      "name": "Iraq",
+      "capital": "Baghdad"
+    },
+    "IE": {
+      "name": "Ireland",
+      "capital": "Dublin"
+    },
+    "IL": {
+      "name": "Israeli",
+      "capital": "Yerusalemu"
+    },
+    "IT": {
+      "name": "Italia",
+      "capital": "Roma"
+    },
+    "JM": {
+      "name": "Jamaika",
+      "capital": "Kingston"
+    },
+    "JP": {
+      "name": "Japani",
+      "capital": "Tokyo"
+    },
+    "JO": {
+      "name": "Yordani",
+      "capital": "Amman"
+    },
+    "KZ": {
+      "name": "Kazakhstan",
+      "capital": "Astana"
+    },
+    "KE": {
+      "name": "Kenya",
+      "capital": "Nairobi"
+    },
+    "KI": {
+      "name": "Kiribati",
+      "capital": "Tarawa Kusini"
+    },
+    "KP": {
+      "name": "Korea Kaskazini",
+      "capital": "Pyongyang"
+    },
+    "KR": {
+      "name": "Korea Kusini",
+      "capital": "Seoul"
+    },
+    "KW": {
+      "name": "Kuwait",
+      "capital": "Jiji la Kuwait"
+    },
+    "KG": {
+      "name": "Kyrgyzstan",
+      "capital": "Bishkek"
+    },
+    "LA": {
+      "name": "Laos",
+      "capital": "Vientiane"
+    },
+    "LV": {
+      "name": "Latvia",
+      "capital": "Riga"
+    },
+    "LB": {
+      "name": "Lebanon",
+      "capital": "Beirut"
+    },
+    "LS": {
+      "name": "Lesotho",
+      "capital": "Maseru"
+    },
+    "LR": {
+      "name": "Liberia",
+      "capital": "Monrovia"
+    },
+    "LY": {
+      "name": "Libya",
+      "capital": "Tripoli"
+    },
+    "LI": {
+      "name": "Liechtenstein",
+      "capital": "Vaduz"
+    },
+    "LT": {
+      "name": "Lithuania",
+      "capital": "Vilnius"
+    },
+    "LU": {
+      "name": "Luxemburg",
+      "capital": "Luxemburg"
+    },
+    "MG": {
+      "name": "Madagaska",
+      "capital": "Antananarivo"
+    },
+    "MW": {
+      "name": "Malawi",
+      "capital": "Lilongwe"
+    },
+    "MY": {
+      "name": "Malaysia",
+      "capital": "Kuala Lumpur"
+    },
+    "MV": {
+      "name": "Maldives",
+      "capital": "Mwanaume"
+    },
+    "ML": {
+      "name": "Mali",
+      "capital": "Bamako"
+    },
+    "MT": {
+      "name": "Malta",
+      "capital": "Valletta"
+    },
+    "MH": {
+      "name": "Visiwa vya Marshall",
+      "capital": "Majuro"
+    },
+    "MR": {
+      "name": "Mauritania",
+      "capital": "Nouakchott"
+    },
+    "MU": {
+      "name": "Mauritius",
+      "capital": "Port Louis"
+    },
+    "MX": {
+      "name": "Mexico",
+      "capital": "Mexico City"
+    },
+    "FM": {
+      "name": "Mikronesia",
+      "capital": "Palikir"
+    },
+    "MD": {
+      "name": "Moldova",
+      "capital": "Chisinau"
+    },
+    "MC": {
+      "name": "Monako",
+      "capital": "Monako"
+    },
+    "MN": {
+      "name": "Mongolia",
+      "capital": "Ulaanbaatar"
+    },
+    "ME": {
+      "name": "Montenegro",
+      "capital": "Podgorica"
+    },
+    "MA": {
+      "name": "Moroko",
+      "capital": "Rabat"
+    },
+    "MZ": {
+      "name": "Msumbiji",
+      "capital": "Maputo"
+    },
+    "MM": {
+      "name": "Myanmar",
+      "capital": "Naypyidaw"
+    },
+    "NA": {
+      "name": "Namibia",
+      "capital": "Windhoek"
+    },
+    "NR": {
+      "name": "Nauru",
+      "capital": "Yaren"
+    },
+    "NP": {
+      "name": "Nepal",
+      "capital": "Kathmandu"
+    },
+    "NL": {
+      "name": "Uholanzi",
+      "capital": "Amsterdam"
+    },
+    "NZ": {
+      "name": "New Zealand",
+      "capital": "Wellington"
+    },
+    "NI": {
+      "name": "Nikaragua",
+      "capital": "Managua"
+    },
+    "NE": {
+      "name": "Niger",
+      "capital": "Niamey"
+    },
+    "NG": {
+      "name": "Nigeria",
+      "capital": "Abuja"
+    },
+    "MK": {
+      "name": "Makedonia ya Kaskazini",
+      "capital": "Skopje"
+    },
+    "NO": {
+      "name": "Norway",
+      "capital": "Oslo"
+    },
+    "OM": {
+      "name": "Oman",
+      "capital": "Muscat"
+    },
+    "PK": {
+      "name": "Pakistani",
+      "capital": "Islamabad"
+    },
+    "PW": {
+      "name": "Palau",
+      "capital": "Ngerulmud"
+    },
+    "PS": {
+      "name": "Palestina",
+      "capital": "Ramallah"
+    },
+    "PA": {
+      "name": "Panama",
+      "capital": "Jiji la Panama"
+    },
+    "PG": {
+      "name": "Papua Guinea Mpya",
+      "capital": "Port Moresby"
+    },
+    "PY": {
+      "name": "Paragwai",
+      "capital": "Asunción"
+    },
+    "PE": {
+      "name": "Peru",
+      "capital": "Lima"
+    },
+    "PH": {
+      "name": "Ufilipino",
+      "capital": "Manila"
+    },
+    "PL": {
+      "name": "Poland",
+      "capital": "Warszawa"
+    },
+    "PT": {
+      "name": "Ureno",
+      "capital": "Lizaboni"
+    },
+    "QA": {
+      "name": "Qatar",
+      "capital": "Doha"
+    },
+    "RO": {
+      "name": "Rumania",
+      "capital": "Bucharest"
+    },
+    "RU": {
+      "name": "Urusi",
+      "capital": "Moscow"
+    },
+    "RW": {
+      "name": "Rwanda",
+      "capital": "Kigali"
+    },
+    "KN": {
+      "name": "Saint Kitts na Nevis",
+      "capital": "Basseterre"
+    },
+    "LC": {
+      "name": "Mtakatifu Lucia",
+      "capital": "Castries"
+    },
+    "VC": {
+      "name": "Saint Vincent na Grenadines",
+      "capital": "Kingstown"
+    },
+    "WS": {
+      "name": "Samoa",
+      "capital": "Apia"
+    },
+    "SM": {
+      "name": "San Marino",
+      "capital": "San Marino"
+    },
+    "ST": {
+      "name": "Sao Tome na Príncipe",
+      "capital": "Sao Tome"
+    },
+    "SA": {
+      "name": "Saudi Arabia",
+      "capital": "Riyadh"
+    },
+    "SN": {
+      "name": "Senegal",
+      "capital": "Dakar"
+    },
+    "RS": {
+      "name": "Serbia",
+      "capital": "Belgrade"
+    },
+    "SL": {
+      "name": "Sierra Leone",
+      "capital": "Freetown"
+    },
+    "SG": {
+      "name": "Singapore",
+      "capital": "Singapore"
+    },
+    "SK": {
+      "name": "Slovakia",
+      "capital": "Bratislava"
+    },
+    "SI": {
+      "name": "Slovenia",
+      "capital": "Ljubljana"
+    },
+    "SB": {
+      "name": "Visiwa vya Solomon",
+      "capital": "Honiara"
+    },
+    "SO": {
+      "name": "Somalia",
+      "capital": "Mogadishu"
+    },
+    "ZA": {
+      "name": "Afrika Kusini",
+      "capital": "Pretoria"
+    },
+    "SS": {
+      "name": "Sudan Kusini",
+      "capital": "Juba"
+    },
+    "ES": {
+      "name": "Uhispania",
+      "capital": "Madrid"
+    },
+    "LK": {
+      "name": "Sri Lanka",
+      "capital": "Colombo"
+    },
+    "SD": {
+      "name": "Sudan",
+      "capital": "Khartoum"
+    },
+    "SR": {
+      "name": "Suriname",
+      "capital": "Paramaribo"
+    },
+    "SE": {
+      "name": "Uswidi",
+      "capital": "Stockholm"
+    },
+    "CH": {
+      "name": "Uswisi",
+      "capital": "Bern"
+    },
+    "SY": {
+      "name": "Syria",
+      "capital": "Damasko"
+    },
+    "TW": {
+      "name": "Taiwan",
+      "capital": "Taipei"
+    },
+    "TJ": {
+      "name": "Tajikistan",
+      "capital": "Dushanbe"
+    },
+    "TZ": {
+      "name": "Tanzania",
+      "capital": "Dodoma"
+    },
+    "TH": {
+      "name": "Thailand",
+      "capital": "Bangkok"
+    },
+    "TL": {
+      "name": "Timor-Leste",
+      "capital": "Dili"
+    },
+    "TG": {
+      "name": "Togo",
+      "capital": "Lomé"
+    },
+    "TO": {
+      "name": "Tonga",
+      "capital": "Nukuʻalofa"
+    },
+    "TT": {
+      "name": "Trinidad na Tobago",
+      "capital": "Bandari ya Uhispania"
+    },
+    "TN": {
+      "name": "Tunisia",
+      "capital": "Tunis"
+    },
+    "TR": {
+      "name": "Uturuki",
+      "capital": "Ankara"
+    },
+    "TM": {
+      "name": "Turkmenistan",
+      "capital": "Ashgabat"
+    },
+    "TV": {
+      "name": "Tuvalu",
+      "capital": "Funafuti"
+    },
+    "UG": {
+      "name": "Uganda",
+      "capital": "Kampala"
+    },
+    "UA": {
+      "name": "Ukraine",
+      "capital": "Kyiv"
+    },
+    "AE": {
+      "name": "Umoja wa Falme za Kiarabu",
+      "capital": "Abu Dhabi"
+    },
+    "GB": {
+      "name": "Uingereza",
+      "capital": "London"
+    },
+    "US": {
+      "name": "Marekani",
+      "capital": "Washington D.C."
+    },
+    "UY": {
+      "name": "Uruguay",
+      "capital": "Montevideo"
+    },
+    "UZ": {
+      "name": "Uzbekistan",
+      "capital": "Tashkent"
+    },
+    "VU": {
+      "name": "Vanuatu",
+      "capital": "Bandari ya Vila"
+    },
+    "VA": {
+      "name": "Mji wa Vatican",
+      "capital": "Mji wa Vatican"
+    },
+    "VE": {
+      "name": "Venezuela",
+      "capital": "Caracas"
+    },
+    "VN": {
+      "name": "Vietnam",
+      "capital": "Hanoi"
+    },
+    "YE": {
+      "name": "Yemen",
+      "capital": "Sanaa"
+    },
+    "ZM": {
+      "name": "Zambia",
+      "capital": "Lusaka"
+    },
+    "ZW": {
+      "name": "Zimbabwe",
+      "capital": "Harare"
+    },
+    "EH": {
+      "name": "Sahara Magharibi",
+      "capital": "Laayoune"
+    },
+    "XK": {
+      "name": "Kosovo",
+      "capital": "Pristina"
+    }
+  },
+  "pity": {
+    "title": "Bahati iliyokusanywa",
+    "guaranteedTitle": "Nchi Mpya Imehakikishwa!",
+    "ready": "Roll inayofuata itakuwa ya kichawi!"
+  },
+  "tour": {
+    "skip": "Ruka Mafunzo",
+    "next": "Próximo ➔",
+    "prev": "⬅ Anterior",
+    "done": "Maliza ✓",
+    "progress": "Passo {{current}} de {{total}}",
+    "step1": {
+      "title": "👋 Bem-vindo ao WorldDex!",
+      "desc": "Aqui vais colecionar todos os países do mundo através de sorteios baseados na verdadeira taxa de natalidade global. Vamos ver como funciona?"
+    },
+    "step2": {
+      "title": "🎲 Tembeza Ulimwenguni Pote",
+      "desc": "Bofya kitufe hiki (au bonyeza Space) ili kusogeza. Uwezekano wa kutua kwenye nchi <b>ni sawa kabisa na uwezekano wa kuzaliwa huko</b> katika ulimwengu halisi. Kuzaliwa zaidi, zaidi ya kawaida!"
+    },
+    "step3": {
+      "title": "🗺️ Ramani yako",
+      "desc": "Wakati wowote unapofungua nchi mpya, itapakwa rangi kwenye ramani na rangi ya adimu yake (Kawaida, Isiyo Kawaida, Nadra, Epic au Hadithi)."
+    },
+    "step4": {
+      "title": "💖 Mfumo wa Huruma",
+      "desc": "Kila mara unapopata nakala, upau wako wa bahati hupanda. Ukifika kiwango cha juu zaidi, mzunguko unaofuata <b>umehakikishiwa 100%</b> kuwa nchi ambayo bado huna!"
+    },
+    "step5": {
+      "title": "🛒 Duka na Uchumi",
+      "desc": "Usijali kuhusu nakala. Kila nchi inayorudiwa hukupa <b>sarafu</b> (kulingana na uchache wake). Unaweza kutumia sarafu katika Duka hili <b>kununua nchi ambazo hazipo</b> au <b>Maboresho</b> (kama vile Autoclicker au vizidishi)."
+    },
+    "step6": {
+      "title": "📚 Mkusanyiko Wako",
+      "desc": "Katika kichupo hiki unaweza kuona nchi zote ambazo tayari umechukua na ni ngapi umesalia. Unaweza kubofya ili kuona maelezo na udadisi."
+    },
+    "step7": {
+      "title": "🏆 Mafanikio",
+      "desc": "Kamilisha mabara, huunda vikundi vya nchi mahususi (kama vile CPLP au Umoja wa Ulaya) na ufikie malengo ya kufungua mafanikio haya ya kipekee."
+    },
+    "step8": {
+      "title": "🌍 Tayari Kucheza!",
+      "desc": "Sasa ni juu yako! Bahati nzuri katika safari yako ya kufungua ulimwengu mzima, kuzaliwa mara moja."
+    }
+  }
+}

@@ -1,0 +1,1154 @@
+{
+  "app": {
+    "title": "WorldDex",
+    "subtitle": "Opnaðu heiminn, eina fæðingu í einu."
+  },
+  "header": {
+    "howToPlay": "Hvernig á að spila",
+    "aboutData": "Um Gögnin",
+    "resetProgress": "Endurstilla framvindu",
+    "privacy": "Persónuvernd",
+    "localStorageNotice": "Framvinda vistuð á þessu tæki"
+  },
+  "nav": {
+    "progress": "Framfarir",
+    "collection": "Safn",
+    "history": "Saga",
+    "achievements": "Afrek",
+    "settings": "Stillingar"
+  },
+  "roll": {
+    "button": "Roll",
+    "rolling": "Rúlla...",
+    "newCountry": "Nýtt land opnað!",
+    "duplicate": "Þú varst þegar með þetta land - haltu áfram!",
+    "viewOnMap": "Skoða á korti",
+    "close": "Loka",
+    "estimatedChance": "Áætlað tækifæri",
+    "population": "Mannfjöldi",
+    "annualBirths": "Áætlaðar árlegar fæðingar",
+    "firstUnlock": "Fyrsta skiptið!",
+    "alreadyHave": "Afrit",
+    "spacebar": "Press [Space] to roll"
+  },
+  "country": {
+    "population": "Mannfjöldi",
+    "annualBirths": "Áætlaðar árlegar fæðingar",
+    "birthChance": "Líkur á að fæðast hér",
+    "capital": "Höfuðborg",
+    "continent": "Meginland",
+    "status": {
+      "locked": "Enn læst",
+      "unlocked": "Ólæst"
+    },
+    "rollCount": "Birtist {{count}} tíma",
+    "rollCount_other": "Birtist {{count}} sinnum",
+    "firstUnlocked": "Opnað á {{dagsetningu}}",
+    "zoomToCountry": "Miðja á kortinu",
+    "notFound": "Land fannst ekki",
+    "clickToExplore": "Smelltu á land til að skoða"
+  },
+  "progress": {
+    "title": "Framfarir",
+    "unlocked": "Ólæst",
+    "unlockedCount": "{{tal}} / {{heildar}} lönd",
+    "percentage": "{{gildi}}% lokið",
+    "remaining": "{{telja}} lönd eftir",
+    "totalRolls": "Total Rolls",
+    "duplicates": "Afrit",
+    "longestStreak": "Besta strikið án afrita",
+    "continents": "Framfarir eftir heimsálfum"
+  },
+  "collection": {
+    "title": "Safn",
+    "search": "Leita að landi...",
+    "sort": {
+      "label": "Raða eftir",
+      "recent": "Nýlega opnað",
+      "alphabetical": "Stafrófsröð",
+      "mostRolled": "Flestir rúllaðir",
+      "continent": "Meginland"
+    },
+    "empty": "Þú hefur ekki opnað nein lönd ennþá. Gefðu því rúllu!",
+    "noResults": "Engin lönd passa við leitina þína.",
+    "rolls": "{{count}} rúlla",
+    "rolls_other": "{{telja}} rúllur",
+    "sortChanceDesc": "Highest Chance",
+    "sortChanceAsc": "Lowest Chance"
+  },
+  "history": {
+    "title": "Saga",
+    "filter": {
+      "all": "Allt",
+      "new": "Nýtt",
+      "duplicates": "Afrit"
+    },
+    "clearHistory": "Hreinsa sögu",
+    "clearConfirmTitle": "Hreinsa feril?",
+    "clearConfirmMessage": "Ekki er hægt að afturkalla þessa aðgerð. Rúlluferli verður eytt fyrir fullt og allt.",
+    "clearConfirm": "Hreinsa",
+    "clearCancel": "Hætta við",
+    "empty": "Þú hefur ekki gert neinar rúllur ennþá. Byrjaðu núna!",
+    "emptyFiltered": "Engar rúllur passa við þessa síu.",
+    "new": "Nýtt",
+    "duplicate": "Afrit",
+    "rollNumber": "Rúlla #{{númer}}"
+  },
+  "achievements": {
+    "title": "Afrek",
+    "locked": "Læst",
+    "unlocked": "Ólæst",
+    "unlockedOn": "Opnað á {{dagsetningu}}",
+    "progress": "{{núverandi}} / {{alls}}",
+    "newUnlock": "Afrek opnað!",
+    "firstStep": {
+      "name": "Fyrsta skrefið",
+      "description": "Opnaðu fyrsta landið þitt."
+    },
+    "explorer": {
+      "name": "Landkönnuður",
+      "description": "Opnaðu 10 lönd."
+    },
+    "traveller": {
+      "name": "Ferðamaður",
+      "description": "Opnaðu 25 lönd."
+    },
+    "cartographer": {
+      "name": "Kortagerðarmaður",
+      "description": "Opnaðu 50 lönd."
+    },
+    "worldCollector1": {
+      "name": "Heimasafnari I",
+      "description": "Opnaðu 75 lönd."
+    },
+    "worldCollector2": {
+      "name": "Heimssafnari II",
+      "description": "Opnaðu 100 lönd."
+    },
+    "worldCollector3": {
+      "name": "Heimssafnari III",
+      "description": "Opnaðu 125 lönd."
+    },
+    "halfwayThere": {
+      "name": "Á miðri leið",
+      "description": "Opnaðu 50% allra landa."
+    },
+    "continentalExplorer": {
+      "name": "Continental Explorer",
+      "description": "Kláraðu heila heimsálfu."
+    },
+    "continentalMaster": {
+      "name": "Meginlandsmeistari",
+      "description": "Ljúktu við þrjár heimsálfur."
+    },
+    "aroundTheWorld": {
+      "name": "Um allan heim",
+      "description": "Ljúktu við allar heimsálfur."
+    },
+    "worldComplete": {
+      "name": "Heimurinn fullkominn",
+      "description": "Opnaðu öll lönd og svæði."
+    },
+    "luckyStreak": {
+      "name": "Lucky Streak",
+      "description": "Opnaðu 5 ný lönd í röð án afrita."
+    },
+    "persistent": {
+      "name": "Viðvarandi",
+      "description": "Gerðu alls 100 rúllur."
+    },
+    "dedicated": {
+      "name": "Hollur",
+      "description": "Gerðu 500 rúllur alls."
+    },
+    "home_sweet_home": {
+      "name": "Home Sweet Home",
+      "description": "Þú rúllaðir landinu sem þú býrð í núna!"
+    },
+    "group_palop": {
+      "name": "PALOP",
+      "description": "Opnar öll portúgölskumælandi Afríkulönd."
+    },
+    "group_brics": {
+      "name": "BRICS",
+      "description": "Opnar helstu lönd BRICS blokkarinnar (og nýja meðlimi)."
+    },
+    "group_eu": {
+      "name": "Evrópusambandið",
+      "description": "Opnar öll aðildarríki Evrópusambandsins."
+    },
+    "group_nato": {
+      "name": "FÆDDUR",
+      "description": "Opnar öll aðildarríki NATO."
+    },
+    "india_500": {
+      "name": "Namaste!",
+      "description": "Snúðu Indlandi 500 sinnum."
+    },
+    "group_g7": {
+      "description": "Opnar allar G7 þjóðir."
+    },
+    "group_mercosul": {
+      "name": "Mercosur",
+      "description": "Opnar Mercosur aðildarríkin."
+    },
+    "group_asean": {
+      "description": "Opnar lönd Samtaka Suðaustur-Asíuþjóða."
+    },
+    "group_opep": {
+      "name": "OPEC",
+      "description": "Opnar meðlimi Samtaka olíuútflutningslanda."
+    }
+  },
+  "tutorial": {
+    "title": "Hvernig á að spila",
+    "step1": "Smelltu á <b></b> til að uppgötva í hvaða landi þú gætir fæðst.",
+    "step2": "Hvert land hefur áætlaðar líkur byggðar á hlutdeild þess í fæðingum á heimsvísu - það er ekki jafn tilviljunarkennt!",
+    "step3": "Þegar þú opnar land í fyrsta skipti verður það litað á heimskortið.",
+    "step4": "Smelltu á land á kortinu eða í safninu þínu til að sjá höfuðborgina, íbúafjölda og áætlaðar líkur.",
+    "step5": "Ljúktu heimsálfum, aflaðu afrekum og reyndu að opna allan heiminn.",
+    "step6": "Framfarir þínar eru aðeins vistaðar á þessu tæki - engir reikningar, engin rakning.",
+    "previous": "Fyrri",
+    "next": "Næst",
+    "skip": "Slepptu kennslu",
+    "finish": "Byrjaðu að spila!",
+    "dontShowAgain": "Ekki sýna aftur",
+    "stepOf": "Skref {{núverandi}} af {{alls}}",
+    "restart": "Skoða kennsluefni",
+    "rollDesc": "Smelltu á hnappinn til að rúlla heppni þinni og uppgötva nýtt land! (Ábending: Þú getur notað [Blás] stikuna á lyklaborðinu þínu til að spila hraðar og loka gluggum).",
+    "collectionDesc": "Hér sérðu löndin sem þú hefur þegar opnað. Þú getur flokkað eftir sjaldgæfum, heimsálfum eða dagsetningu! Þegar þú ert 15 löndum frá endanum muntu geta séð hvaða þú vantar.",
+    "achievementsDesc": "Ljúktu markmiðum, allt frá því að safna efnahagslegum blokkum (eins og BRICS eða Evrópusambandinu) til að rúlla Indlandi 500 sinnum, til að vinna medalíur.",
+    "historyDesc": "Farðu yfir öll fyrri leikrit þín og komdu að því hversu langt er síðan þú opnaðir land."
+  },
+  "settings": {
+    "title": "Stillingar",
+    "language": "Tungumál",
+    "languageLabel": "Veldu tungumál",
+    "data": "Gögn og persónuvernd",
+    "exportProgress": "Framfarir í útflutningi",
+    "importProgress": "Framfarir á innflutningi",
+    "resetProgress": "Endurstilla framvindu",
+    "restartTutorial": "Skoða kennsluefni",
+    "aboutData": "Um gögnin",
+    "privacy": "Persónuvernd",
+    "searchLanguage": "Search language..."
+  },
+  "modals": {
+    "aboutData": {
+      "title": "Um Gögnin",
+      "intro": "Fæðingarlíkur eru áætlanir reiknaðar út frá fyrirliggjandi gögnum um árlegar fæðingar á hverju landi.",
+      "methodology": "Aðferðafræði",
+      "methodologyText": "Líkur á að fæðast í tilteknu landi eru reiknaðar sem hlutfall af áætluðum árlegum fæðingum þess lands miðað við heildarfjölda heimsins. Við notum áætluð gögn frá Alþjóðabankanum og SÞ (World Population Prospects). Gildi eru áætlanir og endurspegla hugsanlega ekki nýjustu tölfræði.",
+      "sensitivity": "Athugasemd um pólitískt viðkvæmni",
+      "sensitivityText": "Landamæri, landsvæði og viðurkenning á löndum eru pólitískt viðkvæm mál. Inntaka svæðis í þessum leik þjónar fræðslu- og landfræðilegum tilgangi og felur ekki í sér pólitíska afstöðu. Gögnin eru einfölduð fyrir afþreyingarleik.",
+      "updates": "Gagnauppfærslur",
+      "updatesText": "Lýðfræðileg gögn breytast með tímanum. Þetta verkefni leitast við að halda gögnum sæmilega uppfærðum en ábyrgist ekki rauntíma nákvæmni.",
+      "sources": "Heimildir",
+      "sourcesList": [
+        "Alþjóðabankinn — Vísar um þróun heimsins",
+        "SÞ — Mannfjöldahorfur í heiminum 2022",
+        "Natural Earth - Landfræðileg gögn (almenning)",
+        "world-atlas (TopoJSON) — Kortagögn"
+      ],
+      "close": "Loka"
+    },
+    "privacy": {
+      "title": "Persónuvernd og skilmálar",
+      "project": "Þetta er ókeypis fræðslu- og afþreyingarverkefni sem er ekki í viðskiptalegum tilgangi.",
+      "noData": "Engum persónuupplýsingum er safnað.",
+      "localStorage": "Framfarir þínar eru eingöngu vistaðar í staðbundinni geymslu tækisins (localStorage). Engar upplýsingar eru sendar til netþjóna.",
+      "noCookies": "Þessi leikur notar ekki vafrakökur. Aðeins localStorage er notað til að vista óskir þínar og framfarir.",
+      "noTracking": "Það eru engin kerfi fyrir greiningar, mælingar, auglýsingar eða þriðja aðila.",
+      "borders": "Landfræðileg, lýðfræðileg og landamæragögn eru áætlanir og geta verið ófullkomnar eða úreltar. Þetta verkefni tekur enga pólitíska afstöðu til landamæra, landamæra eða ríkisviðurkenningar.",
+      "license": "Frumkóði fáanlegur undir MIT leyfinu.",
+      "attribution": "Eignirnar",
+      "close": "Loka"
+    },
+    "reset": {
+      "title": "Endurstilla framvindu",
+      "message": "Ertu viss? Öllum framförum þínum, söfnun, sögu og afrekum verður varanlega eytt. Ekki er hægt að afturkalla þessa aðgerð.",
+      "confirm": "Já, eyða öllu",
+      "cancel": "Hætta við"
+    },
+    "importExport": {
+      "title": "Innflutningur / útflutningur",
+      "exportTitle": "Útflutningur",
+      "exportDescription": "Flyttu út framfarir þínar sem JSON skrá til að taka öryggisafrit eða flytja í annað tæki.",
+      "exportButton": "Flytja út JSON skrá",
+      "importTitle": "Innflutningur",
+      "importDescription": "Flytja inn áður útflutta JSON skrá. Núverandi framfarir þínar verða skipt út.",
+      "importWarning": "Viðvörun: Núverandi framvinda þín verður skipt út fyrir innfluttu skrána.",
+      "importButton": "Veldu JSON skrá",
+      "importSuccess": "Framfarir fluttar inn!",
+      "importError": "Ógild eða skemmd skrá. Gakktu úr skugga um að skráin hafi verið flutt út af þessum leik.",
+      "close": "Loka"
+    }
+  },
+  "continents": {
+    "africa": "Afríku",
+    "asia": "Asíu",
+    "europe": "Evrópu",
+    "northAmerica": "Norður Ameríku",
+    "southAmerica": "Suður Ameríku",
+    "oceania": "Eyjaálfa"
+  },
+  "data": {
+    "estimated": "Áætlað",
+    "source": "Heimild",
+    "year": "Gagnaár",
+    "approximation": "Þessi gildi eru nálgun."
+  },
+  "errors": {
+    "mapLoad": "Ekki tókst að hlaða kortinu. Prófaðu að endurhlaða síðuna.",
+    "dataCorrupt": "Vistað gögn eru skemmd. Framfarir hafa verið endurstilltar.",
+    "importFailed": "Ekki tókst að flytja skrána inn.",
+    "unknown": "Óvænt villa kom upp."
+  },
+  "accessibility": {
+    "languageSelector": "Veldu tungumál",
+    "flagOf": "Fáni {{lands}}",
+    "rollButton": "Rúlla — teiknaðu land af handahófi",
+    "closeModal": "Loka",
+    "mainMap": "Gagnvirkt heimskort",
+    "lockedCountry": "{{land}} — læst",
+    "unlockedCountry": "{{land}} — ólæst",
+    "rolledCountry": "{{country}} — bara rúllaði",
+    "progressBar": "{{gildi}}% landa ólæst",
+    "achievementLocked": "Afrekinu læst: {{nafn}}",
+    "achievementUnlocked": "Afrek opnað: {{nafn}}"
+  },
+  "countries": {
+    "AF": {
+      "name": "Afganistan",
+      "capital": "Kabúl"
+    },
+    "AL": {
+      "name": "Albanía",
+      "capital": "Tirana"
+    },
+    "DZ": {
+      "name": "Alsír",
+      "capital": "Algeirsborg"
+    },
+    "AD": {
+      "name": "Andorra",
+      "capital": "Andorra la Vella"
+    },
+    "AO": {
+      "name": "Angóla",
+      "capital": "Luanda"
+    },
+    "AG": {
+      "name": "Antígva og Barbúda",
+      "capital": "St. John's"
+    },
+    "AR": {
+      "name": "Argentína",
+      "capital": "Buenos Aires"
+    },
+    "AM": {
+      "name": "Armenía",
+      "capital": "Jerevan"
+    },
+    "AU": {
+      "name": "Ástralía",
+      "capital": "Canberra"
+    },
+    "AT": {
+      "name": "Austurríki",
+      "capital": "Vínarborg"
+    },
+    "AZ": {
+      "name": "Aserbaídsjan",
+      "capital": "Bakú"
+    },
+    "BS": {
+      "name": "Bahamaeyjar",
+      "capital": "Nassau"
+    },
+    "BH": {
+      "name": "Barein",
+      "capital": "Manama"
+    },
+    "BD": {
+      "name": "Bangladess",
+      "capital": "Dhaka"
+    },
+    "BB": {
+      "name": "Barbados",
+      "capital": "Bridgetown"
+    },
+    "BY": {
+      "name": "Hvíta-Rússland",
+      "capital": "Minsk"
+    },
+    "BE": {
+      "name": "Belgíu",
+      "capital": "Brussel"
+    },
+    "BZ": {
+      "name": "Belís",
+      "capital": "Belmopan"
+    },
+    "BJ": {
+      "name": "Benín",
+      "capital": "Porto-Novo"
+    },
+    "BT": {
+      "name": "Bútan",
+      "capital": "Thimphu"
+    },
+    "BO": {
+      "name": "Bólivía",
+      "capital": "Sucre"
+    },
+    "BA": {
+      "name": "Bosnía og Hersegóvína",
+      "capital": "Sarajevo"
+    },
+    "BW": {
+      "name": "Botsvana",
+      "capital": "Gaborone"
+    },
+    "BR": {
+      "name": "Brasilíu",
+      "capital": "Brasilía"
+    },
+    "BN": {
+      "name": "Brúnei",
+      "capital": "Bandar Seri Begawan"
+    },
+    "BG": {
+      "name": "Búlgaría",
+      "capital": "Sofia"
+    },
+    "BF": {
+      "name": "Búrkína Fasó",
+      "capital": "Ouagadougou"
+    },
+    "BI": {
+      "name": "Búrúndí",
+      "capital": "Gitega"
+    },
+    "CV": {
+      "name": "Grænhöfðaeyjar",
+      "capital": "Praia"
+    },
+    "KH": {
+      "name": "Kambódía",
+      "capital": "Phnom Penh"
+    },
+    "CM": {
+      "name": "Kamerún",
+      "capital": "Yaoundé"
+    },
+    "CA": {
+      "name": "Kanada",
+      "capital": "Ottawa"
+    },
+    "CF": {
+      "name": "Mið-Afríkulýðveldið",
+      "capital": "Bangui"
+    },
+    "TD": {
+      "name": "Chad",
+      "capital": "N'Djamena"
+    },
+    "CL": {
+      "name": "Chile",
+      "capital": "Santiago"
+    },
+    "CN": {
+      "name": "Kína",
+      "capital": "Peking"
+    },
+    "CO": {
+      "name": "Kólumbía",
+      "capital": "Bogotá"
+    },
+    "KM": {
+      "name": "Kómoreyjar",
+      "capital": "Moróní"
+    },
+    "CG": {
+      "name": "Kongó",
+      "capital": "Brazzaville"
+    },
+    "CD": {
+      "name": "Lýðveldið Kongó",
+      "capital": "Kinshasa"
+    },
+    "CR": {
+      "name": "Kosta Ríka",
+      "capital": "San José"
+    },
+    "CI": {
+      "name": "Fílabeinsströndin",
+      "capital": "Yamoussoukro"
+    },
+    "HR": {
+      "name": "Króatía",
+      "capital": "Zagreb"
+    },
+    "CU": {
+      "name": "Kúbu",
+      "capital": "Havana"
+    },
+    "CY": {
+      "name": "Kýpur",
+      "capital": "Nikósía"
+    },
+    "CZ": {
+      "name": "Tékkland",
+      "capital": "Prag"
+    },
+    "DK": {
+      "name": "Danmörku",
+      "capital": "Kaupmannahöfn"
+    },
+    "DJ": {
+      "name": "Djíbútí",
+      "capital": "Djíbútí"
+    },
+    "DM": {
+      "name": "Dóminíka",
+      "capital": "Roseau"
+    },
+    "DO": {
+      "name": "Dóminíska lýðveldið",
+      "capital": "Santo Domingo"
+    },
+    "EC": {
+      "name": "Ekvador",
+      "capital": "Quito"
+    },
+    "EG": {
+      "name": "Egyptaland",
+      "capital": "Kaíró"
+    },
+    "SV": {
+      "name": "El Salvador",
+      "capital": "San Salvador"
+    },
+    "GQ": {
+      "name": "Miðbaugs-Gínea",
+      "capital": "Malabó"
+    },
+    "ER": {
+      "name": "Erítrea",
+      "capital": "Asmara"
+    },
+    "EE": {
+      "name": "Eistland",
+      "capital": "Tallinn"
+    },
+    "SZ": {
+      "name": "Eswatini",
+      "capital": "Mbabane"
+    },
+    "ET": {
+      "name": "Eþíópíu",
+      "capital": "Addis Ababa"
+    },
+    "FJ": {
+      "name": "Fiji",
+      "capital": "Suva"
+    },
+    "FI": {
+      "name": "Finnlandi",
+      "capital": "Helsinki"
+    },
+    "FR": {
+      "name": "Frakklandi",
+      "capital": "París"
+    },
+    "GA": {
+      "name": "Gabon",
+      "capital": "Libreville"
+    },
+    "GM": {
+      "name": "Gambía",
+      "capital": "Banjul"
+    },
+    "GE": {
+      "name": "Georgíu",
+      "capital": "Tbilisi"
+    },
+    "DE": {
+      "name": "Þýskalandi",
+      "capital": "Berlín"
+    },
+    "GH": {
+      "name": "Gana",
+      "capital": "Akkra"
+    },
+    "GR": {
+      "name": "Grikkland",
+      "capital": "Aþenu"
+    },
+    "GD": {
+      "name": "Grenada",
+      "capital": "St. George's"
+    },
+    "GT": {
+      "name": "Gvatemala",
+      "capital": "Gvatemalaborg"
+    },
+    "GN": {
+      "name": "Gíneu",
+      "capital": "Conakry"
+    },
+    "GW": {
+      "name": "Gíneu-Bissá",
+      "capital": "Bissá"
+    },
+    "GY": {
+      "name": "Gvæjana",
+      "capital": "Georgetown"
+    },
+    "HT": {
+      "name": "Haítí",
+      "capital": "Port-au-Prince"
+    },
+    "HN": {
+      "name": "Hondúras",
+      "capital": "Tegucigalpa"
+    },
+    "HU": {
+      "name": "Ungverjaland",
+      "capital": "Búdapest"
+    },
+    "IS": {
+      "name": "Ísland",
+      "capital": "Reykjavík"
+    },
+    "IN": {
+      "name": "Indlandi",
+      "capital": "Nýja Delí"
+    },
+    "ID": {
+      "name": "Indónesíu",
+      "capital": "Jakarta"
+    },
+    "IR": {
+      "name": "Íran",
+      "capital": "Teheran"
+    },
+    "IQ": {
+      "name": "Írak",
+      "capital": "Bagdad"
+    },
+    "IE": {
+      "name": "Írland",
+      "capital": "Dublin"
+    },
+    "IL": {
+      "name": "Ísrael",
+      "capital": "Jerúsalem"
+    },
+    "IT": {
+      "name": "Ítalíu",
+      "capital": "Róm"
+    },
+    "JM": {
+      "name": "Jamaíka",
+      "capital": "Kingston"
+    },
+    "JP": {
+      "name": "Japan",
+      "capital": "Tókýó"
+    },
+    "JO": {
+      "name": "Jórdaníu",
+      "capital": "Amman"
+    },
+    "KZ": {
+      "name": "Kasakstan",
+      "capital": "Astana"
+    },
+    "KE": {
+      "name": "Kenýa",
+      "capital": "Naíróbí"
+    },
+    "KI": {
+      "name": "Kiribati",
+      "capital": "Suður Tarawa"
+    },
+    "KP": {
+      "name": "Norður-Kórea",
+      "capital": "Pyongyang"
+    },
+    "KR": {
+      "name": "Suður-Kórea",
+      "capital": "Seúl"
+    },
+    "KW": {
+      "name": "Kúveit",
+      "capital": "Kúveit borg"
+    },
+    "KG": {
+      "name": "Kirgisistan",
+      "capital": "Bishkek"
+    },
+    "LA": {
+      "name": "Laos",
+      "capital": "Vientiane"
+    },
+    "LV": {
+      "name": "Lettland",
+      "capital": "Riga"
+    },
+    "LB": {
+      "name": "Líbanon",
+      "capital": "Beirút"
+    },
+    "LS": {
+      "name": "Lesótó",
+      "capital": "Maseru"
+    },
+    "LR": {
+      "name": "Líbería",
+      "capital": "Monróvía"
+    },
+    "LY": {
+      "name": "Líbýu",
+      "capital": "Trípólí"
+    },
+    "LI": {
+      "name": "Liechtenstein",
+      "capital": "Vaduz"
+    },
+    "LT": {
+      "name": "Litháen",
+      "capital": "Vilnius"
+    },
+    "LU": {
+      "name": "Lúxemborg",
+      "capital": "Lúxemborg"
+    },
+    "MG": {
+      "name": "Madagaskar",
+      "capital": "Antananarivo"
+    },
+    "MW": {
+      "name": "Malaví",
+      "capital": "Lilongwe"
+    },
+    "MY": {
+      "name": "Malasíu",
+      "capital": "Kuala Lumpur"
+    },
+    "MV": {
+      "name": "Maldíveyjar",
+      "capital": "Malé"
+    },
+    "ML": {
+      "name": "Malí",
+      "capital": "Bamako"
+    },
+    "MT": {
+      "name": "Möltu",
+      "capital": "Valletta"
+    },
+    "MH": {
+      "name": "Marshalleyjar",
+      "capital": "Majuro"
+    },
+    "MR": {
+      "name": "Máritanía",
+      "capital": "Nouakchott"
+    },
+    "MU": {
+      "name": "Máritíus",
+      "capital": "Port Louis"
+    },
+    "MX": {
+      "name": "Mexíkó",
+      "capital": "Mexíkóborg"
+    },
+    "FM": {
+      "name": "Míkrónesía",
+      "capital": "Palikir"
+    },
+    "MD": {
+      "name": "Moldóva",
+      "capital": "Chisinau"
+    },
+    "MC": {
+      "name": "Mónakó",
+      "capital": "Mónakó"
+    },
+    "MN": {
+      "name": "Mongólíu",
+      "capital": "Ulaanbaatar"
+    },
+    "ME": {
+      "name": "Svartfjallaland",
+      "capital": "Podgorica"
+    },
+    "MA": {
+      "name": "Marokkó",
+      "capital": "Rabat"
+    },
+    "MZ": {
+      "name": "Mósambík",
+      "capital": "Mapútó"
+    },
+    "MM": {
+      "name": "Mjanmar",
+      "capital": "Naypyidaw"
+    },
+    "NA": {
+      "name": "Namibía",
+      "capital": "Windhoek"
+    },
+    "NR": {
+      "name": "Nauru",
+      "capital": "Yaren"
+    },
+    "NP": {
+      "name": "Nepal",
+      "capital": "Katmandú"
+    },
+    "NL": {
+      "name": "Hollandi",
+      "capital": "Amsterdam"
+    },
+    "NZ": {
+      "name": "Nýja Sjáland",
+      "capital": "Wellington"
+    },
+    "NI": {
+      "name": "Níkaragva",
+      "capital": "Managua"
+    },
+    "NE": {
+      "name": "Níger",
+      "capital": "Niamey"
+    },
+    "NG": {
+      "name": "Nígeríu",
+      "capital": "Abuja"
+    },
+    "MK": {
+      "name": "Norður Makedónía",
+      "capital": "Skopje"
+    },
+    "NO": {
+      "name": "Noregi",
+      "capital": "Ósló"
+    },
+    "OM": {
+      "name": "Óman",
+      "capital": "Muscat"
+    },
+    "PK": {
+      "name": "Pakistan",
+      "capital": "Islamabad"
+    },
+    "PW": {
+      "name": "Palau",
+      "capital": "Ngerulmud"
+    },
+    "PS": {
+      "name": "Palestína",
+      "capital": "Ramallah"
+    },
+    "PA": {
+      "name": "Panama",
+      "capital": "Panama borg"
+    },
+    "PG": {
+      "name": "Papúa Nýju Gíneu",
+      "capital": "Port Moresby"
+    },
+    "PY": {
+      "name": "Paragvæ",
+      "capital": "Asunción"
+    },
+    "PE": {
+      "name": "Perú",
+      "capital": "Líma"
+    },
+    "PH": {
+      "name": "Filippseyjar",
+      "capital": "Manila"
+    },
+    "PL": {
+      "name": "Pólland",
+      "capital": "Varsjá"
+    },
+    "PT": {
+      "name": "Portúgal",
+      "capital": "Lissabon"
+    },
+    "QA": {
+      "name": "Katar",
+      "capital": "Doha"
+    },
+    "RO": {
+      "name": "Rúmenía",
+      "capital": "Búkarest"
+    },
+    "RU": {
+      "name": "Rússland",
+      "capital": "Moskvu"
+    },
+    "RW": {
+      "name": "Rúanda",
+      "capital": "Kigali"
+    },
+    "KN": {
+      "name": "Saint Kitts og Nevis",
+      "capital": "Basseterre"
+    },
+    "LC": {
+      "name": "Sankti Lúsía",
+      "capital": "Castries"
+    },
+    "VC": {
+      "name": "Sankti Vinsent og Grenadíneyjar",
+      "capital": "Kingstown"
+    },
+    "WS": {
+      "name": "Samóa",
+      "capital": "Apia"
+    },
+    "SM": {
+      "name": "San Marínó",
+      "capital": "San Marínó"
+    },
+    "ST": {
+      "name": "São Tomé og Príncipe",
+      "capital": "São Tomé"
+    },
+    "SA": {
+      "name": "Sádi-Arabía",
+      "capital": "Riyadh"
+    },
+    "SN": {
+      "name": "Senegal",
+      "capital": "Dakar"
+    },
+    "RS": {
+      "name": "Serbía",
+      "capital": "Belgrad"
+    },
+    "SL": {
+      "name": "Sierra Leone",
+      "capital": "Freetown"
+    },
+    "SG": {
+      "name": "Singapore",
+      "capital": "Singapore"
+    },
+    "SK": {
+      "name": "Slóvakíu",
+      "capital": "Bratislava"
+    },
+    "SI": {
+      "name": "Slóvenía",
+      "capital": "Ljubljana"
+    },
+    "SB": {
+      "name": "Salómonseyjar",
+      "capital": "Honiara"
+    },
+    "SO": {
+      "name": "Sómalía",
+      "capital": "Mogadishu"
+    },
+    "ZA": {
+      "name": "Suður Afríka",
+      "capital": "Pretoríu"
+    },
+    "SS": {
+      "name": "Suður-Súdan",
+      "capital": "Juba"
+    },
+    "ES": {
+      "name": "Spánn",
+      "capital": "Madrid"
+    },
+    "LK": {
+      "name": "Sri Lanka",
+      "capital": "Colombo"
+    },
+    "SD": {
+      "name": "Súdan",
+      "capital": "Khartoum"
+    },
+    "SR": {
+      "name": "Súrínam",
+      "capital": "Paramaribo"
+    },
+    "SE": {
+      "name": "Svíþjóð",
+      "capital": "Stokkhólmi"
+    },
+    "CH": {
+      "name": "Sviss",
+      "capital": "Bern"
+    },
+    "SY": {
+      "name": "Sýrland",
+      "capital": "Damaskus"
+    },
+    "TW": {
+      "name": "Taívan",
+      "capital": "Taipei"
+    },
+    "TJ": {
+      "name": "Tadsjikistan",
+      "capital": "Dushanbe"
+    },
+    "TZ": {
+      "name": "Tansanía",
+      "capital": "Dodoma"
+    },
+    "TH": {
+      "name": "Tæland",
+      "capital": "Bangkok"
+    },
+    "TL": {
+      "name": "Tímor-Leste",
+      "capital": "Dili"
+    },
+    "TG": {
+      "name": "Tógó",
+      "capital": "Lomé"
+    },
+    "TO": {
+      "name": "Tonga",
+      "capital": "Nukuʻalofa"
+    },
+    "TT": {
+      "name": "Trínidad og Tóbagó",
+      "capital": "Spánarhöfn"
+    },
+    "TN": {
+      "name": "Túnis",
+      "capital": "Túnis"
+    },
+    "TR": {
+      "name": "Tyrkland",
+      "capital": "Ankara"
+    },
+    "TM": {
+      "name": "Túrkmenistan",
+      "capital": "Ashgabat"
+    },
+    "TV": {
+      "name": "Túvalú",
+      "capital": "Funafuti"
+    },
+    "UG": {
+      "name": "Úganda",
+      "capital": "Kampala"
+    },
+    "UA": {
+      "name": "Úkraína",
+      "capital": "Kyiv"
+    },
+    "AE": {
+      "name": "Sameinuðu arabísku furstadæmin",
+      "capital": "Abu Dhabi"
+    },
+    "GB": {
+      "name": "Bretland",
+      "capital": "London"
+    },
+    "US": {
+      "name": "Bandaríkin",
+      "capital": "Washington D.C."
+    },
+    "UY": {
+      "name": "Úrúgvæ",
+      "capital": "Montevideo"
+    },
+    "UZ": {
+      "name": "Úsbekistan",
+      "capital": "Tashkent"
+    },
+    "VU": {
+      "name": "Vanúatú",
+      "capital": "Port Vila"
+    },
+    "VA": {
+      "name": "Vatíkanið",
+      "capital": "Vatíkanið"
+    },
+    "VE": {
+      "name": "Venesúela",
+      "capital": "Caracas"
+    },
+    "VN": {
+      "name": "Víetnam",
+      "capital": "Hanoi"
+    },
+    "YE": {
+      "name": "Jemen",
+      "capital": "Sanaa"
+    },
+    "ZM": {
+      "name": "Sambía",
+      "capital": "Lusaka"
+    },
+    "ZW": {
+      "name": "Simbabve",
+      "capital": "Harare"
+    },
+    "EH": {
+      "name": "Vestur-Sahara",
+      "capital": "Laayoune"
+    },
+    "XK": {
+      "name": "Kosovo",
+      "capital": "Pristina"
+    }
+  },
+  "pity": {
+    "title": "Uppsöfnuð heppni",
+    "guaranteedTitle": "Nýtt land tryggt!",
+    "ready": "Næsta rúlla verður töfrandi!"
+  },
+  "tour": {
+    "skip": "Slepptu kennslu",
+    "next": "Næst ➔",
+    "prev": "⬅ Fyrri",
+    "done": "Klára ✓",
+    "progress": "Skref {{current}} af {{total}}",
+    "step1": {
+      "title": "👋 Velkomin í WorldDex!",
+      "desc": "Hér munt þú safna öllum löndum í heiminum í gegnum útdrætti sem byggjast á raunverulegri alþjóðlegri fæðingartíðni. Við skulum sjá hvernig það virkar?"
+    },
+    "step2": {
+      "title": "🎲 Skrunaðu um heiminn",
+      "desc": "Clica neste botão (ou pressiona Espaço) para girares. A probabilidade de te calhar um país é <b>exatamente igual à probabilidade de nasceres lá</b> no mundo real. Quanto mais nascimentos, mais comum!"
+    },
+    "step3": {
+      "title": "🗺️ O Teu Mapa",
+      "desc": "Sempre que desbloqueares um país novo, ele será pintado no mapa com a cor da sua raridade (Comum, Incomum, Raro, Épico ou Lendário)."
+    },
+    "step4": {
+      "title": "💖 Sistema de Pity",
+      "desc": "Í hvert skipti sem þú færð afrit hækkar heppnisstikan þín. Þegar þú hefur náð hámarkinu er <b>100% tryggt</b> næsta snúningur land sem þú ert ekki enn með!"
+    },
+    "step5": {
+      "title": "🛒 Loja & Economia",
+      "desc": "Não te preocupes com os duplicados. Cada país repetido dá-te <b>moedas</b> (dependendo da sua raridade). Podes usar moedas nesta Loja para <b>comprar países em falta</b> ou <b>Upgrades</b> (como o Autoclicker ou multiplicadores)."
+    },
+    "step6": {
+      "title": "📚 A Tua Coleção",
+      "desc": "Nesta aba podes ver todos os países que já tiraste e quantos te faltam. Podes clicar neles para veres detalhes e curiosidades."
+    },
+    "step7": {
+      "title": "🏆 Afrek",
+      "desc": "Completa continentes, forma grupos de países específicos (como a CPLP ou União Europeia) e alcança metas para desbloquear estas conquistas únicas."
+    },
+    "step8": {
+      "title": "🌍 Pronto a Jogar!",
+      "desc": "Agora é contigo! Boa sorte na tua jornada para desbloquear o mundo inteiro, um nascimento de cada vez."
+    }
+  }
+}

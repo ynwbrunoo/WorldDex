@@ -1,0 +1,1154 @@
+{
+  "app": {
+    "title": "WorldDex",
+    "subtitle": "Nisfruttaw id-dinja, twelid wieħed kull darba."
+  },
+  "header": {
+    "howToPlay": "Kif tilgħab",
+    "aboutData": "Dwar id-Dejta",
+    "resetProgress": "Irrisettja l-Progress",
+    "privacy": "Privatezza",
+    "localStorageNotice": "Progress issejvjat fuq dan l-apparat"
+  },
+  "nav": {
+    "progress": "Progress",
+    "collection": "Ġbir",
+    "history": "Storja",
+    "achievements": "Kisbiet",
+    "settings": "Settings"
+  },
+  "roll": {
+    "button": "Roll",
+    "rolling": "Rolling...",
+    "newCountry": "Pajjiż ġdid jinfetaħ!",
+    "duplicate": "Diġà kellek dan il-pajjiż — kompli għaddej!",
+    "viewOnMap": "Ara fuq il-mappa",
+    "close": "Agħlaq",
+    "estimatedChance": "Ċans stmat",
+    "population": "Popolazzjoni",
+    "annualBirths": "Twelid annwali stmat",
+    "firstUnlock": "L-ewwel darba!",
+    "alreadyHave": "Duplikat",
+    "spacebar": "Press [Space] to roll"
+  },
+  "country": {
+    "population": "Popolazzjoni",
+    "annualBirths": "Twelid annwali stmat",
+    "birthChance": "Ċans li titwieled hawn",
+    "capital": "Kapital",
+    "continent": "Kontinent",
+    "status": {
+      "locked": "Għadu msakkra",
+      "unlocked": "Jinfetaħ"
+    },
+    "rollCount": "Deher {{għadd}} ħin",
+    "rollCount_other": "Deher {{għadd}} darbiet",
+    "firstUnlocked": "Jinfetaħ fid-{{data}}",
+    "zoomToCountry": "Iċ-ċentru fuq il-mappa",
+    "notFound": "Pajjiż ma nstabx",
+    "clickToExplore": "Ikklikkja pajjiż biex tesplora"
+  },
+  "progress": {
+    "title": "Progress",
+    "unlocked": "Jinfetaħ",
+    "unlockedCount": "{{għadd}} / {{total}} pajjiżi",
+    "percentage": "{{valur}}% komplut",
+    "remaining": "{{għadd}} pajjiżi fadal",
+    "totalRolls": "Total Rolls",
+    "duplicates": "Duplikati",
+    "longestStreak": "L-aħjar serje mingħajr duplikati",
+    "continents": "Progress skont il-kontinent"
+  },
+  "collection": {
+    "title": "Ġbir",
+    "search": "Fittex pajjiż...",
+    "sort": {
+      "label": "Issortja minn",
+      "recent": "Riċentement jinfetaħ",
+      "alphabetical": "Alfabetiku",
+      "mostRolled": "Ħafna rrumblati",
+      "continent": "Kontinent"
+    },
+    "empty": "Għadek ma żblokkat l-ebda pajjiż. Agħtiha Roll!",
+    "noResults": "L-ebda pajjiż ma jaqbel mat-tfittxija tiegħek.",
+    "rolls": "{{għadd}} roll",
+    "rolls_other": "{{għadd}} rombli",
+    "sortChanceDesc": "Highest Chance",
+    "sortChanceAsc": "Lowest Chance"
+  },
+  "history": {
+    "title": "Storja",
+    "filter": {
+      "all": "Kollha",
+      "new": "Ġdid",
+      "duplicates": "Duplikati"
+    },
+    "clearHistory": "Storja ċara",
+    "clearConfirmTitle": "Storja ċara?",
+    "clearConfirmMessage": "Din l-azzjoni ma tistax titneħħa. L-istorja tar-roll se titħassar b'mod permanenti.",
+    "clearConfirm": "Ċara",
+    "clearCancel": "Ikkanċella",
+    "empty": "Għadek ma għamilt l-ebda rolls. Ibda issa!",
+    "emptyFiltered": "L-ebda rombli ma jaqblu ma' dan il-filtru.",
+    "new": "Ġdid",
+    "duplicate": "Duplikat",
+    "rollNumber": "Roll #{{numru}}"
+  },
+  "achievements": {
+    "title": "Kisbiet",
+    "locked": "Imsakkar",
+    "unlocked": "Jinfetaħ",
+    "unlockedOn": "Jinfetaħ fid-{{data}}",
+    "progress": "{{kurrent}} / {{total}}",
+    "newUnlock": "Kisba jinfetaħ!",
+    "firstStep": {
+      "name": "L-Ewwel Pass",
+      "description": "Nisfruttaw l-ewwel pajjiż tiegħek."
+    },
+    "explorer": {
+      "name": "Explorer",
+      "description": "Nisfruttaw 10 pajjiżi."
+    },
+    "traveller": {
+      "name": "Vjaġġatur",
+      "description": "Nisfruttaw 25 pajjiż."
+    },
+    "cartographer": {
+      "name": "Kartografu",
+      "description": "Nisfruttaw 50 pajjiż."
+    },
+    "worldCollector1": {
+      "name": "Kollettur Dinji I",
+      "description": "Nisfruttaw 75 pajjiż."
+    },
+    "worldCollector2": {
+      "name": "Kollettur Dinji II",
+      "description": "Nisfruttaw 100 pajjiż."
+    },
+    "worldCollector3": {
+      "name": "Kollettur Dinji III",
+      "description": "Nisfruttaw 125 pajjiż."
+    },
+    "halfwayThere": {
+      "name": "Nofs triq Hemm",
+      "description": "Nisfruttaw 50% tal-pajjiżi kollha."
+    },
+    "continentalExplorer": {
+      "name": "Explorer Kontinentali",
+      "description": "Imla kontinent sħiħ."
+    },
+    "continentalMaster": {
+      "name": "Kaptan Kontinentali",
+      "description": "Imla tliet kontinenti."
+    },
+    "aroundTheWorld": {
+      "name": "Madwar id-Dinja",
+      "description": "Imla l-kontinenti kollha."
+    },
+    "worldComplete": {
+      "name": "Dinja Tlesti",
+      "description": "Nisfruttaw il-pajjiżi u t-territorji kollha."
+    },
+    "luckyStreak": {
+      "name": "Streak Lucky",
+      "description": "Nisfruttaw 5 pajjiżi ġodda wara xulxin mingħajr duplikati."
+    },
+    "persistent": {
+      "name": "Persistenti",
+      "description": "Agħmel 100 rollijiet totali."
+    },
+    "dedicated": {
+      "name": "Dedikat",
+      "description": "Agħmel 500 rollijiet totali."
+    },
+    "home_sweet_home": {
+      "name": "Dar Dar Ħelwa",
+      "description": "Irromblat il-pajjiż li tgħix fih bħalissa!"
+    },
+    "group_palop": {
+      "name": "PALOP",
+      "description": "Jiftaħ il-pajjiżi Afrikani kollha li jitkellmu bil-Portugiż."
+    },
+    "group_brics": {
+      "name": "BRICS",
+      "description": "Jiftaħ il-pajjiżi ewlenin tal-blokk BRICS (u membri ġodda)."
+    },
+    "group_eu": {
+      "name": "Unjoni Ewropea",
+      "description": "Jiftaħ l-istati membri kollha tal-Unjoni Ewropea."
+    },
+    "group_nato": {
+      "name": "MWIELDA",
+      "description": "Jiftaħ il-pajjiżi membri kollha tan-NATO."
+    },
+    "india_500": {
+      "name": "Namaste!",
+      "description": "Dawwar l-Indja 500 darba."
+    },
+    "group_g7": {
+      "description": "Jiftaħ in-nazzjonijiet kollha tal-G7."
+    },
+    "group_mercosul": {
+      "name": "Mercosur",
+      "description": "Jisblokka l-Istati Membri tal-Mercosur."
+    },
+    "group_asean": {
+      "description": "Jiftaħ il-pajjiżi tal-Assoċjazzjoni tan-Nazzjonijiet tax-Xlokk tal-Asja."
+    },
+    "group_opep": {
+      "name": "OPEC",
+      "description": "Jiftaħ membri tal-Organizzazzjoni tal-Pajjiżi Esportaturi taż-Żejt."
+    }
+  },
+  "tutorial": {
+    "title": "Kif tilgħab",
+    "step1": "Ikklikkja <b></b> biex tiskopri f'liema pajjiż tista' titwieled.",
+    "step2": "Kull pajjiż għandu probabilità stmata bbażata fuq is-sehem tiegħu ta 'twelid globali — mhuwiex bl-istess mod każwali!",
+    "step3": "Meta tiftaħ pajjiż għall-ewwel darba, dan isir ikkulurit fuq il-mappa tad-dinja.",
+    "step4": "Ikklikkja pajjiż fuq il-mappa jew fil-kollezzjoni tiegħek biex tara l-kapital, il-popolazzjoni, u ċ-ċans stmat.",
+    "step5": "Imla l-kontinenti, jaqla’ kisbiet, u pprova nisfrutta d-dinja kollha.",
+    "step6": "Il-progress tiegħek jiġi ffrankat biss fuq dan l-apparat — l-ebda kontijiet, l-ebda traċċar.",
+    "previous": "Preċedenti",
+    "next": "Li jmiss",
+    "skip": "Aqbeż tutorja",
+    "finish": "Ibda tilgħab!",
+    "dontShowAgain": "Terġax turi",
+    "stepOf": "Pass {{kurrent}} minn {{total}}",
+    "restart": "Ara tutorja",
+    "rollDesc": "Ikklikkja l-buttuna biex irrombla Xorti tiegħek u skopri pajjiż ġdid! (Parir: Tista' tuża l-[Spazju] bar fuq it-tastiera tiegħek biex tilgħab aktar malajr u tagħlaq it-twieqi).",
+    "collectionDesc": "Hawnhekk tara l-pajjiżi li diġà żblokkajt. Tista' tissortja skont ir-rarità, il-kontinent jew id-data! Meta tkun 15-il pajjiż 'il bogħod mill-aħħar, tkun tista' tara liema minnhom tkun qed titlef.",
+    "achievementsDesc": "Għanijiet kompluti, mill-ġbir ta 'blokki ekonomiċi (bħal BRICS jew l-Unjoni Ewropea) għal rolling Indja 500 darba, biex tirbaħ medalji.",
+    "historyDesc": "Irrevedi d-drammi kollha preċedenti tiegħek u sib kemm ilu żblokka pajjiż."
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Lingwa",
+    "languageLabel": "Agħżel il-lingwa",
+    "data": "Data u Privatezza",
+    "exportProgress": "Progress tal-esportazzjoni",
+    "importProgress": "Progress tal-importazzjoni",
+    "resetProgress": "Irrisettja l-progress",
+    "restartTutorial": "Ara tutorja",
+    "aboutData": "Dwar id-data",
+    "privacy": "Privatezza",
+    "searchLanguage": "Search language..."
+  },
+  "modals": {
+    "aboutData": {
+      "title": "Dwar id-Dejta",
+      "intro": "Il-probabbiltajiet tat-twelid huma stimi kkalkulati abbażi tad-dejta disponibbli dwar it-twelid annwali għal kull pajjiż.",
+      "methodology": "Metodoloġija",
+      "methodologyText": "Il-probabbiltà li titwieled f'pajjiż partikolari hija kkalkulata bħala l-proporzjon tat-twelid annwali stmat ta' dak il-pajjiż meta mqabbel mat-total dinji. Aħna nużaw dejta approssimattiva mill-Bank Dinji u n-NU (World Population Prospects). Il-valuri huma stimi u jistgħu ma jirriflettux l-aktar statistika riċenti.",
+      "sensitivity": "Nota dwar is-sensittività politika",
+      "sensitivityText": "Il-fruntieri, it-territorji, u r-rikonoxximent tal-pajjiż huma kwistjonijiet politikament sensittivi. L-inklużjoni ta' territorju f'din il-logħba sservi għal skopijiet edukattivi u ġeografiċi u ma tikkostitwixxix pożizzjoni politika. Id-dejta hija ssimplifikata għal logħba tad-divertiment.",
+      "updates": "Aġġornamenti tad-dejta",
+      "updatesText": "Id-dejta demografika tinbidel maż-żmien. Dan il-proġett ifittex li jżomm id-dejta raġonevolment aġġornata iżda ma jiggarantixxix preċiżjoni f'ħin reali.",
+      "sources": "Sorsi",
+      "sourcesList": [
+        "Bank Dinji — Indikaturi tal-Iżvilupp Dinji",
+        "NU — Prospetti tal-Popolazzjoni Dinjija 2022",
+        "Dinja Naturali — Dejta ġeografika (dominju pubbliku)",
+        "world-atlas (TopoJSON) — Data tal-mapep"
+      ],
+      "close": "Agħlaq"
+    },
+    "privacy": {
+      "title": "Privatezza u Termini",
+      "project": "Dan huwa proġett edukattiv u ta’ divertiment b’xejn, mhux kummerċjali.",
+      "noData": "Ma tinġabar l-ebda data personali.",
+      "localStorage": "Il-progress tiegħek jinħażen esklussivament fil-ħażna lokali tat-tagħmir tiegħek (localStorage). L-ebda informazzjoni ma tintbagħat lil servers.",
+      "noCookies": "Din il-logħba ma tużax cookies. LocalStorage biss jintuża biex issalva l-preferenzi u l-progress tiegħek.",
+      "noTracking": "M'hemm l-ebda analitika, traċċar, reklamar, jew sistemi ta 'partijiet terzi.",
+      "borders": "Id-dejta ġeografika, demografika, u tal-fruntieri huma stimi u jistgħu ma jkunux kompluti jew skaduti. Dan il-proġett ma jieħu l-ebda pożizzjoni politika dwar il-fruntieri, it-territorji, jew ir-rikonoxximent tal-istat.",
+      "license": "Kodiċi tas-sors disponibbli taħt il-liċenzja MIT.",
+      "attribution": "Attribuzzjonijiet",
+      "close": "Agħlaq"
+    },
+    "reset": {
+      "title": "Irrisettja l-Progress",
+      "message": "Int żgur? Il-progress, il-ġbir, l-istorja u l-kisbiet tiegħek kollha se jitħassru b'mod permanenti. Din l-azzjoni ma tistax titneħħa.",
+      "confirm": "Iva, ħassar kollox",
+      "cancel": "Ikkanċella"
+    },
+    "importExport": {
+      "title": "Importazzjoni / Esportazzjoni Progress",
+      "exportTitle": "Esportazzjoni",
+      "exportDescription": "Esporta l-progress tiegħek bħala fajl JSON għal backup jew trasferiment għal apparat ieħor.",
+      "exportButton": "Esportazzjoni fajl JSON",
+      "importTitle": "Importazzjoni",
+      "importDescription": "Importa fajl JSON esportat qabel. Il-progress attwali tiegħek se jiġi sostitwit.",
+      "importWarning": "Twissija: il-progress attwali tiegħek se jiġi sostitwit mill-fajl importat.",
+      "importButton": "Agħżel fajl JSON",
+      "importSuccess": "Progress importat b'suċċess!",
+      "importError": "Fajl invalidu jew korrotta. Kun żgur li l-fajl ġie esportat minn din il-logħba.",
+      "close": "Agħlaq"
+    }
+  },
+  "continents": {
+    "africa": "l-Afrika",
+    "asia": "Asja",
+    "europe": "Ewropa",
+    "northAmerica": "l-Amerika ta' Fuq",
+    "southAmerica": "Amerika t'Isfel",
+    "oceania": "Oċeanja"
+  },
+  "data": {
+    "estimated": "Stima",
+    "source": "Sors",
+    "year": "Sena tad-dejta",
+    "approximation": "Dawn il-valuri huma approssimazzjonijiet."
+  },
+  "errors": {
+    "mapLoad": "Ma setgħetx tgħabbi l-mappa. Ipprova tagħbija mill-ġdid il-paġna.",
+    "dataCorrupt": "Id-dejta ssejvjata hija korrotta. Il-progress ġie reset.",
+    "importFailed": "Ma setgħetx timporta l-fajl.",
+    "unknown": "Sar żball mhux mistenni."
+  },
+  "accessibility": {
+    "languageSelector": "Agħżel il-lingwa",
+    "flagOf": "Bandiera ta' {{pajjiż}}",
+    "rollButton": "Roll — iġbed pajjiż każwali",
+    "closeModal": "Agħlaq",
+    "mainMap": "Mappa tad-dinja interattiva",
+    "lockedCountry": "{{pajjiż}} — imsakkar",
+    "unlockedCountry": "{{pajjiż}} — jinfetaħ",
+    "rolledCountry": "{{pajjiż}} — irrumblat biss",
+    "progressBar": "{{valur}}% tal-pajjiżi jinfetaħ",
+    "achievementLocked": "Kisba msakkra: {{isem}}",
+    "achievementUnlocked": "Kisba mikxufa: {{isem}}"
+  },
+  "countries": {
+    "AF": {
+      "name": "Afganistan",
+      "capital": "Kabul"
+    },
+    "AL": {
+      "name": "Albanija",
+      "capital": "Tirana"
+    },
+    "DZ": {
+      "name": "l-Alġerija",
+      "capital": "Algiers"
+    },
+    "AD": {
+      "name": "Andorra",
+      "capital": "Andorra la Vella"
+    },
+    "AO": {
+      "name": "Angola",
+      "capital": "Luanda"
+    },
+    "AG": {
+      "name": "Antigwa u Barbuda",
+      "capital": "San Ġwann"
+    },
+    "AR": {
+      "name": "Arġentina",
+      "capital": "Buenos Aires"
+    },
+    "AM": {
+      "name": "Armenja",
+      "capital": "Yerevan"
+    },
+    "AU": {
+      "name": "Awstralja",
+      "capital": "Kanberra"
+    },
+    "AT": {
+      "name": "L-Awstrija",
+      "capital": "Vjenna"
+    },
+    "AZ": {
+      "name": "Ażerbajġan",
+      "capital": "Baku"
+    },
+    "BS": {
+      "name": "Baħamas",
+      "capital": "Nassau"
+    },
+    "BH": {
+      "name": "Il-Baħrejn",
+      "capital": "Manama"
+    },
+    "BD": {
+      "name": "Bangladexx",
+      "capital": "Dhaka"
+    },
+    "BB": {
+      "name": "Barbados",
+      "capital": "Bridgetown"
+    },
+    "BY": {
+      "name": "Belarus",
+      "capital": "Minsk"
+    },
+    "BE": {
+      "name": "il-Belġju",
+      "capital": "Brussell"
+    },
+    "BZ": {
+      "name": "Belize",
+      "capital": "Belmopan"
+    },
+    "BJ": {
+      "name": "Benin",
+      "capital": "Porto-Novo"
+    },
+    "BT": {
+      "name": "Bhutan",
+      "capital": "Thimphu"
+    },
+    "BO": {
+      "name": "Bolivja",
+      "capital": "Sucre"
+    },
+    "BA": {
+      "name": "Bosnja u Ħerzegovina",
+      "capital": "Sarajevo"
+    },
+    "BW": {
+      "name": "Botswana",
+      "capital": "Gaborone"
+    },
+    "BR": {
+      "name": "Brażil",
+      "capital": "Brażilja"
+    },
+    "BN": {
+      "name": "Il-Brunej",
+      "capital": "Bandar Seri Begawan"
+    },
+    "BG": {
+      "name": "Bulgarija",
+      "capital": "Sofia"
+    },
+    "BF": {
+      "name": "Burkina Faso",
+      "capital": "Ouagadougou"
+    },
+    "BI": {
+      "name": "Burundi",
+      "capital": "Gitega"
+    },
+    "CV": {
+      "name": "Kap Verde",
+      "capital": "Praia"
+    },
+    "KH": {
+      "name": "Kambodja",
+      "capital": "Phnom Penh"
+    },
+    "CM": {
+      "name": "Kamerun",
+      "capital": "Yaoundé"
+    },
+    "CA": {
+      "name": "Kanada",
+      "capital": "Ottawa"
+    },
+    "CF": {
+      "name": "Repubblika Ċentru-Afrikana",
+      "capital": "Bangui"
+    },
+    "TD": {
+      "name": "Iċ-Ċad",
+      "capital": "N'Djamena"
+    },
+    "CL": {
+      "name": "Ċili",
+      "capital": "Santiago"
+    },
+    "CN": {
+      "name": "Iċ-Ċina",
+      "capital": "Beijing"
+    },
+    "CO": {
+      "name": "Kolombja",
+      "capital": "Bogotá"
+    },
+    "KM": {
+      "name": "Komoros",
+      "capital": "Moroni"
+    },
+    "CG": {
+      "name": "Kongo",
+      "capital": "Brazzaville"
+    },
+    "CD": {
+      "name": "Repubblika Demokratika tal-Kongo",
+      "capital": "Kinshasa"
+    },
+    "CR": {
+      "name": "Kosta Rika",
+      "capital": "San José"
+    },
+    "CI": {
+      "name": "Kosta tal-Avorju",
+      "capital": "Yamoussoukro"
+    },
+    "HR": {
+      "name": "il-Kroazja",
+      "capital": "Żagreb"
+    },
+    "CU": {
+      "name": "Kuba",
+      "capital": "Havana"
+    },
+    "CY": {
+      "name": "Ċipru",
+      "capital": "Nicosia"
+    },
+    "CZ": {
+      "name": "Repubblika Ċeka",
+      "capital": "Praga"
+    },
+    "DK": {
+      "name": "id-Danimarka",
+      "capital": "Kopenħagen"
+    },
+    "DJ": {
+      "name": "Ġibuti",
+      "capital": "Ġibuti"
+    },
+    "DM": {
+      "name": "Dominika",
+      "capital": "Roseau"
+    },
+    "DO": {
+      "name": "Repubblika Dominikana",
+      "capital": "Santo Domingo"
+    },
+    "EC": {
+      "name": "Ekwador",
+      "capital": "Quito"
+    },
+    "EG": {
+      "name": "l-Eġittu",
+      "capital": "Il-Kajr"
+    },
+    "SV": {
+      "name": "El Salvador",
+      "capital": "San Salvador"
+    },
+    "GQ": {
+      "name": "Ginea Ekwatorjali",
+      "capital": "Malabo"
+    },
+    "ER": {
+      "name": "l-Eritrea",
+      "capital": "Asmara"
+    },
+    "EE": {
+      "name": "Estonja",
+      "capital": "Tallinn"
+    },
+    "SZ": {
+      "name": "Eswatini",
+      "capital": "Mbabane"
+    },
+    "ET": {
+      "name": "Etjopja",
+      "capital": "Addis Ababa"
+    },
+    "FJ": {
+      "name": "Fiġi",
+      "capital": "Suva"
+    },
+    "FI": {
+      "name": "Finlandja",
+      "capital": "Ħelsinki"
+    },
+    "FR": {
+      "name": "Franza",
+      "capital": "Pariġi"
+    },
+    "GA": {
+      "name": "Gabon",
+      "capital": "Libreville"
+    },
+    "GM": {
+      "name": "Gambja",
+      "capital": "Banjul"
+    },
+    "GE": {
+      "name": "Ġeorġja",
+      "capital": "Tbilisi"
+    },
+    "DE": {
+      "name": "il-Ġermanja",
+      "capital": "Berlin"
+    },
+    "GH": {
+      "name": "Gana",
+      "capital": "Accra"
+    },
+    "GR": {
+      "name": "il-Greċja",
+      "capital": "Ateni"
+    },
+    "GD": {
+      "name": "Grenada",
+      "capital": "San Ġorġ"
+    },
+    "GT": {
+      "name": "Gwatemala",
+      "capital": "Belt tal-Gwatemala"
+    },
+    "GN": {
+      "name": "Ginea",
+      "capital": "Konakry"
+    },
+    "GW": {
+      "name": "Ginea Bissaw",
+      "capital": "Bissau"
+    },
+    "GY": {
+      "name": "Gujana",
+      "capital": "Georgetown"
+    },
+    "HT": {
+      "name": "Ħaiti",
+      "capital": "Port-au-Prince"
+    },
+    "HN": {
+      "name": "Ħonduras",
+      "capital": "Tegucigalpa"
+    },
+    "HU": {
+      "name": "Ungerija",
+      "capital": "Budapest"
+    },
+    "IS": {
+      "name": "l-Islanda",
+      "capital": "Reykjavík"
+    },
+    "IN": {
+      "name": "l-Indja",
+      "capital": "New Delhi"
+    },
+    "ID": {
+      "name": "Indoneżja",
+      "capital": "Ġakarta"
+    },
+    "IR": {
+      "name": "Iran",
+      "capital": "Tehran"
+    },
+    "IQ": {
+      "name": "Iraq",
+      "capital": "Bagdad"
+    },
+    "IE": {
+      "name": "l-Irlanda",
+      "capital": "Dublin"
+    },
+    "IL": {
+      "name": "Iżrael",
+      "capital": "Ġerusalemm"
+    },
+    "IT": {
+      "name": "l-Italja",
+      "capital": "Ruma"
+    },
+    "JM": {
+      "name": "Ġamajka",
+      "capital": "Kingston"
+    },
+    "JP": {
+      "name": "Ġappun",
+      "capital": "Tokyo"
+    },
+    "JO": {
+      "name": "Ġordan",
+      "capital": "Amman"
+    },
+    "KZ": {
+      "name": "Każakstan",
+      "capital": "Astana"
+    },
+    "KE": {
+      "name": "Kenja",
+      "capital": "Nairobi"
+    },
+    "KI": {
+      "name": "Kiribati",
+      "capital": "Nofsinhar Tarawa"
+    },
+    "KP": {
+      "name": "Korea ta’ Fuq",
+      "capital": "Pyongyang"
+    },
+    "KR": {
+      "name": "Korea t'Isfel",
+      "capital": "Seoul"
+    },
+    "KW": {
+      "name": "Kuwajt",
+      "capital": "Belt tal-Kuwajt"
+    },
+    "KG": {
+      "name": "Kirgiżistan",
+      "capital": "Bishkek"
+    },
+    "LA": {
+      "name": "Laos",
+      "capital": "Vientiane"
+    },
+    "LV": {
+      "name": "Il-Latvja",
+      "capital": "Riga"
+    },
+    "LB": {
+      "name": "Il-Libanu",
+      "capital": "Bejrut"
+    },
+    "LS": {
+      "name": "Lesotho",
+      "capital": "Maseru"
+    },
+    "LR": {
+      "name": "Liberja",
+      "capital": "Monrovia"
+    },
+    "LY": {
+      "name": "Libja",
+      "capital": "Tripli"
+    },
+    "LI": {
+      "name": "Liechtenstein",
+      "capital": "Vaduz"
+    },
+    "LT": {
+      "name": "il-Litwanja",
+      "capital": "Vilnius"
+    },
+    "LU": {
+      "name": "Lussemburgu",
+      "capital": "Lussemburgu"
+    },
+    "MG": {
+      "name": "Madagaskar",
+      "capital": "Antananarivo"
+    },
+    "MW": {
+      "name": "Malawi",
+      "capital": "Lilongwe"
+    },
+    "MY": {
+      "name": "Malasja",
+      "capital": "Kuala Lumpur"
+    },
+    "MV": {
+      "name": "Maldivi",
+      "capital": "Malé"
+    },
+    "ML": {
+      "name": "Mali",
+      "capital": "Bamako"
+    },
+    "MT": {
+      "name": "Malta",
+      "capital": "Valletta"
+    },
+    "MH": {
+      "name": "Gżejjer Marshall",
+      "capital": "Majuro"
+    },
+    "MR": {
+      "name": "il-Mawritanja",
+      "capital": "Nouakchott"
+    },
+    "MU": {
+      "name": "Mawrizju",
+      "capital": "Port Louis"
+    },
+    "MX": {
+      "name": "Messiku",
+      "capital": "Belt tal-Messiku"
+    },
+    "FM": {
+      "name": "Mikronesja",
+      "capital": "Palikir"
+    },
+    "MD": {
+      "name": "il-Moldova",
+      "capital": "Chisinau"
+    },
+    "MC": {
+      "name": "Monako",
+      "capital": "Monako"
+    },
+    "MN": {
+      "name": "Mongolja",
+      "capital": "Ulaanbaatar"
+    },
+    "ME": {
+      "name": "Montenegro",
+      "capital": "Podgorica"
+    },
+    "MA": {
+      "name": "il-Marokk",
+      "capital": "Rabat"
+    },
+    "MZ": {
+      "name": "Możambik",
+      "capital": "Maputo"
+    },
+    "MM": {
+      "name": "Il-Mjanmar",
+      "capital": "Naypyidaw"
+    },
+    "NA": {
+      "name": "Namibja",
+      "capital": "Windhoek"
+    },
+    "NR": {
+      "name": "Nauru",
+      "capital": "Yaren"
+    },
+    "NP": {
+      "name": "Nepal",
+      "capital": "Kathmandu"
+    },
+    "NL": {
+      "name": "l-Olanda",
+      "capital": "Amsterdam"
+    },
+    "NZ": {
+      "name": "New Zealand",
+      "capital": "Wellington"
+    },
+    "NI": {
+      "name": "in-Nikaragwa",
+      "capital": "Managwa"
+    },
+    "NE": {
+      "name": "Niġer",
+      "capital": "Niamey"
+    },
+    "NG": {
+      "name": "Niġerja",
+      "capital": "Abuja"
+    },
+    "MK": {
+      "name": "Maċedonja ta' Fuq",
+      "capital": "Skopje"
+    },
+    "NO": {
+      "name": "Norveġja",
+      "capital": "Oslo"
+    },
+    "OM": {
+      "name": "Oman",
+      "capital": "Muscat"
+    },
+    "PK": {
+      "name": "Pakistan",
+      "capital": "Islamabad"
+    },
+    "PW": {
+      "name": "Palau",
+      "capital": "Ngerulmud"
+    },
+    "PS": {
+      "name": "Palestina",
+      "capital": "Ramallah"
+    },
+    "PA": {
+      "name": "Panama",
+      "capital": "Belt tal-Panama"
+    },
+    "PG": {
+      "name": "Papwa Ginea Ġdida",
+      "capital": "Port Moresby"
+    },
+    "PY": {
+      "name": "Paragwaj",
+      "capital": "Asunción"
+    },
+    "PE": {
+      "name": "Peru",
+      "capital": "Lima"
+    },
+    "PH": {
+      "name": "Filippini",
+      "capital": "Manila"
+    },
+    "PL": {
+      "name": "Polonja",
+      "capital": "Varsavja"
+    },
+    "PT": {
+      "name": "Portugall",
+      "capital": "Lisbona"
+    },
+    "QA": {
+      "name": "Qatar",
+      "capital": "Doha"
+    },
+    "RO": {
+      "name": "ir-Rumanija",
+      "capital": "Bukarest"
+    },
+    "RU": {
+      "name": "Russja",
+      "capital": "Moska"
+    },
+    "RW": {
+      "name": "Ir-Rwanda",
+      "capital": "Kigali"
+    },
+    "KN": {
+      "name": "Saint Kitts u Nevis",
+      "capital": "Basseterre"
+    },
+    "LC": {
+      "name": "Santa Luċija",
+      "capital": "Castries"
+    },
+    "VC": {
+      "name": "San Vinċenz u l-Grenadini",
+      "capital": "Kingstown"
+    },
+    "WS": {
+      "name": "Samoa",
+      "capital": "Apia"
+    },
+    "SM": {
+      "name": "San Marino",
+      "capital": "San Marino"
+    },
+    "ST": {
+      "name": "São Tomé u Príncipe",
+      "capital": "São Tomé"
+    },
+    "SA": {
+      "name": "Għarabja Sawdija",
+      "capital": "Riyadh"
+    },
+    "SN": {
+      "name": "Is-Senegal",
+      "capital": "Dakar"
+    },
+    "RS": {
+      "name": "Serbja",
+      "capital": "Belgrad"
+    },
+    "SL": {
+      "name": "Sierra Leone",
+      "capital": "Freetown"
+    },
+    "SG": {
+      "name": "Singapor",
+      "capital": "Singapor"
+    },
+    "SK": {
+      "name": "Is-Slovakkja",
+      "capital": "Bratislava"
+    },
+    "SI": {
+      "name": "is-Slovenja",
+      "capital": "Ljubljana"
+    },
+    "SB": {
+      "name": "Gżejjer Solomon",
+      "capital": "Honiara"
+    },
+    "SO": {
+      "name": "is-Somalja",
+      "capital": "Mogadishu"
+    },
+    "ZA": {
+      "name": "Afrika t'Isfel",
+      "capital": "Pretorja"
+    },
+    "SS": {
+      "name": "Is-Sudan t'Isfel",
+      "capital": "Juba"
+    },
+    "ES": {
+      "name": "Spanja",
+      "capital": "Madrid"
+    },
+    "LK": {
+      "name": "Sri Lanka",
+      "capital": "Colombo"
+    },
+    "SD": {
+      "name": "Is-Sudan",
+      "capital": "Khartoum"
+    },
+    "SR": {
+      "name": "Is-Surinam",
+      "capital": "Paramaribo"
+    },
+    "SE": {
+      "name": "l-Isvezja",
+      "capital": "Stokkolma"
+    },
+    "CH": {
+      "name": "L-Isvizzera",
+      "capital": "Berna"
+    },
+    "SY": {
+      "name": "is-Sirja",
+      "capital": "Damasku"
+    },
+    "TW": {
+      "name": "Tajwan",
+      "capital": "Tajpej"
+    },
+    "TJ": {
+      "name": "Taġikistan",
+      "capital": "Dushanbe"
+    },
+    "TZ": {
+      "name": "Tanżanija",
+      "capital": "Dodoma"
+    },
+    "TH": {
+      "name": "Tajlandja",
+      "capital": "Bangkok"
+    },
+    "TL": {
+      "name": "Timor-Leste",
+      "capital": "Dili"
+    },
+    "TG": {
+      "name": "Togo",
+      "capital": "Lomé"
+    },
+    "TO": {
+      "name": "Tonga",
+      "capital": "Nukuʻalofa"
+    },
+    "TT": {
+      "name": "Trinidad u Tobago",
+      "capital": "Port ta' Spanja"
+    },
+    "TN": {
+      "name": "Tuneżija",
+      "capital": "Tunis"
+    },
+    "TR": {
+      "name": "Turkija",
+      "capital": "Ankara"
+    },
+    "TM": {
+      "name": "Turkmenistan",
+      "capital": "Ashgabat"
+    },
+    "TV": {
+      "name": "Tuvalu",
+      "capital": "Funafuti"
+    },
+    "UG": {
+      "name": "Uganda",
+      "capital": "Kampala"
+    },
+    "UA": {
+      "name": "l-Ukrajna",
+      "capital": "Kiev"
+    },
+    "AE": {
+      "name": "Emirati Għarab Magħquda",
+      "capital": "Abu Dhabi"
+    },
+    "GB": {
+      "name": "Ir-Renju Unit",
+      "capital": "Londra"
+    },
+    "US": {
+      "name": "Istati Uniti",
+      "capital": "Washington D.C."
+    },
+    "UY": {
+      "name": "Urugwaj",
+      "capital": "Montevideo"
+    },
+    "UZ": {
+      "name": "L-Użbekistan",
+      "capital": "Tashkent"
+    },
+    "VU": {
+      "name": "Vanwatu",
+      "capital": "Port Vila"
+    },
+    "VA": {
+      "name": "Belt tal-Vatikan",
+      "capital": "Belt tal-Vatikan"
+    },
+    "VE": {
+      "name": "Venezwela",
+      "capital": "Caracas"
+    },
+    "VN": {
+      "name": "Vjetnam",
+      "capital": "Hanoi"
+    },
+    "YE": {
+      "name": "Jemen",
+      "capital": "Sanaa"
+    },
+    "ZM": {
+      "name": "Żambja",
+      "capital": "Lusaka"
+    },
+    "ZW": {
+      "name": "Żimbabwe",
+      "capital": "Harare"
+    },
+    "EH": {
+      "name": "Saħara tal-Punent",
+      "capital": "Laayoune"
+    },
+    "XK": {
+      "name": "Kosovo",
+      "capital": "Pristina"
+    }
+  },
+  "pity": {
+    "title": "Xorti Akkumulat",
+    "guaranteedTitle": "Pajjiż Ġdid Garantit!",
+    "ready": "Ir-roll li jmiss se jkun maġiku!"
+  },
+  "tour": {
+    "skip": "Aqbeż Tutorial",
+    "next": "Li jmiss ➔",
+    "prev": "⬅ Preċedenti",
+    "done": "Temm ✓",
+    "progress": "Pass {{current}} minn {{total}}",
+    "step1": {
+      "title": "👋 Merħba għal WorldDex!",
+      "desc": "Hawnhekk se tiġbor il-pajjiżi kollha fid-dinja permezz ta' tlugħ ibbażati fuq ir-rata globali vera tat-twelid. Ejja naraw kif taħdem?"
+    },
+    "step2": {
+      "title": "🎲 Rolar Pelo Mundo",
+      "desc": "Ikklikkja din il-buttuna (jew agħfas Spazju) biex iddawwar. Il-probabbiltà li tinżel fuq pajjiż hija <b>eżattament l-istess bħall-probabbiltà li titwieled hemm</b>fid-dinja reali. L-aktar twelid, l-aktar komuni!"
+    },
+    "step3": {
+      "title": "🗺️ O Teu Mapa",
+      "desc": "Kull meta tiftaħ pajjiż ġdid, dan ikun miżbugħ fuq il-mappa bil-kulur tar-rarità tiegħu (Komun, Mhux Komuni, Rari, Epika jew Leġġendarju)."
+    },
+    "step4": {
+      "title": "💖 Sistema de Pity",
+      "desc": "Cada vez que te calha um duplicado, a barra de sorte sobe. Quando chegar ao máximo, o próximo giro é <b>100% garantido</b> de ser um país que ainda não tens!"
+    },
+    "step5": {
+      "title": "🛒 Loja & Economia",
+      "desc": "Não te preocupes com os duplicados. Cada país repetido dá-te <b>moedas</b> (dependendo da sua raridade). Podes usar moedas nesta Loja para <b>comprar países em falta</b> ou <b>Upgrades</b> (como o Autoclicker ou multiplicadores)."
+    },
+    "step6": {
+      "title": "📚 A Tua Coleção",
+      "desc": "F'din it-tab tista' tara l-pajjiżi kollha li diġà ħadt u kemm fadlek. Tista’ tikklikkja fuqhom biex tara d-dettalji u l-kurżitajiet."
+    },
+    "step7": {
+      "title": "🏆 Kisbiet",
+      "desc": "Imla l-kontinenti, ifforma gruppi ta’ pajjiżi speċifiċi (bħas-CPLP jew l-Unjoni Ewropea) u ksib miri biex nisfruttaw dawn il-kisbiet uniċi."
+    },
+    "step8": {
+      "title": "🌍 Lest biex tilgħab!",
+      "desc": "Issa f’idejk! Xorti tajba fil-vjaġġ tiegħek biex tiftaħ id-dinja kollha, twelid wieħed kull darba."
+    }
+  }
+}

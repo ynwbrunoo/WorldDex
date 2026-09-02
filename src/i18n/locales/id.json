@@ -1,0 +1,1154 @@
+{
+  "app": {
+    "title": "WorldDex",
+    "subtitle": "Buka kunci dunia, satu kelahiran dalam satu waktu."
+  },
+  "header": {
+    "howToPlay": "Cara Bermain",
+    "aboutData": "Tentang Datanya",
+    "resetProgress": "Atur Ulang Kemajuan",
+    "privacy": "Pribadi",
+    "localStorageNotice": "Kemajuan disimpan di perangkat ini"
+  },
+  "nav": {
+    "progress": "Kemajuan",
+    "collection": "Koleksi",
+    "history": "Sejarah",
+    "achievements": "Prestasi",
+    "settings": "Pengaturan"
+  },
+  "roll": {
+    "button": "Roll",
+    "rolling": "Bergulir...",
+    "newCountry": "Negara baru terbuka!",
+    "duplicate": "Anda sudah memiliki negara ini – teruskan!",
+    "viewOnMap": "Lihat di peta",
+    "close": "Menutup",
+    "estimatedChance": "Perkiraan peluang",
+    "population": "Populasi",
+    "annualBirths": "Perkiraan kelahiran tahunan",
+    "firstUnlock": "Pertama kali!",
+    "alreadyHave": "Duplikat",
+    "spacebar": "Press [Space] to roll"
+  },
+  "country": {
+    "population": "Populasi",
+    "annualBirths": "Perkiraan kelahiran tahunan",
+    "birthChance": "Peluang untuk dilahirkan di sini",
+    "capital": "Modal",
+    "continent": "Benua",
+    "status": {
+      "locked": "Masih terkunci",
+      "unlocked": "Tidak terkunci"
+    },
+    "rollCount": "Muncul {{hitungan}} waktu",
+    "rollCount_other": "Muncul {{berhitung}} kali",
+    "firstUnlocked": "Tidak terkunci pada {{tanggal}}",
+    "zoomToCountry": "Pusatkan pada peta",
+    "notFound": "Negara tidak ditemukan",
+    "clickToExplore": "Klik negara untuk dijelajahi"
+  },
+  "progress": {
+    "title": "Kemajuan",
+    "unlocked": "Tidak terkunci",
+    "unlockedCount": "{{jumlah}} / {{total}} negara",
+    "percentage": "{{nilai}}% selesai",
+    "remaining": "{{hitungan}} negara yang tersisa",
+    "totalRolls": "Total Rolls",
+    "duplicates": "Duplikat",
+    "longestStreak": "Pukulan terbaik tanpa duplikat",
+    "continents": "Kemajuan menurut benua"
+  },
+  "collection": {
+    "title": "Koleksi",
+    "search": "Telusuri negara...",
+    "sort": {
+      "label": "Urutkan berdasarkan",
+      "recent": "Baru saja dibuka",
+      "alphabetical": "Alfabetis",
+      "mostRolled": "Kebanyakan terguling",
+      "continent": "Benua"
+    },
+    "empty": "Anda belum membuka kunci negara mana pun. Cobalah!",
+    "noResults": "Tidak ada negara yang cocok dengan pencarian Anda.",
+    "rolls": "{{hitungan}} putaran",
+    "rolls_other": "{{hitungan}} gulungan",
+    "sortChanceDesc": "Highest Chance",
+    "sortChanceAsc": "Lowest Chance"
+  },
+  "history": {
+    "title": "Sejarah",
+    "filter": {
+      "all": "Semua",
+      "new": "Baru",
+      "duplicates": "Duplikat"
+    },
+    "clearHistory": "Hapus riwayat",
+    "clearConfirmTitle": "Hapus riwayat?",
+    "clearConfirmMessage": "Tindakan ini tidak dapat dibatalkan. Riwayat gulungan akan dihapus secara permanen.",
+    "clearConfirm": "Jernih",
+    "clearCancel": "Membatalkan",
+    "empty": "Anda belum melakukan gerakan apa pun. Mulai sekarang!",
+    "emptyFiltered": "Tidak ada gulungan yang cocok dengan filter ini.",
+    "new": "Baru",
+    "duplicate": "Duplikat",
+    "rollNumber": "Gulung #{{angka}}"
+  },
+  "achievements": {
+    "title": "Prestasi",
+    "locked": "Terkunci",
+    "unlocked": "Tidak terkunci",
+    "unlockedOn": "Tidak terkunci pada {{tanggal}}",
+    "progress": "{{saat ini}} / {{total}}",
+    "newUnlock": "Pencapaian terbuka!",
+    "firstStep": {
+      "name": "Langkah Pertama",
+      "description": "Buka kunci negara pertama Anda."
+    },
+    "explorer": {
+      "name": "Penjelajah",
+      "description": "Buka 10 negara."
+    },
+    "traveller": {
+      "name": "Wisatawan",
+      "description": "Buka kunci 25 negara."
+    },
+    "cartographer": {
+      "name": "Pembuat peta",
+      "description": "Buka kunci 50 negara."
+    },
+    "worldCollector1": {
+      "name": "Kolektor Dunia I",
+      "description": "Buka kunci 75 negara."
+    },
+    "worldCollector2": {
+      "name": "Kolektor Dunia II",
+      "description": "Buka 100 negara."
+    },
+    "worldCollector3": {
+      "name": "Kolektor Dunia III",
+      "description": "Buka 125 negara."
+    },
+    "halfwayThere": {
+      "name": "Setengah Jalan ke Sana",
+      "description": "Buka 50% dari semua negara."
+    },
+    "continentalExplorer": {
+      "name": "Penjelajah Kontinental",
+      "description": "Selesaikan seluruh benua."
+    },
+    "continentalMaster": {
+      "name": "Guru Kontinental",
+      "description": "Selesaikan tiga benua."
+    },
+    "aroundTheWorld": {
+      "name": "Di Seluruh Dunia",
+      "description": "Lengkapi semua benua."
+    },
+    "worldComplete": {
+      "name": "Dunia Lengkap",
+      "description": "Buka kunci semua negara dan wilayah."
+    },
+    "luckyStreak": {
+      "name": "Garis Keberuntungan",
+      "description": "Buka 5 negara baru berturut-turut tanpa duplikat."
+    },
+    "persistent": {
+      "name": "Gigih",
+      "description": "Lakukan total 100 gulungan."
+    },
+    "dedicated": {
+      "name": "Berdedikasi",
+      "description": "Lakukan total 500 gulungan."
+    },
+    "home_sweet_home": {
+      "name": "Rumah Manis Rumah",
+      "description": "Anda berhasil menguasai negara tempat Anda tinggal saat ini!"
+    },
+    "group_palop": {
+      "name": "PALOP",
+      "description": "Membuka kunci semua negara Afrika yang berbahasa Portugis."
+    },
+    "group_brics": {
+      "name": "BRIK",
+      "description": "Membuka kunci negara-negara utama blok BRICS (dan anggota baru)."
+    },
+    "group_eu": {
+      "name": "Uni Eropa",
+      "description": "Membuka kunci semua negara anggota Uni Eropa."
+    },
+    "group_nato": {
+      "name": "DILAHIRKAN",
+      "description": "Membuka kunci semua negara anggota NATO."
+    },
+    "india_500": {
+      "name": "Namaste!",
+      "description": "Putar India 500 kali."
+    },
+    "group_g7": {
+      "description": "Membuka kunci semua negara G7."
+    },
+    "group_mercosul": {
+      "name": "Mercosur",
+      "description": "Membuka kunci Negara Anggota Mercosur."
+    },
+    "group_asean": {
+      "description": "Membuka kunci negara-negara Perhimpunan Bangsa-Bangsa Asia Tenggara."
+    },
+    "group_opep": {
+      "name": "OPEC",
+      "description": "Membuka kunci anggota Organisasi Negara-negara Pengekspor Minyak."
+    }
+  },
+  "tutorial": {
+    "title": "Cara Bermain",
+    "step1": "Klik <b></b> untuk mengetahui di negara mana Anda dilahirkan.",
+    "step2": "Setiap negara mempunyai perkiraan probabilitas berdasarkan jumlah kelahiran globalnya — tidak sama acaknya!",
+    "step3": "Saat Anda membuka kunci suatu negara untuk pertama kalinya, negara tersebut akan diwarnai di peta dunia.",
+    "step4": "Klik negara di peta atau di koleksi Anda untuk melihat ibu kota, populasi, dan perkiraan peluang.",
+    "step5": "Selesaikan benua, raih prestasi, dan coba buka seluruh dunia.",
+    "step6": "Kemajuan Anda hanya disimpan di perangkat ini — tanpa akun, tanpa pelacakan.",
+    "previous": "Sebelumnya",
+    "next": "Berikutnya",
+    "skip": "Lewati tutorial",
+    "finish": "Mulai bermain!",
+    "dontShowAgain": "Jangan tampilkan lagi",
+    "stepOf": "Langkah {{saat ini}} dari {{total}}",
+    "restart": "Lihat tutorialnya",
+    "rollDesc": "Klik tombol untuk mendapatkan keberuntungan Anda dan temukan negara baru! (Tips: Anda dapat menggunakan bilah [Spasi] pada keyboard Anda untuk bermain lebih cepat dan menutup jendela).",
+    "collectionDesc": "Di sini Anda melihat negara-negara yang telah Anda buka kuncinya. Anda dapat mengurutkan berdasarkan kelangkaan, benua, atau tanggal! Saat Anda berada 15 negara lagi dari akhir, Anda akan dapat melihat negara mana yang Anda lewatkan.",
+    "achievementsDesc": "Selesaikan tujuannya, mulai dari mengumpulkan blok ekonomi (seperti BRICS atau Uni Eropa) hingga menggulingkan India 500 kali, untuk memenangkan medali.",
+    "historyDesc": "Tinjau semua permainan Anda sebelumnya dan cari tahu sudah berapa lama Anda membuka kunci suatu negara."
+  },
+  "settings": {
+    "title": "Pengaturan",
+    "language": "Bahasa",
+    "languageLabel": "Pilih bahasa",
+    "data": "Data dan Privasi",
+    "exportProgress": "Ekspor kemajuan",
+    "importProgress": "Impor kemajuan",
+    "resetProgress": "Setel ulang kemajuan",
+    "restartTutorial": "Lihat tutorialnya",
+    "aboutData": "Tentang datanya",
+    "privacy": "Pribadi",
+    "searchLanguage": "Search language..."
+  },
+  "modals": {
+    "aboutData": {
+      "title": "Tentang Datanya",
+      "intro": "Probabilitas kelahiran merupakan perkiraan yang dihitung berdasarkan data yang tersedia mengenai kelahiran tahunan per negara.",
+      "methodology": "Metodologi",
+      "methodologyText": "Peluang untuk dilahirkan di suatu negara dihitung sebagai proporsi perkiraan kelahiran tahunan di negara tersebut dibandingkan dengan total kelahiran di dunia. Kami menggunakan data perkiraan dari Bank Dunia dan PBB (Prospek Populasi Dunia). Nilai merupakan perkiraan dan mungkin tidak mencerminkan statistik terkini.",
+      "sensitivity": "Catatan tentang sensitivitas politik",
+      "sensitivityText": "Perbatasan, wilayah, dan pengakuan negara merupakan isu sensitif secara politik. Dimasukkannya suatu wilayah dalam game ini memiliki tujuan pendidikan dan geografis dan bukan merupakan pendirian politik. Data disederhanakan untuk permainan hiburan.",
+      "updates": "Pembaruan data",
+      "updatesText": "Data demografi berubah seiring waktu. Proyek ini berupaya untuk terus memperbarui data secara wajar tetapi tidak menjamin keakuratan waktu nyata.",
+      "sources": "Sumber",
+      "sourcesList": [
+        "Bank Dunia — Indikator Pembangunan Dunia",
+        "PBB — Prospek Populasi Dunia 2022",
+        "Bumi Alami — Data geografis (domain publik)",
+        "world-atlas (TopoJSON) — Data peta"
+      ],
+      "close": "Menutup"
+    },
+    "privacy": {
+      "title": "Privasi dan Ketentuan",
+      "project": "Ini adalah proyek pendidikan dan hiburan non-komersial gratis.",
+      "noData": "Tidak ada data pribadi yang dikumpulkan.",
+      "localStorage": "Kemajuan Anda disimpan secara eksklusif di penyimpanan lokal perangkat Anda (Penyimpanan lokal). Tidak ada informasi yang dikirim ke server.",
+      "noCookies": "Game ini tidak menggunakan cookie. Hanya Penyimpanan lokal yang digunakan untuk menyimpan preferensi dan kemajuan Anda.",
+      "noTracking": "Tidak ada analitik, pelacakan, periklanan, atau sistem pihak ketiga.",
+      "borders": "Data geografis, demografi, dan perbatasan hanyalah perkiraan dan mungkin tidak lengkap atau ketinggalan jaman. Proyek ini tidak mengambil sikap politik terhadap perbatasan, wilayah, atau pengakuan negara.",
+      "license": "Kode sumber tersedia di bawah lisensi MIT.",
+      "attribution": "Atribusi",
+      "close": "Menutup"
+    },
+    "reset": {
+      "title": "Atur Ulang Kemajuan",
+      "message": "Apa kamu yakin? Semua kemajuan, koleksi, riwayat, dan pencapaian Anda akan dihapus secara permanen. Tindakan ini tidak dapat dibatalkan.",
+      "confirm": "Ya, hapus semuanya",
+      "cancel": "Membatalkan"
+    },
+    "importExport": {
+      "title": "Kemajuan Impor / Ekspor",
+      "exportTitle": "Ekspor",
+      "exportDescription": "Ekspor kemajuan Anda sebagai file JSON untuk dicadangkan atau ditransfer ke perangkat lain.",
+      "exportButton": "Ekspor berkas JSON",
+      "importTitle": "Impor",
+      "importDescription": "Impor file JSON yang diekspor sebelumnya. Kemajuan Anda saat ini akan digantikan.",
+      "importWarning": "Peringatan: kemajuan Anda saat ini akan digantikan oleh file yang diimpor.",
+      "importButton": "Pilih file JSON",
+      "importSuccess": "Kemajuan berhasil diimpor!",
+      "importError": "File tidak valid atau rusak. Pastikan file diekspor oleh game ini.",
+      "close": "Menutup"
+    }
+  },
+  "continents": {
+    "africa": "Afrika",
+    "asia": "Asia",
+    "europe": "Eropa",
+    "northAmerica": "Amerika Utara",
+    "southAmerica": "Amerika Selatan",
+    "oceania": "Oceania"
+  },
+  "data": {
+    "estimated": "Diperkirakan",
+    "source": "Sumber",
+    "year": "tahun data",
+    "approximation": "Nilai-nilai ini merupakan perkiraan."
+  },
+  "errors": {
+    "mapLoad": "Tidak dapat memuat peta. Coba muat ulang halaman.",
+    "dataCorrupt": "Data yang disimpan rusak. Kemajuan telah diatur ulang.",
+    "importFailed": "Tidak dapat mengimpor file.",
+    "unknown": "Terjadi kesalahan yang tidak terduga."
+  },
+  "accessibility": {
+    "languageSelector": "Pilih bahasa",
+    "flagOf": "Bendera {{negara}}",
+    "rollButton": "Roll — menggambar negara secara acak",
+    "closeModal": "Menutup",
+    "mainMap": "Peta dunia interaktif",
+    "lockedCountry": "{{negara}} — terkunci",
+    "unlockedCountry": "{{negara}} — tidak terkunci",
+    "rolledCountry": "{{negara}} — baru saja diluncurkan",
+    "progressBar": "{{nilai}}% negara tidak terkunci",
+    "achievementLocked": "Pencapaian terkunci: {{nama}}",
+    "achievementUnlocked": "Pencapaian terbuka: {{nama}}"
+  },
+  "countries": {
+    "AF": {
+      "name": "Afganistan",
+      "capital": "Kabul"
+    },
+    "AL": {
+      "name": "Albania",
+      "capital": "Tirana"
+    },
+    "DZ": {
+      "name": "Aljazair",
+      "capital": "Aljazair"
+    },
+    "AD": {
+      "name": "Andorra",
+      "capital": "Andorra la Vella"
+    },
+    "AO": {
+      "name": "Angola",
+      "capital": "Luanda"
+    },
+    "AG": {
+      "name": "Antigua dan Barbuda",
+      "capital": "St"
+    },
+    "AR": {
+      "name": "Argentina",
+      "capital": "Buenos Aires"
+    },
+    "AM": {
+      "name": "Armenia",
+      "capital": "Yerevan"
+    },
+    "AU": {
+      "name": "Australia",
+      "capital": "Canberra"
+    },
+    "AT": {
+      "name": "Austria",
+      "capital": "Wina"
+    },
+    "AZ": {
+      "name": "Azerbaijan",
+      "capital": "Baku"
+    },
+    "BS": {
+      "name": "Bahama",
+      "capital": "Nassau"
+    },
+    "BH": {
+      "name": "Bahrain",
+      "capital": "Manama"
+    },
+    "BD": {
+      "name": "Bangladesh",
+      "capital": "Dhaka"
+    },
+    "BB": {
+      "name": "Barbados",
+      "capital": "kota jembatan"
+    },
+    "BY": {
+      "name": "Belarusia",
+      "capital": "Minsk"
+    },
+    "BE": {
+      "name": "Belgia",
+      "capital": "Brussel"
+    },
+    "BZ": {
+      "name": "Belize",
+      "capital": "Belmopan"
+    },
+    "BJ": {
+      "name": "Benin",
+      "capital": "Porto-Novo"
+    },
+    "BT": {
+      "name": "Bhutan",
+      "capital": "Thimphu"
+    },
+    "BO": {
+      "name": "Bolivia",
+      "capital": "Sucre"
+    },
+    "BA": {
+      "name": "Bosnia dan Herzegovina",
+      "capital": "Sarajevo"
+    },
+    "BW": {
+      "name": "Botswana",
+      "capital": "Gaboron"
+    },
+    "BR": {
+      "name": "Brazil",
+      "capital": "Brasilia"
+    },
+    "BN": {
+      "name": "Brunei",
+      "capital": "Bandar Seri Begawan"
+    },
+    "BG": {
+      "name": "Bulgaria",
+      "capital": "Sofia"
+    },
+    "BF": {
+      "name": "Burkina Faso",
+      "capital": "Ouagadougou"
+    },
+    "BI": {
+      "name": "Burundi",
+      "capital": "Giteg"
+    },
+    "CV": {
+      "name": "Tanjung Verde",
+      "capital": "Praia"
+    },
+    "KH": {
+      "name": "Kamboja",
+      "capital": "Phnom Penh"
+    },
+    "CM": {
+      "name": "Kamerun",
+      "capital": "Yaounde"
+    },
+    "CA": {
+      "name": "Kanada",
+      "capital": "Ottawa"
+    },
+    "CF": {
+      "name": "Republik Afrika Tengah",
+      "capital": "Bangui"
+    },
+    "TD": {
+      "name": "anak",
+      "capital": "N'Djamena"
+    },
+    "CL": {
+      "name": "Chili",
+      "capital": "Santiago"
+    },
+    "CN": {
+      "name": "Cina",
+      "capital": "Beijing"
+    },
+    "CO": {
+      "name": "Kolumbia",
+      "capital": "Bogota"
+    },
+    "KM": {
+      "name": "Komoro",
+      "capital": "Moroni"
+    },
+    "CG": {
+      "name": "Kongo",
+      "capital": "Brazzaville"
+    },
+    "CD": {
+      "name": "Republik Demokratik Kongo",
+      "capital": "Kinshasa"
+    },
+    "CR": {
+      "name": "Kosta Rika",
+      "capital": "San José"
+    },
+    "CI": {
+      "name": "Pantai Gading",
+      "capital": "Yamoussoukro"
+    },
+    "HR": {
+      "name": "Kroasia",
+      "capital": "Zagreb"
+    },
+    "CU": {
+      "name": "Kuba",
+      "capital": "Havana"
+    },
+    "CY": {
+      "name": "Siprus",
+      "capital": "Nikosia"
+    },
+    "CZ": {
+      "name": "Republik Ceko",
+      "capital": "Praha"
+    },
+    "DK": {
+      "name": "Denmark",
+      "capital": "Kopenhagen"
+    },
+    "DJ": {
+      "name": "Djibouti",
+      "capital": "Djibouti"
+    },
+    "DM": {
+      "name": "Dominika",
+      "capital": "Roseau"
+    },
+    "DO": {
+      "name": "Republik Dominika",
+      "capital": "Santo Domingo"
+    },
+    "EC": {
+      "name": "Ekuador",
+      "capital": "Quito"
+    },
+    "EG": {
+      "name": "Mesir",
+      "capital": "Kairo"
+    },
+    "SV": {
+      "name": "El Salvador",
+      "capital": "San Salvador"
+    },
+    "GQ": {
+      "name": "Guinea Khatulistiwa",
+      "capital": "Malabo"
+    },
+    "ER": {
+      "name": "Eritrea",
+      "capital": "Asmara"
+    },
+    "EE": {
+      "name": "Estonia",
+      "capital": "Tallin"
+    },
+    "SZ": {
+      "name": "Eswatini",
+      "capital": "Mbabane"
+    },
+    "ET": {
+      "name": "Etiopia",
+      "capital": "Adis Ababa"
+    },
+    "FJ": {
+      "name": "Fiji",
+      "capital": "Suva"
+    },
+    "FI": {
+      "name": "Finlandia",
+      "capital": "Helsinki"
+    },
+    "FR": {
+      "name": "Perancis",
+      "capital": "Paris"
+    },
+    "GA": {
+      "name": "Gabon",
+      "capital": "Libreville"
+    },
+    "GM": {
+      "name": "Gambia",
+      "capital": "Banjul"
+    },
+    "GE": {
+      "name": "Georgia",
+      "capital": "Tbilisi"
+    },
+    "DE": {
+      "name": "Jerman",
+      "capital": "Berlin"
+    },
+    "GH": {
+      "name": "Ghana",
+      "capital": "Accra"
+    },
+    "GR": {
+      "name": "Yunani",
+      "capital": "Athena"
+    },
+    "GD": {
+      "name": "Granada",
+      "capital": "St"
+    },
+    "GT": {
+      "name": "Guatemala",
+      "capital": "Kota Guatemala"
+    },
+    "GN": {
+      "name": "Guinea",
+      "capital": "Conakry"
+    },
+    "GW": {
+      "name": "Guinea-Bissau",
+      "capital": "Bissau"
+    },
+    "GY": {
+      "name": "Guyana",
+      "capital": "Georgetown"
+    },
+    "HT": {
+      "name": "Haiti",
+      "capital": "Port-au-Prince"
+    },
+    "HN": {
+      "name": "Honduras",
+      "capital": "Tegucigalpa"
+    },
+    "HU": {
+      "name": "Hongaria",
+      "capital": "Budapest"
+    },
+    "IS": {
+      "name": "Islandia",
+      "capital": "Reykjavik"
+    },
+    "IN": {
+      "name": "India",
+      "capital": "New Delhi"
+    },
+    "ID": {
+      "name": "Indonesia",
+      "capital": "Jakarta"
+    },
+    "IR": {
+      "name": "Iran",
+      "capital": "Teheran"
+    },
+    "IQ": {
+      "name": "Irak",
+      "capital": "Bagdad"
+    },
+    "IE": {
+      "name": "Irlandia",
+      "capital": "Dublin"
+    },
+    "IL": {
+      "name": "Israel",
+      "capital": "Yerusalem"
+    },
+    "IT": {
+      "name": "Italia",
+      "capital": "Roma"
+    },
+    "JM": {
+      "name": "Jamaika",
+      "capital": "Rajaston"
+    },
+    "JP": {
+      "name": "Jepang",
+      "capital": "Tokyo"
+    },
+    "JO": {
+      "name": "Yordania",
+      "capital": "Amman"
+    },
+    "KZ": {
+      "name": "Kazakstan",
+      "capital": "Astana"
+    },
+    "KE": {
+      "name": "Kenya",
+      "capital": "Nairobi"
+    },
+    "KI": {
+      "name": "Kiribati",
+      "capital": "Tarawa Selatan"
+    },
+    "KP": {
+      "name": "Korea Utara",
+      "capital": "Pyongyang"
+    },
+    "KR": {
+      "name": "Korea Selatan",
+      "capital": "seoul"
+    },
+    "KW": {
+      "name": "Kuwait",
+      "capital": "Kota Kuwait"
+    },
+    "KG": {
+      "name": "Kirgistan",
+      "capital": "Bishkek"
+    },
+    "LA": {
+      "name": "Laos",
+      "capital": "Vientiane"
+    },
+    "LV": {
+      "name": "Latvia",
+      "capital": "Riga"
+    },
+    "LB": {
+      "name": "Libanon",
+      "capital": "Beirut"
+    },
+    "LS": {
+      "name": "Lesoto",
+      "capital": "Maseru"
+    },
+    "LR": {
+      "name": "Liberia",
+      "capital": "Monrovia"
+    },
+    "LY": {
+      "name": "Libya",
+      "capital": "Tripoli"
+    },
+    "LI": {
+      "name": "Liechtenstein",
+      "capital": "Vaduz"
+    },
+    "LT": {
+      "name": "Lithuania",
+      "capital": "Vilnius"
+    },
+    "LU": {
+      "name": "Luksemburg",
+      "capital": "Luksemburg"
+    },
+    "MG": {
+      "name": "Madagaskar",
+      "capital": "Antananarivo"
+    },
+    "MW": {
+      "name": "Malawi",
+      "capital": "Lilongwe"
+    },
+    "MY": {
+      "name": "Malaysia",
+      "capital": "Kuala Lumpur"
+    },
+    "MV": {
+      "name": "Maladewa",
+      "capital": "Pria"
+    },
+    "ML": {
+      "name": "Mali",
+      "capital": "Bamako"
+    },
+    "MT": {
+      "name": "Malta",
+      "capital": "Valletta"
+    },
+    "MH": {
+      "name": "Kepulauan Marshall",
+      "capital": "Majuro"
+    },
+    "MR": {
+      "name": "Mauritania",
+      "capital": "Nouakchott"
+    },
+    "MU": {
+      "name": "Mauritius",
+      "capital": "Pelabuhan Louis"
+    },
+    "MX": {
+      "name": "Meksiko",
+      "capital": "Kota Meksiko"
+    },
+    "FM": {
+      "name": "Mikronesia",
+      "capital": "Palikir"
+    },
+    "MD": {
+      "name": "Moldova",
+      "capital": "Kishinev"
+    },
+    "MC": {
+      "name": "Monako",
+      "capital": "Monako"
+    },
+    "MN": {
+      "name": "Mongolia",
+      "capital": "Ulan Bator"
+    },
+    "ME": {
+      "name": "Montenegro",
+      "capital": "Podgorika"
+    },
+    "MA": {
+      "name": "Maroko",
+      "capital": "Rabat"
+    },
+    "MZ": {
+      "name": "Mozambik",
+      "capital": "Maputo"
+    },
+    "MM": {
+      "name": "Myanmar",
+      "capital": "Naypyidaw"
+    },
+    "NA": {
+      "name": "Namibia",
+      "capital": "Windhoek"
+    },
+    "NR": {
+      "name": "Nauru",
+      "capital": "Yaren"
+    },
+    "NP": {
+      "name": "Nepal",
+      "capital": "Kathmandu"
+    },
+    "NL": {
+      "name": "Belanda",
+      "capital": "Amsterdam"
+    },
+    "NZ": {
+      "name": "Selandia Baru",
+      "capital": "Wellington"
+    },
+    "NI": {
+      "name": "Nikaragua",
+      "capital": "Managua"
+    },
+    "NE": {
+      "name": "Nigeria",
+      "capital": "Niamey"
+    },
+    "NG": {
+      "name": "Nigeria",
+      "capital": "Abuja"
+    },
+    "MK": {
+      "name": "Makedonia Utara",
+      "capital": "Skopje"
+    },
+    "NO": {
+      "name": "Norwegia",
+      "capital": "Oslo"
+    },
+    "OM": {
+      "name": "Oman",
+      "capital": "Muskat"
+    },
+    "PK": {
+      "name": "Pakistan",
+      "capital": "Islamabad"
+    },
+    "PW": {
+      "name": "Palau",
+      "capital": "Ngerulmud"
+    },
+    "PS": {
+      "name": "Palestina",
+      "capital": "Ramallah"
+    },
+    "PA": {
+      "name": "Panama",
+      "capital": "Kota Panama"
+    },
+    "PG": {
+      "name": "Papua Nugini",
+      "capital": "Pelabuhan Moresby"
+    },
+    "PY": {
+      "name": "Paraguay",
+      "capital": "Asuncion"
+    },
+    "PE": {
+      "name": "Peru",
+      "capital": "Lima"
+    },
+    "PH": {
+      "name": "Filipina",
+      "capital": "Manila"
+    },
+    "PL": {
+      "name": "Polandia",
+      "capital": "Warsawa"
+    },
+    "PT": {
+      "name": "Portugal",
+      "capital": "Lisboa"
+    },
+    "QA": {
+      "name": "Qatar",
+      "capital": "Doha"
+    },
+    "RO": {
+      "name": "Rumania",
+      "capital": "Bukares"
+    },
+    "RU": {
+      "name": "Rusia",
+      "capital": "Moskow"
+    },
+    "RW": {
+      "name": "Rwanda",
+      "capital": "Kigali"
+    },
+    "KN": {
+      "name": "Saint Kitts dan Nevis",
+      "capital": "Basseterre"
+    },
+    "LC": {
+      "name": "Santo Lusia",
+      "capital": "pengecoran"
+    },
+    "VC": {
+      "name": "Saint Vincent dan Grenadines",
+      "capital": "kota raja"
+    },
+    "WS": {
+      "name": "Samoa",
+      "capital": "Apia"
+    },
+    "SM": {
+      "name": "San Marino",
+      "capital": "San Marino"
+    },
+    "ST": {
+      "name": "São Tomé dan Principe",
+      "capital": "Sao Tome"
+    },
+    "SA": {
+      "name": "Arab Saudi",
+      "capital": "Riyadh"
+    },
+    "SN": {
+      "name": "Senegal",
+      "capital": "Dakar"
+    },
+    "RS": {
+      "name": "Serbia",
+      "capital": "Beograd"
+    },
+    "SL": {
+      "name": "Sierra Leone",
+      "capital": "kota bebas"
+    },
+    "SG": {
+      "name": "Singapura",
+      "capital": "Singapura"
+    },
+    "SK": {
+      "name": "Slowakia",
+      "capital": "Bratislava"
+    },
+    "SI": {
+      "name": "Slovenia",
+      "capital": "Ljubljana"
+    },
+    "SB": {
+      "name": "Kepulauan Solomon",
+      "capital": "Honiara"
+    },
+    "SO": {
+      "name": "Somalia",
+      "capital": "Mogadishu"
+    },
+    "ZA": {
+      "name": "Afrika Selatan",
+      "capital": "Pretoria"
+    },
+    "SS": {
+      "name": "Sudan Selatan",
+      "capital": "Juba"
+    },
+    "ES": {
+      "name": "Spanyol",
+      "capital": "Madrid"
+    },
+    "LK": {
+      "name": "Sri Lanka",
+      "capital": "Kolombo"
+    },
+    "SD": {
+      "name": "Sudan",
+      "capital": "Khartoum"
+    },
+    "SR": {
+      "name": "nama Suriname",
+      "capital": "Paramaribo"
+    },
+    "SE": {
+      "name": "Swedia",
+      "capital": "Stockholm"
+    },
+    "CH": {
+      "name": "Swiss",
+      "capital": "Bern"
+    },
+    "SY": {
+      "name": "Suriah",
+      "capital": "Damaskus"
+    },
+    "TW": {
+      "name": "Taiwan",
+      "capital": "Taipei"
+    },
+    "TJ": {
+      "name": "Tajikistan",
+      "capital": "Dushanbe"
+    },
+    "TZ": {
+      "name": "Tanzania",
+      "capital": "Dodoma"
+    },
+    "TH": {
+      "name": "Thailand",
+      "capital": "Bangkok"
+    },
+    "TL": {
+      "name": "Timor-Leste",
+      "capital": "Dili"
+    },
+    "TG": {
+      "name": "Ke sana",
+      "capital": "Lome"
+    },
+    "TO": {
+      "name": "Tonga",
+      "capital": "Nukuʻalofa"
+    },
+    "TT": {
+      "name": "Trinidad dan Tobago",
+      "capital": "Pelabuhan Spanyol"
+    },
+    "TN": {
+      "name": "Tunisia",
+      "capital": "Tunisia"
+    },
+    "TR": {
+      "name": "Turki",
+      "capital": "Ankara"
+    },
+    "TM": {
+      "name": "Turkmenistan",
+      "capital": "Ashgabat"
+    },
+    "TV": {
+      "name": "Tuvalu",
+      "capital": "menyenangkan"
+    },
+    "UG": {
+      "name": "Uganda",
+      "capital": "Kampala"
+    },
+    "UA": {
+      "name": "Ukraina",
+      "capital": "Kiev"
+    },
+    "AE": {
+      "name": "Uni Emirat Arab",
+      "capital": "Abu Dhabi"
+    },
+    "GB": {
+      "name": "Inggris Raya",
+      "capital": "London"
+    },
+    "US": {
+      "name": "Amerika Serikat",
+      "capital": "Washington D.C."
+    },
+    "UY": {
+      "name": "Uruguay",
+      "capital": "Montevideo"
+    },
+    "UZ": {
+      "name": "Uzbekistan",
+      "capital": "Tashkent"
+    },
+    "VU": {
+      "name": "Vanuatu",
+      "capital": "Pelabuhan Vila"
+    },
+    "VA": {
+      "name": "Kota Vatikan",
+      "capital": "Kota Vatikan"
+    },
+    "VE": {
+      "name": "Venezuela",
+      "capital": "Karakas"
+    },
+    "VN": {
+      "name": "Vietnam",
+      "capital": "Hanoi"
+    },
+    "YE": {
+      "name": "Yaman",
+      "capital": "Sanaa"
+    },
+    "ZM": {
+      "name": "Zambia",
+      "capital": "Lusaka"
+    },
+    "ZW": {
+      "name": "Zimbabwe",
+      "capital": "Harare"
+    },
+    "EH": {
+      "name": "Sahara Barat",
+      "capital": "Laayoune"
+    },
+    "XK": {
+      "name": "Kosovo",
+      "capital": "Pristina"
+    }
+  },
+  "pity": {
+    "title": "Akumulasi Keberuntungan",
+    "guaranteedTitle": "Dijamin Negara Baru!",
+    "ready": "Gulungan berikutnya akan menjadi ajaib!"
+  },
+  "tour": {
+    "skip": "Lewati Tutorial",
+    "next": "Selanjutnya ➔",
+    "prev": "⬅ Sebelumnya",
+    "done": "Selesai ✓",
+    "progress": "Langkah {{current}} dari {{total}}",
+    "step1": {
+      "title": "👋 Selamat datang di WorldDex!",
+      "desc": "Di sini Anda akan mengumpulkan semua negara di dunia melalui pengundian berdasarkan angka kelahiran global sebenarnya. Mari kita lihat cara kerjanya?"
+    },
+    "step2": {
+      "title": "🎲 Gulir ke Seluruh Dunia",
+      "desc": "Klik tombol ini (atau tekan Spasi) untuk memutar. Peluang untuk mendarat di suatu negara <b>sama persis dengan peluang untuk dilahirkan di sana</b> di dunia nyata. Semakin banyak kelahiran, semakin sering terjadi!"
+    },
+    "step3": {
+      "title": "🗺️ Peta Anda",
+      "desc": "Setiap kali Anda membuka kunci negara baru, negara tersebut akan dicat di peta dengan warna kelangkaannya (Umum, Jarang, Langka, Epik, atau Legendaris)."
+    },
+    "step4": {
+      "title": "💖 Sistem Kasihan",
+      "desc": "Setiap kali Anda mendapatkan duplikat, bilah keberuntungan Anda naik. Setelah Anda mencapai jumlah maksimum, putaran berikutnya <b>dijamin 100%</b> menjadi negara yang belum Anda miliki!"
+    },
+    "step5": {
+      "title": "🛒 Toko & Ekonomi",
+      "desc": "Jangan khawatir tentang duplikat. Setiap negara yang berulang memberi Anda <b>koin</b> (tergantung pada kelangkaannya). Anda dapat menggunakan koin di Toko ini untuk <b>membeli negara yang hilang</b> atau <b>Peningkatan</b> (seperti Autoclicker atau pengganda)."
+    },
+    "step6": {
+      "title": "📚 Koleksi Anda",
+      "desc": "Di tab ini Anda dapat melihat semua negara yang telah Anda kunjungi dan berapa banyak yang tersisa. Anda dapat mengkliknya untuk melihat detail dan keingintahuan."
+    },
+    "step7": {
+      "title": "🏆 Prestasi",
+      "desc": "Selesaikan benua, bentuk kelompok negara tertentu (seperti CPLP atau Uni Eropa) dan raih tujuan untuk membuka pencapaian unik ini."
+    },
+    "step8": {
+      "title": "🌍 Siap Bermain!",
+      "desc": "Sekarang terserah Anda! Semoga beruntung dalam perjalanan Anda untuk membuka seluruh dunia, satu demi satu kelahiran."
+    }
+  }
+}

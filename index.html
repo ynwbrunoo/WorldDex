@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-PT" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="WorldDex — Descobre onde poderias nascer com base na probabilidade estimada de nascimentos globais. Desbloqueia todos os países do mundo!" />
+    <meta name="theme-color" content="#060913" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="WorldDex" />
+    <meta property="og:description" content="Desbloqueia o mundo, um nascimento de cada vez." />
+    <meta property="og:type" content="website" />
+    <title>WorldDex</title>
+
+    <!-- Security: CSP (relaxed for development; tighten in production via server headers) -->
+    <!-- In production, set via HTTP headers instead -->
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Preload Inter font subset -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Onde Nascerias?</title>
+  </head>
+  <body class="bg-surface-950 text-slate-100 antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

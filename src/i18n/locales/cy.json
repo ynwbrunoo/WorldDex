@@ -1,0 +1,1154 @@
+{
+  "app": {
+    "title": "WorldDex",
+    "subtitle": "Datgloi'r byd, un enedigaeth ar y tro."
+  },
+  "header": {
+    "howToPlay": "Sut i Chwarae",
+    "aboutData": "Am y Data",
+    "resetProgress": "Ailosod Cynnydd",
+    "privacy": "Preifatrwydd",
+    "localStorageNotice": "Cynnydd wedi'i gadw ar y ddyfais hon"
+  },
+  "nav": {
+    "progress": "Cynnydd",
+    "collection": "Casgliad",
+    "history": "Hanes",
+    "achievements": "Llwyddiannau",
+    "settings": "Gosodiadau"
+  },
+  "roll": {
+    "button": "Roll",
+    "rolling": "Yn treiglo...",
+    "newCountry": "Gwlad newydd heb ei gloi!",
+    "duplicate": "Roedd gennych chi'r wlad hon yn barod - daliwch ati!",
+    "viewOnMap": "Gweld ar y map",
+    "close": "Cau",
+    "estimatedChance": "Amcangyfrif o siawns",
+    "population": "Poblogaeth",
+    "annualBirths": "Amcangyfrif o enedigaethau blynyddol",
+    "firstUnlock": "Tro cyntaf!",
+    "alreadyHave": "Dyblyg",
+    "spacebar": "Press [Space] to roll"
+  },
+  "country": {
+    "population": "Poblogaeth",
+    "annualBirths": "Amcangyfrif o enedigaethau blynyddol",
+    "birthChance": "Siawns o gael eich geni yma",
+    "capital": "Cyfalaf",
+    "continent": "Cyfandir",
+    "status": {
+      "locked": "Dal ar glo",
+      "unlocked": "Wedi'i ddatgloi"
+    },
+    "rollCount": "Ymddangosodd {{cyfrif}} amser",
+    "rollCount_other": "Ymddangosodd {{cyfrif}} amseroedd",
+    "firstUnlocked": "Wedi'i ddatgloi ar {{dyddiad}}",
+    "zoomToCountry": "Canolfan ar y map",
+    "notFound": "Gwlad heb ei chanfod",
+    "clickToExplore": "Cliciwch ar wlad i archwilio"
+  },
+  "progress": {
+    "title": "Cynnydd",
+    "unlocked": "Wedi'i ddatgloi",
+    "unlockedCount": "{{cyfrif}} / {{cyfanswm}} gwledydd",
+    "percentage": "{{gwerth}}% wedi'i gwblhau",
+    "remaining": "{{cyfrif}} gwledydd ar ôl",
+    "totalRolls": "Total Rolls",
+    "duplicates": "Dyblyg",
+    "longestStreak": "Y rhediad gorau heb ddyblygiadau",
+    "continents": "Cynnydd fesul cyfandir"
+  },
+  "collection": {
+    "title": "Casgliad",
+    "search": "Chwilio gwlad...",
+    "sort": {
+      "label": "Trefnu yn ôl",
+      "recent": "Wedi'i ddatgloi yn ddiweddar",
+      "alphabetical": "Yn nhrefn yr wyddor",
+      "mostRolled": "Mae'r rhan fwyaf yn rholio",
+      "continent": "Cyfandir"
+    },
+    "empty": "Nid ydych wedi datgloi unrhyw wledydd eto. Rho Rol iddo!",
+    "noResults": "Nid oes unrhyw wledydd yn cyfateb i'ch chwiliad.",
+    "rolls": "{{cyfrif}} y gofrestr",
+    "rolls_other": "{{cyfrif}} rholiau",
+    "sortChanceDesc": "Highest Chance",
+    "sortChanceAsc": "Lowest Chance"
+  },
+  "history": {
+    "title": "Hanes",
+    "filter": {
+      "all": "Pawb",
+      "new": "Newydd",
+      "duplicates": "Dyblyg"
+    },
+    "clearHistory": "Hanes clir",
+    "clearConfirmTitle": "Clirio hanes?",
+    "clearConfirmMessage": "Ni ellir dadwneud y weithred hon. Bydd hanes y gofrestr yn cael ei ddileu yn barhaol.",
+    "clearConfirm": "Clir",
+    "clearCancel": "Canslo",
+    "empty": "Nid ydych wedi gwneud unrhyw roliau eto. Dechreuwch nawr!",
+    "emptyFiltered": "Nid oes unrhyw roliau yn cyfateb i'r hidlydd hwn.",
+    "new": "Newydd",
+    "duplicate": "Dyblyg",
+    "rollNumber": "Rholiwch #{{rhif}}"
+  },
+  "achievements": {
+    "title": "Llwyddiannau",
+    "locked": "Wedi'i gloi",
+    "unlocked": "Wedi'i ddatgloi",
+    "unlockedOn": "Wedi'i ddatgloi ar {{dyddiad}}",
+    "progress": "{{cyfredol}} / {{cyfanswm}}",
+    "newUnlock": "Llwyddiant heb ei gloi!",
+    "firstStep": {
+      "name": "Cam Cyntaf",
+      "description": "Datgloi eich gwlad gyntaf."
+    },
+    "explorer": {
+      "name": "Fforiwr",
+      "description": "Datgloi 10 gwlad."
+    },
+    "traveller": {
+      "name": "Teithiwr",
+      "description": "Datgloi 25 o wledydd."
+    },
+    "cartographer": {
+      "name": "Cartograffydd",
+      "description": "Datgloi 50 o wledydd."
+    },
+    "worldCollector1": {
+      "name": "Casglwr y Byd I",
+      "description": "Datgloi 75 o wledydd."
+    },
+    "worldCollector2": {
+      "name": "Casglwr y Byd II",
+      "description": "Datgloi 100 o wledydd."
+    },
+    "worldCollector3": {
+      "name": "Casglwr y Byd III",
+      "description": "Datgloi 125 o wledydd."
+    },
+    "halfwayThere": {
+      "name": "Hanner ffordd Yno",
+      "description": "Datgloi 50% o'r holl wledydd."
+    },
+    "continentalExplorer": {
+      "name": "Archwiliwr Cyfandirol",
+      "description": "Cwblhewch gyfandir cyfan."
+    },
+    "continentalMaster": {
+      "name": "Meistr Cyfandirol",
+      "description": "Cwblhewch dri chyfandir."
+    },
+    "aroundTheWorld": {
+      "name": "O Amgylch y Byd",
+      "description": "Cwblhewch bob cyfandir."
+    },
+    "worldComplete": {
+      "name": "Byd Cyflawn",
+      "description": "Datgloi pob gwlad a thiriogaeth."
+    },
+    "luckyStreak": {
+      "name": "Lwcus Streak",
+      "description": "Datgloi 5 gwlad newydd yn olynol heb ddyblygiadau."
+    },
+    "persistent": {
+      "name": "Parhaus",
+      "description": "Gwnewch gyfanswm o 100 o roliau."
+    },
+    "dedicated": {
+      "name": "Ymroddedig",
+      "description": "Gwnewch gyfanswm o 500 o roliau."
+    },
+    "home_sweet_home": {
+      "name": "Cartref Melys Cartref",
+      "description": "Fe wnaethoch chi rolio'r wlad rydych chi'n byw ynddi ar hyn o bryd!"
+    },
+    "group_palop": {
+      "name": "PALOP",
+      "description": "Yn datgloi holl wledydd Affrica sy'n siarad Portiwgaleg."
+    },
+    "group_brics": {
+      "name": "BRICS",
+      "description": "Yn datgloi prif wledydd bloc BRICS (ac aelodau newydd)."
+    },
+    "group_eu": {
+      "name": "Undeb Ewropeaidd",
+      "description": "Yn datgloi holl aelod-wladwriaethau'r Undeb Ewropeaidd."
+    },
+    "group_nato": {
+      "name": "GANWYD",
+      "description": "Yn datgloi holl aelod-wledydd NATO."
+    },
+    "india_500": {
+      "name": "Namaste!",
+      "description": "Cylchdroi India 500 o weithiau."
+    },
+    "group_g7": {
+      "description": "Yn datgloi holl genhedloedd y G7."
+    },
+    "group_mercosul": {
+      "name": "Mercosur",
+      "description": "Yn datgloi Aelod-wladwriaethau Mercosur."
+    },
+    "group_asean": {
+      "description": "Yn datgloi gwledydd Cymdeithas Cenhedloedd De-ddwyrain Asia."
+    },
+    "group_opep": {
+      "name": "OPEC",
+      "description": "Yn datgloi aelodau o Sefydliad y Gwledydd Allforio Petroliwm."
+    }
+  },
+  "tutorial": {
+    "title": "Sut i Chwarae",
+    "step1": "Cliciwch <b></b> i ddarganfod ym mha wlad y gallech gael eich geni.",
+    "step2": "Mae gan bob gwlad debygolrwydd amcangyfrifedig yn seiliedig ar ei chyfran o enedigaethau byd-eang - nid yw yr un mor hap!",
+    "step3": "Pan fyddwch chi'n datgloi gwlad am y tro cyntaf, mae'n cael ei lliwio ar fap y byd.",
+    "step4": "Cliciwch ar wlad ar y map neu yn eich casgliad i weld y brifddinas, y boblogaeth, a'r siawns a amcangyfrifir.",
+    "step5": "Cwblhewch gyfandiroedd, ennill cyflawniadau, a cheisiwch ddatgloi'r byd i gyd.",
+    "step6": "Mae eich cynnydd yn cael ei gadw ar y ddyfais hon yn unig - dim cyfrifon, dim olrhain.",
+    "previous": "Blaenorol",
+    "next": "Nesaf",
+    "skip": "Hepgor tiwtorial",
+    "finish": "Dechrau chwarae!",
+    "dontShowAgain": "Peidiwch â dangos eto",
+    "stepOf": "Cam {{cyfredol}} o {{cyfanswm}}",
+    "restart": "Gweld tiwtorial",
+    "rollDesc": "Cliciwch y botwm i rolio'ch lwc a darganfod gwlad newydd! (Awgrym: Gallwch ddefnyddio'r bar [Space] ar eich bysellfwrdd i chwarae'n gyflymach a chau ffenestri).",
+    "collectionDesc": "Yma fe welwch y gwledydd rydych chi eisoes wedi'u datgloi. Gallwch ddidoli yn ôl prinder, cyfandir neu ddyddiad! Pan fyddwch chi 15 gwlad i ffwrdd o'r diwedd, byddwch chi'n gallu gweld pa rai rydych chi'n eu colli.",
+    "achievementsDesc": "Cwblhau amcanion, o gasglu blociau economaidd (fel BRICS neu'r Undeb Ewropeaidd) i dreigl India 500 gwaith, i ennill medalau.",
+    "historyDesc": "Adolygwch eich holl ddramâu blaenorol a darganfyddwch pa mor bell yn ôl y gwnaethoch chi ddatgloi gwlad."
+  },
+  "settings": {
+    "title": "Gosodiadau",
+    "language": "Iaith",
+    "languageLabel": "Dewiswch iaith",
+    "data": "Data a Phreifatrwydd",
+    "exportProgress": "Cynnydd allforio",
+    "importProgress": "Mewnforio cynnydd",
+    "resetProgress": "Ailosod cynnydd",
+    "restartTutorial": "Gweld tiwtorial",
+    "aboutData": "Am y data",
+    "privacy": "Preifatrwydd",
+    "searchLanguage": "Search language..."
+  },
+  "modals": {
+    "aboutData": {
+      "title": "Am y Data",
+      "intro": "Amcangyfrifon a gyfrifir yn seiliedig ar y data sydd ar gael ar enedigaethau blynyddol fesul gwlad yw tebygolrwydd geni.",
+      "methodology": "Methodoleg",
+      "methodologyText": "Mae'r tebygolrwydd o gael eich geni mewn gwlad benodol yn cael ei gyfrifo fel y gyfran o enedigaethau blynyddol amcangyfrifedig y wlad honno o gymharu â chyfanswm y byd. Rydym yn defnyddio data bras o Fanc y Byd a'r Cenhedloedd Unedig (World Population Prospects). Amcangyfrifon yw gwerthoedd ac efallai nad ydynt yn adlewyrchu'r ystadegau diweddaraf.",
+      "sensitivity": "Nodyn ar sensitifrwydd gwleidyddol",
+      "sensitivityText": "Mae ffiniau, tiriogaethau a chydnabyddiaeth gwlad yn faterion gwleidyddol sensitif. Mae cynnwys tiriogaeth yn y gêm hon yn gwasanaethu dibenion addysgol a daearyddol ac nid yw'n gyfystyr â safiad gwleidyddol. Mae'r data yn cael ei symleiddio ar gyfer gêm adloniant.",
+      "updates": "Diweddariadau data",
+      "updatesText": "Mae data demograffig yn newid dros amser. Mae'r prosiect hwn yn ceisio diweddaru data'n rhesymol ond nid yw'n gwarantu cywirdeb amser real.",
+      "sources": "Ffynonellau",
+      "sourcesList": [
+        "Banc y Byd — Dangosyddion Datblygiad y Byd",
+        "Cenhedloedd Unedig - Rhagolygon Poblogaeth y Byd 2022",
+        "Y Ddaear Naturiol — Data daearyddol (parth cyhoeddus)",
+        "world-atlas (TopoJSON) — Data map"
+      ],
+      "close": "Cau"
+    },
+    "privacy": {
+      "title": "Preifatrwydd a Thelerau",
+      "project": "Mae hwn yn brosiect addysgiadol ac adloniant anfasnachol rhad ac am ddim.",
+      "noData": "Nid oes unrhyw ddata personol yn cael ei gasglu.",
+      "localStorage": "Mae eich cynnydd yn cael ei storio'n gyfan gwbl yn storfa leol eich dyfais (localStorage). Ni anfonir unrhyw wybodaeth at weinyddion.",
+      "noCookies": "Nid yw'r gêm hon yn defnyddio cwcis. Dim ond localStorage a ddefnyddir i arbed eich dewisiadau a chynnydd.",
+      "noTracking": "Nid oes unrhyw systemau dadansoddeg, olrhain, hysbysebu na thrydydd parti.",
+      "borders": "Amcangyfrifon yw data daearyddol, demograffig a ffiniau a gallant fod yn anghyflawn neu wedi dyddio. Nid yw'r prosiect hwn yn cymryd unrhyw safiad gwleidyddol ar ffiniau, tiriogaethau, neu gydnabyddiaeth gwladwriaeth.",
+      "license": "Cod ffynhonnell ar gael o dan y drwydded MIT.",
+      "attribution": "Priodoliadau",
+      "close": "Cau"
+    },
+    "reset": {
+      "title": "Ailosod Cynnydd",
+      "message": "Ydych chi'n siŵr? Bydd eich holl gynnydd, casgliad, hanes, a chyflawniadau yn cael eu dileu yn barhaol. Ni ellir dadwneud y weithred hon.",
+      "confirm": "Ie, dileu popeth",
+      "cancel": "Canslo"
+    },
+    "importExport": {
+      "title": "Cynnydd Mewnforio / Allforio",
+      "exportTitle": "Allforio",
+      "exportDescription": "Allforio eich cynnydd fel ffeil JSON i wneud copi wrth gefn neu drosglwyddo i ddyfais arall.",
+      "exportButton": "Allforio ffeil JSON",
+      "importTitle": "Mewnforio",
+      "importDescription": "Mewnforio ffeil JSON a allforiwyd yn flaenorol. Bydd eich cynnydd presennol yn cael ei ddisodli.",
+      "importWarning": "Rhybudd: bydd eich cynnydd presennol yn cael ei ddisodli gan y ffeil a fewnforiwyd.",
+      "importButton": "Dewiswch ffeil JSON",
+      "importSuccess": "Cynnydd wedi'i fewnforio yn llwyddiannus!",
+      "importError": "Ffeil annilys neu lygredig. Sicrhewch fod y ffeil wedi'i hallforio gan y gêm hon.",
+      "close": "Cau"
+    }
+  },
+  "continents": {
+    "africa": "Affrica",
+    "asia": "Asia",
+    "europe": "Ewrop",
+    "northAmerica": "Gogledd America",
+    "southAmerica": "De America",
+    "oceania": "Ynysoedd y De"
+  },
+  "data": {
+    "estimated": "Amcangyfrif",
+    "source": "Ffynhonnell",
+    "year": "Blwyddyn data",
+    "approximation": "Brasamcanion yw'r gwerthoedd hyn."
+  },
+  "errors": {
+    "mapLoad": "Methu llwytho'r map. Ceisiwch ail-lwytho'r dudalen.",
+    "dataCorrupt": "Mae data sydd wedi'u cadw wedi'u llygru. Mae cynnydd wedi'i ailosod.",
+    "importFailed": "Methu mewnforio'r ffeil.",
+    "unknown": "Digwyddodd gwall annisgwyl."
+  },
+  "accessibility": {
+    "languageSelector": "Dewiswch iaith",
+    "flagOf": "Baner {{gwlad}}",
+    "rollButton": "Rholiwch — tynnwch wlad ar hap",
+    "closeModal": "Cau",
+    "mainMap": "Map byd rhyngweithiol",
+    "lockedCountry": "{{gwlad}} — dan glo",
+    "unlockedCountry": "{{gwlad}} — heb ei gloi",
+    "rolledCountry": "{{gwlad}} — newydd rolio",
+    "progressBar": "{{gwerth}}% o wledydd heb eu cloi",
+    "achievementLocked": "Llwyddiant wedi'i gloi: {{enw}}",
+    "achievementUnlocked": "Llwyddiant wedi'i ddatgloi: {{enw}}"
+  },
+  "countries": {
+    "AF": {
+      "name": "Afghanistan",
+      "capital": "Kabul"
+    },
+    "AL": {
+      "name": "Albania",
+      "capital": "Tirana"
+    },
+    "DZ": {
+      "name": "Algeria",
+      "capital": "Algiers"
+    },
+    "AD": {
+      "name": "Andorra",
+      "capital": "Andorra la Vella"
+    },
+    "AO": {
+      "name": "Angola",
+      "capital": "Luanda"
+    },
+    "AG": {
+      "name": "Antigua a Barbuda",
+      "capital": "St"
+    },
+    "AR": {
+      "name": "Ariannin",
+      "capital": "Buenos Aires"
+    },
+    "AM": {
+      "name": "Armenia",
+      "capital": "Yerevan"
+    },
+    "AU": {
+      "name": "Awstralia",
+      "capital": "Canberra"
+    },
+    "AT": {
+      "name": "Awstria",
+      "capital": "Fienna"
+    },
+    "AZ": {
+      "name": "Azerbaijan",
+      "capital": "Baku"
+    },
+    "BS": {
+      "name": "Bahamas",
+      "capital": "Nassau"
+    },
+    "BH": {
+      "name": "Bahrain",
+      "capital": "Manama"
+    },
+    "BD": {
+      "name": "Bangladesh",
+      "capital": "Dhaka"
+    },
+    "BB": {
+      "name": "Barbados",
+      "capital": "Bridgetown"
+    },
+    "BY": {
+      "name": "Belarws",
+      "capital": "Minsk"
+    },
+    "BE": {
+      "name": "Gwlad Belg",
+      "capital": "Brwsel"
+    },
+    "BZ": {
+      "name": "Belize",
+      "capital": "Belmopan"
+    },
+    "BJ": {
+      "name": "Benin",
+      "capital": "Porto-Novo"
+    },
+    "BT": {
+      "name": "Bhutan",
+      "capital": "Thimphu"
+    },
+    "BO": {
+      "name": "Bolivia",
+      "capital": "Sucre"
+    },
+    "BA": {
+      "name": "Bosnia a Herzegovina",
+      "capital": "Sarajevo"
+    },
+    "BW": {
+      "name": "Botswana",
+      "capital": "Gaborone"
+    },
+    "BR": {
+      "name": "Brasil",
+      "capital": "Brasilia"
+    },
+    "BN": {
+      "name": "Brunei",
+      "capital": "Bandar Seri Begawan"
+    },
+    "BG": {
+      "name": "Bwlgaria",
+      "capital": "Sofia"
+    },
+    "BF": {
+      "name": "Burkina Faso",
+      "capital": "Ouagadougou"
+    },
+    "BI": {
+      "name": "Burundi",
+      "capital": "Gitega"
+    },
+    "CV": {
+      "name": "Cape Verde",
+      "capital": "Praia"
+    },
+    "KH": {
+      "name": "Cambodia",
+      "capital": "Phnom Penh"
+    },
+    "CM": {
+      "name": "Camerŵn",
+      "capital": "Yaoundé"
+    },
+    "CA": {
+      "name": "Canada",
+      "capital": "Ottawa"
+    },
+    "CF": {
+      "name": "Gweriniaeth Canolbarth Affrica",
+      "capital": "Bangui"
+    },
+    "TD": {
+      "name": "Chad",
+      "capital": "N'Djamena"
+    },
+    "CL": {
+      "name": "Chile",
+      "capital": "Santiago"
+    },
+    "CN": {
+      "name": "Tsieina",
+      "capital": "Beijing"
+    },
+    "CO": {
+      "name": "Colombia",
+      "capital": "Bogotá"
+    },
+    "KM": {
+      "name": "Comoros",
+      "capital": "Moroni"
+    },
+    "CG": {
+      "name": "Congo",
+      "capital": "Brazzaville"
+    },
+    "CD": {
+      "name": "Gweriniaeth Ddemocrataidd y Congo",
+      "capital": "Kinshasa"
+    },
+    "CR": {
+      "name": "Costa Rica",
+      "capital": "San Jose"
+    },
+    "CI": {
+      "name": "Arfordir Ifori",
+      "capital": "Yamoussoukro"
+    },
+    "HR": {
+      "name": "Croatia",
+      "capital": "Sagreb"
+    },
+    "CU": {
+      "name": "Ciwba",
+      "capital": "Havana"
+    },
+    "CY": {
+      "name": "Cyprus",
+      "capital": "Nicosia"
+    },
+    "CZ": {
+      "name": "Gweriniaeth Tsiec",
+      "capital": "Prague"
+    },
+    "DK": {
+      "name": "Denmarc",
+      "capital": "Copenhagen"
+    },
+    "DJ": {
+      "name": "Djibouti",
+      "capital": "Djibouti"
+    },
+    "DM": {
+      "name": "Dominica",
+      "capital": "Roseau"
+    },
+    "DO": {
+      "name": "Gweriniaeth Dominica",
+      "capital": "Santo Domingo"
+    },
+    "EC": {
+      "name": "Ecuador",
+      "capital": "Quito"
+    },
+    "EG": {
+      "name": "yr Aifft",
+      "capital": "Cairo"
+    },
+    "SV": {
+      "name": "El Salvador",
+      "capital": "San Salvador"
+    },
+    "GQ": {
+      "name": "Gini Gyhydeddol",
+      "capital": "Malabo"
+    },
+    "ER": {
+      "name": "Eritrea",
+      "capital": "Asmara"
+    },
+    "EE": {
+      "name": "Estonia",
+      "capital": "Tallinn"
+    },
+    "SZ": {
+      "name": "Eswatini",
+      "capital": "Mbabane"
+    },
+    "ET": {
+      "name": "Ethiopia",
+      "capital": "Addis Ababa"
+    },
+    "FJ": {
+      "name": "Ffiji",
+      "capital": "Suva"
+    },
+    "FI": {
+      "name": "Ffindir",
+      "capital": "Helsinki"
+    },
+    "FR": {
+      "name": "Ffrainc",
+      "capital": "Paris"
+    },
+    "GA": {
+      "name": "Gabon",
+      "capital": "Libreville"
+    },
+    "GM": {
+      "name": "Gambia",
+      "capital": "Banjul"
+    },
+    "GE": {
+      "name": "Georgia",
+      "capital": "Tbilisi"
+    },
+    "DE": {
+      "name": "Almaen",
+      "capital": "Berlin"
+    },
+    "GH": {
+      "name": "Ghana",
+      "capital": "Accra"
+    },
+    "GR": {
+      "name": "Groeg",
+      "capital": "Athen"
+    },
+    "GD": {
+      "name": "Grenada",
+      "capital": "St"
+    },
+    "GT": {
+      "name": "Gwatemala",
+      "capital": "Dinas Guatemala"
+    },
+    "GN": {
+      "name": "Gini",
+      "capital": "Conacry"
+    },
+    "GW": {
+      "name": "Gini-Bissau",
+      "capital": "Bissau"
+    },
+    "GY": {
+      "name": "Guyana",
+      "capital": "Georgetown"
+    },
+    "HT": {
+      "name": "Haiti",
+      "capital": "Port-au-Prince"
+    },
+    "HN": {
+      "name": "Honduras",
+      "capital": "Tegucigalpa"
+    },
+    "HU": {
+      "name": "Hwngari",
+      "capital": "Budapest"
+    },
+    "IS": {
+      "name": "Gwlad yr Iâ",
+      "capital": "Reykjavík"
+    },
+    "IN": {
+      "name": "India",
+      "capital": "Delhi Newydd"
+    },
+    "ID": {
+      "name": "Indonesia",
+      "capital": "Jakarta"
+    },
+    "IR": {
+      "name": "Iran",
+      "capital": "Tehran"
+    },
+    "IQ": {
+      "name": "Irac",
+      "capital": "Baghdad"
+    },
+    "IE": {
+      "name": "Iwerddon",
+      "capital": "Dulyn"
+    },
+    "IL": {
+      "name": "Israel",
+      "capital": "Jerusalem"
+    },
+    "IT": {
+      "name": "Eidal",
+      "capital": "Rhufain"
+    },
+    "JM": {
+      "name": "Jamaica",
+      "capital": "Kingston"
+    },
+    "JP": {
+      "name": "Japan",
+      "capital": "Tokyo"
+    },
+    "JO": {
+      "name": "Iorddonen",
+      "capital": "Aman"
+    },
+    "KZ": {
+      "name": "Casachstan",
+      "capital": "Astana"
+    },
+    "KE": {
+      "name": "Cenia",
+      "capital": "Nairobi"
+    },
+    "KI": {
+      "name": "Ciribati",
+      "capital": "De Tarawa"
+    },
+    "KP": {
+      "name": "Gogledd Corea",
+      "capital": "Pyongyang"
+    },
+    "KR": {
+      "name": "De Corea",
+      "capital": "Seoul"
+    },
+    "KW": {
+      "name": "Kuwait",
+      "capital": "Dinas Kuwait"
+    },
+    "KG": {
+      "name": "Kyrgyzstan",
+      "capital": "Bishkek"
+    },
+    "LA": {
+      "name": "Laos",
+      "capital": "Vientiane"
+    },
+    "LV": {
+      "name": "Latfia",
+      "capital": "Riga"
+    },
+    "LB": {
+      "name": "Libanus",
+      "capital": "Beirut"
+    },
+    "LS": {
+      "name": "Lesotho",
+      "capital": "Maseru"
+    },
+    "LR": {
+      "name": "Liberia",
+      "capital": "Monrovia"
+    },
+    "LY": {
+      "name": "Libya",
+      "capital": "Tripoli"
+    },
+    "LI": {
+      "name": "Liechtenstein",
+      "capital": "Vaduz"
+    },
+    "LT": {
+      "name": "Lithwania",
+      "capital": "Vilnius"
+    },
+    "LU": {
+      "name": "Lwcsembwrg",
+      "capital": "Lwcsembwrg"
+    },
+    "MG": {
+      "name": "Madagascar",
+      "capital": "Antananarivo"
+    },
+    "MW": {
+      "name": "Malawi",
+      "capital": "Lilongwe"
+    },
+    "MY": {
+      "name": "Malaysia",
+      "capital": "Kuala Lumpur"
+    },
+    "MV": {
+      "name": "Maldives",
+      "capital": "Gwryw"
+    },
+    "ML": {
+      "name": "Mali",
+      "capital": "Bamako"
+    },
+    "MT": {
+      "name": "Malta",
+      "capital": "Valletta"
+    },
+    "MH": {
+      "name": "Ynysoedd Marshall",
+      "capital": "Majuro"
+    },
+    "MR": {
+      "name": "Mauritania",
+      "capital": "Nouakchott"
+    },
+    "MU": {
+      "name": "Mauritius",
+      "capital": "Port Louis"
+    },
+    "MX": {
+      "name": "Mecsico",
+      "capital": "Dinas Mecsico"
+    },
+    "FM": {
+      "name": "Micronesia",
+      "capital": "Palikir"
+    },
+    "MD": {
+      "name": "Moldofa",
+      "capital": "Chisinau"
+    },
+    "MC": {
+      "name": "Monaco",
+      "capital": "Monaco"
+    },
+    "MN": {
+      "name": "Mongolia",
+      "capital": "Ulaanbaatar"
+    },
+    "ME": {
+      "name": "Montenegro",
+      "capital": "Podgorica"
+    },
+    "MA": {
+      "name": "Morocco",
+      "capital": "Rabat"
+    },
+    "MZ": {
+      "name": "Mozambique",
+      "capital": "Maputo"
+    },
+    "MM": {
+      "name": "Myanmar",
+      "capital": "Naypyidaw"
+    },
+    "NA": {
+      "name": "Namibia",
+      "capital": "Windhoek"
+    },
+    "NR": {
+      "name": "Nauru",
+      "capital": "Yaren"
+    },
+    "NP": {
+      "name": "Nepal",
+      "capital": "Kathmandu"
+    },
+    "NL": {
+      "name": "Iseldiroedd",
+      "capital": "Amsterdam"
+    },
+    "NZ": {
+      "name": "Seland Newydd",
+      "capital": "Wellington"
+    },
+    "NI": {
+      "name": "Nicaragua",
+      "capital": "Managua"
+    },
+    "NE": {
+      "name": "Niger",
+      "capital": "Niamey"
+    },
+    "NG": {
+      "name": "Nigeria",
+      "capital": "Abuja"
+    },
+    "MK": {
+      "name": "Gogledd Macedonia",
+      "capital": "Sgopje"
+    },
+    "NO": {
+      "name": "Norwy",
+      "capital": "Oslo"
+    },
+    "OM": {
+      "name": "Oman",
+      "capital": "Mwscat"
+    },
+    "PK": {
+      "name": "Pacistan",
+      "capital": "Islamabad"
+    },
+    "PW": {
+      "name": "Palau",
+      "capital": "Ngerulmud"
+    },
+    "PS": {
+      "name": "Palestina",
+      "capital": "Ramallah"
+    },
+    "PA": {
+      "name": "Panama",
+      "capital": "Dinas Panama"
+    },
+    "PG": {
+      "name": "Papua Gini Newydd",
+      "capital": "Port Moresby"
+    },
+    "PY": {
+      "name": "Paraguay",
+      "capital": "Asunción"
+    },
+    "PE": {
+      "name": "Periw",
+      "capital": "Lima"
+    },
+    "PH": {
+      "name": "Pilipinas",
+      "capital": "Manila"
+    },
+    "PL": {
+      "name": "Gwlad Pwyl",
+      "capital": "Warsaw"
+    },
+    "PT": {
+      "name": "Portiwgal",
+      "capital": "Lisbon"
+    },
+    "QA": {
+      "name": "Qatar",
+      "capital": "Doha"
+    },
+    "RO": {
+      "name": "Rwmania",
+      "capital": "Bucharest"
+    },
+    "RU": {
+      "name": "Rwsia",
+      "capital": "Moscow"
+    },
+    "RW": {
+      "name": "Rwanda",
+      "capital": "Kigali"
+    },
+    "KN": {
+      "name": "Sant Kitts a Nevis",
+      "capital": "Basseterre"
+    },
+    "LC": {
+      "name": "Sant Lucia",
+      "capital": "Castries"
+    },
+    "VC": {
+      "name": "Sant Vincent a'r Grenadines",
+      "capital": "Kingstown"
+    },
+    "WS": {
+      "name": "Samoa",
+      "capital": "Apia"
+    },
+    "SM": {
+      "name": "San Marino",
+      "capital": "San Marino"
+    },
+    "ST": {
+      "name": "São Tomé a Príncipe",
+      "capital": "São Tomé"
+    },
+    "SA": {
+      "name": "Sawdi Arabia",
+      "capital": "Riyadh"
+    },
+    "SN": {
+      "name": "Senegal",
+      "capital": "Dacar"
+    },
+    "RS": {
+      "name": "Serbia",
+      "capital": "Belgrade"
+    },
+    "SL": {
+      "name": "Sierra Leone",
+      "capital": "Freetown"
+    },
+    "SG": {
+      "name": "Singapôr",
+      "capital": "Singapôr"
+    },
+    "SK": {
+      "name": "Slofacia",
+      "capital": "Bratislava"
+    },
+    "SI": {
+      "name": "Slofenia",
+      "capital": "Ljubljana"
+    },
+    "SB": {
+      "name": "Ynysoedd Solomon",
+      "capital": "Honiara"
+    },
+    "SO": {
+      "name": "Somalia",
+      "capital": "Mogadishu"
+    },
+    "ZA": {
+      "name": "De Affrica",
+      "capital": "Pretoria"
+    },
+    "SS": {
+      "name": "De Swdan",
+      "capital": "Juba"
+    },
+    "ES": {
+      "name": "Sbaen",
+      "capital": "Madrid"
+    },
+    "LK": {
+      "name": "Sri Lanca",
+      "capital": "Colombo"
+    },
+    "SD": {
+      "name": "Swdan",
+      "capital": "Khartoum"
+    },
+    "SR": {
+      "name": "Suriname",
+      "capital": "Paramaribo"
+    },
+    "SE": {
+      "name": "Sweden",
+      "capital": "Stockholm"
+    },
+    "CH": {
+      "name": "Swistir",
+      "capital": "Bern"
+    },
+    "SY": {
+      "name": "Syria",
+      "capital": "Damascus"
+    },
+    "TW": {
+      "name": "Taiwan",
+      "capital": "Taipei"
+    },
+    "TJ": {
+      "name": "Tajicistan",
+      "capital": "Dushanbe"
+    },
+    "TZ": {
+      "name": "Tanzania",
+      "capital": "Dodoma"
+    },
+    "TH": {
+      "name": "Gwlad Thai",
+      "capital": "Bangkok"
+    },
+    "TL": {
+      "name": "Timor-Leste",
+      "capital": "Dili"
+    },
+    "TG": {
+      "name": "Togo",
+      "capital": "Lomé"
+    },
+    "TO": {
+      "name": "Tonga",
+      "capital": "Nukuʻalofa"
+    },
+    "TT": {
+      "name": "Trinidad a Tobago",
+      "capital": "Porthladd Sbaen"
+    },
+    "TN": {
+      "name": "Tiwnisia",
+      "capital": "Tiwnis"
+    },
+    "TR": {
+      "name": "Twrci",
+      "capital": "Ankara"
+    },
+    "TM": {
+      "name": "Tyrcmenistan",
+      "capital": "Ashgabat"
+    },
+    "TV": {
+      "name": "Twfalw",
+      "capital": "Funafuti"
+    },
+    "UG": {
+      "name": "Uganda",
+      "capital": "Kampala"
+    },
+    "UA": {
+      "name": "Wcráin",
+      "capital": "Kyiv"
+    },
+    "AE": {
+      "name": "Emiradau Arabaidd Unedig",
+      "capital": "Abu Dhabi"
+    },
+    "GB": {
+      "name": "Deyrnas Unedig",
+      "capital": "Llundain"
+    },
+    "US": {
+      "name": "Unol Daleithiau",
+      "capital": "Washington D.C."
+    },
+    "UY": {
+      "name": "Uruguay",
+      "capital": "Montefideo"
+    },
+    "UZ": {
+      "name": "Wsbecistan",
+      "capital": "Tashkent"
+    },
+    "VU": {
+      "name": "Vanuatu",
+      "capital": "Port Vila"
+    },
+    "VA": {
+      "name": "Dinas y Fatican",
+      "capital": "Dinas y Fatican"
+    },
+    "VE": {
+      "name": "Feneswela",
+      "capital": "Caracas"
+    },
+    "VN": {
+      "name": "Fietnam",
+      "capital": "Hanoi"
+    },
+    "YE": {
+      "name": "Yemen",
+      "capital": "Sanaa"
+    },
+    "ZM": {
+      "name": "Zambia",
+      "capital": "Lusaka"
+    },
+    "ZW": {
+      "name": "Zimbabwe",
+      "capital": "Harare"
+    },
+    "EH": {
+      "name": "Gorllewin y Sahara",
+      "capital": "Laayune"
+    },
+    "XK": {
+      "name": "Cosofo",
+      "capital": "Pristina"
+    }
+  },
+  "pity": {
+    "title": "Lwc Cronedig",
+    "guaranteedTitle": "Gwlad Newydd Warantedig!",
+    "ready": "Mae'r rhôl nesaf yn mynd i fod yn hudolus!"
+  },
+  "tour": {
+    "skip": "Sgipio Tiwtorial",
+    "next": "Nesaf ➔",
+    "prev": "⬅ Blaenorol",
+    "done": "Gorffen ✓",
+    "progress": "Cam {{current}} o {{total}}",
+    "step1": {
+      "title": "👋 Croeso i WorldDex!",
+      "desc": "Yma byddwch yn casglu holl wledydd y byd trwy rafflau yn seiliedig ar y gyfradd genedigaethau byd-eang go iawn. Gawn ni weld sut mae'n gweithio?"
+    },
+    "step2": {
+      "title": "🎲 Sgroliwch o Gwmpas y Byd",
+      "desc": "Cliciwch y botwm hwn (neu pwyswch Space) i droelli. Mae'r tebygolrwydd o lanio ar wlad <b>yn union yr un fath â'r tebygolrwydd o gael eich geni yno</b> yn y byd go iawn. Po fwyaf o enedigaethau, y mwyaf cyffredin!"
+    },
+    "step3": {
+      "title": "🗺️ Eich Map",
+      "desc": "Pryd bynnag y byddwch yn datgloi gwlad newydd, bydd yn cael ei phaentio ar y map gyda lliw ei brinder (Cyffredin, Anghyffredin, Prin, Epig neu Chwedlonol)."
+    },
+    "step4": {
+      "title": "💖 System Trueni",
+      "desc": "Bob tro y byddwch chi'n cael copi dyblyg, mae eich bar lwc yn mynd i fyny. Unwaith y byddwch wedi cyrraedd yr uchafswm, mae'r troelli nesaf <b>100% wedi'i warantu</b> i fod yn wlad nad oes gennych chi eto!"
+    },
+    "step5": {
+      "title": "🛒 Siop a'r Economi",
+      "desc": "Peidiwch â phoeni am gopïau dyblyg. Mae pob gwlad a ailadroddir yn rhoi <b>darnau arian</b> i chi (yn dibynnu ar ba mor brin ydynt). Gallwch ddefnyddio darnau arian yn y Storfa hon i <b>brynu gwledydd coll</b> neu <b>Uwchraddio</b> (fel Autoclicker neu luosyddion)."
+    },
+    "step6": {
+      "title": "📚 Eich Casgliad",
+      "desc": "Yn y tab hwn gallwch weld yr holl wledydd yr ydych eisoes wedi cymryd a faint yr ydych wedi gadael. Gallwch glicio arnynt i weld manylion a chwilfrydedd."
+    },
+    "step7": {
+      "title": "🏆 Llwyddiannau",
+      "desc": "Cyfandiroedd cyflawn, ffurfio grwpiau o wledydd penodol (fel y CPLP neu'r Undeb Ewropeaidd) a chyflawni nodau i ddatgloi'r cyflawniadau unigryw hyn."
+    },
+    "step8": {
+      "title": "🌍 Barod i Chwarae!",
+      "desc": "Nawr mae i fyny i chi! Pob lwc ar eich taith i ddatgloi'r byd i gyd, un enedigaeth ar y tro."
+    }
+  }
+}

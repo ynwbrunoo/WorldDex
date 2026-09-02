@@ -1,0 +1,1154 @@
+{
+  "app": {
+    "title": "WorldDex",
+    "subtitle": "Odomknite svet, jeden pôrod za druhým."
+  },
+  "header": {
+    "howToPlay": "Ako hrať",
+    "aboutData": "O údajoch",
+    "resetProgress": "Resetovať priebeh",
+    "privacy": "Ochrana osobných údajov",
+    "localStorageNotice": "Pokrok uložený v tomto zariadení"
+  },
+  "nav": {
+    "progress": "Pokrok",
+    "collection": "Zbierka",
+    "history": "História",
+    "achievements": "Úspechy",
+    "settings": "Nastavenia"
+  },
+  "roll": {
+    "button": "Roll",
+    "rolling": "Rolovanie...",
+    "newCountry": "Nová krajina odomknutá!",
+    "duplicate": "Túto krajinu ste už mali – pokračujte!",
+    "viewOnMap": "Zobraziť na mape",
+    "close": "Zavrieť",
+    "estimatedChance": "Odhadovaná šanca",
+    "population": "Obyvateľstvo",
+    "annualBirths": "Odhadované ročné pôrody",
+    "firstUnlock": "Prvýkrát!",
+    "alreadyHave": "Duplicitné",
+    "spacebar": "Press [Space] to roll"
+  },
+  "country": {
+    "population": "Obyvateľstvo",
+    "annualBirths": "Odhadované ročné pôrody",
+    "birthChance": "Šanca narodiť sa tu",
+    "capital": "Kapitál",
+    "continent": "kontinent",
+    "status": {
+      "locked": "Stále zamknuté",
+      "unlocked": "Odomknuté"
+    },
+    "rollCount": "{{počet}} čas",
+    "rollCount_other": "Vyskytli sa {{počet}} krát",
+    "firstUnlocked": "Odomknuté {{dátum}}",
+    "zoomToCountry": "Stred na mape",
+    "notFound": "Krajina sa nenašla",
+    "clickToExplore": "Kliknite na krajinu, ktorú chcete preskúmať"
+  },
+  "progress": {
+    "title": "Pokrok",
+    "unlocked": "Odomknuté",
+    "unlockedCount": "{{počet}} / {{celkom}} krajín",
+    "percentage": "{{hodnota}} % dokončená",
+    "remaining": "Zostáva {{počet}} krajín",
+    "totalRolls": "Total Rolls",
+    "duplicates": "Duplikáty",
+    "longestStreak": "Najlepšia séria bez duplikátov",
+    "continents": "Pokrok podľa kontinentov"
+  },
+  "collection": {
+    "title": "Zbierka",
+    "search": "Hľadať krajinu...",
+    "sort": {
+      "label": "Zoradiť podľa",
+      "recent": "Nedávno odomknuté",
+      "alphabetical": "Abecedne",
+      "mostRolled": "Väčšina zrolovaná",
+      "continent": "kontinent"
+    },
+    "empty": "Zatiaľ ste neodomkli žiadne krajiny. Dajte tomu rolku!",
+    "noResults": "Vášmu vyhľadávaniu nezodpovedajú žiadne krajiny.",
+    "rolls": "{{count}} hod",
+    "rolls_other": "{{count}} hodov",
+    "sortChanceDesc": "Highest Chance",
+    "sortChanceAsc": "Lowest Chance"
+  },
+  "history": {
+    "title": "História",
+    "filter": {
+      "all": "Všetky",
+      "new": "Nové",
+      "duplicates": "Duplikáty"
+    },
+    "clearHistory": "Vymazať históriu",
+    "clearConfirmTitle": "Vymazať históriu?",
+    "clearConfirmMessage": "Túto akciu nie je možné vrátiť späť. História rolovania bude natrvalo odstránená.",
+    "clearConfirm": "Jasné",
+    "clearCancel": "Zrušiť",
+    "empty": "Ešte ste neurobili žiadne rolky. Začnite hneď!",
+    "emptyFiltered": "Tomuto filtru nevyhovujú žiadne kotúče.",
+    "new": "Nové",
+    "duplicate": "Duplicitné",
+    "rollNumber": "Hodiť #{{číslo}}"
+  },
+  "achievements": {
+    "title": "Úspechy",
+    "locked": "Zamknuté",
+    "unlocked": "Odomknuté",
+    "unlockedOn": "Odomknuté {{dátum}}",
+    "progress": "{{aktuálne}} / {{celkom}}",
+    "newUnlock": "Úspech odomknutý!",
+    "firstStep": {
+      "name": "Prvý krok",
+      "description": "Odomknite svoju prvú krajinu."
+    },
+    "explorer": {
+      "name": "Prieskumník",
+      "description": "Odomknite 10 krajín."
+    },
+    "traveller": {
+      "name": "Cestovateľ",
+      "description": "Odomknite 25 krajín."
+    },
+    "cartographer": {
+      "name": "kartograf",
+      "description": "Odomknite 50 krajín."
+    },
+    "worldCollector1": {
+      "name": "Svetový zberateľ I",
+      "description": "Odomknite 75 krajín."
+    },
+    "worldCollector2": {
+      "name": "Svetový zberateľ II",
+      "description": "Odomknite 100 krajín."
+    },
+    "worldCollector3": {
+      "name": "Svetový zberateľ III",
+      "description": "Odomknite 125 krajín."
+    },
+    "halfwayThere": {
+      "name": "Na polceste",
+      "description": "Odomknite 50 % všetkých krajín."
+    },
+    "continentalExplorer": {
+      "name": "Continental Explorer",
+      "description": "Dokončiť celý kontinent."
+    },
+    "continentalMaster": {
+      "name": "Kontinentálny majster",
+      "description": "Dokončite tri kontinenty."
+    },
+    "aroundTheWorld": {
+      "name": "Okolo sveta",
+      "description": "Dokončite všetky kontinenty."
+    },
+    "worldComplete": {
+      "name": "World Complete",
+      "description": "Odomknite všetky krajiny a územia."
+    },
+    "luckyStreak": {
+      "name": "Lucky Streak",
+      "description": "Odomknite 5 nových krajín v rade bez duplikátov."
+    },
+    "persistent": {
+      "name": "Vytrvalý",
+      "description": "Celkovo urobte 100 roliek."
+    },
+    "dedicated": {
+      "name": "Venovaný",
+      "description": "Celkovo urobte 500 roliek."
+    },
+    "home_sweet_home": {
+      "name": "Home Sweet Home",
+      "description": "Prevrátili ste krajinu, v ktorej momentálne žijete!"
+    },
+    "group_palop": {
+      "name": "PALOP",
+      "description": "Odomkne všetky portugalsky hovoriace africké krajiny."
+    },
+    "group_brics": {
+      "name": "BRICS",
+      "description": "Odomkne hlavné krajiny bloku BRICS (a nových členov)."
+    },
+    "group_eu": {
+      "name": "Európskej únie",
+      "description": "Odomkne všetky členské štáty Európskej únie."
+    },
+    "group_nato": {
+      "name": "BORN",
+      "description": "Odomkne všetky členské krajiny NATO."
+    },
+    "india_500": {
+      "name": "Namaste!",
+      "description": "Otočte Indiu 500-krát."
+    },
+    "group_g7": {
+      "description": "Odomkne všetky krajiny G7."
+    },
+    "group_mercosul": {
+      "name": "Mercosur",
+      "description": "Odblokuje členské štáty Mercosuru."
+    },
+    "group_asean": {
+      "description": "Odomkne krajiny Združenia národov juhovýchodnej Ázie."
+    },
+    "group_opep": {
+      "name": "OPEC",
+      "description": "Odomkne členov Organizácie krajín vyvážajúcich ropu."
+    }
+  },
+  "tutorial": {
+    "title": "Ako hrať",
+    "step1": "Kliknite na <b></b> a zistite, v ktorej krajine by ste sa mohli narodiť.",
+    "step2": "Každá krajina má odhadovanú pravdepodobnosť založenú na jej podiele na celosvetových pôrodoch – nie je to rovnako náhodné!",
+    "step3": "Keď krajinu odomknete prvýkrát, zafarbí sa na mape sveta.",
+    "step4": "Kliknutím na krajinu na mape alebo vo svojej zbierke zobrazíte hlavné mesto, populáciu a odhadovanú šancu.",
+    "step5": "Dokončite kontinenty, získajte úspechy a pokúste sa odomknúť celý svet.",
+    "step6": "Váš pokrok sa ukladá iba v tomto zariadení – žiadne účty, žiadne sledovanie.",
+    "previous": "Predchádzajúce",
+    "next": "Ďalej",
+    "skip": "Preskočiť návod",
+    "finish": "Začnite hrať!",
+    "dontShowAgain": "Už nezobrazovať",
+    "stepOf": "{{aktuálny}} krok z {{celkového počtu}}",
+    "restart": "Zobraziť návod",
+    "rollDesc": "Kliknutím na tlačidlo hodte šťastie a objavte novú krajinu! (Tip: Na rýchlejšie prehrávanie a zatváranie okien môžete použiť lištu [Medzerník] na klávesnici).",
+    "collectionDesc": "Tu vidíte krajiny, ktoré ste už odomkli. Môžete triediť podľa vzácnosti, kontinentu alebo dátumu! Keď vás od konca delí 15 krajín, budete môcť vidieť, ktoré z nich vám chýbajú.",
+    "achievementsDesc": "Dokončite ciele, od zbierania ekonomických blokov (napríklad BRICS alebo Európskej únie) až po 500-krát valcovanie Indie, aby ste získali medaily.",
+    "historyDesc": "Prezrite si všetky svoje predchádzajúce hry a zistite, ako dlho ste odomkli krajinu."
+  },
+  "settings": {
+    "title": "Nastavenia",
+    "language": "Jazyk",
+    "languageLabel": "Vyberte jazyk",
+    "data": "Údaje a súkromie",
+    "exportProgress": "Priebeh exportu",
+    "importProgress": "Priebeh importu",
+    "resetProgress": "Resetovať priebeh",
+    "restartTutorial": "Zobraziť návod",
+    "aboutData": "O údajoch",
+    "privacy": "Ochrana osobných údajov",
+    "searchLanguage": "Search language..."
+  },
+  "modals": {
+    "aboutData": {
+      "title": "O údajoch",
+      "intro": "Pravdepodobnosti pôrodu sú odhady vypočítané na základe dostupných údajov o ročných pôrodoch v jednotlivých krajinách.",
+      "methodology": "Metodológia",
+      "methodologyText": "Pravdepodobnosť narodenia v danej krajine sa vypočítava ako podiel odhadovaných ročných pôrodov v danej krajine v porovnaní s celosvetovým úhrnom. Používame približné údaje zo Svetovej banky a OSN (World Population Prospects). Hodnoty sú odhady a nemusia odrážať najnovšie štatistiky.",
+      "sensitivity": "Poznámka k politickej citlivosti",
+      "sensitivityText": "Hranice, územia a uznanie krajiny sú politicky citlivé otázky. Zahrnutie územia do tejto hry slúži na vzdelávacie a geografické účely a nepredstavuje politický postoj. Údaje sú zjednodušené pre zábavnú hru.",
+      "updates": "Aktualizácie údajov",
+      "updatesText": "Demografické údaje sa časom menia. Tento projekt sa snaží udržiavať údaje primerane aktualizované, ale nezaručuje presnosť v reálnom čase.",
+      "sources": "Zdroje",
+      "sourcesList": [
+        "Svetová banka — Svetové ukazovatele rozvoja",
+        "OSN — Vyhliadky svetovej populácie do roku 2022",
+        "Natural Earth – Geografické údaje (verejná doména)",
+        "atlas sveta (TopoJSON) — Mapové údaje"
+      ],
+      "close": "Zavrieť"
+    },
+    "privacy": {
+      "title": "Ochrana osobných údajov a podmienky",
+      "project": "Ide o bezplatný, nekomerčný vzdelávací a zábavný projekt.",
+      "noData": "Nezhromažďujú sa žiadne osobné údaje.",
+      "localStorage": "Váš pokrok je uložený výlučne v miestnom úložisku vášho zariadenia (localStorage). Na servery sa neposielajú žiadne informácie.",
+      "noCookies": "Táto hra nepoužíva cookies. Na uloženie vašich preferencií a pokroku sa používa iba localStorage.",
+      "noTracking": "Neexistujú žiadne analytické, sledovacie, reklamné systémy ani systémy tretích strán.",
+      "borders": "Geografické, demografické a hraničné údaje sú odhady a môžu byť neúplné alebo zastarané. Tento projekt nezaujíma žiadny politický postoj k hraniciam, územiam alebo štátnemu uznaniu.",
+      "license": "Zdrojový kód dostupný pod licenciou MIT.",
+      "attribution": "Atribúcie",
+      "close": "Zavrieť"
+    },
+    "reset": {
+      "title": "Resetovať priebeh",
+      "message": "si si istý? Všetok váš postup, zbierka, história a úspechy budú natrvalo odstránené. Túto akciu nie je možné vrátiť späť.",
+      "confirm": "Áno, vymazať všetko",
+      "cancel": "Zrušiť"
+    },
+    "importExport": {
+      "title": "Priebeh importu / exportu",
+      "exportTitle": "Exportovať",
+      "exportDescription": "Exportujte svoj postup ako súbor JSON na zálohovanie alebo prenos do iného zariadenia.",
+      "exportButton": "Exportujte súbor JSON",
+      "importTitle": "Importovať",
+      "importDescription": "Importujte predtým exportovaný súbor JSON. Váš aktuálny postup bude nahradený.",
+      "importWarning": "Upozornenie: Váš aktuálny postup bude nahradený importovaným súborom.",
+      "importButton": "Vyberte súbor JSON",
+      "importSuccess": "Pokrok úspešne importovaný!",
+      "importError": "Neplatný alebo poškodený súbor. Uistite sa, že súbor bol exportovaný touto hrou.",
+      "close": "Zavrieť"
+    }
+  },
+  "continents": {
+    "africa": "Afriky",
+    "asia": "Ázie",
+    "europe": "Európe",
+    "northAmerica": "Severná Amerika",
+    "southAmerica": "Južná Amerika",
+    "oceania": "Oceánia"
+  },
+  "data": {
+    "estimated": "Odhadovaný",
+    "source": "Zdroj",
+    "year": "Rok údajov",
+    "approximation": "Tieto hodnoty sú približné."
+  },
+  "errors": {
+    "mapLoad": "Nepodarilo sa načítať mapu. Skúste stránku znova načítať.",
+    "dataCorrupt": "Uložené údaje sú poškodené. Pokrok bol vynulovaný.",
+    "importFailed": "Súbor sa nepodarilo importovať.",
+    "unknown": "Vyskytla sa neočakávaná chyba."
+  },
+  "accessibility": {
+    "languageSelector": "Vyberte jazyk",
+    "flagOf": "Vlajka {{krajiny}}",
+    "rollButton": "Roll — vylosovanie náhodnej krajiny",
+    "closeModal": "Zavrieť",
+    "mainMap": "Interaktívna mapa sveta",
+    "lockedCountry": "{{krajina}} – uzamknuté",
+    "unlockedCountry": "{{krajina}} – odomknuté",
+    "rolledCountry": "{{krajina}} – práve rolované",
+    "progressBar": "{{hodnota}} % odomknutých krajín",
+    "achievementLocked": "Bonus je uzamknutý: {{meno}}",
+    "achievementUnlocked": "Odomknutý bonus: {{meno}}"
+  },
+  "countries": {
+    "AF": {
+      "name": "Afganistan",
+      "capital": "Kábul"
+    },
+    "AL": {
+      "name": "Albánsko",
+      "capital": "Tirana"
+    },
+    "DZ": {
+      "name": "Alžírsko",
+      "capital": "Alžír"
+    },
+    "AD": {
+      "name": "Andorra",
+      "capital": "Andorra la Vella"
+    },
+    "AO": {
+      "name": "Angola",
+      "capital": "Luanda"
+    },
+    "AG": {
+      "name": "Antigua a Barbuda",
+      "capital": "svätého Jána"
+    },
+    "AR": {
+      "name": "Argentína",
+      "capital": "Buenos Aires"
+    },
+    "AM": {
+      "name": "Arménsko",
+      "capital": "Jerevan"
+    },
+    "AU": {
+      "name": "Austrália",
+      "capital": "Canberra"
+    },
+    "AT": {
+      "name": "Rakúsko",
+      "capital": "Viedeň"
+    },
+    "AZ": {
+      "name": "Azerbajdžan",
+      "capital": "Baku"
+    },
+    "BS": {
+      "name": "Bahamy",
+      "capital": "Nassau"
+    },
+    "BH": {
+      "name": "Bahrajn",
+      "capital": "Manama"
+    },
+    "BD": {
+      "name": "Bangladéš",
+      "capital": "Dháka"
+    },
+    "BB": {
+      "name": "Barbados",
+      "capital": "Bridgetown"
+    },
+    "BY": {
+      "name": "Bielorusko",
+      "capital": "Minsk"
+    },
+    "BE": {
+      "name": "Belgicko",
+      "capital": "Brusel"
+    },
+    "BZ": {
+      "name": "Belize",
+      "capital": "Belmopan"
+    },
+    "BJ": {
+      "name": "Benin",
+      "capital": "Porto-Novo"
+    },
+    "BT": {
+      "name": "Bhután",
+      "capital": "Thimphu"
+    },
+    "BO": {
+      "name": "Bolívia",
+      "capital": "Sucre"
+    },
+    "BA": {
+      "name": "Bosna a Hercegovina",
+      "capital": "Sarajevo"
+    },
+    "BW": {
+      "name": "Botswana",
+      "capital": "Gaborone"
+    },
+    "BR": {
+      "name": "Brazília",
+      "capital": "Brasília"
+    },
+    "BN": {
+      "name": "Brunej",
+      "capital": "Bandar Seri Begawan"
+    },
+    "BG": {
+      "name": "Bulharsko",
+      "capital": "Sofia"
+    },
+    "BF": {
+      "name": "Burkina Faso",
+      "capital": "Ouagadougou"
+    },
+    "BI": {
+      "name": "Burundi",
+      "capital": "Gitega"
+    },
+    "CV": {
+      "name": "Kapverdy",
+      "capital": "Praia"
+    },
+    "KH": {
+      "name": "Kambodža",
+      "capital": "Phnom Penh"
+    },
+    "CM": {
+      "name": "Kamerun",
+      "capital": "Yaoundé"
+    },
+    "CA": {
+      "name": "Kanada",
+      "capital": "Ottawa"
+    },
+    "CF": {
+      "name": "Stredoafrická republika",
+      "capital": "Bangui"
+    },
+    "TD": {
+      "name": "Čad",
+      "capital": "N'Djamena"
+    },
+    "CL": {
+      "name": "Čile",
+      "capital": "Santiago"
+    },
+    "CN": {
+      "name": "Čína",
+      "capital": "Peking"
+    },
+    "CO": {
+      "name": "Kolumbia",
+      "capital": "Bogotá"
+    },
+    "KM": {
+      "name": "Komory",
+      "capital": "Moroni"
+    },
+    "CG": {
+      "name": "Kongo",
+      "capital": "Brazzaville"
+    },
+    "CD": {
+      "name": "Konžská demokratická republika",
+      "capital": "Kinshasa"
+    },
+    "CR": {
+      "name": "Kostarika",
+      "capital": "San José"
+    },
+    "CI": {
+      "name": "Pobrežie Slonoviny",
+      "capital": "Yamoussoukro"
+    },
+    "HR": {
+      "name": "Chorvátsko",
+      "capital": "Záhreb"
+    },
+    "CU": {
+      "name": "Kuba",
+      "capital": "Havana"
+    },
+    "CY": {
+      "name": "Cyprus",
+      "capital": "Nikózia"
+    },
+    "CZ": {
+      "name": "Česká republika",
+      "capital": "Praha"
+    },
+    "DK": {
+      "name": "Dánsko",
+      "capital": "Kodaň"
+    },
+    "DJ": {
+      "name": "Džibutsko",
+      "capital": "Džibutsko"
+    },
+    "DM": {
+      "name": "Dominika",
+      "capital": "Roseau"
+    },
+    "DO": {
+      "name": "Dominikánska republika",
+      "capital": "Santo Domingo"
+    },
+    "EC": {
+      "name": "Ekvádor",
+      "capital": "Quito"
+    },
+    "EG": {
+      "name": "Egypt",
+      "capital": "Káhira"
+    },
+    "SV": {
+      "name": "El Salvador",
+      "capital": "San Salvador"
+    },
+    "GQ": {
+      "name": "Rovníková Guinea",
+      "capital": "Malabo"
+    },
+    "ER": {
+      "name": "Eritrea",
+      "capital": "Asmara"
+    },
+    "EE": {
+      "name": "Estónsko",
+      "capital": "Tallinn"
+    },
+    "SZ": {
+      "name": "Eswatini",
+      "capital": "Mbabane"
+    },
+    "ET": {
+      "name": "Etiópia",
+      "capital": "Addis Abeba"
+    },
+    "FJ": {
+      "name": "Fidži",
+      "capital": "Suva"
+    },
+    "FI": {
+      "name": "Fínsko",
+      "capital": "Helsinki"
+    },
+    "FR": {
+      "name": "Francúzsko",
+      "capital": "Paríž"
+    },
+    "GA": {
+      "name": "Gabon",
+      "capital": "Libreville"
+    },
+    "GM": {
+      "name": "Gambia",
+      "capital": "Banjul"
+    },
+    "GE": {
+      "name": "Gruzínsko",
+      "capital": "Tbilisi"
+    },
+    "DE": {
+      "name": "Nemecko",
+      "capital": "Berlín"
+    },
+    "GH": {
+      "name": "Ghana",
+      "capital": "Accra"
+    },
+    "GR": {
+      "name": "Grécko",
+      "capital": "Atény"
+    },
+    "GD": {
+      "name": "Grenada",
+      "capital": "Juraja"
+    },
+    "GT": {
+      "name": "Guatemale",
+      "capital": "Mesto Guatemala"
+    },
+    "GN": {
+      "name": "Guinea",
+      "capital": "Conakry"
+    },
+    "GW": {
+      "name": "Guinea-Bissau",
+      "capital": "Bissau"
+    },
+    "GY": {
+      "name": "Guyana",
+      "capital": "Georgetown"
+    },
+    "HT": {
+      "name": "Haiti",
+      "capital": "Port-au-Prince"
+    },
+    "HN": {
+      "name": "Honduras",
+      "capital": "Tegucigalpa"
+    },
+    "HU": {
+      "name": "Maďarsko",
+      "capital": "Budapešť"
+    },
+    "IS": {
+      "name": "Island",
+      "capital": "Reykjavík"
+    },
+    "IN": {
+      "name": "India",
+      "capital": "Nové Dillí"
+    },
+    "ID": {
+      "name": "Indonézia",
+      "capital": "Jakarta"
+    },
+    "IR": {
+      "name": "Irán",
+      "capital": "Teherán"
+    },
+    "IQ": {
+      "name": "Iraku",
+      "capital": "Bagdad"
+    },
+    "IE": {
+      "name": "Írsko",
+      "capital": "Dublin"
+    },
+    "IL": {
+      "name": "Izrael",
+      "capital": "Jeruzalem"
+    },
+    "IT": {
+      "name": "Taliansko",
+      "capital": "Rím"
+    },
+    "JM": {
+      "name": "Jamajka",
+      "capital": "Kingston"
+    },
+    "JP": {
+      "name": "Japonsko",
+      "capital": "Tokio"
+    },
+    "JO": {
+      "name": "Jordan",
+      "capital": "Ammán"
+    },
+    "KZ": {
+      "name": "Kazachstan",
+      "capital": "Astana"
+    },
+    "KE": {
+      "name": "Keňa",
+      "capital": "Nairobi"
+    },
+    "KI": {
+      "name": "Kiribati",
+      "capital": "Južná Tarawa"
+    },
+    "KP": {
+      "name": "Severná Kórea",
+      "capital": "Pjongčang"
+    },
+    "KR": {
+      "name": "Južná Kórea",
+      "capital": "Soul"
+    },
+    "KW": {
+      "name": "Kuvajt",
+      "capital": "Kuvajt City"
+    },
+    "KG": {
+      "name": "Kirgizsko",
+      "capital": "Biškek"
+    },
+    "LA": {
+      "name": "Laos",
+      "capital": "Vientiane"
+    },
+    "LV": {
+      "name": "Lotyšsko",
+      "capital": "Riga"
+    },
+    "LB": {
+      "name": "Libanon",
+      "capital": "Bejrút"
+    },
+    "LS": {
+      "name": "Lesotho",
+      "capital": "Maseru"
+    },
+    "LR": {
+      "name": "Libéria",
+      "capital": "Monrovia"
+    },
+    "LY": {
+      "name": "Líbya",
+      "capital": "Tripolis"
+    },
+    "LI": {
+      "name": "Lichtenštajnsko",
+      "capital": "Vaduz"
+    },
+    "LT": {
+      "name": "Litva",
+      "capital": "Vilnius"
+    },
+    "LU": {
+      "name": "Luxembursko",
+      "capital": "Luxembursko"
+    },
+    "MG": {
+      "name": "Madagaskar",
+      "capital": "Antananarivo"
+    },
+    "MW": {
+      "name": "Malawi",
+      "capital": "Lilongwe"
+    },
+    "MY": {
+      "name": "Malajzia",
+      "capital": "Kuala Lumpur"
+    },
+    "MV": {
+      "name": "Maledivy",
+      "capital": "Malé"
+    },
+    "ML": {
+      "name": "Mali",
+      "capital": "Bamako"
+    },
+    "MT": {
+      "name": "Malta",
+      "capital": "Valletta"
+    },
+    "MH": {
+      "name": "Marshallove ostrovy",
+      "capital": "Majuro"
+    },
+    "MR": {
+      "name": "Mauritánia",
+      "capital": "Nouakchott"
+    },
+    "MU": {
+      "name": "Maurícius",
+      "capital": "Port Louis"
+    },
+    "MX": {
+      "name": "Mexiko",
+      "capital": "Mexico City"
+    },
+    "FM": {
+      "name": "Mikronézia",
+      "capital": "Palikir"
+    },
+    "MD": {
+      "name": "Moldavsko",
+      "capital": "Kišiňov"
+    },
+    "MC": {
+      "name": "Monako",
+      "capital": "Monako"
+    },
+    "MN": {
+      "name": "Mongolsko",
+      "capital": "Ulanbátar"
+    },
+    "ME": {
+      "name": "Čierna Hora",
+      "capital": "Podgorica"
+    },
+    "MA": {
+      "name": "Maroko",
+      "capital": "Rabat"
+    },
+    "MZ": {
+      "name": "Mozambik",
+      "capital": "Maputo"
+    },
+    "MM": {
+      "name": "Mjanmarsko",
+      "capital": "Naypyidaw"
+    },
+    "NA": {
+      "name": "Namíbia",
+      "capital": "Windhoek"
+    },
+    "NR": {
+      "name": "Nauru",
+      "capital": "Yaren"
+    },
+    "NP": {
+      "name": "Nepál",
+      "capital": "Káthmandu"
+    },
+    "NL": {
+      "name": "Holandsko",
+      "capital": "Amsterdam"
+    },
+    "NZ": {
+      "name": "Nový Zéland",
+      "capital": "Wellington"
+    },
+    "NI": {
+      "name": "Nikaragua",
+      "capital": "Managua"
+    },
+    "NE": {
+      "name": "Niger",
+      "capital": "Niamey"
+    },
+    "NG": {
+      "name": "Nigéria",
+      "capital": "Abuja"
+    },
+    "MK": {
+      "name": "Severné Macedónsko",
+      "capital": "Skopje"
+    },
+    "NO": {
+      "name": "Nórsko",
+      "capital": "Oslo"
+    },
+    "OM": {
+      "name": "Omán",
+      "capital": "Muscat"
+    },
+    "PK": {
+      "name": "Pakistan",
+      "capital": "Islamabad"
+    },
+    "PW": {
+      "name": "Palau",
+      "capital": "Ngerulmud"
+    },
+    "PS": {
+      "name": "Palestíne",
+      "capital": "Ramalláh"
+    },
+    "PA": {
+      "name": "Panama",
+      "capital": "Panama City"
+    },
+    "PG": {
+      "name": "Papua Nová Guinea",
+      "capital": "Port Moresby"
+    },
+    "PY": {
+      "name": "Paraguaj",
+      "capital": "Asunción"
+    },
+    "PE": {
+      "name": "Peru",
+      "capital": "Lima"
+    },
+    "PH": {
+      "name": "Filipíny",
+      "capital": "Manila"
+    },
+    "PL": {
+      "name": "Poľsko",
+      "capital": "Varšava"
+    },
+    "PT": {
+      "name": "Portugalsko",
+      "capital": "Lisabon"
+    },
+    "QA": {
+      "name": "Katar",
+      "capital": "Dauha"
+    },
+    "RO": {
+      "name": "Rumunsko",
+      "capital": "Bukurešť"
+    },
+    "RU": {
+      "name": "Rusko",
+      "capital": "Moskva"
+    },
+    "RW": {
+      "name": "Rwanda",
+      "capital": "Kigali"
+    },
+    "KN": {
+      "name": "Svätý Krištof a Nevis",
+      "capital": "Basseterre"
+    },
+    "LC": {
+      "name": "Svätá Lucia",
+      "capital": "Castries"
+    },
+    "VC": {
+      "name": "Svätý Vincent a Grenadíny",
+      "capital": "Kingstown"
+    },
+    "WS": {
+      "name": "Samoa",
+      "capital": "Apia"
+    },
+    "SM": {
+      "name": "San Marino",
+      "capital": "San Marino"
+    },
+    "ST": {
+      "name": "Svätý Tomáš a Princov ostrov",
+      "capital": "Svätý Tomáš"
+    },
+    "SA": {
+      "name": "Saudská Arábia",
+      "capital": "Rijád"
+    },
+    "SN": {
+      "name": "Senegal",
+      "capital": "Dakar"
+    },
+    "RS": {
+      "name": "Srbsko",
+      "capital": "Belehrad"
+    },
+    "SL": {
+      "name": "Sierra Leone",
+      "capital": "Freetown"
+    },
+    "SG": {
+      "name": "Singapur",
+      "capital": "Singapur"
+    },
+    "SK": {
+      "name": "Slovensko",
+      "capital": "Bratislava"
+    },
+    "SI": {
+      "name": "Slovinsko",
+      "capital": "Ľubľana"
+    },
+    "SB": {
+      "name": "Šalamúnove ostrovy",
+      "capital": "Honiara"
+    },
+    "SO": {
+      "name": "Somálsko",
+      "capital": "Mogadišo"
+    },
+    "ZA": {
+      "name": "Južná Afrika",
+      "capital": "Pretória"
+    },
+    "SS": {
+      "name": "Južný Sudán",
+      "capital": "Juba"
+    },
+    "ES": {
+      "name": "Španielsko",
+      "capital": "Madrid"
+    },
+    "LK": {
+      "name": "Srí Lanka",
+      "capital": "Colombo"
+    },
+    "SD": {
+      "name": "Sudán",
+      "capital": "Chartúm"
+    },
+    "SR": {
+      "name": "Surinam",
+      "capital": "Paramaribo"
+    },
+    "SE": {
+      "name": "Švédsko",
+      "capital": "Štokholm"
+    },
+    "CH": {
+      "name": "Švajčiarsko",
+      "capital": "Bern"
+    },
+    "SY": {
+      "name": "Sýria",
+      "capital": "Damask"
+    },
+    "TW": {
+      "name": "Taiwan",
+      "capital": "Taipei"
+    },
+    "TJ": {
+      "name": "Tadžikistan",
+      "capital": "Dušanbe"
+    },
+    "TZ": {
+      "name": "Tanzánia",
+      "capital": "Dodoma"
+    },
+    "TH": {
+      "name": "Thajsko",
+      "capital": "Bangkok"
+    },
+    "TL": {
+      "name": "Východný Timor",
+      "capital": "Dili"
+    },
+    "TG": {
+      "name": "Togo",
+      "capital": "Lomé"
+    },
+    "TO": {
+      "name": "Tonga",
+      "capital": "Nukuʻalofa"
+    },
+    "TT": {
+      "name": "Trinidad a Tobago",
+      "capital": "Španielsky prístav"
+    },
+    "TN": {
+      "name": "Tunisko",
+      "capital": "Tunis"
+    },
+    "TR": {
+      "name": "Turecko",
+      "capital": "Ankara"
+    },
+    "TM": {
+      "name": "Turkménsko",
+      "capital": "Ašchabad"
+    },
+    "TV": {
+      "name": "Tuvalu",
+      "capital": "Funafuti"
+    },
+    "UG": {
+      "name": "Uganda",
+      "capital": "Kampala"
+    },
+    "UA": {
+      "name": "Ukrajina",
+      "capital": "Kyjev"
+    },
+    "AE": {
+      "name": "Spojené arabské emiráty",
+      "capital": "Abu Dhabi"
+    },
+    "GB": {
+      "name": "Spojené kráľovstvo",
+      "capital": "Londýn"
+    },
+    "US": {
+      "name": "Spojené štáty americké",
+      "capital": "Washington D.C."
+    },
+    "UY": {
+      "name": "Uruguaj",
+      "capital": "Montevideo"
+    },
+    "UZ": {
+      "name": "Uzbekistan",
+      "capital": "Taškent"
+    },
+    "VU": {
+      "name": "Vanuatu",
+      "capital": "Port Vila"
+    },
+    "VA": {
+      "name": "Vatikán",
+      "capital": "Vatikán"
+    },
+    "VE": {
+      "name": "Venezuela",
+      "capital": "Caracas"
+    },
+    "VN": {
+      "name": "Vietnam",
+      "capital": "Hanoj"
+    },
+    "YE": {
+      "name": "Jemen",
+      "capital": "Sanaa"
+    },
+    "ZM": {
+      "name": "Zambia",
+      "capital": "Lusaka"
+    },
+    "ZW": {
+      "name": "Zimbabwe",
+      "capital": "Harare"
+    },
+    "EH": {
+      "name": "Západná Sahara",
+      "capital": "Laayoune"
+    },
+    "XK": {
+      "name": "Kosovo",
+      "capital": "Priština"
+    }
+  },
+  "pity": {
+    "title": "Akumulované šťastie",
+    "guaranteedTitle": "Nová krajina zaručená!",
+    "ready": "Ďalší hod bude magický!"
+  },
+  "tour": {
+    "skip": "Preskočiť návod",
+    "next": "Ďalej ➔",
+    "prev": "⬅ Predchádzajúce",
+    "done": "Dokončiť ✓",
+    "progress": "Krok {{current}} z {{total}}",
+    "step1": {
+      "title": "👋 Vitajte vo WorldDex!",
+      "desc": "Tu budete zbierať všetky krajiny sveta prostredníctvom žrebovaní na základe skutočnej globálnej pôrodnosti. Pozrime sa, ako to funguje?"
+    },
+    "step2": {
+      "title": "🎲 Prejdite okolo sveta",
+      "desc": "Kliknutím na toto tlačidlo (alebo stlačením medzerníka) sa roztočí. Pravdepodobnosť pristátia v krajine je <b>presne rovnaká ako pravdepodobnosť, že sa tam narodíte</b> v reálnom svete. Čím viac pôrodov, tým častejšie!"
+    },
+    "step3": {
+      "title": "🗺️ O Teu Mapa",
+      "desc": "Sempre que desbloqueares um país novo, ele será pintado no mapa com a cor da sua raridade (Comum, Incomum, Raro, Épico ou Lendário)."
+    },
+    "step4": {
+      "title": "💖 Sistema de Pity",
+      "desc": "Cada vez que te calha um duplicado, a barra de sorte sobe. Quando chegar ao máximo, o próximo giro é <b>100% garantido</b> de ser um país que ainda não tens!"
+    },
+    "step5": {
+      "title": "🛒 Loja & Economia",
+      "desc": "Não te preocupes com os duplicados. Cada país repetido dá-te <b>moedas</b> (dependendo da sua raridade). Podes usar moedas nesta Loja para <b>comprar países em falta</b> ou <b>Upgrades</b> (como o Autoclicker ou multiplicadores)."
+    },
+    "step6": {
+      "title": "📚 A Tua Coleção",
+      "desc": "Nesta aba podes ver todos os países que já tiraste e quantos te faltam. Podes clicar neles para veres detalhes e curiosidades."
+    },
+    "step7": {
+      "title": "🏆 Conquistas",
+      "desc": "Completa continentes, forma grupos de países específicos (como a CPLP ou União Europeia) e alcança metas para desbloquear estas conquistas únicas."
+    },
+    "step8": {
+      "title": "🌍 Pronto a Jogar!",
+      "desc": "Agora é contigo! Boa sorte na tua jornada para desbloquear o mundo inteiro, um nascimento de cada vez."
+    }
+  }
+}

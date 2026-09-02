@@ -1,0 +1,1155 @@
+{
+  "app": {
+    "title": "WorldDex",
+    "subtitle": "한 번에 한 번씩 탄생하면서 세상을 잠금 해제하세요."
+  },
+  "header": {
+    "howToPlay": "플레이 방법",
+    "aboutData": "데이터에 대하여",
+    "resetProgress": "진행 상황 재설정",
+    "privacy": "은둔",
+    "localStorageNotice": "이 기기에 진행 상황이 저장되었습니다."
+  },
+  "nav": {
+    "progress": "진전",
+    "collection": "수집",
+    "history": "역사",
+    "achievements": "업적",
+    "settings": "설정"
+  },
+  "roll": {
+    "button": "Roll",
+    "rolling": "구르는...",
+    "newCountry": "새로운 국가가 잠금 해제되었습니다!",
+    "duplicate": "당신은 이미 이 나라를 갖고 있습니다. 계속하세요!",
+    "viewOnMap": "지도에서 보기",
+    "close": "닫다",
+    "estimatedChance": "예상 확률",
+    "population": "인구",
+    "annualBirths": "예상 연간 출생",
+    "firstUnlock": "처음으로!",
+    "alreadyHave": "복제하다",
+    "spacebar": "Press [Space] to roll"
+  },
+  "country": {
+    "population": "인구",
+    "annualBirths": "예상 연간 출생",
+    "birthChance": "여기서 태어날 확률",
+    "capital": "수도",
+    "continent": "대륙",
+    "status": {
+      "locked": "여전히 잠겨 있음",
+      "unlocked": "잠금 해제됨"
+    },
+    "rollCount": "출현 시간 {{count}}",
+    "rollCount_other": "{{count}}회 표시됨",
+    "firstUnlocked": "{{날짜}}에 잠금 해제됨",
+    "zoomToCountry": "지도 중심",
+    "notFound": "국가를 찾을 수 없습니다",
+    "clickToExplore": "탐색하려면 국가를 클릭하세요."
+  },
+  "progress": {
+    "title": "진전",
+    "unlocked": "잠금 해제됨",
+    "unlockedCount": "{{개수}} / {{총}} 국가",
+    "percentage": "{{값}}% 완료",
+    "remaining": "남은 국가 {{count}}개",
+    "totalRolls": "Total Rolls",
+    "duplicates": "중복",
+    "longestStreak": "중복 없이 최고의 연속 기록",
+    "continents": "대륙별 진행상황"
+  },
+  "collection": {
+    "title": "수집",
+    "search": "국가 검색...",
+    "sort": {
+      "label": "정렬 기준",
+      "recent": "최근 잠금 해제됨",
+      "alphabetical": "알파벳순",
+      "mostRolled": "가장 많이 굴린",
+      "continent": "대륙"
+    },
+    "empty": "아직 잠금 해제된 국가가 없습니다. 롤을 줘!",
+    "noResults": "검색어와 일치하는 국가가 없습니다.",
+    "rolls": "{{count}} 롤",
+    "rolls_other": "{{count}} 롤",
+    "sortChanceDesc": "Highest Chance",
+    "sortChanceAsc": "Lowest Chance"
+  },
+  "history": {
+    "title": "역사",
+    "filter": {
+      "all": "모두",
+      "new": "새로운",
+      "duplicates": "중복"
+    },
+    "clearHistory": "기록 지우기",
+    "clearConfirmTitle": "기록을 삭제하시겠습니까?",
+    "clearConfirmMessage": "이 작업은 취소할 수 없습니다. 롤 기록이 영구적으로 삭제됩니다.",
+    "clearConfirm": "분명한",
+    "clearCancel": "취소",
+    "empty": "아직 롤을 수행하지 않았습니다. 지금 시작하세요!",
+    "emptyFiltered": "이 필터와 일치하는 롤이 없습니다.",
+    "new": "새로운",
+    "duplicate": "복제하다",
+    "rollNumber": "#{{번호}} 굴리기"
+  },
+  "achievements": {
+    "title": "업적",
+    "locked": "잠김",
+    "unlocked": "잠금 해제됨",
+    "unlockedOn": "{{날짜}}에 잠금 해제됨",
+    "progress": "{{현재}} / {{전체}}",
+    "newUnlock": "업적 잠금 해제!",
+    "firstStep": {
+      "name": "첫 번째 단계",
+      "description": "첫 번째 국가를 잠금 해제하세요."
+    },
+    "explorer": {
+      "name": "탐침",
+      "description": "10개 국가를 잠금 해제하세요."
+    },
+    "traveller": {
+      "name": "여행자",
+      "description": "25개 국가를 잠금 해제하세요."
+    },
+    "cartographer": {
+      "name": "지도 제작자",
+      "description": "50개 국가를 잠금 해제하세요."
+    },
+    "worldCollector1": {
+      "name": "월드 콜렉터 I",
+      "description": "75개 국가를 잠금 해제하세요."
+    },
+    "worldCollector2": {
+      "name": "월드 콜렉터 II",
+      "description": "100개 국가를 잠금 해제하세요."
+    },
+    "worldCollector3": {
+      "name": "월드 콜렉터 III",
+      "description": "125개 국가를 잠금 해제하세요."
+    },
+    "halfwayThere": {
+      "name": "중간쯤",
+      "description": "모든 국가의 50%를 잠금 해제하세요."
+    },
+    "continentalExplorer": {
+      "name": "대륙 탐험가",
+      "description": "대륙 전체를 완료하세요."
+    },
+    "continentalMaster": {
+      "name": "컨티넨탈 마스터",
+      "description": "3개 대륙을 완료하세요."
+    },
+    "aroundTheWorld": {
+      "name": "전 세계",
+      "description": "모든 대륙을 완료하세요."
+    },
+    "worldComplete": {
+      "name": "월드 컴플리트",
+      "description": "모든 국가와 지역을 잠금 해제하세요."
+    },
+    "luckyStreak": {
+      "name": "행운의 연속",
+      "description": "중복 없이 새로운 5개 국가를 연속으로 잠금 해제하세요."
+    },
+    "persistent": {
+      "name": "지속성 있는",
+      "description": "총 100번을 굴립니다."
+    },
+    "dedicated": {
+      "name": "헌신적인",
+      "description": "총 500번 굴립니다."
+    },
+    "home_sweet_home": {
+      "name": "홈 스위트 홈",
+      "description": "현재 살고 있는 국가를 굴렸습니다!"
+    },
+    "group_palop": {
+      "name": "팔롭",
+      "description": "포르투갈어를 사용하는 모든 아프리카 국가를 잠금 해제합니다."
+    },
+    "group_brics": {
+      "name": "브릭스",
+      "description": "BRICS 블록의 주요 국가(및 신규 회원)를 잠금 해제합니다."
+    },
+    "group_eu": {
+      "name": "유럽연합",
+      "description": "모든 유럽 연합 회원국을 잠금 해제합니다."
+    },
+    "group_nato": {
+      "name": "태어나다",
+      "description": "모든 NATO 회원국을 잠금 해제합니다."
+    },
+    "india_500": {
+      "name": "나마스테!",
+      "description": "인도를 500번 회전하세요."
+    },
+    "group_g7": {
+      "description": "모든 G7 국가를 잠금 해제합니다."
+    },
+    "group_mercosul": {
+      "name": "메르코수르",
+      "description": "Mercosur 회원국을 잠금 해제합니다."
+    },
+    "group_asean": {
+      "name": "아세안",
+      "description": "동남아시아 국가 연합의 국가를 잠금 해제합니다."
+    },
+    "group_opep": {
+      "name": "OPEC",
+      "description": "석유 수출국 기구의 회원을 잠금 해제합니다."
+    }
+  },
+  "tutorial": {
+    "title": "플레이 방법",
+    "step1": "<b></b>을 클릭하여 자신이 태어날 수 있는 국가를 알아보세요.",
+    "step2": "각 국가는 전 세계 출생 비율을 기준으로 추정된 확률을 가지고 있습니다. 이는 동등하게 무작위적이지 않습니다!",
+    "step3": "처음으로 국가를 잠금 해제하면 세계 지도에 해당 국가의 색상이 표시됩니다.",
+    "step4": "수도, 인구 및 예상 확률을 보려면 지도나 컬렉션에서 국가를 클릭하세요.",
+    "step5": "대륙을 완성하고, 업적을 달성하고, 전 세계를 잠금 해제해 보세요.",
+    "step6": "진행 상황은 이 장치에만 저장됩니다. 계정이나 추적 기능은 없습니다.",
+    "previous": "이전의",
+    "next": "다음",
+    "skip": "튜토리얼 건너뛰기",
+    "finish": "플레이를 시작하세요!",
+    "dontShowAgain": "다시 표시하지 않음",
+    "stepOf": "{{전체}} 중 {{현재}} 단계",
+    "restart": "튜토리얼 보기",
+    "rollDesc": "버튼을 클릭하여 행운을 빌고 새로운 국가를 발견하세요! (팁: 키보드의 [Space] 바를 사용하여 더 빠르게 재생하고 창을 닫을 수 있습니다).",
+    "collectionDesc": "여기서는 이미 잠금 해제한 국가를 볼 수 있습니다. 희귀도, 대륙, 날짜별로 정렬할 수 있습니다! 끝에서 15개 국가를 벗어나면 어떤 국가가 누락되었는지 확인할 수 있습니다.",
+    "achievementsDesc": "경제 블록(예: BRICS 또는 유럽 연합) 수집부터 인도 500회전까지 목표를 완료하여 메달을 획득하세요.",
+    "historyDesc": "이전 플레이를 모두 검토하고 국가를 잠금 해제한 지 얼마나 되었는지 알아보세요."
+  },
+  "settings": {
+    "title": "설정",
+    "language": "언어",
+    "languageLabel": "언어 선택",
+    "data": "데이터 및 개인정보 보호",
+    "exportProgress": "수출 진행상황",
+    "importProgress": "가져오기 진행 상황",
+    "resetProgress": "진행 상황 재설정",
+    "restartTutorial": "튜토리얼 보기",
+    "aboutData": "데이터에 대하여",
+    "privacy": "은둔",
+    "searchLanguage": "Search language..."
+  },
+  "modals": {
+    "aboutData": {
+      "title": "데이터에 대하여",
+      "intro": "출생 확률은 국가별 연간 출생에 대한 이용 가능한 데이터를 기반으로 계산된 추정치입니다.",
+      "methodology": "방법론",
+      "methodologyText": "특정 국가에서 태어날 확률은 전 세계 인구 대비 해당 국가의 연간 예상 출생아 수의 비율로 계산됩니다. 우리는 세계은행과 UN(World Population Prospects)의 대략적인 데이터를 사용합니다. 값은 추정치이며 최신 통계를 반영하지 않을 수도 있습니다.",
+      "sensitivity": "정치적 민감성에 관한 참고 사항",
+      "sensitivityText": "국경, 영토, 국가 인정은 정치적으로 민감한 문제입니다. 이 게임에 영토를 포함시키는 것은 교육적, 지리적 목적을 위한 것이며 정치적 입장을 구성하지 않습니다. 엔터테인먼트 게임의 경우 데이터가 단순화되었습니다.",
+      "updates": "데이터 업데이트",
+      "updatesText": "인구통계 데이터는 시간이 지남에 따라 변경됩니다. 이 프로젝트는 데이터를 합리적으로 업데이트된 상태로 유지하려고 노력하지만 실시간 정확성을 보장하지는 않습니다.",
+      "sources": "출처",
+      "sourcesList": [
+        "세계은행 — 세계 개발 지표",
+        "UN — 2022년 세계 인구 전망",
+        "자연 지구 — 지리 데이터(공개 도메인)",
+        "세계 지도책(TopoJSON) — 지도 데이터"
+      ],
+      "close": "닫다"
+    },
+    "privacy": {
+      "title": "개인정보 보호 및 약관",
+      "project": "이것은 무료, 비상업적 교육 및 엔터테인먼트 프로젝트입니다.",
+      "noData": "개인 데이터는 수집되지 않습니다.",
+      "localStorage": "진행 상황은 장치의 로컬 저장소(localStorage)에만 저장됩니다. 어떤 정보도 서버로 전송되지 않습니다.",
+      "noCookies": "이 게임은 쿠키를 사용하지 않습니다. 귀하의 기본 설정과 진행 상황을 저장하는 데는 localStorage만 사용됩니다.",
+      "noTracking": "분석, 추적, 광고 또는 타사 시스템이 없습니다.",
+      "borders": "지리, 인구통계 및 국경 데이터는 추정치이므로 불완전하거나 오래되었을 수 있습니다. 이 프로젝트는 국경, 영토 또는 국가 인정에 대해 정치적 입장을 취하지 않습니다.",
+      "license": "MIT 라이센스에 따라 소스 코드를 사용할 수 있습니다.",
+      "attribution": "속성",
+      "close": "닫다"
+    },
+    "reset": {
+      "title": "진행 상황 재설정",
+      "message": "확실합니까? 모든 진행 상황, 컬렉션, 기록, 업적이 영구적으로 삭제됩니다. 이 작업은 취소할 수 없습니다.",
+      "confirm": "응, 다 삭제해",
+      "cancel": "취소"
+    },
+    "importExport": {
+      "title": "가져오기/내보내기 진행상황",
+      "exportTitle": "내보내다",
+      "exportDescription": "진행 상황을 JSON 파일로 내보내 백업하거나 다른 장치로 전송할 수 있습니다.",
+      "exportButton": "JSON 파일 내보내기",
+      "importTitle": "수입",
+      "importDescription": "이전에 내보낸 JSON 파일을 가져옵니다. 현재 진행 상황이 대체됩니다.",
+      "importWarning": "경고: 현재 진행 상황이 가져온 파일로 대체됩니다.",
+      "importButton": "JSON 파일 선택",
+      "importSuccess": "진행 상황을 성공적으로 가져왔습니다!",
+      "importError": "파일이 잘못되었거나 손상되었습니다. 이 게임에서 파일을 내보냈는지 확인하세요.",
+      "close": "닫다"
+    }
+  },
+  "continents": {
+    "africa": "아프리카",
+    "asia": "아시아",
+    "europe": "유럽",
+    "northAmerica": "북아메리카",
+    "southAmerica": "남아메리카",
+    "oceania": "오세아니아"
+  },
+  "data": {
+    "estimated": "추정된",
+    "source": "원천",
+    "year": "데이터 연도",
+    "approximation": "이 값은 근사치입니다."
+  },
+  "errors": {
+    "mapLoad": "지도를 로드할 수 없습니다. 페이지를 새로고침해 보세요.",
+    "dataCorrupt": "저장된 데이터가 손상되었습니다. 진행 상황이 재설정되었습니다.",
+    "importFailed": "파일을 가져올 수 없습니다.",
+    "unknown": "예상치 못한 오류가 발생했습니다."
+  },
+  "accessibility": {
+    "languageSelector": "언어 선택",
+    "flagOf": "{{국가}} 국기",
+    "rollButton": "롤 - 임의의 국가를 그립니다.",
+    "closeModal": "닫다",
+    "mainMap": "인터랙티브 세계지도",
+    "lockedCountry": "{{국가}} — 잠겨 있음",
+    "unlockedCountry": "{{국가}} — 잠금 해제됨",
+    "rolledCountry": "{{국가}} — 방금 출시되었습니다.",
+    "progressBar": "잠금 해제된 국가의 {{value}}%",
+    "achievementLocked": "업적 잠김: {{이름}}",
+    "achievementUnlocked": "업적 잠금 해제: {{이름}}"
+  },
+  "countries": {
+    "AF": {
+      "name": "아프가니스탄",
+      "capital": "카불"
+    },
+    "AL": {
+      "name": "알바니아",
+      "capital": "티라나"
+    },
+    "DZ": {
+      "name": "알제리",
+      "capital": "알제"
+    },
+    "AD": {
+      "name": "안도라",
+      "capital": "안도라라베야"
+    },
+    "AO": {
+      "name": "앙골라",
+      "capital": "루안다"
+    },
+    "AG": {
+      "name": "앤티가바부다",
+      "capital": "세인트 존스"
+    },
+    "AR": {
+      "name": "아르헨티나",
+      "capital": "부에노스 아이레스"
+    },
+    "AM": {
+      "name": "아르메니아",
+      "capital": "예레반"
+    },
+    "AU": {
+      "name": "호주",
+      "capital": "캔버라"
+    },
+    "AT": {
+      "name": "오스트리아",
+      "capital": "비엔나"
+    },
+    "AZ": {
+      "name": "아제르바이잔",
+      "capital": "바쿠"
+    },
+    "BS": {
+      "name": "바하마",
+      "capital": "나소"
+    },
+    "BH": {
+      "name": "바레인",
+      "capital": "마나마"
+    },
+    "BD": {
+      "name": "방글라데시",
+      "capital": "다카"
+    },
+    "BB": {
+      "name": "바베이도스",
+      "capital": "브리지타운"
+    },
+    "BY": {
+      "name": "벨라루스",
+      "capital": "민스크"
+    },
+    "BE": {
+      "name": "벨기에",
+      "capital": "브뤼셀"
+    },
+    "BZ": {
+      "name": "벨리즈",
+      "capital": "벨모판"
+    },
+    "BJ": {
+      "name": "베냉",
+      "capital": "포르토노보"
+    },
+    "BT": {
+      "name": "부탄",
+      "capital": "팀푸"
+    },
+    "BO": {
+      "name": "볼리비아",
+      "capital": "수크레"
+    },
+    "BA": {
+      "name": "보스니아 헤르체고비나",
+      "capital": "사라예보"
+    },
+    "BW": {
+      "name": "보츠와나",
+      "capital": "가보로네"
+    },
+    "BR": {
+      "name": "브라질",
+      "capital": "브라질리아"
+    },
+    "BN": {
+      "name": "브루나이",
+      "capital": "반다르 세리 베가완"
+    },
+    "BG": {
+      "name": "불가리아",
+      "capital": "소피아"
+    },
+    "BF": {
+      "name": "부르키나파소",
+      "capital": "와가두구"
+    },
+    "BI": {
+      "name": "부룬디",
+      "capital": "기테가"
+    },
+    "CV": {
+      "name": "카보베르데",
+      "capital": "프라이아"
+    },
+    "KH": {
+      "name": "캄보디아",
+      "capital": "프놈펜"
+    },
+    "CM": {
+      "name": "카메룬",
+      "capital": "야운데"
+    },
+    "CA": {
+      "name": "캐나다",
+      "capital": "오타와"
+    },
+    "CF": {
+      "name": "중앙아프리카공화국",
+      "capital": "방기"
+    },
+    "TD": {
+      "name": "차드",
+      "capital": "은자메나"
+    },
+    "CL": {
+      "name": "칠레",
+      "capital": "산티아고"
+    },
+    "CN": {
+      "name": "중국",
+      "capital": "베이징"
+    },
+    "CO": {
+      "name": "콜롬비아",
+      "capital": "보고타"
+    },
+    "KM": {
+      "name": "코모로",
+      "capital": "모로나이"
+    },
+    "CG": {
+      "name": "콩고",
+      "capital": "브라자빌"
+    },
+    "CD": {
+      "name": "콩고민주공화국",
+      "capital": "킨샤사"
+    },
+    "CR": {
+      "name": "코스타리카",
+      "capital": "산호세"
+    },
+    "CI": {
+      "name": "상아 해안",
+      "capital": "야무수크로"
+    },
+    "HR": {
+      "name": "크로아티아",
+      "capital": "자그레브"
+    },
+    "CU": {
+      "name": "쿠바",
+      "capital": "아바나"
+    },
+    "CY": {
+      "name": "키프로스",
+      "capital": "니코시아"
+    },
+    "CZ": {
+      "name": "체코",
+      "capital": "프라하"
+    },
+    "DK": {
+      "name": "덴마크",
+      "capital": "코펜하겐"
+    },
+    "DJ": {
+      "name": "지부티",
+      "capital": "지부티"
+    },
+    "DM": {
+      "name": "도미니카",
+      "capital": "로조"
+    },
+    "DO": {
+      "name": "도미니카 공화국",
+      "capital": "산토도밍고"
+    },
+    "EC": {
+      "name": "에콰도르",
+      "capital": "키토"
+    },
+    "EG": {
+      "name": "이집트",
+      "capital": "카이로"
+    },
+    "SV": {
+      "name": "엘살바도르",
+      "capital": "산살바도르"
+    },
+    "GQ": {
+      "name": "적도기니",
+      "capital": "말라보"
+    },
+    "ER": {
+      "name": "에리트레아",
+      "capital": "아스마라"
+    },
+    "EE": {
+      "name": "에스토니아",
+      "capital": "탈린"
+    },
+    "SZ": {
+      "name": "에스와티니",
+      "capital": "음바바네"
+    },
+    "ET": {
+      "name": "에티오피아",
+      "capital": "아디스 아바바"
+    },
+    "FJ": {
+      "name": "피지",
+      "capital": "수바"
+    },
+    "FI": {
+      "name": "핀란드",
+      "capital": "헬싱키"
+    },
+    "FR": {
+      "name": "프랑스",
+      "capital": "파리"
+    },
+    "GA": {
+      "name": "가봉",
+      "capital": "리브르빌"
+    },
+    "GM": {
+      "name": "감비아",
+      "capital": "반줄"
+    },
+    "GE": {
+      "name": "그루지야",
+      "capital": "트빌리시"
+    },
+    "DE": {
+      "name": "독일",
+      "capital": "베를린"
+    },
+    "GH": {
+      "name": "가나",
+      "capital": "아크라"
+    },
+    "GR": {
+      "name": "그리스",
+      "capital": "아테네"
+    },
+    "GD": {
+      "name": "그레나다",
+      "capital": "세인트조지스"
+    },
+    "GT": {
+      "name": "과테말라",
+      "capital": "과테말라 시티"
+    },
+    "GN": {
+      "name": "기니",
+      "capital": "코나크리"
+    },
+    "GW": {
+      "name": "기니비사우",
+      "capital": "비사우"
+    },
+    "GY": {
+      "name": "가이아나",
+      "capital": "조지타운"
+    },
+    "HT": {
+      "name": "아이티",
+      "capital": "포르토프랭스"
+    },
+    "HN": {
+      "name": "온두라스",
+      "capital": "테구시갈파"
+    },
+    "HU": {
+      "name": "헝가리",
+      "capital": "부다페스트"
+    },
+    "IS": {
+      "name": "아이슬란드",
+      "capital": "레이캬비크"
+    },
+    "IN": {
+      "name": "인도",
+      "capital": "뉴델리"
+    },
+    "ID": {
+      "name": "인도네시아 공화국",
+      "capital": "자카르타"
+    },
+    "IR": {
+      "name": "이란",
+      "capital": "테헤란"
+    },
+    "IQ": {
+      "name": "이라크",
+      "capital": "바그다드"
+    },
+    "IE": {
+      "name": "아일랜드",
+      "capital": "더블린"
+    },
+    "IL": {
+      "name": "이스라엘",
+      "capital": "예루살렘"
+    },
+    "IT": {
+      "name": "이탈리아",
+      "capital": "로마"
+    },
+    "JM": {
+      "name": "자메이카",
+      "capital": "킹스턴"
+    },
+    "JP": {
+      "name": "일본",
+      "capital": "도쿄"
+    },
+    "JO": {
+      "name": "요르단",
+      "capital": "암만"
+    },
+    "KZ": {
+      "name": "카자흐스탄",
+      "capital": "아스타나"
+    },
+    "KE": {
+      "name": "케냐",
+      "capital": "나이로비"
+    },
+    "KI": {
+      "name": "키리바시",
+      "capital": "사우스 타라와"
+    },
+    "KP": {
+      "name": "북한",
+      "capital": "평양"
+    },
+    "KR": {
+      "name": "대한민국",
+      "capital": "서울"
+    },
+    "KW": {
+      "name": "쿠웨이트",
+      "capital": "쿠웨이트 시티"
+    },
+    "KG": {
+      "name": "키르기스스탄",
+      "capital": "비슈케크"
+    },
+    "LA": {
+      "name": "라오스",
+      "capital": "비엔티안"
+    },
+    "LV": {
+      "name": "라트비아",
+      "capital": "리가"
+    },
+    "LB": {
+      "name": "레바논",
+      "capital": "베이루트"
+    },
+    "LS": {
+      "name": "레소토",
+      "capital": "마세루"
+    },
+    "LR": {
+      "name": "라이베리아",
+      "capital": "몬로비아"
+    },
+    "LY": {
+      "name": "리비아",
+      "capital": "트리폴리"
+    },
+    "LI": {
+      "name": "리히텐슈타인",
+      "capital": "파두츠"
+    },
+    "LT": {
+      "name": "리투아니아",
+      "capital": "빌니우스"
+    },
+    "LU": {
+      "name": "룩셈부르크",
+      "capital": "룩셈부르크"
+    },
+    "MG": {
+      "name": "마다가스카르",
+      "capital": "안타나나리보"
+    },
+    "MW": {
+      "name": "말라위",
+      "capital": "릴롱웨"
+    },
+    "MY": {
+      "name": "말레이시아",
+      "capital": "쿠알라룸푸르"
+    },
+    "MV": {
+      "name": "몰디브",
+      "capital": "남성"
+    },
+    "ML": {
+      "name": "말리",
+      "capital": "바마코"
+    },
+    "MT": {
+      "name": "몰타",
+      "capital": "발레타"
+    },
+    "MH": {
+      "name": "마샬 군도",
+      "capital": "마주로"
+    },
+    "MR": {
+      "name": "모리타니",
+      "capital": "누악쇼트"
+    },
+    "MU": {
+      "name": "모리셔스",
+      "capital": "포트 루이스"
+    },
+    "MX": {
+      "name": "멕시코",
+      "capital": "멕시코시티"
+    },
+    "FM": {
+      "name": "미크로네시아",
+      "capital": "팔리키르"
+    },
+    "MD": {
+      "name": "몰도바",
+      "capital": "키시나우"
+    },
+    "MC": {
+      "name": "모나코",
+      "capital": "모나코"
+    },
+    "MN": {
+      "name": "몽골리아",
+      "capital": "울란바토르"
+    },
+    "ME": {
+      "name": "몬테네그로",
+      "capital": "포드고리차"
+    },
+    "MA": {
+      "name": "모로코 가죽",
+      "capital": "라바트"
+    },
+    "MZ": {
+      "name": "모잠비크",
+      "capital": "마푸토"
+    },
+    "MM": {
+      "name": "미얀마",
+      "capital": "네피도"
+    },
+    "NA": {
+      "name": "나미비아",
+      "capital": "빈트후크"
+    },
+    "NR": {
+      "name": "나우루",
+      "capital": "야렌"
+    },
+    "NP": {
+      "name": "네팔",
+      "capital": "카트만두"
+    },
+    "NL": {
+      "name": "네덜란드",
+      "capital": "암스테르담"
+    },
+    "NZ": {
+      "name": "뉴질랜드",
+      "capital": "웰링턴"
+    },
+    "NI": {
+      "name": "니카라과",
+      "capital": "마나과"
+    },
+    "NE": {
+      "name": "니제르",
+      "capital": "니아메"
+    },
+    "NG": {
+      "name": "나이지리아",
+      "capital": "아부자"
+    },
+    "MK": {
+      "name": "북마케도니아",
+      "capital": "스코페"
+    },
+    "NO": {
+      "name": "노르웨이",
+      "capital": "오슬로"
+    },
+    "OM": {
+      "name": "오만",
+      "capital": "무스카트 포도"
+    },
+    "PK": {
+      "name": "파키스탄",
+      "capital": "이슬라마바드"
+    },
+    "PW": {
+      "name": "팔라우",
+      "capital": "응게룰무드"
+    },
+    "PS": {
+      "name": "팔레스타인",
+      "capital": "라말라"
+    },
+    "PA": {
+      "name": "파나마",
+      "capital": "파나마시티"
+    },
+    "PG": {
+      "name": "파푸아뉴기니",
+      "capital": "포트모르즈비"
+    },
+    "PY": {
+      "name": "파라과이",
+      "capital": "아순시온"
+    },
+    "PE": {
+      "name": "페루",
+      "capital": "리마"
+    },
+    "PH": {
+      "name": "필리핀 제도",
+      "capital": "마닐라"
+    },
+    "PL": {
+      "name": "폴란드",
+      "capital": "바르샤바"
+    },
+    "PT": {
+      "name": "포르투갈",
+      "capital": "리스본"
+    },
+    "QA": {
+      "name": "카타르",
+      "capital": "도하"
+    },
+    "RO": {
+      "name": "루마니아",
+      "capital": "부카레스트"
+    },
+    "RU": {
+      "name": "러시아 제국",
+      "capital": "모스크바"
+    },
+    "RW": {
+      "name": "르완다",
+      "capital": "키갈리"
+    },
+    "KN": {
+      "name": "세인트키츠네비스",
+      "capital": "바스테르"
+    },
+    "LC": {
+      "name": "세인트 루시아",
+      "capital": "캐스트리스"
+    },
+    "VC": {
+      "name": "세인트 빈센트 그레나딘",
+      "capital": "킹스타운"
+    },
+    "WS": {
+      "name": "사모아",
+      "capital": "아피아"
+    },
+    "SM": {
+      "name": "산마리노",
+      "capital": "산마리노"
+    },
+    "ST": {
+      "name": "상투메프린시페",
+      "capital": "상투메"
+    },
+    "SA": {
+      "name": "사우디아라비아",
+      "capital": "리야드"
+    },
+    "SN": {
+      "name": "세네갈",
+      "capital": "다카르"
+    },
+    "RS": {
+      "name": "세르비아",
+      "capital": "베오그라드"
+    },
+    "SL": {
+      "name": "시에라리온",
+      "capital": "프리타운"
+    },
+    "SG": {
+      "name": "싱가포르",
+      "capital": "싱가포르"
+    },
+    "SK": {
+      "name": "슬로바키아",
+      "capital": "브라티슬라바"
+    },
+    "SI": {
+      "name": "슬로베니아",
+      "capital": "류블랴나"
+    },
+    "SB": {
+      "name": "솔로몬 제도",
+      "capital": "호니아라"
+    },
+    "SO": {
+      "name": "소말리아",
+      "capital": "모가디슈"
+    },
+    "ZA": {
+      "name": "남아프리카",
+      "capital": "프리토리아"
+    },
+    "SS": {
+      "name": "남수단",
+      "capital": "주바"
+    },
+    "ES": {
+      "name": "스페인",
+      "capital": "마드리드"
+    },
+    "LK": {
+      "name": "스리랑카",
+      "capital": "콜롬보"
+    },
+    "SD": {
+      "name": "수단",
+      "capital": "카르툼"
+    },
+    "SR": {
+      "name": "수리남",
+      "capital": "파라마리보"
+    },
+    "SE": {
+      "name": "스웨덴",
+      "capital": "스톡홀름"
+    },
+    "CH": {
+      "name": "스위스",
+      "capital": "베른"
+    },
+    "SY": {
+      "name": "시리아",
+      "capital": "다마스쿠스"
+    },
+    "TW": {
+      "name": "대만",
+      "capital": "타이페이"
+    },
+    "TJ": {
+      "name": "타지키스탄",
+      "capital": "두샨베"
+    },
+    "TZ": {
+      "name": "탄자니아",
+      "capital": "도도마"
+    },
+    "TH": {
+      "name": "태국",
+      "capital": "방콕"
+    },
+    "TL": {
+      "name": "동티모르",
+      "capital": "딜리"
+    },
+    "TG": {
+      "name": "토고",
+      "capital": "로메"
+    },
+    "TO": {
+      "name": "통가",
+      "capital": "누쿠알로파"
+    },
+    "TT": {
+      "name": "트리니다드 토바고",
+      "capital": "포트 오브 스페인"
+    },
+    "TN": {
+      "name": "튀니지",
+      "capital": "튀니스"
+    },
+    "TR": {
+      "name": "칠면조",
+      "capital": "앙카라"
+    },
+    "TM": {
+      "name": "투르크메니스탄",
+      "capital": "아시가바트"
+    },
+    "TV": {
+      "name": "투발루",
+      "capital": "푸나푸티"
+    },
+    "UG": {
+      "name": "우간다",
+      "capital": "캄팔라"
+    },
+    "UA": {
+      "name": "우크라이나",
+      "capital": "키이우"
+    },
+    "AE": {
+      "name": "아랍에미리트",
+      "capital": "아부다비"
+    },
+    "GB": {
+      "name": "영국",
+      "capital": "런던"
+    },
+    "US": {
+      "name": "미국",
+      "capital": "워싱턴 D.C."
+    },
+    "UY": {
+      "name": "우루과이",
+      "capital": "몬테비데오"
+    },
+    "UZ": {
+      "name": "우즈베키스탄",
+      "capital": "타슈켄트"
+    },
+    "VU": {
+      "name": "바누아투",
+      "capital": "포트빌라"
+    },
+    "VA": {
+      "name": "바티칸 시국",
+      "capital": "바티칸 시국"
+    },
+    "VE": {
+      "name": "베네수엘라",
+      "capital": "카라카스"
+    },
+    "VN": {
+      "name": "베트남",
+      "capital": "하노이"
+    },
+    "YE": {
+      "name": "예멘 아랍 공화국",
+      "capital": "사나"
+    },
+    "ZM": {
+      "name": "잠비아",
+      "capital": "루사카"
+    },
+    "ZW": {
+      "name": "짐바브웨",
+      "capital": "하라레"
+    },
+    "EH": {
+      "name": "서사하라",
+      "capital": "라윤"
+    },
+    "XK": {
+      "name": "코소보",
+      "capital": "프리스티나"
+    }
+  },
+  "pity": {
+    "title": "누적된 행운",
+    "guaranteedTitle": "새로운 국가가 보장됩니다!",
+    "ready": "다음 롤은 마술처럼 될 것입니다!"
+  },
+  "tour": {
+    "skip": "튜토리얼 건너뛰기",
+    "next": "다음 ➔",
+    "prev": "⬅ 이전",
+    "done": "마침 ✓",
+    "progress": "{{total}} 단계 중 {{current}} 단계",
+    "step1": {
+      "title": "👋 WorldDex에 오신 것을 환영합니다!",
+      "desc": "여기에서는 실제 글로벌 출생률을 기준으로 추첨을 통해 전 세계 모든 국가를 수집합니다. 어떻게 작동하는지 볼까요?"
+    },
+    "step2": {
+      "title": "🎲 전 세계 스크롤",
+      "desc": "회전하려면 이 버튼을 클릭하거나 Space를 누르세요. 한 국가에 착륙할 확률은 현실 세계의 <b>그 나라에서 태어날 확률과 정확히 동일</b>합니다. 출생이 많을수록 더 일반적입니다!"
+    },
+    "step3": {
+      "title": "🗺️ 지도",
+      "desc": "새로운 국가를 잠금 해제할 때마다 해당 국가는 해당 국가의 희귀도(일반, 고급, 희귀, 에픽 또는 전설) 색상으로 지도에 그려집니다."
+    },
+    "step4": {
+      "title": "💖 동정 시스템",
+      "desc": "중복을 얻을 때마다 행운바가 올라갑니다. 최대치에 도달하면 다음 스핀은 아직 없는 국가가 <b>100% 보장</b>됩니다!"
+    },
+    "step5": {
+      "title": "🛒 쇼핑 및 경제",
+      "desc": "중복에 대해 걱정하지 마십시오. 반복되는 각 국가는 희귀도에 따라 <b>코인</b>을 제공합니다. 이 스토어에서 코인을 사용하여 <b>누락된 국가를 구매</b>하거나 <b>업그레이드</b>(예: Autoclicker 또는 승수)할 수 있습니다."
+    },
+    "step6": {
+      "title": "📚 귀하의 컬렉션",
+      "desc": "이 탭에서는 이미 선택한 모든 국가와 남은 국가 수를 확인할 수 있습니다. 클릭하시면 자세한 내용과 궁금증을 보실 수 있습니다."
+    },
+    "step7": {
+      "title": "🏆 성과",
+      "desc": "대륙을 완성하고 특정 국가(예: CPLP 또는 유럽 연합) 그룹을 구성하고 목표를 달성하여 이러한 독특한 성과를 잠금 해제하세요."
+    },
+    "step8": {
+      "title": "🌍 플레이 준비 완료!",
+      "desc": "이제 그것은 당신에게 달려 있습니다! 한 번에 하나씩, 전 세계를 잠금 해제하는 여정에 행운을 빕니다."
+    }
+  }
+}

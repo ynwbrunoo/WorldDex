@@ -1,0 +1,1156 @@
+{
+  "app": {
+    "title": "WorldDex",
+    "subtitle": "一度に 1 つずつ誕生して、世界のロックを解除しましょう。"
+  },
+  "header": {
+    "howToPlay": "遊び方",
+    "aboutData": "データについて",
+    "resetProgress": "進行状況をリセットする",
+    "privacy": "プライバシー",
+    "localStorageNotice": "このデバイスに保存された進行状況"
+  },
+  "nav": {
+    "progress": "進捗",
+    "collection": "コレクション",
+    "history": "歴史",
+    "achievements": "業績",
+    "settings": "設定"
+  },
+  "roll": {
+    "button": "Roll",
+    "rolling": "ローリング...",
+    "newCountry": "新しい国のロックが解除されました！",
+    "duplicate": "あなたはすでにこの国を持っていました - 続けてください!",
+    "viewOnMap": "地図で見る",
+    "close": "近い",
+    "estimatedChance": "推定確率",
+    "population": "人口",
+    "annualBirths": "推定年間出生数",
+    "firstUnlock": "初めて！",
+    "alreadyHave": "重複",
+    "spacebar": "Press [Space] to roll"
+  },
+  "country": {
+    "population": "人口",
+    "annualBirths": "推定年間出生数",
+    "birthChance": "ここに生まれる可能性",
+    "capital": "資本",
+    "continent": "大陸",
+    "status": {
+      "locked": "まだロックされています",
+      "unlocked": "ロック解除済み"
+    },
+    "rollCount": "出現{{カウント}}時間",
+    "rollCount_other": "{{count}} 回出現しました",
+    "firstUnlocked": "{{日付}}にロック解除されました",
+    "zoomToCountry": "地図上の中心",
+    "notFound": "国が見つかりません",
+    "clickToExplore": "探索するには国をクリックしてください"
+  },
+  "progress": {
+    "title": "進捗",
+    "unlocked": "ロック解除済み",
+    "unlockedCount": "{{数}} / {{合計}} か国",
+    "percentage": "{{値}}% 完了",
+    "remaining": "残り{{数}}か国",
+    "totalRolls": "Total Rolls",
+    "duplicates": "重複",
+    "longestStreak": "重複なしのベストストリーク",
+    "continents": "大陸ごとの進捗状況"
+  },
+  "collection": {
+    "title": "コレクション",
+    "search": "国を検索...",
+    "sort": {
+      "label": "並べ替え",
+      "recent": "最近ロック解除されました",
+      "alphabetical": "アルファベット順",
+      "mostRolled": "最も巻かれた",
+      "continent": "大陸"
+    },
+    "empty": "まだロックを解除している国はありません。 ロールしてみよう！",
+    "noResults": "検索に一致する国はありません。",
+    "rolls": "{{カウント}} ロール",
+    "rolls_other": "ロールを{{カウント}}します",
+    "sortChanceDesc": "Highest Chance",
+    "sortChanceAsc": "Lowest Chance"
+  },
+  "history": {
+    "title": "歴史",
+    "filter": {
+      "all": "全て",
+      "new": "新しい",
+      "duplicates": "重複"
+    },
+    "clearHistory": "履歴をクリアする",
+    "clearConfirmTitle": "履歴をクリアしますか？",
+    "clearConfirmMessage": "この操作は元に戻すことができません。 ロール履歴は完全に削除されます。",
+    "clearConfirm": "クリア",
+    "clearCancel": "キャンセル",
+    "empty": "まだロールを行っていません。 今すぐ始めましょう！",
+    "emptyFiltered": "このフィルターに一致するロールはありません。",
+    "new": "新しい",
+    "duplicate": "重複",
+    "rollNumber": "ロール番号{{番号}}"
+  },
+  "achievements": {
+    "title": "業績",
+    "locked": "ロックされています",
+    "unlocked": "ロック解除済み",
+    "unlockedOn": "{{日付}}にロック解除されました",
+    "progress": "{{現在}} / {{合計}}",
+    "newUnlock": "実績が解除されました！",
+    "firstStep": {
+      "name": "最初のステップ",
+      "description": "最初の国のロックを解除します。"
+    },
+    "explorer": {
+      "name": "エクスプローラ",
+      "description": "10か国のロックを解除します。"
+    },
+    "traveller": {
+      "name": "旅行者",
+      "description": "25 か国のロックを解除します。"
+    },
+    "cartographer": {
+      "name": "地図製作者",
+      "description": "50か国のロックを解除します。"
+    },
+    "worldCollector1": {
+      "name": "ワールドコレクターI",
+      "description": "75か国のロックを解除します。"
+    },
+    "worldCollector2": {
+      "name": "ワールドコレクターⅡ",
+      "description": "100か国のロックを解除します。"
+    },
+    "worldCollector3": {
+      "name": "ワールドコレクターⅢ",
+      "description": "125 か国のロックを解除します。"
+    },
+    "halfwayThere": {
+      "name": "中途半端なところ",
+      "description": "すべての国の 50% をアンロックします。"
+    },
+    "continentalExplorer": {
+      "name": "コンチネンタル エクスプローラー",
+      "description": "大陸全体を完了します。"
+    },
+    "continentalMaster": {
+      "name": "コンチネンタルマスター",
+      "description": "3 つの大陸を完了します。"
+    },
+    "aroundTheWorld": {
+      "name": "世界中で",
+      "description": "すべての大陸を完了します。"
+    },
+    "worldComplete": {
+      "name": "ワールドコンプリート",
+      "description": "すべての国と地域のロックを解除します。"
+    },
+    "luckyStreak": {
+      "name": "ラッキーストリーク",
+      "description": "重複することなく連続して 5 つの新しい国のロックを解除します。"
+    },
+    "persistent": {
+      "name": "持続的",
+      "description": "合計 100 回ロールします。"
+    },
+    "dedicated": {
+      "name": "ひたむきな",
+      "description": "合計 500 回ロールします。"
+    },
+    "home_sweet_home": {
+      "name": "ホームスイートホーム",
+      "description": "あなたは現在住んでいる国を獲得しました！"
+    },
+    "group_palop": {
+      "name": "パロップ",
+      "description": "ポルトガル語を話すすべてのアフリカ諸国のロックを解除します。"
+    },
+    "group_brics": {
+      "name": "ブリック諸国",
+      "description": "BRICS ブロックの主要国 (および新しいメンバー) のロックを解除します。"
+    },
+    "group_eu": {
+      "name": "欧州連合",
+      "description": "すべての欧州連合加盟国のロックを解除します。"
+    },
+    "group_nato": {
+      "name": "生まれる",
+      "description": "すべての NATO 加盟国のロックを解除します。"
+    },
+    "group_g7": {
+      "name": "G7",
+      "description": "すべての G7 諸国のロックを解除します。"
+    },
+    "group_mercosul": {
+      "name": "メルコスール",
+      "description": "メルコスール加盟国のロックを解除します。"
+    },
+    "group_asean": {
+      "name": "アセアン",
+      "description": "東南アジア諸国連合の国々のロックを解除します。"
+    },
+    "group_opep": {
+      "name": "OPEC",
+      "description": "石油輸出国機構のメンバーのロックを解除します。"
+    },
+    "india_500": {
+      "name": "ナマステ！",
+      "description": "インドを500回転させます。"
+    }
+  },
+  "tutorial": {
+    "title": "遊び方",
+    "step1": "<b></b> をクリックして、どの国で生まれるかを調べてください。",
+    "step2": "各国には、世界の出生数に占める自国の割合に基づいて確率が推定されていますが、それは同じようにランダムではありません。",
+    "step3": "初めて国のロックを解除すると、世界地図上でその国が色付けされます。",
+    "step4": "地図またはコレクション内の国をクリックすると、首都、人口、推定確率が表示されます。",
+    "step5": "大陸を完了し、実績を獲得し、全世界のロックを解除してみてください。",
+    "step6": "進行状況はこのデバイスにのみ保存されます。アカウントや追跡はありません。",
+    "previous": "前の",
+    "next": "次",
+    "skip": "チュートリアルをスキップする",
+    "finish": "遊び始めましょう！",
+    "dontShowAgain": "二度と表示しないでください",
+    "stepOf": "ステップ{{現在}}/{{合計}}",
+    "restart": "チュートリアルを見る",
+    "rollDesc": "ボタンをクリックして運を高め、新しい国を発見してください! (ヒント: キーボードの [スペース] バーを使用すると、より速く再生し、ウィンドウを閉じることができます)。",
+    "collectionDesc": "ここには、すでにロックを解除している国が表示されます。レア度、大陸、日付で並べ替えることができます。最終地点まで 15 か国離れると、どの国が欠けているかがわかるようになります。",
+    "achievementsDesc": "経済ブロック (BRICS や欧州連合など) の収集からインドを 500 回回転させてメダルを獲得するまでの目標を完了します。",
+    "historyDesc": "これまでのプレイをすべて確認し、どのくらい前に国のロックを解除したかを確認します。"
+  },
+  "settings": {
+    "title": "設定",
+    "language": "言語",
+    "languageLabel": "言語を選択してください",
+    "data": "データとプライバシー",
+    "exportProgress": "エクスポートの進行状況",
+    "importProgress": "インポートの進行状況",
+    "resetProgress": "進行状況をリセットする",
+    "restartTutorial": "チュートリアルを見る",
+    "aboutData": "データについて",
+    "privacy": "プライバシー",
+    "searchLanguage": "Search language..."
+  },
+  "modals": {
+    "aboutData": {
+      "title": "データについて",
+      "intro": "出生確率は、国ごとの年間出生数に関する入手可能なデータに基づいて計算された推定値です。",
+      "methodology": "方法論",
+      "methodologyText": "特定の国で生まれる確率は、世界の合計と比較したその国の推定年間出生数の割合として計算されます。 世界銀行と国連 (世界人口予測) からの近似データを使用します。 値は推定値であり、最新の統計を反映していない場合があります。",
+      "sensitivity": "政治的配慮に関する注意",
+      "sensitivityText": "国境、領土、国家承認は政治的にデリケートな問題です。 このゲームに領土を含めることは、教育的および地理的目的に役立つものであり、政治的立場を構成するものではありません。 データはエンターテイメント ゲーム用に簡略化されています。",
+      "updates": "データ更新",
+      "updatesText": "人口統計データは時間の経過とともに変化します。 このプロジェクトでは、データを合理的に更新するよう努めていますが、リアルタイムの正確性は保証されません。",
+      "sources": "情報源",
+      "sourcesList": [
+        "世界銀行 — 世界開発指標",
+        "国連 — 2022 年の世界人口予測",
+        "自然地球 — 地理データ (パブリック ドメイン)",
+        "world-atlas (TopoJSON) — 地図データ"
+      ],
+      "close": "近い"
+    },
+    "privacy": {
+      "title": "プライバシーと規約",
+      "project": "これは無料の非営利の教育およびエンターテイメント プロジェクトです。",
+      "noData": "個人データは収集されません。",
+      "localStorage": "進行状況は、デバイスのローカル ストレージ (localStorage) にのみ保存されます。 情報はサーバーに送信されません。",
+      "noCookies": "このゲームでは Cookie を使用しません。 設定と進行状況の保存には、localStorage のみが使用されます。",
+      "noTracking": "分析、追跡、広告、サードパーティのシステムはありません。",
+      "borders": "地理、人口統計、国境データは推定値であり、不完全または古い可能性があります。 このプロジェクトは、国境、領土、国家承認に関して政治的立場をとりません。",
+      "license": "ソースコードは MIT ライセンスの下で利用可能です。",
+      "attribution": "帰属",
+      "close": "近い"
+    },
+    "reset": {
+      "title": "進行状況をリセットする",
+      "message": "本気ですか？ すべての進行状況、コレクション、履歴、成果は完全に削除されます。 この操作は元に戻すことができません。",
+      "confirm": "はい、すべて削除します",
+      "cancel": "キャンセル"
+    },
+    "importExport": {
+      "title": "インポート/エクスポートの進行状況",
+      "exportTitle": "輸出",
+      "exportDescription": "進行状況を JSON ファイルとしてエクスポートして、バックアップまたは別のデバイスに転送します。",
+      "exportButton": "JSONファイルのエクスポート",
+      "importTitle": "輸入",
+      "importDescription": "以前にエクスポートした JSON ファイルをインポートします。 現在の進行状況は置き換えられます。",
+      "importWarning": "警告: 現在の進行状況は、インポートされたファイルによって置き換えられます。",
+      "importButton": "JSONファイルを選択",
+      "importSuccess": "進行状況は正常にインポートされました。",
+      "importError": "ファイルが無効または破損しています。 ファイルがこのゲームによってエクスポートされたことを確認してください。",
+      "close": "近い"
+    }
+  },
+  "continents": {
+    "africa": "アフリカ",
+    "asia": "アジア",
+    "europe": "ヨーロッパ",
+    "northAmerica": "北米",
+    "southAmerica": "南アメリカ",
+    "oceania": "オセアニア"
+  },
+  "data": {
+    "estimated": "推定",
+    "source": "ソース",
+    "year": "データ年",
+    "approximation": "これらの値は近似値です。"
+  },
+  "errors": {
+    "mapLoad": "マップを読み込めませんでした。 ページをリロードしてみてください。",
+    "dataCorrupt": "保存したデータが壊れています。 進行状況がリセットされました。",
+    "importFailed": "ファイルをインポートできませんでした。",
+    "unknown": "予期しないエラーが発生しました。"
+  },
+  "accessibility": {
+    "languageSelector": "言語を選択してください",
+    "flagOf": "{{国}}の国旗",
+    "rollButton": "ロール — ランダムな国を描きます",
+    "closeModal": "近い",
+    "mainMap": "インタラクティブな世界地図",
+    "lockedCountry": "{{国}} — ロックされています",
+    "unlockedCountry": "{{国}} — ロック解除済み",
+    "rolledCountry": "{{country}} — ロールされたばかりです",
+    "progressBar": "ロック解除された国の {{value}}%",
+    "achievementLocked": "ロックされた実績: {{名前}}",
+    "achievementUnlocked": "実績のロックが解除されました: {{名前}}"
+  },
+  "countries": {
+    "AF": {
+      "name": "アフガニスタン",
+      "capital": "カブール"
+    },
+    "AL": {
+      "name": "アルバニア",
+      "capital": "ティラナ"
+    },
+    "DZ": {
+      "name": "アルジェリア",
+      "capital": "アルジェ"
+    },
+    "AD": {
+      "name": "アンドラ",
+      "capital": "アンドラ・ラ・ベリャ"
+    },
+    "AO": {
+      "name": "アンゴラ",
+      "capital": "ルアンダ"
+    },
+    "AG": {
+      "name": "アンティグア・バーブーダ",
+      "capital": "セントジョンズ"
+    },
+    "AR": {
+      "name": "アルゼンチン",
+      "capital": "ブエノスアイレス"
+    },
+    "AM": {
+      "name": "アルメニア",
+      "capital": "エレバン"
+    },
+    "AU": {
+      "name": "オーストラリア",
+      "capital": "キャンベラ"
+    },
+    "AT": {
+      "name": "オーストリア",
+      "capital": "ウィーン"
+    },
+    "AZ": {
+      "name": "アゼルバイジャン",
+      "capital": "バクー"
+    },
+    "BS": {
+      "name": "バハマ",
+      "capital": "ナッソー"
+    },
+    "BH": {
+      "name": "バーレーン",
+      "capital": "マナマ"
+    },
+    "BD": {
+      "name": "バングラデシュ",
+      "capital": "ダッカ"
+    },
+    "BB": {
+      "name": "バルバドス",
+      "capital": "ブリッジタウン"
+    },
+    "BY": {
+      "name": "ベラルーシ",
+      "capital": "ミンスク"
+    },
+    "BE": {
+      "name": "ベルギー",
+      "capital": "ブリュッセル"
+    },
+    "BZ": {
+      "name": "ベリーズ",
+      "capital": "ベルモパン"
+    },
+    "BJ": {
+      "name": "ベナン",
+      "capital": "ポルトノボ"
+    },
+    "BT": {
+      "name": "ブータン",
+      "capital": "ティンプー"
+    },
+    "BO": {
+      "name": "ボリビア",
+      "capital": "スクレ"
+    },
+    "BA": {
+      "name": "ボスニア・ヘルツェゴビナ",
+      "capital": "サラエボ"
+    },
+    "BW": {
+      "name": "ボツワナ",
+      "capital": "ハボローネ"
+    },
+    "BR": {
+      "name": "ブラジル",
+      "capital": "ブラジリア"
+    },
+    "BN": {
+      "name": "ブルネイ",
+      "capital": "バンダル・スリ・ブガワン"
+    },
+    "BG": {
+      "name": "ブルガリア",
+      "capital": "ソフィア"
+    },
+    "BF": {
+      "name": "ブルキナファソ",
+      "capital": "ワガドゥグー"
+    },
+    "BI": {
+      "name": "ブルンジ",
+      "capital": "ギテガ"
+    },
+    "CV": {
+      "name": "カーボベルデ",
+      "capital": "プライア"
+    },
+    "KH": {
+      "name": "カンボジア",
+      "capital": "プノンペン"
+    },
+    "CM": {
+      "name": "カメルーン",
+      "capital": "ヤウンデ"
+    },
+    "CA": {
+      "name": "カナダ",
+      "capital": "オタワ"
+    },
+    "CF": {
+      "name": "中央アフリカ共和国",
+      "capital": "バンギ"
+    },
+    "TD": {
+      "name": "チャド",
+      "capital": "ンジャメナ"
+    },
+    "CL": {
+      "name": "チリ",
+      "capital": "サンティアゴ"
+    },
+    "CN": {
+      "name": "中国",
+      "capital": "北京"
+    },
+    "CO": {
+      "name": "コロンビア",
+      "capital": "ボゴタ"
+    },
+    "KM": {
+      "name": "コモロ",
+      "capital": "モロナイ"
+    },
+    "CG": {
+      "name": "コンゴ",
+      "capital": "ブラザビル"
+    },
+    "CD": {
+      "name": "コンゴ民主共和国",
+      "capital": "キンシャサ"
+    },
+    "CR": {
+      "name": "コスタリカ",
+      "capital": "サンホセ"
+    },
+    "CI": {
+      "name": "コートジボワール",
+      "capital": "ヤムスクロ"
+    },
+    "HR": {
+      "name": "クロアチア",
+      "capital": "ザグレブ"
+    },
+    "CU": {
+      "name": "キューバ",
+      "capital": "ハバナ"
+    },
+    "CY": {
+      "name": "キプロス",
+      "capital": "ニコシア"
+    },
+    "CZ": {
+      "name": "チェコ共和国",
+      "capital": "プラハ"
+    },
+    "DK": {
+      "name": "デンマーク",
+      "capital": "コペンハーゲン"
+    },
+    "DJ": {
+      "name": "ジブチ",
+      "capital": "ジブチ"
+    },
+    "DM": {
+      "name": "ドミニカ",
+      "capital": "ロゾー"
+    },
+    "DO": {
+      "name": "ドミニカ共和国",
+      "capital": "サントドミンゴ"
+    },
+    "EC": {
+      "name": "エクアドル",
+      "capital": "キト"
+    },
+    "EG": {
+      "name": "エジプト",
+      "capital": "カイロ"
+    },
+    "SV": {
+      "name": "エルサルバドル",
+      "capital": "サンサルバドル"
+    },
+    "GQ": {
+      "name": "赤道ギニア",
+      "capital": "マラボ"
+    },
+    "ER": {
+      "name": "エリトリア",
+      "capital": "アスマラ"
+    },
+    "EE": {
+      "name": "エストニア",
+      "capital": "タリン"
+    },
+    "SZ": {
+      "name": "エスワティニ",
+      "capital": "ムババーネ"
+    },
+    "ET": {
+      "name": "エチオピア",
+      "capital": "アディスアベバ"
+    },
+    "FJ": {
+      "name": "フィジー",
+      "capital": "スバ"
+    },
+    "FI": {
+      "name": "フィンランド",
+      "capital": "ヘルシンキ"
+    },
+    "FR": {
+      "name": "フランス",
+      "capital": "パリ"
+    },
+    "GA": {
+      "name": "ガボン",
+      "capital": "リーブルヴィル"
+    },
+    "GM": {
+      "name": "ガンビア",
+      "capital": "バンジュール"
+    },
+    "GE": {
+      "name": "ジョージア",
+      "capital": "トビリシ"
+    },
+    "DE": {
+      "name": "ドイツ",
+      "capital": "ベルリン"
+    },
+    "GH": {
+      "name": "ガーナ",
+      "capital": "アクラ"
+    },
+    "GR": {
+      "name": "ギリシャ",
+      "capital": "アテネ"
+    },
+    "GD": {
+      "name": "グレナダ",
+      "capital": "セントジョージズ"
+    },
+    "GT": {
+      "name": "グアテマラ",
+      "capital": "グアテマラシティ"
+    },
+    "GN": {
+      "name": "ギニア",
+      "capital": "コナクリ"
+    },
+    "GW": {
+      "name": "ギニアビサウ",
+      "capital": "ビサウ"
+    },
+    "GY": {
+      "name": "ガイアナ",
+      "capital": "ジョージタウン"
+    },
+    "HT": {
+      "name": "ハイチ",
+      "capital": "ポルトープランス"
+    },
+    "HN": {
+      "name": "ホンジュラス",
+      "capital": "テグシガルパ"
+    },
+    "HU": {
+      "name": "ハンガリー",
+      "capital": "ブダペスト"
+    },
+    "IS": {
+      "name": "アイスランド",
+      "capital": "レイキャビク"
+    },
+    "IN": {
+      "name": "インド",
+      "capital": "ニューデリー"
+    },
+    "ID": {
+      "name": "インドネシア",
+      "capital": "ジャカルタ"
+    },
+    "IR": {
+      "name": "イラン",
+      "capital": "テヘラン"
+    },
+    "IQ": {
+      "name": "イラク",
+      "capital": "バグダッド"
+    },
+    "IE": {
+      "name": "アイルランド",
+      "capital": "ダブリン"
+    },
+    "IL": {
+      "name": "イスラエル",
+      "capital": "エルサレム"
+    },
+    "IT": {
+      "name": "イタリア",
+      "capital": "ローマ"
+    },
+    "JM": {
+      "name": "ジャマイカ",
+      "capital": "キングストン"
+    },
+    "JP": {
+      "name": "日本",
+      "capital": "東京"
+    },
+    "JO": {
+      "name": "ヨルダン",
+      "capital": "アンマン"
+    },
+    "KZ": {
+      "name": "カザフスタン",
+      "capital": "アスタナ"
+    },
+    "KE": {
+      "name": "ケニア",
+      "capital": "ナイロビ"
+    },
+    "KI": {
+      "name": "キリバス",
+      "capital": "南タラワ"
+    },
+    "KP": {
+      "name": "北朝鮮",
+      "capital": "平壌"
+    },
+    "KR": {
+      "name": "韓国",
+      "capital": "ソウル"
+    },
+    "KW": {
+      "name": "クウェート",
+      "capital": "クウェートシティ"
+    },
+    "KG": {
+      "name": "キルギス",
+      "capital": "ビシュケク"
+    },
+    "LA": {
+      "name": "ラオス",
+      "capital": "ビエンチャン"
+    },
+    "LV": {
+      "name": "ラトビア",
+      "capital": "リガ"
+    },
+    "LB": {
+      "name": "レバノン",
+      "capital": "ベイルート"
+    },
+    "LS": {
+      "name": "レソト",
+      "capital": "マセル"
+    },
+    "LR": {
+      "name": "リベリア",
+      "capital": "モンロビア"
+    },
+    "LY": {
+      "name": "リビア",
+      "capital": "トリポリ"
+    },
+    "LI": {
+      "name": "リヒテンシュタイン",
+      "capital": "ファドゥーツ"
+    },
+    "LT": {
+      "name": "リトアニア",
+      "capital": "ビリニュス"
+    },
+    "LU": {
+      "name": "ルクセンブルク",
+      "capital": "ルクセンブルク"
+    },
+    "MG": {
+      "name": "マダガスカル",
+      "capital": "アンタナナリボ"
+    },
+    "MW": {
+      "name": "マラウイ",
+      "capital": "リロングウェ"
+    },
+    "MY": {
+      "name": "マレーシア",
+      "capital": "クアラルンプール"
+    },
+    "MV": {
+      "name": "モルディブ",
+      "capital": "男"
+    },
+    "ML": {
+      "name": "マリ",
+      "capital": "バマコ"
+    },
+    "MT": {
+      "name": "マルタ",
+      "capital": "バレッタ"
+    },
+    "MH": {
+      "name": "マーシャル諸島",
+      "capital": "マジュロ"
+    },
+    "MR": {
+      "name": "モーリタニア",
+      "capital": "ヌアクショット"
+    },
+    "MU": {
+      "name": "モーリシャス",
+      "capital": "ポートルイス"
+    },
+    "MX": {
+      "name": "メキシコ",
+      "capital": "メキシコシティ"
+    },
+    "FM": {
+      "name": "ミクロネシア",
+      "capital": "パリキール"
+    },
+    "MD": {
+      "name": "モルドバ",
+      "capital": "キシナウ"
+    },
+    "MC": {
+      "name": "モナコ",
+      "capital": "モナコ"
+    },
+    "MN": {
+      "name": "モンゴル",
+      "capital": "ウランバートル"
+    },
+    "ME": {
+      "name": "モンテネグロ",
+      "capital": "ポドゴリツァ"
+    },
+    "MA": {
+      "name": "モロッコ",
+      "capital": "ラバト"
+    },
+    "MZ": {
+      "name": "モザンビーク",
+      "capital": "マプト"
+    },
+    "MM": {
+      "name": "ミャンマー",
+      "capital": "ネピドー"
+    },
+    "NA": {
+      "name": "ナミビア",
+      "capital": "ウィントフック"
+    },
+    "NR": {
+      "name": "ナウル",
+      "capital": "ヤレン"
+    },
+    "NP": {
+      "name": "ネパール",
+      "capital": "カトマンズ"
+    },
+    "NL": {
+      "name": "オランダ",
+      "capital": "アムステルダム"
+    },
+    "NZ": {
+      "name": "ニュージーランド",
+      "capital": "ウェリントン"
+    },
+    "NI": {
+      "name": "ニカラグア",
+      "capital": "マナグア"
+    },
+    "NE": {
+      "name": "ニジェール",
+      "capital": "ニアメ"
+    },
+    "NG": {
+      "name": "ナイジェリア",
+      "capital": "アブジャ"
+    },
+    "MK": {
+      "name": "北マケドニア",
+      "capital": "スコピエ"
+    },
+    "NO": {
+      "name": "ノルウェー",
+      "capital": "オスロ"
+    },
+    "OM": {
+      "name": "オマーン",
+      "capital": "マスカット"
+    },
+    "PK": {
+      "name": "パキスタン",
+      "capital": "イスラマバード"
+    },
+    "PW": {
+      "name": "パラオ",
+      "capital": "ンゲルルムド"
+    },
+    "PS": {
+      "name": "パレスチナ",
+      "capital": "ラマラ"
+    },
+    "PA": {
+      "name": "パナマ",
+      "capital": "パナマシティ"
+    },
+    "PG": {
+      "name": "パプアニューギニア",
+      "capital": "ポートモレスビー"
+    },
+    "PY": {
+      "name": "パラグアイ",
+      "capital": "アスンシオン"
+    },
+    "PE": {
+      "name": "ペルー",
+      "capital": "リマ"
+    },
+    "PH": {
+      "name": "フィリピン",
+      "capital": "マニラ"
+    },
+    "PL": {
+      "name": "ポーランド",
+      "capital": "ワルシャワ"
+    },
+    "PT": {
+      "name": "ポルトガル",
+      "capital": "リスボン"
+    },
+    "QA": {
+      "name": "カタール",
+      "capital": "ドーハ"
+    },
+    "RO": {
+      "name": "ルーマニア",
+      "capital": "ブカレスト"
+    },
+    "RU": {
+      "name": "ロシア",
+      "capital": "モスクワ"
+    },
+    "RW": {
+      "name": "ルワンダ",
+      "capital": "キガリ"
+    },
+    "KN": {
+      "name": "セントクリストファー・ネイビス",
+      "capital": "バセテール"
+    },
+    "LC": {
+      "name": "セントルシア",
+      "capital": "カストリーズ"
+    },
+    "VC": {
+      "name": "セントビンセントおよびグレナディーン諸島",
+      "capital": "キングスタウン"
+    },
+    "WS": {
+      "name": "サモア",
+      "capital": "アピア"
+    },
+    "SM": {
+      "name": "サンマリノ",
+      "capital": "サンマリノ"
+    },
+    "ST": {
+      "name": "サントメ・プリンシペ",
+      "capital": "サントメ"
+    },
+    "SA": {
+      "name": "サウジアラビア",
+      "capital": "リヤド"
+    },
+    "SN": {
+      "name": "セネガル",
+      "capital": "ダカール"
+    },
+    "RS": {
+      "name": "セルビア",
+      "capital": "ベオグラード"
+    },
+    "SL": {
+      "name": "シエラレオネ",
+      "capital": "フリータウン"
+    },
+    "SG": {
+      "name": "シンガポール",
+      "capital": "シンガポール"
+    },
+    "SK": {
+      "name": "スロバキア",
+      "capital": "ブラチスラバ"
+    },
+    "SI": {
+      "name": "スロベニア",
+      "capital": "リュブリャナ"
+    },
+    "SB": {
+      "name": "ソロモン諸島",
+      "capital": "ホニアラ"
+    },
+    "SO": {
+      "name": "ソマリア",
+      "capital": "モガディシュ"
+    },
+    "ZA": {
+      "name": "南アフリカ",
+      "capital": "プレトリア"
+    },
+    "SS": {
+      "name": "南スーダン",
+      "capital": "ジュバ"
+    },
+    "ES": {
+      "name": "スペイン",
+      "capital": "マドリッド"
+    },
+    "LK": {
+      "name": "スリランカ",
+      "capital": "コロンボ"
+    },
+    "SD": {
+      "name": "スーダン",
+      "capital": "ハルツーム"
+    },
+    "SR": {
+      "name": "スリナム",
+      "capital": "パラマリボ"
+    },
+    "SE": {
+      "name": "スウェーデン",
+      "capital": "ストックホルム"
+    },
+    "CH": {
+      "name": "スイス",
+      "capital": "ベルン"
+    },
+    "SY": {
+      "name": "シリア",
+      "capital": "ダマスカス"
+    },
+    "TW": {
+      "name": "台湾",
+      "capital": "台北"
+    },
+    "TJ": {
+      "name": "タジキスタン",
+      "capital": "ドゥシャンベ"
+    },
+    "TZ": {
+      "name": "タンザニア",
+      "capital": "ドドマ"
+    },
+    "TH": {
+      "name": "タイ",
+      "capital": "バンコク"
+    },
+    "TL": {
+      "name": "東ティモール",
+      "capital": "ディリ"
+    },
+    "TG": {
+      "name": "持ち帰り",
+      "capital": "ロメ"
+    },
+    "TO": {
+      "name": "トンガ",
+      "capital": "ヌクアロファ"
+    },
+    "TT": {
+      "name": "トリニダード・トバゴ",
+      "capital": "ポート オブ スペイン"
+    },
+    "TN": {
+      "name": "チュニジア",
+      "capital": "チュニス"
+    },
+    "TR": {
+      "name": "七面鳥",
+      "capital": "アンカラ"
+    },
+    "TM": {
+      "name": "トルクメニスタン",
+      "capital": "アシガバート"
+    },
+    "TV": {
+      "name": "ツバル",
+      "capital": "フナフティ"
+    },
+    "UG": {
+      "name": "ウガンダ",
+      "capital": "カンパラ"
+    },
+    "UA": {
+      "name": "ウクライナ",
+      "capital": "キエフ"
+    },
+    "AE": {
+      "name": "アラブ首長国連邦",
+      "capital": "アブダビ"
+    },
+    "GB": {
+      "name": "イギリス",
+      "capital": "ロンドン"
+    },
+    "US": {
+      "name": "米国",
+      "capital": "ワシントンD.C."
+    },
+    "UY": {
+      "name": "ウルグアイ",
+      "capital": "モンテビデオ"
+    },
+    "UZ": {
+      "name": "ウズベキスタン",
+      "capital": "タシケント"
+    },
+    "VU": {
+      "name": "バヌアツ",
+      "capital": "ポートビラ"
+    },
+    "VA": {
+      "name": "バチカン市国",
+      "capital": "バチカン市国"
+    },
+    "VE": {
+      "name": "ベネズエラ",
+      "capital": "カラカス"
+    },
+    "VN": {
+      "name": "ベトナム",
+      "capital": "ハノイ"
+    },
+    "YE": {
+      "name": "イエメン",
+      "capital": "サナア"
+    },
+    "ZM": {
+      "name": "ザンビア",
+      "capital": "ルサカ"
+    },
+    "ZW": {
+      "name": "ジンバブエ",
+      "capital": "ハラレ"
+    },
+    "EH": {
+      "name": "西サハラ",
+      "capital": "ラユーン"
+    },
+    "XK": {
+      "name": "コソボ",
+      "capital": "プリシュティナ"
+    }
+  },
+  "pity": {
+    "title": "蓄積された幸運",
+    "guaranteedTitle": "新しい国が保証されます!",
+    "ready": "次のロールは魔法になるでしょう!"
+  },
+  "tour": {
+    "skip": "チュートリアルをスキップ",
+    "next": "次へ ➔",
+    "prev": "⬅ 前へ",
+    "done": "終了 ✓",
+    "progress": "ステップ {{current}} / {{total}}",
+    "step1": {
+      "title": "👋 WorldDex へようこそ!",
+      "desc": "ここでは、世界の真の出生率に基づいた抽選を通じて、世界中のすべての国を集めます。どのように機能するか見てみましょう?"
+    },
+    "step2": {
+      "title": "🎲 世界中をスクロール",
+      "desc": "このボタンをクリックして (またはスペースを押して) スピンします。現実世界では、 ある国に上陸する確率は<b>その国に生まれる確率と全く同じ</b>です。出生数が多ければ多いほど、より一般的になります！"
+    },
+    "step3": {
+      "title": "🗺️ あなたの地図",
+      "desc": "新しい国のロックを解除すると、そのレア度 (コモン、アンコモン、レア、エピック、またはレジェンド) の色で地図上にペイントされます。"
+    },
+    "step4": {
+      "title": "💖 同情システム",
+      "desc": "重複を取得するたびに、運の基準が上がります。最大値に達すると、 次のスピンは<b>まだ持っていない国になることが100% 保証</b>されます。"
+    },
+    "step5": {
+      "title": "🛒 ショップ＆エコノミー",
+      "desc": "重複については心配しないでください。繰り返されるそれぞれの国で<b>コイン</b> が得られます（レア度に応じて）。このストアでコインを使用して<b>不足している国を購入</b>したり<b>アップグレード</b>（オートクリッカーやマルチプライヤーなど）を行うことができます。"
+    },
+    "step6": {
+      "title": "📚 あなたのコレクション",
+      "desc": "このタブでは、すでに占領したすべての国と、どれだけ残っているかが表示されます。それらをクリックすると、詳細や興味深い情報が表示されます。"
+    },
+    "step7": {
+      "title": "🏆実績",
+      "desc": "大陸を完了し、特定の国のグループ (CPLP や欧州連合など) を形成し、目標を達成してこれらのユニークな実績をアンロックしてください。"
+    },
+    "step8": {
+      "title": "🌍 すぐにプレイできます!",
+      "desc": "あとはあなた次第です！一度に 1 つずつ誕生しながら、全世界のロックを解除する旅の幸運を祈ります。"
+    }
+  }
+}

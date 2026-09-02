@@ -1,0 +1,1154 @@
+{
+  "app": {
+    "title": "WorldDex",
+    "subtitle": "Desblokeatu mundua, jaiotza bat aldi berean."
+  },
+  "header": {
+    "howToPlay": "Nola Jolastu",
+    "aboutData": "Datuei buruz",
+    "resetProgress": "Berrezarri Aurrerapena",
+    "privacy": "Pribatutasuna",
+    "localStorageNotice": "Aurrerapena gorde da gailu honetan"
+  },
+  "nav": {
+    "progress": "Aurrerapena",
+    "collection": "Bilduma",
+    "history": "Historia",
+    "achievements": "Lorpenak",
+    "settings": "Ezarpenak"
+  },
+  "roll": {
+    "button": "Roll",
+    "rolling": "Rolling...",
+    "newCountry": "Herrialde berria desblokeatu da!",
+    "duplicate": "Dagoeneko bazenuen herrialde hau — jarraitu aurrera!",
+    "viewOnMap": "Ikusi mapan",
+    "close": "Itxi",
+    "estimatedChance": "Aurreikusitako aukera",
+    "population": "Biztanleria",
+    "annualBirths": "Urteko gutxi gorabeherako jaiotzak",
+    "firstUnlock": "Lehen aldiz!",
+    "alreadyHave": "Bikoiztu",
+    "spacebar": "Press [Space] to roll"
+  },
+  "country": {
+    "population": "Biztanleria",
+    "annualBirths": "Urteko gutxi gorabeherako jaiotzak",
+    "birthChance": "Hemen jaiotzeko aukera",
+    "capital": "Kapitala",
+    "continent": "Kontinentea",
+    "status": {
+      "locked": "Oraindik blokeatuta",
+      "unlocked": "Desblokeatua"
+    },
+    "rollCount": "{{kontatu}} denbora agertu da",
+    "rollCount_other": "{{count}} aldiz agertu da",
+    "firstUnlocked": "{{data}}n desblokeatu da",
+    "zoomToCountry": "Erdiratu mapan",
+    "notFound": "Herrialdea ez da aurkitu",
+    "clickToExplore": "Egin klik herrialde batean arakatzeko"
+  },
+  "progress": {
+    "title": "Aurrerapena",
+    "unlocked": "Desblokeatua",
+    "unlockedCount": "{{kopurua}} / {{guztira}} herrialdeak",
+    "percentage": "% {{value}} osatuta",
+    "remaining": "{{kontatu}} herrialdeak",
+    "totalRolls": "Total Rolls",
+    "duplicates": "Bikoiztuak",
+    "longestStreak": "Bikoiztu gabeko boladarik onena",
+    "continents": "Aurrerapena kontinenteka"
+  },
+  "collection": {
+    "title": "Bilduma",
+    "search": "Bilatu herrialdea...",
+    "sort": {
+      "label": "Ordenatu",
+      "recent": "Duela gutxi desblokeatu da",
+      "alphabetical": "Alfabetikoa",
+      "mostRolled": "Gehienak botata",
+      "continent": "Kontinentea"
+    },
+    "empty": "Oraindik ez duzu herrialderik desblokeatu. Eman Errolda!",
+    "noResults": "Ez dago zure bilaketarekin bat datorren herrialderik.",
+    "rolls": "{{kontatu}} jaurtiketa",
+    "rolls_other": "{{kontatu}} erroiluak",
+    "sortChanceDesc": "Highest Chance",
+    "sortChanceAsc": "Lowest Chance"
+  },
+  "history": {
+    "title": "Historia",
+    "filter": {
+      "all": "Denak",
+      "new": "Berria",
+      "duplicates": "Bikoiztuak"
+    },
+    "clearHistory": "Garbitu historia",
+    "clearConfirmTitle": "Historia garbitu?",
+    "clearConfirmMessage": "Ekintza hau ezin da desegin. Erroldaren historia betiko ezabatuko da.",
+    "clearConfirm": "Garbi",
+    "clearCancel": "Utzi",
+    "empty": "Oraindik ez duzu biribilketarik egin. Hasi orain!",
+    "emptyFiltered": "Ez dago erroilik bat iragazki honekin.",
+    "new": "Berria",
+    "duplicate": "Bikoiztu",
+    "rollNumber": "Roll #{{zenbakia}}"
+  },
+  "achievements": {
+    "title": "Lorpenak",
+    "locked": "Blokeatua",
+    "unlocked": "Desblokeatua",
+    "unlockedOn": "{{data}}n desblokeatu da",
+    "progress": "{{unekoa}} / {{guztira}}",
+    "newUnlock": "Lorpena desblokeatu da!",
+    "firstStep": {
+      "name": "Lehen Urratsa",
+      "description": "Desblokeatu zure lehen herrialdea."
+    },
+    "explorer": {
+      "name": "Esploratzailea",
+      "description": "Desblokeatu 10 herrialde."
+    },
+    "traveller": {
+      "name": "Bidaiaria",
+      "description": "Desblokeatu 25 herrialde."
+    },
+    "cartographer": {
+      "name": "Kartografoa",
+      "description": "Desblokeatu 50 herrialde."
+    },
+    "worldCollector1": {
+      "name": "Munduko Bilduma I",
+      "description": "Desblokeatu 75 herrialde."
+    },
+    "worldCollector2": {
+      "name": "Mundu Bilduma II",
+      "description": "Desblokeatu 100 herrialde."
+    },
+    "worldCollector3": {
+      "name": "Mundu Bildumako III",
+      "description": "Desblokeatu 125 herrialde."
+    },
+    "halfwayThere": {
+      "name": "Erdibidean",
+      "description": "Desblokeatu herrialde guztien % 50."
+    },
+    "continentalExplorer": {
+      "name": "Continental Explorer",
+      "description": "Osatu kontinente oso bat."
+    },
+    "continentalMaster": {
+      "name": "Master Kontinentala",
+      "description": "Osatu hiru kontinente."
+    },
+    "aroundTheWorld": {
+      "name": "Munduan zehar",
+      "description": "Osatu kontinente guztiak."
+    },
+    "worldComplete": {
+      "name": "Mundu osoa",
+      "description": "Desblokeatu herrialde eta lurralde guztiak."
+    },
+    "luckyStreak": {
+      "name": "Lucky Streak",
+      "description": "Desblokeatu 5 herrialde berri jarraian bikoiztu gabe."
+    },
+    "persistent": {
+      "name": "Iraunkorra",
+      "description": "Egin guztira 100 biribilketa."
+    },
+    "dedicated": {
+      "name": "Dedikatua",
+      "description": "Egin 500 biribilketa guztira."
+    },
+    "home_sweet_home": {
+      "name": "Home Sweet Home",
+      "description": "Une honetan bizi zaren herrialdea bota duzu!"
+    },
+    "group_palop": {
+      "name": "PALOP",
+      "description": "Portugesez hitz egiten duten Afrikako herrialde guztiak desblokeatzen ditu."
+    },
+    "group_brics": {
+      "name": "BRICS",
+      "description": "BRICS blokeko herrialde nagusiak (eta kide berriak) desblokeatzen ditu."
+    },
+    "group_eu": {
+      "name": "Europar Batasuna",
+      "description": "Europar Batasuneko estatu kide guztiak desblokeatzen ditu."
+    },
+    "group_nato": {
+      "name": "JAIO",
+      "description": "NATOko kide diren herrialde guztiak desblokeatzen ditu."
+    },
+    "india_500": {
+      "name": "Namaste!",
+      "description": "Biratu India 500 aldiz."
+    },
+    "group_g7": {
+      "description": "G7 nazio guztiak desblokeatzen ditu."
+    },
+    "group_mercosul": {
+      "name": "Mercosur",
+      "description": "Mercosur estatu kideak desblokeatzen ditu."
+    },
+    "group_asean": {
+      "description": "Asiako Hego-ekialdeko Nazioen Elkarteko herrialdeak desblokeatzen ditu."
+    },
+    "group_opep": {
+      "name": "OPEC",
+      "description": "Petrolioa Esportatzen duten Herrialdeen Erakundeko kideak desblokeatzen ditu."
+    }
+  },
+  "tutorial": {
+    "title": "Nola jokatu",
+    "step1": "Sakatu <b></b> zein herrialdetan jaio zintezkeen ezagutzeko.",
+    "step2": "Herrialde bakoitzak probabilitate estimatua du jaiotza globalen kuotaren arabera - ez da berdin ausazkoa!",
+    "step3": "Herrialde bat lehen aldiz desblokeatzen duzunean, munduko mapan koloreztatzen da.",
+    "step4": "Egin klik herrialde batean mapan edo bilduman hiriburua, biztanleria eta estimatutako aukera ikusteko.",
+    "step5": "Osatu kontinenteak, lortu lorpenak eta saiatu mundu osoa desblokeatzen.",
+    "step6": "Zure aurrerapena gailu honetan bakarrik gordetzen da: ez dago konturik, ez dago jarraipenik.",
+    "previous": "Aurrekoa",
+    "next": "Hurrengoa",
+    "skip": "Saltatu tutoriala",
+    "finish": "Hasi jolasten!",
+    "dontShowAgain": "Ez erakutsi berriro",
+    "stepOf": "{{uneko}} urratsa {{guztira}}tik",
+    "restart": "Ikusi tutoriala",
+    "rollDesc": "Egin klik botoian zure zortea bota eta herrialde berri bat ezagutzeko! (Aholkua: teklatuko [Zunea] barra erabil dezakezu azkarrago erreproduzitzeko eta leihoak ixteko).",
+    "collectionDesc": "Hemen dagoeneko desblokeatu dituzun herrialdeak ikusiko dituzu. Bitxikeriaren, kontinentearen edo dataren arabera ordena dezakezu! Amaieratik 15 herrialdetara zaudenean, zeintzuk falta zaizkizun ikusteko aukera izango duzu.",
+    "achievementsDesc": "Helburu osatuak, bloke ekonomikoak (BRICS edo Europar Batasuna, esaterako) biltzetik India 500 aldiz jaurtitzeraino dominak irabazteko.",
+    "historyDesc": "Berrikusi zure aurreko antzezlan guztiak eta jakin zenbat denbora desblokeatu zenuen herrialde bat."
+  },
+  "settings": {
+    "title": "Ezarpenak",
+    "language": "Hizkuntza",
+    "languageLabel": "Hautatu hizkuntza",
+    "data": "Datuak eta Pribatutasuna",
+    "exportProgress": "Esportatu aurrerapena",
+    "importProgress": "Inportatu aurrerapena",
+    "resetProgress": "Berrezarri aurrerapena",
+    "restartTutorial": "Ikusi tutoriala",
+    "aboutData": "Datuei buruz",
+    "privacy": "Pribatutasuna",
+    "searchLanguage": "Search language..."
+  },
+  "modals": {
+    "aboutData": {
+      "title": "Datuei buruz",
+      "intro": "Jaiotze probabilitateak herrialde bakoitzeko urteko jaiotzei buruzko datu eskuragarrietan oinarrituta kalkulatutako estimazioak dira.",
+      "methodology": "Metodologia",
+      "methodologyText": "Herrialde jakin batean jaiotzeko probabilitatea herrialde horren urteko jaiotzen estimatuen proportzioan kalkulatzen da, munduko guztizkoarekin alderatuta. Munduko Bankuaren eta NBEren (World Population Prospects) datuak gutxi gorabeherakoak erabiltzen ditugu. Balioak estimazioak dira eta baliteke azken estatistikarik ez islatzea.",
+      "sensitivity": "Sentsibilitate politikoari buruzko oharra",
+      "sensitivityText": "Mugak, lurraldeak eta herrialdeen aitorpena politikoki sentikorrak diren gaiak dira. Joko honetan lurralde bat sartzeak hezkuntza- eta geografia-helburuak betetzen ditu eta ez du jarrera politikorik osatzen. Datuak sinplifikatu egiten dira entretenimendu-joko baterako.",
+      "updates": "Datuen eguneraketak",
+      "updatesText": "Datu demografikoak denboran zehar aldatzen dira. Proiektu honek datuak arrazoiz eguneratuta mantentzea bilatzen du, baina ez du denbora errealeko zehaztasuna bermatzen.",
+      "sources": "Iturriak",
+      "sourcesList": [
+        "Munduko Bankua — Munduko Garapen Adierazleak",
+        "NBE - Munduko Population Prospects 2022",
+        "Natural Earth — Datu geografikoak (domeinu publikoa)",
+        "world-atlas (TopoJSON) — Maparen datuak"
+      ],
+      "close": "Itxi"
+    },
+    "privacy": {
+      "title": "Pribatutasuna eta baldintzak",
+      "project": "Doako hezkuntza eta entretenimendu proiektu bat da, ez komertziala.",
+      "noData": "Ez da datu pertsonalik biltzen.",
+      "localStorage": "Zure aurrerapena zure gailuaren tokiko biltegian soilik gordetzen da (localStorage). Ez da informaziorik bidaltzen zerbitzarietara.",
+      "noCookies": "Joko honek ez du cookierik erabiltzen. LocalStorage bakarrik erabiltzen da zure hobespenak eta aurrerapena gordetzeko.",
+      "noTracking": "Ez dago analitika, jarraipena, publizitatea edo hirugarrenen sistemarik.",
+      "borders": "Datu geografikoak, demografikoak eta mugako datuak estimazioak dira eta osatu gabeak edo zaharkituak izan daitezke. Proiektu honek ez du mugen, lurraldeen edo estatuaren aitorpenaren inguruan jarrera politikorik hartzen.",
+      "license": "Iturburu-kodea eskuragarri dago MIT lizentziapean.",
+      "attribution": "Esleipenak",
+      "close": "Itxi"
+    },
+    "reset": {
+      "title": "Berrezarri Aurrerapena",
+      "message": "Ziur al zaude? Zure aurrerapen, bilduma, historia eta lorpen guztiak betiko ezabatuko dira. Ekintza hau ezin da desegin.",
+      "confirm": "Bai, ezabatu dena",
+      "cancel": "Utzi"
+    },
+    "importExport": {
+      "title": "Inportatu / Esportatu Aurrerapena",
+      "exportTitle": "Esportatu",
+      "exportDescription": "Esportatu zure aurrerapena JSON fitxategi gisa babeskopia egiteko edo beste gailu batera transferitzeko.",
+      "exportButton": "Esportatu JSON fitxategia",
+      "importTitle": "Inportatu",
+      "importDescription": "Inportatu aurretik esportatutako JSON fitxategi bat. Zure egungo aurrerapena ordezkatuko da.",
+      "importWarning": "Abisua: zure uneko aurrerapena inportatutako fitxategiarekin ordezkatuko da.",
+      "importButton": "Hautatu JSON fitxategia",
+      "importSuccess": "Aurrerapena ondo inportatu da!",
+      "importError": "Fitxategi baliogabea edo hondatuta. Ziurtatu fitxategia joko honek esportatu duela.",
+      "close": "Itxi"
+    }
+  },
+  "continents": {
+    "africa": "Afrika",
+    "asia": "Asia",
+    "europe": "Europa",
+    "northAmerica": "Ipar Amerika",
+    "southAmerica": "Hego Amerika",
+    "oceania": "Ozeania"
+  },
+  "data": {
+    "estimated": "Estimatua",
+    "source": "Iturria",
+    "year": "Datu-urtea",
+    "approximation": "Balio hauek hurbilketak dira."
+  },
+  "errors": {
+    "mapLoad": "Ezin izan da mapa kargatu. Saiatu orria berriro kargatzen.",
+    "dataCorrupt": "Gordetako datuak hondatuta daude. Aurrerapena berrezarri da.",
+    "importFailed": "Ezin izan da fitxategia inportatu.",
+    "unknown": "Ustekabeko errore bat gertatu da."
+  },
+  "accessibility": {
+    "languageSelector": "Hautatu hizkuntza",
+    "flagOf": "{{herrialde}}ren bandera",
+    "rollButton": "Tira — marraztu ausazko herrialde bat",
+    "closeModal": "Itxi",
+    "mainMap": "Munduko mapa interaktiboa",
+    "lockedCountry": "{{herrialdea}} — blokeatuta",
+    "unlockedCountry": "{{herrialdea}} — desblokeatua",
+    "rolledCountry": "{{herrialdea}} — jaurti berria",
+    "progressBar": "Desblokeatutako herrialdeen % {{value}}",
+    "achievementLocked": "Lorpena blokeatuta: {{izena}}",
+    "achievementUnlocked": "Lorpena desblokeatu da: {{izena}}"
+  },
+  "countries": {
+    "AF": {
+      "name": "Afganistan",
+      "capital": "Kabul"
+    },
+    "AL": {
+      "name": "Albania",
+      "capital": "Tirana"
+    },
+    "DZ": {
+      "name": "Aljeria",
+      "capital": "Aljer"
+    },
+    "AD": {
+      "name": "Andorra",
+      "capital": "Andorra la Vella"
+    },
+    "AO": {
+      "name": "Angola",
+      "capital": "Luanda"
+    },
+    "AG": {
+      "name": "Antigua eta Barbuda",
+      "capital": "San Juan"
+    },
+    "AR": {
+      "name": "Argentina",
+      "capital": "Buenos Aires"
+    },
+    "AM": {
+      "name": "Armenia",
+      "capital": "Erevan"
+    },
+    "AU": {
+      "name": "Australia",
+      "capital": "Kanberra"
+    },
+    "AT": {
+      "name": "Austria",
+      "capital": "Viena"
+    },
+    "AZ": {
+      "name": "Azerbaijango",
+      "capital": "Baku"
+    },
+    "BS": {
+      "name": "Bahamak",
+      "capital": "Nassau"
+    },
+    "BH": {
+      "name": "Bahrain",
+      "capital": "Manama"
+    },
+    "BD": {
+      "name": "Bangladesh",
+      "capital": "Dhaka"
+    },
+    "BB": {
+      "name": "Barbados",
+      "capital": "Bridgetown"
+    },
+    "BY": {
+      "name": "Bielorrusia",
+      "capital": "Minsk"
+    },
+    "BE": {
+      "name": "Belgika",
+      "capital": "Brusela"
+    },
+    "BZ": {
+      "name": "Belize",
+      "capital": "Belmopan"
+    },
+    "BJ": {
+      "name": "Benin",
+      "capital": "Porto-Novo"
+    },
+    "BT": {
+      "name": "Bhutan",
+      "capital": "Thimphu"
+    },
+    "BO": {
+      "name": "Bolivia",
+      "capital": "Sucre"
+    },
+    "BA": {
+      "name": "Bosnia eta Herzegovina",
+      "capital": "Sarajevo"
+    },
+    "BW": {
+      "name": "Botswana",
+      "capital": "Gaborone"
+    },
+    "BR": {
+      "name": "Brasil",
+      "capital": "Brasilia"
+    },
+    "BN": {
+      "name": "Brunei",
+      "capital": "Bandar Seri Begawan"
+    },
+    "BG": {
+      "name": "Bulgaria",
+      "capital": "Sofia"
+    },
+    "BF": {
+      "name": "Burkina Faso",
+      "capital": "Ouagadougou"
+    },
+    "BI": {
+      "name": "Burundi",
+      "capital": "Gitega"
+    },
+    "CV": {
+      "name": "Cabo Verde",
+      "capital": "Praia"
+    },
+    "KH": {
+      "name": "Kanbodia",
+      "capital": "Phnom Penh"
+    },
+    "CM": {
+      "name": "Kamerun",
+      "capital": "Yaoundé"
+    },
+    "CA": {
+      "name": "Kanada",
+      "capital": "Ottawa"
+    },
+    "CF": {
+      "name": "Afrika Erdiko Errepublika",
+      "capital": "Bangui"
+    },
+    "TD": {
+      "name": "Txad",
+      "capital": "N'Djamena"
+    },
+    "CL": {
+      "name": "Txile",
+      "capital": "Santiago"
+    },
+    "CN": {
+      "name": "Txina",
+      "capital": "Pekin"
+    },
+    "CO": {
+      "name": "Kolonbia",
+      "capital": "Bogota"
+    },
+    "KM": {
+      "name": "Komoreak",
+      "capital": "Moroni"
+    },
+    "CG": {
+      "name": "Kongo",
+      "capital": "Brazzaville"
+    },
+    "CD": {
+      "name": "Kongoko Errepublika Demokratikoa",
+      "capital": "Kinshasa"
+    },
+    "CR": {
+      "name": "Costa Rica",
+      "capital": "San Jose"
+    },
+    "CI": {
+      "name": "Boli Kosta",
+      "capital": "Yamoussoukro"
+    },
+    "HR": {
+      "name": "Kroazia",
+      "capital": "Zagreb"
+    },
+    "CU": {
+      "name": "Kuba",
+      "capital": "Habana"
+    },
+    "CY": {
+      "name": "Zipre",
+      "capital": "Nikosia"
+    },
+    "CZ": {
+      "name": "Txekiar Errepublika",
+      "capital": "Praga"
+    },
+    "DK": {
+      "name": "Danimarka",
+      "capital": "Kopenhage"
+    },
+    "DJ": {
+      "name": "Djibutin",
+      "capital": "Djibutin"
+    },
+    "DM": {
+      "name": "Dominika",
+      "capital": "Roseau"
+    },
+    "DO": {
+      "name": "Dominikar Errepublika",
+      "capital": "Santo Domingo"
+    },
+    "EC": {
+      "name": "Ekuador",
+      "capital": "Quito"
+    },
+    "EG": {
+      "name": "Egipto",
+      "capital": "Kairo"
+    },
+    "SV": {
+      "name": "El Salvador",
+      "capital": "San Salvador"
+    },
+    "GQ": {
+      "name": "Ekuatore Ginea",
+      "capital": "Malabo"
+    },
+    "ER": {
+      "name": "Eritrea",
+      "capital": "Asmara"
+    },
+    "EE": {
+      "name": "Estonia",
+      "capital": "Tallinn"
+    },
+    "SZ": {
+      "name": "Eswatini",
+      "capital": "Mbabane"
+    },
+    "ET": {
+      "name": "Etiopia",
+      "capital": "Addis Abeba"
+    },
+    "FJ": {
+      "name": "Fiji",
+      "capital": "Suva"
+    },
+    "FI": {
+      "name": "Finlandia",
+      "capital": "Helsinki"
+    },
+    "FR": {
+      "name": "Frantzia",
+      "capital": "Paris"
+    },
+    "GA": {
+      "name": "Gabon",
+      "capital": "Libreville"
+    },
+    "GM": {
+      "name": "Gambia",
+      "capital": "Banjul"
+    },
+    "GE": {
+      "name": "Georgia",
+      "capital": "Tbilisi"
+    },
+    "DE": {
+      "name": "Alemania",
+      "capital": "Berlin"
+    },
+    "GH": {
+      "name": "Ghana",
+      "capital": "Accra"
+    },
+    "GR": {
+      "name": "Grezia",
+      "capital": "Atenas"
+    },
+    "GD": {
+      "name": "Grenada",
+      "capital": "San Jorge"
+    },
+    "GT": {
+      "name": "Guatemala",
+      "capital": "Guatemala Hiria"
+    },
+    "GN": {
+      "name": "Ginea",
+      "capital": "Konakry"
+    },
+    "GW": {
+      "name": "Ginea-Bissau",
+      "capital": "Bissau"
+    },
+    "GY": {
+      "name": "Guyana",
+      "capital": "Georgetown"
+    },
+    "HT": {
+      "name": "Haiti",
+      "capital": "Port-au-Prince"
+    },
+    "HN": {
+      "name": "Honduras",
+      "capital": "Tegucigalpa"
+    },
+    "HU": {
+      "name": "Hungaria",
+      "capital": "Budapest"
+    },
+    "IS": {
+      "name": "Islandia",
+      "capital": "Reykjavik"
+    },
+    "IN": {
+      "name": "India",
+      "capital": "New Delhi"
+    },
+    "ID": {
+      "name": "Indonesia",
+      "capital": "Jakarta"
+    },
+    "IR": {
+      "name": "Iran",
+      "capital": "Teheran"
+    },
+    "IQ": {
+      "name": "Irak",
+      "capital": "Bagdad"
+    },
+    "IE": {
+      "name": "Irlanda",
+      "capital": "Dublin"
+    },
+    "IL": {
+      "name": "Israel",
+      "capital": "Jerusalem"
+    },
+    "IT": {
+      "name": "Italia",
+      "capital": "Erroma"
+    },
+    "JM": {
+      "name": "Jamaika",
+      "capital": "Kingston"
+    },
+    "JP": {
+      "name": "Japonia",
+      "capital": "Tokio"
+    },
+    "JO": {
+      "name": "Jordania",
+      "capital": "Amman"
+    },
+    "KZ": {
+      "name": "Kazakhstan",
+      "capital": "Astana"
+    },
+    "KE": {
+      "name": "Kenya",
+      "capital": "Nairobi"
+    },
+    "KI": {
+      "name": "Kiribati",
+      "capital": "Hego Tarawa"
+    },
+    "KP": {
+      "name": "Ipar Korea",
+      "capital": "Pyongyang"
+    },
+    "KR": {
+      "name": "Hego Korea",
+      "capital": "Seul"
+    },
+    "KW": {
+      "name": "Kuwait",
+      "capital": "Kuwait hiria"
+    },
+    "KG": {
+      "name": "Kirgizistan",
+      "capital": "Bishkek"
+    },
+    "LA": {
+      "name": "Laos",
+      "capital": "Vientiane"
+    },
+    "LV": {
+      "name": "Letonia",
+      "capital": "Riga"
+    },
+    "LB": {
+      "name": "Libano",
+      "capital": "Beirut"
+    },
+    "LS": {
+      "name": "Lesotho",
+      "capital": "Maseru"
+    },
+    "LR": {
+      "name": "Liberia",
+      "capital": "Monrovia"
+    },
+    "LY": {
+      "name": "Libia",
+      "capital": "Tripoli"
+    },
+    "LI": {
+      "name": "Liechtenstein",
+      "capital": "Vaduz"
+    },
+    "LT": {
+      "name": "Lituania",
+      "capital": "Vilnius"
+    },
+    "LU": {
+      "name": "Luxenburgo",
+      "capital": "Luxenburgo"
+    },
+    "MG": {
+      "name": "Madagaskar",
+      "capital": "Antananarivo"
+    },
+    "MW": {
+      "name": "Malawi",
+      "capital": "Lilongwe"
+    },
+    "MY": {
+      "name": "Malaysia",
+      "capital": "Kuala Lumpur"
+    },
+    "MV": {
+      "name": "Maldibak",
+      "capital": "Male"
+    },
+    "ML": {
+      "name": "Mali",
+      "capital": "Bamako"
+    },
+    "MT": {
+      "name": "Malta",
+      "capital": "Valletta"
+    },
+    "MH": {
+      "name": "Marshall Uharteak",
+      "capital": "Majuro"
+    },
+    "MR": {
+      "name": "Mauritania",
+      "capital": "Nouakchott"
+    },
+    "MU": {
+      "name": "Mauricio",
+      "capital": "Port Louis"
+    },
+    "MX": {
+      "name": "Mexiko",
+      "capital": "Mexiko Hiria"
+    },
+    "FM": {
+      "name": "Mikronesia",
+      "capital": "Palikir"
+    },
+    "MD": {
+      "name": "Moldavia",
+      "capital": "Chisinau"
+    },
+    "MC": {
+      "name": "Monako",
+      "capital": "Monako"
+    },
+    "MN": {
+      "name": "Mongolia",
+      "capital": "Ulaanbaatar"
+    },
+    "ME": {
+      "name": "Montenegro",
+      "capital": "Podgorica"
+    },
+    "MA": {
+      "name": "Maroko",
+      "capital": "Rabat"
+    },
+    "MZ": {
+      "name": "Mozambike",
+      "capital": "Maputo"
+    },
+    "MM": {
+      "name": "Myanmar",
+      "capital": "Naypyidaw"
+    },
+    "NA": {
+      "name": "Namibia",
+      "capital": "Windhoek"
+    },
+    "NR": {
+      "name": "Nauru",
+      "capital": "Yaren"
+    },
+    "NP": {
+      "name": "Nepal",
+      "capital": "Katmandu"
+    },
+    "NL": {
+      "name": "Herbehereak",
+      "capital": "Amsterdam"
+    },
+    "NZ": {
+      "name": "Zeelanda Berria",
+      "capital": "Wellington"
+    },
+    "NI": {
+      "name": "Nikaragua",
+      "capital": "Managua"
+    },
+    "NE": {
+      "name": "Niger",
+      "capital": "Niamey"
+    },
+    "NG": {
+      "name": "Nigeria",
+      "capital": "Abuja"
+    },
+    "MK": {
+      "name": "Ipar Mazedonia",
+      "capital": "Skopje"
+    },
+    "NO": {
+      "name": "Norvegia",
+      "capital": "Oslo"
+    },
+    "OM": {
+      "name": "Oman",
+      "capital": "Muscat"
+    },
+    "PK": {
+      "name": "Pakistan",
+      "capital": "Islamabad"
+    },
+    "PW": {
+      "name": "Palau",
+      "capital": "Ngerulmud"
+    },
+    "PS": {
+      "name": "Palestina",
+      "capital": "Ramallah"
+    },
+    "PA": {
+      "name": "Panama",
+      "capital": "Panama Hiria"
+    },
+    "PG": {
+      "name": "Papua Ginea Berria",
+      "capital": "Port Moresby"
+    },
+    "PY": {
+      "name": "Paraguai",
+      "capital": "Asunción"
+    },
+    "PE": {
+      "name": "Peru",
+      "capital": "Lima"
+    },
+    "PH": {
+      "name": "Filipinak",
+      "capital": "Manila"
+    },
+    "PL": {
+      "name": "Polonia",
+      "capital": "Varsovia"
+    },
+    "PT": {
+      "name": "Portugal",
+      "capital": "Lisboa"
+    },
+    "QA": {
+      "name": "Qatar",
+      "capital": "Doha"
+    },
+    "RO": {
+      "name": "Errumania",
+      "capital": "Bukarest"
+    },
+    "RU": {
+      "name": "Errusia",
+      "capital": "Mosku"
+    },
+    "RW": {
+      "name": "Ruanda",
+      "capital": "Kigali"
+    },
+    "KN": {
+      "name": "Saint Kitts eta Nevis",
+      "capital": "Basseterre"
+    },
+    "LC": {
+      "name": "Santa Luzia",
+      "capital": "Castries"
+    },
+    "VC": {
+      "name": "Saint Vincent eta Grenadinak",
+      "capital": "Kingstown"
+    },
+    "WS": {
+      "name": "Samoa",
+      "capital": "Apia"
+    },
+    "SM": {
+      "name": "San Marino",
+      "capital": "San Marino"
+    },
+    "ST": {
+      "name": "São Tomé eta Príncipe",
+      "capital": "São Tomé"
+    },
+    "SA": {
+      "name": "Saudi Arabia",
+      "capital": "Riad"
+    },
+    "SN": {
+      "name": "Senegal",
+      "capital": "Dakar"
+    },
+    "RS": {
+      "name": "Serbia",
+      "capital": "Belgrado"
+    },
+    "SL": {
+      "name": "Sierra Leona",
+      "capital": "Freetown"
+    },
+    "SG": {
+      "name": "Singapur",
+      "capital": "Singapur"
+    },
+    "SK": {
+      "name": "Eslovakia",
+      "capital": "Bratislava"
+    },
+    "SI": {
+      "name": "Eslovenia",
+      "capital": "Ljubljana"
+    },
+    "SB": {
+      "name": "Salomon Uharteak",
+      "capital": "Honiara"
+    },
+    "SO": {
+      "name": "Somalia",
+      "capital": "Mogadiscio"
+    },
+    "ZA": {
+      "name": "Hegoafrika",
+      "capital": "Pretoria"
+    },
+    "SS": {
+      "name": "Hego Sudan",
+      "capital": "Juba"
+    },
+    "ES": {
+      "name": "Espainia",
+      "capital": "Madril"
+    },
+    "LK": {
+      "name": "Sri Lanka",
+      "capital": "Colombo"
+    },
+    "SD": {
+      "name": "Sudan",
+      "capital": "Khartum"
+    },
+    "SR": {
+      "name": "Surinam",
+      "capital": "Paramaribo"
+    },
+    "SE": {
+      "name": "Suedia",
+      "capital": "Stockholm"
+    },
+    "CH": {
+      "name": "Suitza",
+      "capital": "Berna"
+    },
+    "SY": {
+      "name": "Siria",
+      "capital": "Damasko"
+    },
+    "TW": {
+      "name": "Taiwan",
+      "capital": "Taipei"
+    },
+    "TJ": {
+      "name": "Tadjikistan",
+      "capital": "Dushanbe"
+    },
+    "TZ": {
+      "name": "Tanzania",
+      "capital": "Dodoma"
+    },
+    "TH": {
+      "name": "Thailandia",
+      "capital": "Bangkok"
+    },
+    "TL": {
+      "name": "Ekialdeko Timor",
+      "capital": "Dili"
+    },
+    "TG": {
+      "name": "Togo",
+      "capital": "Lome"
+    },
+    "TO": {
+      "name": "Tonga",
+      "capital": "Nukuʻalofa"
+    },
+    "TT": {
+      "name": "Trinidad eta Tobago",
+      "capital": "Espainiako Portua"
+    },
+    "TN": {
+      "name": "Tunisia",
+      "capital": "Tunis"
+    },
+    "TR": {
+      "name": "Turkia",
+      "capital": "Ankara"
+    },
+    "TM": {
+      "name": "Turkmenistan",
+      "capital": "Ashgabat"
+    },
+    "TV": {
+      "name": "Tuvalu",
+      "capital": "Funafuti"
+    },
+    "UG": {
+      "name": "Uganda",
+      "capital": "Kampala"
+    },
+    "UA": {
+      "name": "Ukraina",
+      "capital": "Kiev"
+    },
+    "AE": {
+      "name": "Arabiar Emirerri Batuak",
+      "capital": "Abu Dhabi"
+    },
+    "GB": {
+      "name": "Erresuma Batua",
+      "capital": "Londres"
+    },
+    "US": {
+      "name": "Estatu Batuak",
+      "capital": "Washington D.C."
+    },
+    "UY": {
+      "name": "Uruguai",
+      "capital": "Montevideo"
+    },
+    "UZ": {
+      "name": "Uzbekistan",
+      "capital": "Tashkent"
+    },
+    "VU": {
+      "name": "Vanuatu",
+      "capital": "Port Vila"
+    },
+    "VA": {
+      "name": "Vatikano Hiria",
+      "capital": "Vatikano Hiria"
+    },
+    "VE": {
+      "name": "Venezuela",
+      "capital": "Caracas"
+    },
+    "VN": {
+      "name": "Vietnam",
+      "capital": "Hanoi"
+    },
+    "YE": {
+      "name": "Yemen",
+      "capital": "Sanaa"
+    },
+    "ZM": {
+      "name": "Zambia",
+      "capital": "Lusaka"
+    },
+    "ZW": {
+      "name": "Zimbabwe",
+      "capital": "Harare"
+    },
+    "EH": {
+      "name": "Mendebaldeko Sahara",
+      "capital": "Aaiune"
+    },
+    "XK": {
+      "name": "Kosovo",
+      "capital": "Pristina"
+    }
+  },
+  "pity": {
+    "title": "Zorte metatua",
+    "guaranteedTitle": "Herrialde Berria Bermatuta!",
+    "ready": "Hurrengo jaurtiketa magikoa izango da!"
+  },
+  "tour": {
+    "skip": "Pular Tutorial",
+    "next": "Hurrengoa ➔",
+    "prev": "⬅ Anterior",
+    "done": "Amaitu ✓",
+    "progress": "{{current}}/{{total}} urratsa",
+    "step1": {
+      "title": "👋 Bem-vindo ao WorldDex!",
+      "desc": "Hemen munduko herrialde guztiak bilduko dituzu benetako jaiotza-tasan oinarritutako zozketa bidez. Ea nola funtzionatzen duen?"
+    },
+    "step2": {
+      "title": "🎲 Rolar Pelo Mundo",
+      "desc": "Egin klik botoi honetan (edo sakatu Zuriunean) biratzeko. Herrialde batean lurreratzeko probabilitatea mundu errealean <b>bertan jaiotzeko probabilitatearen berdina da</b>. Zenbat eta jaiotza gehiago, orduan eta ohikoagoa!"
+    },
+    "step3": {
+      "title": "🗺️ O Teu Mapa",
+      "desc": "Herrialde berri bat desblokeatzen duzun bakoitzean, bere arraroaren kolorearekin margotuko da mapan (Arrunta, Ezohikoa, Arraroa, Epikoa edo Kondairazkoa)."
+    },
+    "step4": {
+      "title": "💖 Pena Sistema",
+      "desc": "Bikoiztu bat lortzen duzun bakoitzean, zure zorte barra igotzen da. Gehienera iristen zarenean, hurrengo bira <b>% 100 bermatuta</b> dago oraindik ez duzun herrialdea izango dela!"
+    },
+    "step5": {
+      "title": "🛒 Denda eta Ekonomia",
+      "desc": "Ez kezkatu bikoiztuengatik. Errepikatzen diren herrialde bakoitzak <b>txanponak</b> ematen dizkizu (bere bitxikeriaren arabera). Denda honetako txanponak erabil ditzakezu <b>faltako herrialdeak</b> edo <b>Bertsioak</b> erosteko (Autoclicker edo biderkatzaileak adibidez)."
+    },
+    "step6": {
+      "title": "📚 Zure bilduma",
+      "desc": "Fitxa honetan dagoeneko hartu dituzun herrialde guztiak eta zenbat geratzen zaren ikus ditzakezu. Haien gainean klik egin dezakezu xehetasunak eta bitxikeriak ikusteko."
+    },
+    "step7": {
+      "title": "🏆 Lorpenak",
+      "desc": "Osatu kontinenteak, osatu herrialde espezifikoen taldeak (adibidez, CPLP edo Europar Batasuna) eta lortu helburuak lorpen berezi horiek desblokeatzeko."
+    },
+    "step8": {
+      "title": "🌍 Jolasteko prest!",
+      "desc": "Orain zure esku dago! Zorte on mundu osoa desblokeatzeko bidaian, jaiotza bat aldi berean."
+    }
+  }
+}

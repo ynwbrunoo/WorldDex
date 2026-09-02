@@ -1,0 +1,1153 @@
+{
+  "app": {
+    "title": "WorldDex",
+    "subtitle": "Desbloqueja el món, un naixement a la vegada."
+  },
+  "header": {
+    "howToPlay": "Com jugar",
+    "aboutData": "Sobre les dades",
+    "resetProgress": "Restableix el progrés",
+    "privacy": "Privadesa",
+    "localStorageNotice": "S'ha desat el progrés en aquest dispositiu"
+  },
+  "nav": {
+    "progress": "Progrés",
+    "collection": "Col·lecció",
+    "history": "Història",
+    "achievements": "Assoliments",
+    "settings": "Configuració"
+  },
+  "roll": {
+    "button": "Roll",
+    "rolling": "Rodant...",
+    "newCountry": "Nou país desbloquejat!",
+    "duplicate": "Ja teníeu aquest país, seguiu així!",
+    "viewOnMap": "Veure al mapa",
+    "close": "Tancar",
+    "estimatedChance": "Probabilitat estimada",
+    "population": "Població",
+    "annualBirths": "Naixements anuals estimats",
+    "firstUnlock": "Primera vegada!",
+    "alreadyHave": "Duplicat",
+    "spacebar": "Press [Space] to roll"
+  },
+  "country": {
+    "population": "Població",
+    "annualBirths": "Naixements anuals estimats",
+    "birthChance": "Possibilitat de néixer aquí",
+    "capital": "Capital",
+    "continent": "Continent",
+    "status": {
+      "locked": "Encara tancat",
+      "unlocked": "Desbloquejat"
+    },
+    "rollCount": "Va aparèixer {{compte}} temps",
+    "rollCount_other": "Ha aparegut {{compte}} vegades",
+    "firstUnlocked": "Desbloquejat el {{data}}",
+    "zoomToCountry": "Centre al mapa",
+    "notFound": "País no trobat",
+    "clickToExplore": "Feu clic a un país per explorar"
+  },
+  "progress": {
+    "title": "Progrés",
+    "unlocked": "Desbloquejat",
+    "unlockedCount": "{{recompte}} / {{total}} països",
+    "percentage": "{{valor}}% completat",
+    "remaining": "Queden {{comptar}} països",
+    "totalRolls": "Total Rolls",
+    "duplicates": "Duplicats",
+    "longestStreak": "Millor ratxa sense duplicats",
+    "continents": "Progrés per continents"
+  },
+  "collection": {
+    "title": "Col·lecció",
+    "search": "Cerca país...",
+    "sort": {
+      "label": "Ordena per",
+      "recent": "Desbloquejat recentment",
+      "alphabetical": "Alfabètic",
+      "mostRolled": "La majoria rodada",
+      "continent": "Continent"
+    },
+    "empty": "Encara no has desbloquejat cap país. Doneu-li una tirada!",
+    "noResults": "Cap país coincideix amb la vostra cerca.",
+    "rolls": "{{compte}} tirada",
+    "rolls_other": "{{comptar}} rotlles",
+    "sortChanceDesc": "Highest Chance",
+    "sortChanceAsc": "Lowest Chance"
+  },
+  "history": {
+    "title": "Història",
+    "filter": {
+      "all": "Tots",
+      "new": "Nou",
+      "duplicates": "Duplicats"
+    },
+    "clearHistory": "Esborra l'historial",
+    "clearConfirmTitle": "Esborrar l'historial?",
+    "clearConfirmMessage": "Aquesta acció no es pot desfer. L'historial de rotlles se suprimirà permanentment.",
+    "clearConfirm": "Clar",
+    "clearCancel": "Cancel·la",
+    "empty": "Encara no has fet cap tirada. Comença ara!",
+    "emptyFiltered": "No hi ha cap rotllo que coincideixi amb aquest filtre.",
+    "new": "Nou",
+    "duplicate": "Duplicat",
+    "rollNumber": "Roll #{{número}}"
+  },
+  "achievements": {
+    "title": "Assoliments",
+    "locked": "Tancat",
+    "unlocked": "Desbloquejat",
+    "unlockedOn": "Desbloquejat el {{data}}",
+    "progress": "{{actual}} / {{total}}",
+    "newUnlock": "Assoliment desbloquejat!",
+    "firstStep": {
+      "name": "Primer pas",
+      "description": "Desbloqueja el teu primer país."
+    },
+    "explorer": {
+      "name": "Explorador",
+      "description": "Desbloqueja 10 països."
+    },
+    "traveller": {
+      "name": "Viatger",
+      "description": "Desbloqueja 25 països."
+    },
+    "cartographer": {
+      "name": "Cartògraf",
+      "description": "Desbloqueja 50 països."
+    },
+    "worldCollector1": {
+      "name": "Col·leccionista mundial I",
+      "description": "Desbloqueja 75 països."
+    },
+    "worldCollector2": {
+      "name": "Col·leccionista Mundial II",
+      "description": "Desbloqueja 100 països."
+    },
+    "worldCollector3": {
+      "name": "Col·leccionista Mundial III",
+      "description": "Desbloqueja 125 països."
+    },
+    "halfwayThere": {
+      "name": "A mig camí",
+      "description": "Desbloqueja el 50% de tots els països."
+    },
+    "continentalExplorer": {
+      "name": "Continental Explorer",
+      "description": "Completa un continent sencer."
+    },
+    "continentalMaster": {
+      "name": "Mestre Continental",
+      "description": "Completa tres continents."
+    },
+    "aroundTheWorld": {
+      "name": "La volta al món",
+      "description": "Completa tots els continents."
+    },
+    "worldComplete": {
+      "name": "Món complet",
+      "description": "Desbloqueja tots els països i territoris."
+    },
+    "luckyStreak": {
+      "name": "Ratxa de la sort",
+      "description": "Desbloqueja 5 països nous seguits sense duplicats."
+    },
+    "persistent": {
+      "name": "Persistent",
+      "description": "Feu 100 rotllos en total."
+    },
+    "dedicated": {
+      "name": "Dedicat",
+      "description": "Feu 500 rotllos en total."
+    },
+    "home_sweet_home": {
+      "name": "Home Sweet Home",
+      "description": "Has fet rodar el país on vius actualment!"
+    },
+    "group_palop": {
+      "name": "PALOP",
+      "description": "Desbloqueja tots els països africans de parla portuguesa."
+    },
+    "group_brics": {
+      "name": "BRICS",
+      "description": "Desbloqueja els principals països del bloc BRICS (i nous membres)."
+    },
+    "group_eu": {
+      "name": "Unió Europea",
+      "description": "Desbloqueja tots els estats membres de la Unió Europea."
+    },
+    "group_nato": {
+      "name": "NASSAT",
+      "description": "Desbloqueja tots els països membres de l'OTAN."
+    },
+    "india_500": {
+      "name": "Namaste!",
+      "description": "Gira l'Índia 500 vegades."
+    },
+    "group_g7": {
+      "description": "Desbloqueja totes les nacions del G7."
+    },
+    "group_mercosul": {
+      "name": "Mercosur",
+      "description": "Desbloqueja els Estats membres del Mercosur."
+    },
+    "group_asean": {
+      "description": "Desbloqueja els països de l'Associació de Nacions del Sud-est Asiàtic."
+    },
+    "group_opep": {
+      "description": "Desbloqueja membres de l'Organització de Països Exportadors de Petroli."
+    }
+  },
+  "tutorial": {
+    "title": "Com jugar",
+    "step1": "Fes clic a <b></b> per descobrir en quin país pots néixer.",
+    "step2": "Cada país té una probabilitat estimada basada en la seva proporció de naixements globals; no és igualment aleatori!",
+    "step3": "Quan desbloqueges un país per primera vegada, es pinta al mapa del món.",
+    "step4": "Feu clic a un país al mapa o a la vostra col·lecció per veure la capital, la població i les possibilitats estimades.",
+    "step5": "Completa continents, guanya èxits i intenta desbloquejar el món sencer.",
+    "step6": "El vostre progrés només es desa en aquest dispositiu, sense comptes ni seguiment.",
+    "previous": "Anterior",
+    "next": "A continuació",
+    "skip": "Omet el tutorial",
+    "finish": "Comença a jugar!",
+    "dontShowAgain": "No tornis a mostrar",
+    "stepOf": "Pas {{actual}} del {{total}}",
+    "restart": "Veure tutorial",
+    "rollDesc": "Feu clic al botó per tirar la vostra sort i descobrir un nou país! (Consell: podeu utilitzar la barra [espai] del vostre teclat per jugar més ràpid i tancar finestres).",
+    "collectionDesc": "Aquí veus els països que ja has desbloquejat. Podeu ordenar per raresa, continent o data! Quan estiguis a 15 països del final, podràs veure quins t'han perdut.",
+    "achievementsDesc": "Objectius complets, des de recollir blocs econòmics (com els BRICS o la Unió Europea) fins a tirar l'Índia 500 vegades, per guanyar medalles.",
+    "historyDesc": "Revisa totes les teves jugades anteriors i descobreix quant de temps fa que vas desbloquejar un país."
+  },
+  "settings": {
+    "title": "Configuració",
+    "language": "Llengua",
+    "languageLabel": "Seleccioneu l'idioma",
+    "data": "Dades i privadesa",
+    "exportProgress": "Progrés de l'exportació",
+    "importProgress": "Progrés de la importació",
+    "resetProgress": "Restableix el progrés",
+    "restartTutorial": "Veure tutorial",
+    "aboutData": "Sobre les dades",
+    "privacy": "Privadesa",
+    "searchLanguage": "Search language..."
+  },
+  "modals": {
+    "aboutData": {
+      "title": "Sobre les dades",
+      "intro": "Les probabilitats de naixement són estimacions calculades a partir de les dades disponibles sobre els naixements anuals per país.",
+      "methodology": "Metodologia",
+      "methodologyText": "La probabilitat de néixer en un país determinat es calcula com la proporció dels naixements anuals estimats d'aquest país en comparació amb el total mundial. Utilitzem dades aproximades del Banc Mundial i de l'ONU (World Population Prospects). Els valors són estimacions i poden no reflectir les estadístiques més recents.",
+      "sensitivity": "Nota sobre la sensibilitat política",
+      "sensitivityText": "Les fronteres, els territoris i el reconeixement del país són temes políticament sensibles. La inclusió d'un territori en aquest joc té finalitats educatives i geogràfiques i no constitueix una posició política. Les dades es simplifiquen per a un joc d'entreteniment.",
+      "updates": "Actualitzacions de dades",
+      "updatesText": "Les dades demogràfiques canvien amb el temps. Aquest projecte pretén mantenir les dades raonablement actualitzades, però no garanteix la precisió en temps real.",
+      "sources": "Fonts",
+      "sourcesList": [
+        "Banc Mundial — Indicadors de desenvolupament mundial",
+        "ONU — Perspectives de la població mundial 2022",
+        "Terra natural — Dades geogràfiques (domini públic)",
+        "atles mundial (TopoJSON) — Dades del mapa"
+      ],
+      "close": "Tancar"
+    },
+    "privacy": {
+      "title": "Privadesa i Condicions",
+      "project": "Aquest és un projecte educatiu i d'entreteniment gratuït i no comercial.",
+      "noData": "No es recullen dades personals.",
+      "localStorage": "El vostre progrés s'emmagatzema exclusivament a l'emmagatzematge local del vostre dispositiu (localStorage). No s'envia informació als servidors.",
+      "noCookies": "Aquest joc no utilitza cookies. Només s'utilitza localStorage per desar les vostres preferències i el vostre progrés.",
+      "noTracking": "No hi ha sistemes d'anàlisi, seguiment, publicitat o de tercers.",
+      "borders": "Les dades geogràfiques, demogràfiques i frontereres són estimacions i poden estar incompletes o no actualitzades. Aquest projecte no té cap posició política sobre les fronteres, els territoris o el reconeixement estatal.",
+      "license": "Codi font disponible sota la llicència MIT.",
+      "attribution": "Atribucions",
+      "close": "Tancar"
+    },
+    "reset": {
+      "title": "Restableix el progrés",
+      "message": "N'estàs segur? Tot el vostre progrés, col·lecció, historial i assoliments se suprimiran permanentment. Aquesta acció no es pot desfer.",
+      "confirm": "Sí, esborra-ho tot",
+      "cancel": "Cancel·la"
+    },
+    "importExport": {
+      "title": "Progrés d'importació/exportació",
+      "exportTitle": "Exporta",
+      "exportDescription": "Exporteu el vostre progrés com a fitxer JSON per fer una còpia de seguretat o transferir-lo a un altre dispositiu.",
+      "exportButton": "Exporta el fitxer JSON",
+      "importTitle": "Importar",
+      "importDescription": "Importa un fitxer JSON exportat prèviament. El vostre progrés actual serà substituït.",
+      "importWarning": "Avís: el vostre progrés actual serà substituït pel fitxer importat.",
+      "importButton": "Seleccioneu el fitxer JSON",
+      "importSuccess": "El progrés s'ha importat correctament!",
+      "importError": "Fitxer no vàlid o danyat. Assegureu-vos que aquest joc hagi exportat el fitxer.",
+      "close": "Tancar"
+    }
+  },
+  "continents": {
+    "africa": "Àfrica",
+    "asia": "Àsia",
+    "europe": "Europa",
+    "northAmerica": "Amèrica del Nord",
+    "southAmerica": "Amèrica del Sud",
+    "oceania": "Oceania"
+  },
+  "data": {
+    "estimated": "Estimat",
+    "source": "Font",
+    "year": "Dades any",
+    "approximation": "Aquests valors són aproximacions."
+  },
+  "errors": {
+    "mapLoad": "No s'ha pogut carregar el mapa. Prova de tornar a carregar la pàgina.",
+    "dataCorrupt": "Les dades desades estan malmeses. El progrés s'ha restablert.",
+    "importFailed": "No s'ha pogut importar el fitxer.",
+    "unknown": "S'ha produït un error inesperat."
+  },
+  "accessibility": {
+    "languageSelector": "Seleccioneu l'idioma",
+    "flagOf": "Bandera del {{país}}",
+    "rollButton": "Tirar: dibuixa un país aleatori",
+    "closeModal": "Tancar",
+    "mainMap": "Mapa del món interactiu",
+    "lockedCountry": "{{país}} — bloquejat",
+    "unlockedCountry": "{{país}} — desbloquejat",
+    "rolledCountry": "{{país}}: acaba de llançar",
+    "progressBar": "{{valor}}% dels països desbloquejats",
+    "achievementLocked": "Assoliment bloquejat: {{nom}}",
+    "achievementUnlocked": "Assoliment desbloquejat: {{nom}}"
+  },
+  "countries": {
+    "AF": {
+      "name": "Afganistan",
+      "capital": "Kabul"
+    },
+    "AL": {
+      "name": "Albània",
+      "capital": "Tirana"
+    },
+    "DZ": {
+      "name": "Algèria",
+      "capital": "Alger"
+    },
+    "AD": {
+      "name": "Andorra",
+      "capital": "Andorra la Vella"
+    },
+    "AO": {
+      "name": "Angola",
+      "capital": "Luanda"
+    },
+    "AG": {
+      "name": "Antigua i Barbuda",
+      "capital": "Sant Joan"
+    },
+    "AR": {
+      "name": "Argentina",
+      "capital": "Buenos Aires"
+    },
+    "AM": {
+      "name": "Armènia",
+      "capital": "Erevan"
+    },
+    "AU": {
+      "name": "Austràlia",
+      "capital": "Canberra"
+    },
+    "AT": {
+      "name": "Àustria",
+      "capital": "Viena"
+    },
+    "AZ": {
+      "name": "Azerbaidjan",
+      "capital": "Bakú"
+    },
+    "BS": {
+      "name": "Bahames",
+      "capital": "Nassau"
+    },
+    "BH": {
+      "name": "Bahrain",
+      "capital": "Manama"
+    },
+    "BD": {
+      "name": "Bangla Desh",
+      "capital": "Dhaka"
+    },
+    "BB": {
+      "name": "Barbados",
+      "capital": "Bridgetown"
+    },
+    "BY": {
+      "name": "Bielorússia",
+      "capital": "Minsk"
+    },
+    "BE": {
+      "name": "Bèlgica",
+      "capital": "Brussel·les"
+    },
+    "BZ": {
+      "name": "Belize",
+      "capital": "Belmopan"
+    },
+    "BJ": {
+      "name": "Benín",
+      "capital": "Porto-Novo"
+    },
+    "BT": {
+      "name": "Butan",
+      "capital": "Thimphu"
+    },
+    "BO": {
+      "name": "Bolívia",
+      "capital": "Sucre"
+    },
+    "BA": {
+      "name": "Bòsnia i Hercegovina",
+      "capital": "Sarajevo"
+    },
+    "BW": {
+      "name": "Botswana",
+      "capital": "Gaborone"
+    },
+    "BR": {
+      "name": "Brasil",
+      "capital": "Brasilia"
+    },
+    "BN": {
+      "name": "Brunei",
+      "capital": "Bandar Seri Begawan"
+    },
+    "BG": {
+      "name": "Bulgària",
+      "capital": "Sofia"
+    },
+    "BF": {
+      "name": "Burkina Faso",
+      "capital": "Ouagadougou"
+    },
+    "BI": {
+      "name": "Burundi",
+      "capital": "Gitega"
+    },
+    "CV": {
+      "name": "Cap Verd",
+      "capital": "Praia"
+    },
+    "KH": {
+      "name": "Cambodja",
+      "capital": "Phnom Penh"
+    },
+    "CM": {
+      "name": "Camerun",
+      "capital": "Yaoundé"
+    },
+    "CA": {
+      "name": "Canadà",
+      "capital": "Ottawa"
+    },
+    "CF": {
+      "name": "República Centreafricana",
+      "capital": "Bangui"
+    },
+    "TD": {
+      "name": "Txad",
+      "capital": "N'Djamena"
+    },
+    "CL": {
+      "name": "Xile",
+      "capital": "Santiago"
+    },
+    "CN": {
+      "name": "Xina",
+      "capital": "Pequín"
+    },
+    "CO": {
+      "name": "Colòmbia",
+      "capital": "Bogotà"
+    },
+    "KM": {
+      "name": "Comores",
+      "capital": "Moroni"
+    },
+    "CG": {
+      "name": "Congo",
+      "capital": "Brazzaville"
+    },
+    "CD": {
+      "name": "República Democràtica del Congo",
+      "capital": "Kinshasa"
+    },
+    "CR": {
+      "name": "Costa Rica",
+      "capital": "Sant Josep"
+    },
+    "CI": {
+      "name": "Costa d'Ivori",
+      "capital": "Yamoussoukro"
+    },
+    "HR": {
+      "name": "Croàcia",
+      "capital": "Zagreb"
+    },
+    "CU": {
+      "name": "Cuba",
+      "capital": "L'Havana"
+    },
+    "CY": {
+      "name": "Xipre",
+      "capital": "Nicòsia"
+    },
+    "CZ": {
+      "name": "República Txeca",
+      "capital": "Praga"
+    },
+    "DK": {
+      "name": "Dinamarca",
+      "capital": "Copenhaguen"
+    },
+    "DJ": {
+      "name": "Djibouti",
+      "capital": "Djibouti"
+    },
+    "DM": {
+      "name": "Dominica",
+      "capital": "Roseau"
+    },
+    "DO": {
+      "name": "República Dominicana",
+      "capital": "Sant Domingo"
+    },
+    "EC": {
+      "name": "Equador",
+      "capital": "Quito"
+    },
+    "EG": {
+      "name": "Egipte",
+      "capital": "El Caire"
+    },
+    "SV": {
+      "name": "El Salvador",
+      "capital": "Sant Salvador"
+    },
+    "GQ": {
+      "name": "Guinea Equatorial",
+      "capital": "Malabo"
+    },
+    "ER": {
+      "name": "Eritrea",
+      "capital": "Asmara"
+    },
+    "EE": {
+      "name": "Estònia",
+      "capital": "Tallinn"
+    },
+    "SZ": {
+      "name": "Eswatini",
+      "capital": "Mbabane"
+    },
+    "ET": {
+      "name": "Etiòpia",
+      "capital": "Addis Abeba"
+    },
+    "FJ": {
+      "name": "Fiji",
+      "capital": "Suva"
+    },
+    "FI": {
+      "name": "Finlàndia",
+      "capital": "Hèlsinki"
+    },
+    "FR": {
+      "name": "França",
+      "capital": "París"
+    },
+    "GA": {
+      "name": "Gabon",
+      "capital": "Libreville"
+    },
+    "GM": {
+      "name": "Gàmbia",
+      "capital": "Banjul"
+    },
+    "GE": {
+      "name": "Geòrgia",
+      "capital": "Tbilisi"
+    },
+    "DE": {
+      "name": "Alemanya",
+      "capital": "Berlín"
+    },
+    "GH": {
+      "name": "Ghana",
+      "capital": "Accra"
+    },
+    "GR": {
+      "name": "Grècia",
+      "capital": "Atenes"
+    },
+    "GD": {
+      "name": "Granada",
+      "capital": "Sant Jordi"
+    },
+    "GT": {
+      "name": "Guatemala",
+      "capital": "Ciutat de Guatemala"
+    },
+    "GN": {
+      "name": "Guinea",
+      "capital": "Conakry"
+    },
+    "GW": {
+      "name": "Guinea Bissau",
+      "capital": "Bissau"
+    },
+    "GY": {
+      "name": "Guyana",
+      "capital": "Georgetown"
+    },
+    "HT": {
+      "name": "Haití",
+      "capital": "Port-au-Prince"
+    },
+    "HN": {
+      "name": "Hondures",
+      "capital": "Tegucigalpa"
+    },
+    "HU": {
+      "name": "Hongria",
+      "capital": "Budapest"
+    },
+    "IS": {
+      "name": "Islàndia",
+      "capital": "Reykjavík"
+    },
+    "IN": {
+      "name": "Índia",
+      "capital": "Nova Delhi"
+    },
+    "ID": {
+      "name": "Indonèsia",
+      "capital": "Jakarta"
+    },
+    "IR": {
+      "name": "Iran",
+      "capital": "Teheran"
+    },
+    "IQ": {
+      "name": "Iraq",
+      "capital": "Bagdad"
+    },
+    "IE": {
+      "name": "Irlanda",
+      "capital": "Dublín"
+    },
+    "IL": {
+      "name": "Israel",
+      "capital": "Jerusalem"
+    },
+    "IT": {
+      "name": "Itàlia",
+      "capital": "Roma"
+    },
+    "JM": {
+      "name": "Jamaica",
+      "capital": "Kingston"
+    },
+    "JP": {
+      "name": "Japó",
+      "capital": "Tòquio"
+    },
+    "JO": {
+      "name": "Jordània",
+      "capital": "Amman"
+    },
+    "KZ": {
+      "name": "Kazakhstan",
+      "capital": "Astana"
+    },
+    "KE": {
+      "name": "Kenya",
+      "capital": "Nairobi"
+    },
+    "KI": {
+      "name": "Kiribati",
+      "capital": "Tarawa Sud"
+    },
+    "KP": {
+      "name": "Corea del Nord",
+      "capital": "Pyongyang"
+    },
+    "KR": {
+      "name": "Corea del Sud",
+      "capital": "Seül"
+    },
+    "KW": {
+      "name": "Kuwait",
+      "capital": "Ciutat de Kuwait"
+    },
+    "KG": {
+      "name": "Kirguizistan",
+      "capital": "Bishkek"
+    },
+    "LA": {
+      "name": "Laos",
+      "capital": "Vientiane"
+    },
+    "LV": {
+      "name": "Letònia",
+      "capital": "Riga"
+    },
+    "LB": {
+      "name": "Líban",
+      "capital": "Beirut"
+    },
+    "LS": {
+      "name": "Lesotho",
+      "capital": "Maseru"
+    },
+    "LR": {
+      "name": "Libèria",
+      "capital": "Monròvia"
+    },
+    "LY": {
+      "name": "Líbia",
+      "capital": "Trípoli"
+    },
+    "LI": {
+      "name": "Liechtenstein",
+      "capital": "Vaduz"
+    },
+    "LT": {
+      "name": "Lituània",
+      "capital": "Vílnius"
+    },
+    "LU": {
+      "name": "Luxemburg",
+      "capital": "Luxemburg"
+    },
+    "MG": {
+      "name": "Madagascar",
+      "capital": "Antananarivo"
+    },
+    "MW": {
+      "name": "Malawi",
+      "capital": "Lilongwe"
+    },
+    "MY": {
+      "name": "Malàisia",
+      "capital": "Kuala Lumpur"
+    },
+    "MV": {
+      "name": "Maldives",
+      "capital": "Malé"
+    },
+    "ML": {
+      "name": "Mali",
+      "capital": "Bamako"
+    },
+    "MT": {
+      "name": "Malta",
+      "capital": "La Valletta"
+    },
+    "MH": {
+      "name": "Illes Marshall",
+      "capital": "Majuro"
+    },
+    "MR": {
+      "name": "Mauritània",
+      "capital": "Nouakchott"
+    },
+    "MU": {
+      "name": "Maurici",
+      "capital": "Port Louis"
+    },
+    "MX": {
+      "name": "Mèxic",
+      "capital": "Ciutat de Mèxic"
+    },
+    "FM": {
+      "name": "Micronèsia",
+      "capital": "Palikir"
+    },
+    "MD": {
+      "name": "Moldàvia",
+      "capital": "Chisinau"
+    },
+    "MC": {
+      "name": "Mònaco",
+      "capital": "Mònaco"
+    },
+    "MN": {
+      "name": "Mongòlia",
+      "capital": "Ulaanbaatar"
+    },
+    "ME": {
+      "name": "Montenegro",
+      "capital": "Podgorica"
+    },
+    "MA": {
+      "name": "el Marroc",
+      "capital": "Rabat"
+    },
+    "MZ": {
+      "name": "Moçambic",
+      "capital": "Maputo"
+    },
+    "MM": {
+      "name": "Myanmar",
+      "capital": "Naypyidaw"
+    },
+    "NA": {
+      "name": "Namíbia",
+      "capital": "Windhoek"
+    },
+    "NR": {
+      "name": "Nauru",
+      "capital": "Yaren"
+    },
+    "NP": {
+      "name": "Nepal",
+      "capital": "Katmandú"
+    },
+    "NL": {
+      "name": "Països Baixos",
+      "capital": "Amsterdam"
+    },
+    "NZ": {
+      "name": "Nova Zelanda",
+      "capital": "Wellington"
+    },
+    "NI": {
+      "name": "Nicaragua",
+      "capital": "Managua"
+    },
+    "NE": {
+      "name": "Níger",
+      "capital": "Niamey"
+    },
+    "NG": {
+      "name": "Nigèria",
+      "capital": "Abuja"
+    },
+    "MK": {
+      "name": "Macedònia del Nord",
+      "capital": "Skopje"
+    },
+    "NO": {
+      "name": "Noruega",
+      "capital": "Oslo"
+    },
+    "OM": {
+      "name": "Oman",
+      "capital": "Muscat"
+    },
+    "PK": {
+      "name": "Pakistan",
+      "capital": "Islamabad"
+    },
+    "PW": {
+      "name": "Palau",
+      "capital": "Ngerulmud"
+    },
+    "PS": {
+      "name": "Palestina",
+      "capital": "Ramallah"
+    },
+    "PA": {
+      "name": "Panamà",
+      "capital": "Ciutat de Panamà"
+    },
+    "PG": {
+      "name": "Papua Nova Guinea",
+      "capital": "Port Moresby"
+    },
+    "PY": {
+      "name": "Paraguai",
+      "capital": "Asunción"
+    },
+    "PE": {
+      "name": "Perú",
+      "capital": "Lima"
+    },
+    "PH": {
+      "name": "Filipines",
+      "capital": "Manila"
+    },
+    "PL": {
+      "name": "Polònia",
+      "capital": "Varsòvia"
+    },
+    "PT": {
+      "name": "Portugal",
+      "capital": "Lisboa"
+    },
+    "QA": {
+      "name": "Qatar",
+      "capital": "Doha"
+    },
+    "RO": {
+      "name": "Romania",
+      "capital": "Bucarest"
+    },
+    "RU": {
+      "name": "Rússia",
+      "capital": "Moscou"
+    },
+    "RW": {
+      "name": "Ruanda",
+      "capital": "Kigali"
+    },
+    "KN": {
+      "name": "Saint Kitts i Nevis",
+      "capital": "Basseterre"
+    },
+    "LC": {
+      "name": "Santa Llúcia",
+      "capital": "Castries"
+    },
+    "VC": {
+      "name": "Sant Vicenç i les Granadines",
+      "capital": "Kingstown"
+    },
+    "WS": {
+      "name": "Samoa",
+      "capital": "Apia"
+    },
+    "SM": {
+      "name": "San Marino",
+      "capital": "San Marino"
+    },
+    "ST": {
+      "name": "São Tomé i Príncep",
+      "capital": "São Tomé"
+    },
+    "SA": {
+      "name": "Aràbia Saudita",
+      "capital": "Riad"
+    },
+    "SN": {
+      "name": "Senegal",
+      "capital": "Dakar"
+    },
+    "RS": {
+      "name": "Sèrbia",
+      "capital": "Belgrad"
+    },
+    "SL": {
+      "name": "Sierra Leone",
+      "capital": "Freetown"
+    },
+    "SG": {
+      "name": "Singapur",
+      "capital": "Singapur"
+    },
+    "SK": {
+      "name": "Eslovàquia",
+      "capital": "Bratislava"
+    },
+    "SI": {
+      "name": "Eslovènia",
+      "capital": "Ljubljana"
+    },
+    "SB": {
+      "name": "Illes Salomó",
+      "capital": "Honiara"
+    },
+    "SO": {
+      "name": "Somàlia",
+      "capital": "Mogadiscio"
+    },
+    "ZA": {
+      "name": "Sud-àfrica",
+      "capital": "Pretòria"
+    },
+    "SS": {
+      "name": "Sudan del Sud",
+      "capital": "Juba"
+    },
+    "ES": {
+      "name": "Espanya",
+      "capital": "Madrid"
+    },
+    "LK": {
+      "name": "Sri Lanka",
+      "capital": "Colombo"
+    },
+    "SD": {
+      "name": "Sudan",
+      "capital": "Khartum"
+    },
+    "SR": {
+      "name": "Surinam",
+      "capital": "Paramaribo"
+    },
+    "SE": {
+      "name": "Suècia",
+      "capital": "Estocolm"
+    },
+    "CH": {
+      "name": "Suïssa",
+      "capital": "Berna"
+    },
+    "SY": {
+      "name": "Síria",
+      "capital": "Damasc"
+    },
+    "TW": {
+      "name": "Taiwan",
+      "capital": "Taipei"
+    },
+    "TJ": {
+      "name": "Tadjikistan",
+      "capital": "Dushanbe"
+    },
+    "TZ": {
+      "name": "Tanzània",
+      "capital": "Dodoma"
+    },
+    "TH": {
+      "name": "Tailàndia",
+      "capital": "Bangkok"
+    },
+    "TL": {
+      "name": "Timor-Leste",
+      "capital": "Dili"
+    },
+    "TG": {
+      "name": "Togo",
+      "capital": "Lomé"
+    },
+    "TO": {
+      "name": "Tonga",
+      "capital": "Nukuʻalofa"
+    },
+    "TT": {
+      "name": "Trinitat i Tobago",
+      "capital": "Port d'Espanya"
+    },
+    "TN": {
+      "name": "Tunísia",
+      "capital": "Tunis"
+    },
+    "TR": {
+      "name": "Turquia",
+      "capital": "Ankara"
+    },
+    "TM": {
+      "name": "Turkmenistan",
+      "capital": "Ashgabat"
+    },
+    "TV": {
+      "name": "Tuvalu",
+      "capital": "Funafuti"
+    },
+    "UG": {
+      "name": "Uganda",
+      "capital": "Kampala"
+    },
+    "UA": {
+      "name": "Ucraïna",
+      "capital": "Kíev"
+    },
+    "AE": {
+      "name": "Unió dels Emirats Àrabs",
+      "capital": "Abu Dhabi"
+    },
+    "GB": {
+      "name": "Regne Unit",
+      "capital": "Londres"
+    },
+    "US": {
+      "name": "Estats Units",
+      "capital": "Washington D.C."
+    },
+    "UY": {
+      "name": "Uruguai",
+      "capital": "Montevideo"
+    },
+    "UZ": {
+      "name": "Uzbekistan",
+      "capital": "Taixkent"
+    },
+    "VU": {
+      "name": "Vanuatu",
+      "capital": "Port Vila"
+    },
+    "VA": {
+      "name": "Ciutat del Vaticà",
+      "capital": "Ciutat del Vaticà"
+    },
+    "VE": {
+      "name": "Veneçuela",
+      "capital": "Caracas"
+    },
+    "VN": {
+      "name": "Vietnam",
+      "capital": "Hanoi"
+    },
+    "YE": {
+      "name": "Iemen",
+      "capital": "Sanaa"
+    },
+    "ZM": {
+      "name": "Zàmbia",
+      "capital": "Lusaka"
+    },
+    "ZW": {
+      "name": "Zimbabwe",
+      "capital": "Harare"
+    },
+    "EH": {
+      "name": "Sàhara Occidental",
+      "capital": "Aaiún"
+    },
+    "XK": {
+      "name": "Kosovo",
+      "capital": "Pristina"
+    }
+  },
+  "pity": {
+    "title": "Sort acumulada",
+    "guaranteedTitle": "Nou país garantit!",
+    "ready": "La propera tirada serà màgica!"
+  },
+  "tour": {
+    "skip": "Omet el tutorial",
+    "next": "Següent ➔",
+    "prev": "⬅ Anterior",
+    "done": "Acabat ✓",
+    "progress": "Pas {{current}} de {{total}}",
+    "step1": {
+      "title": "👋 Benvingut a WorldDex!",
+      "desc": "Aquí recollireu tots els països del món mitjançant sortejos basats en la veritable taxa de natalitat global. A veure com funciona?"
+    },
+    "step2": {
+      "title": "🎲 Fes una volta pel món",
+      "desc": "Feu clic a aquest botó (o premeu espai) per girar. La probabilitat d'aterrar a un país és <b>exactament la mateixa que la probabilitat de néixer-hi</b> al món real. Com més naixements, més comú!"
+    },
+    "step3": {
+      "title": "🗺️ El teu mapa",
+      "desc": "Sempre que desbloquegeu un país nou, es pintarà al mapa amb el color de la seva raresa (comú, poc comú, rar, èpic o llegendari)."
+    },
+    "step4": {
+      "title": "💖 Sistema de llàstima",
+      "desc": "Cada vegada que obteniu un duplicat, la vostra barra de sort augmenta. Un cop arribeu al màxim, el següent gir està <b>100% garantit</b> que serà un país que encara no teniu!"
+    },
+    "step5": {
+      "title": "🛒 Botiga i Economia",
+      "desc": "No us preocupeu pels duplicats. Cada país repetit us ofereix <b>monedes</b> (segons la seva raresa). Podeu utilitzar monedes en aquesta botiga per <b>comprar països que falten</b> o <b>Actualitzacions</b> (com ara Autoclicker o multiplicadors)."
+    },
+    "step6": {
+      "title": "📚 La teva col·lecció",
+      "desc": "En aquesta pestanya podeu veure tots els països que ja heu pres i quants us queden. Podeu clicar-hi per veure detalls i curiositats."
+    },
+    "step7": {
+      "title": "🏆 Assoliments",
+      "desc": "Completa continents, forma grups de països específics (com la CPLP o la Unió Europea) i assoleix objectius per desbloquejar aquests assoliments únics."
+    },
+    "step8": {
+      "title": "🌍 A punt per jugar!",
+      "desc": "Ara et toca a tu! Molta sort en el teu viatge per desbloquejar el món sencer, un naixement a la vegada."
+    }
+  }
+}

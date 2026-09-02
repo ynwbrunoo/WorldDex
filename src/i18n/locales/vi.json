@@ -1,0 +1,1154 @@
+{
+  "app": {
+    "title": "WorldDex",
+    "subtitle": "Mở khóa thế giới, mỗi lần sinh một."
+  },
+  "header": {
+    "howToPlay": "Cách chơi",
+    "aboutData": "Về dữ liệu",
+    "resetProgress": "Đặt lại tiến độ",
+    "privacy": "Sự riêng tư",
+    "localStorageNotice": "Đã lưu tiến trình trên thiết bị này"
+  },
+  "nav": {
+    "progress": "Tiến triển",
+    "collection": "Bộ sưu tập",
+    "history": "Lịch sử",
+    "achievements": "Thành tựu",
+    "settings": "Cài đặt"
+  },
+  "roll": {
+    "button": "Roll",
+    "rolling": "Lăn...",
+    "newCountry": "Đã mở khóa đất nước mới!",
+    "duplicate": "Bạn đã có đất nước này - hãy tiếp tục!",
+    "viewOnMap": "Xem trên bản đồ",
+    "close": "Đóng",
+    "estimatedChance": "Cơ hội ước tính",
+    "population": "Dân số",
+    "annualBirths": "Ước tính số ca sinh hàng năm",
+    "firstUnlock": "Lần đầu tiên!",
+    "alreadyHave": "Nhân bản",
+    "spacebar": "Press [Space] to roll"
+  },
+  "country": {
+    "population": "Dân số",
+    "annualBirths": "Ước tính số ca sinh hàng năm",
+    "birthChance": "Cơ hội được sinh ra ở đây",
+    "capital": "Thủ đô",
+    "continent": "Lục địa",
+    "status": {
+      "locked": "Vẫn bị khóa",
+      "unlocked": "Đã mở khóa"
+    },
+    "rollCount": "Đã xuất hiện {{đếm}} lần",
+    "rollCount_other": "Đã xuất hiện {{đếm}} lần",
+    "firstUnlocked": "Đã mở khóa vào {{ngày}}",
+    "zoomToCountry": "Trung tâm trên bản đồ",
+    "notFound": "Không tìm thấy quốc gia",
+    "clickToExplore": "Bấm vào một quốc gia để khám phá"
+  },
+  "progress": {
+    "title": "Tiến triển",
+    "unlocked": "Đã mở khóa",
+    "unlockedCount": "{{đếm}} / {{tổng}} quốc gia",
+    "percentage": "Đã hoàn thành {{giá trị}}%",
+    "remaining": "{{đếm}} quốc gia còn lại",
+    "totalRolls": "Total Rolls",
+    "duplicates": "trùng lặp",
+    "longestStreak": "Chuỗi tốt nhất không trùng lặp",
+    "continents": "Tiến bộ theo lục địa"
+  },
+  "collection": {
+    "title": "Bộ sưu tập",
+    "search": "Tìm kiếm quốc gia...",
+    "sort": {
+      "label": "Sắp xếp theo",
+      "recent": "Đã mở khóa gần đây",
+      "alphabetical": "theo bảng chữ cái",
+      "mostRolled": "Cán nhiều nhất",
+      "continent": "Lục địa"
+    },
+    "empty": "Bạn chưa mở khóa bất kỳ quốc gia nào. Hãy cho nó một cuộn!",
+    "noResults": "Không có quốc gia nào phù hợp với tìm kiếm của bạn.",
+    "rolls": "cuộn {{đếm}}",
+    "rolls_other": "{{đếm}} cuộn",
+    "sortChanceDesc": "Highest Chance",
+    "sortChanceAsc": "Lowest Chance"
+  },
+  "history": {
+    "title": "Lịch sử",
+    "filter": {
+      "all": "Tất cả",
+      "new": "Mới",
+      "duplicates": "trùng lặp"
+    },
+    "clearHistory": "Xóa lịch sử",
+    "clearConfirmTitle": "Xóa lịch sử?",
+    "clearConfirmMessage": "Không thể hoàn tác hành động này. Lịch sử cuộn sẽ bị xóa vĩnh viễn.",
+    "clearConfirm": "Thông thoáng",
+    "clearCancel": "Hủy bỏ",
+    "empty": "Bạn vẫn chưa thực hiện được cuộn nào. Bắt đầu ngay bây giờ!",
+    "emptyFiltered": "Không có cuộn nào phù hợp với bộ lọc này.",
+    "new": "Mới",
+    "duplicate": "Nhân bản",
+    "rollNumber": "Cuộn #{{số}}"
+  },
+  "achievements": {
+    "title": "Thành tựu",
+    "locked": "Đã khóa",
+    "unlocked": "Đã mở khóa",
+    "unlockedOn": "Đã mở khóa vào {{ngày}}",
+    "progress": "{{hiện tại}} / {{tổng}}",
+    "newUnlock": "Đã mở khóa thành tích!",
+    "firstStep": {
+      "name": "Bước đầu tiên",
+      "description": "Mở khóa quốc gia đầu tiên của bạn."
+    },
+    "explorer": {
+      "name": "Nhà thám hiểm",
+      "description": "Mở khóa 10 quốc gia."
+    },
+    "traveller": {
+      "name": "du khách",
+      "description": "Mở khóa 25 quốc gia."
+    },
+    "cartographer": {
+      "name": "Người vẽ bản đồ",
+      "description": "Mở khóa 50 quốc gia."
+    },
+    "worldCollector1": {
+      "name": "Nhà sưu tầm thế giới I",
+      "description": "Mở khóa 75 quốc gia."
+    },
+    "worldCollector2": {
+      "name": "Nhà sưu tầm thế giới II",
+      "description": "Mở khóa 100 quốc gia."
+    },
+    "worldCollector3": {
+      "name": "Nhà sưu tầm thế giới III",
+      "description": "Mở khóa 125 quốc gia."
+    },
+    "halfwayThere": {
+      "name": "Nửa đường đó",
+      "description": "Mở khóa 50% tất cả các quốc gia."
+    },
+    "continentalExplorer": {
+      "name": "Nhà thám hiểm lục địa",
+      "description": "Hoàn thành toàn bộ lục địa."
+    },
+    "continentalMaster": {
+      "name": "Bậc thầy lục địa",
+      "description": "Hoàn thành ba châu lục."
+    },
+    "aroundTheWorld": {
+      "name": "Vòng quanh thế giới",
+      "description": "Hoàn thành tất cả các châu lục."
+    },
+    "worldComplete": {
+      "name": "Thế giới hoàn chỉnh",
+      "description": "Mở khóa tất cả các quốc gia và vùng lãnh thổ."
+    },
+    "luckyStreak": {
+      "name": "Chuỗi may mắn",
+      "description": "Mở khóa 5 quốc gia mới liên tiếp mà không trùng lặp."
+    },
+    "persistent": {
+      "name": "dai dẳng",
+      "description": "Làm tổng cộng 100 cuộn."
+    },
+    "dedicated": {
+      "name": "Tận tụy",
+      "description": "Làm tổng cộng 500 cuộn."
+    },
+    "home_sweet_home": {
+      "name": "Ngôi nhà thân yêu",
+      "description": "Bạn đã lăn lộn đất nước bạn đang sống!"
+    },
+    "group_palop": {
+      "name": "PALOP",
+      "description": "Mở khóa tất cả các nước châu Phi nói tiếng Bồ Đào Nha."
+    },
+    "group_brics": {
+      "name": "BRICS",
+      "description": "Mở khóa các quốc gia chính của khối BRICS (và các thành viên mới)."
+    },
+    "group_eu": {
+      "name": "Liên minh Châu Âu",
+      "description": "Mở khóa tất cả các quốc gia thành viên Liên minh Châu Âu."
+    },
+    "group_nato": {
+      "name": "SINH",
+      "description": "Mở khóa tất cả các nước thành viên NATO."
+    },
+    "india_500": {
+      "name": "Namaste!",
+      "description": "Xoay Ấn Độ 500 lần."
+    },
+    "group_g7": {
+      "description": "Mở khóa tất cả các quốc gia G7."
+    },
+    "group_mercosul": {
+      "name": "Mercosur",
+      "description": "Mở khóa các quốc gia thành viên Mercosur."
+    },
+    "group_asean": {
+      "description": "Mở khóa các quốc gia thuộc Hiệp hội các quốc gia Đông Nam Á."
+    },
+    "group_opep": {
+      "name": "OPEC",
+      "description": "Mở khóa các thành viên của Tổ chức các nước xuất khẩu dầu mỏ."
+    }
+  },
+  "tutorial": {
+    "title": "Cách chơi",
+    "step1": "Nhấp vào <b></b> để khám phá quốc gia bạn có thể sinh ra.",
+    "step2": "Mỗi quốc gia có xác suất ước tính dựa trên tỷ lệ sinh toàn cầu - nó không ngẫu nhiên như nhau!",
+    "step3": "Khi bạn mở khóa một quốc gia lần đầu tiên, quốc gia đó sẽ có màu trên bản đồ thế giới.",
+    "step4": "Nhấp vào một quốc gia trên bản đồ hoặc trong bộ sưu tập của bạn để xem thủ đô, dân số và cơ hội ước tính.",
+    "step5": "Hoàn thành các lục địa, kiếm thành tích và cố gắng mở khóa cả thế giới.",
+    "step6": "Tiến trình của bạn chỉ được lưu trên thiết bị này - không có tài khoản, không theo dõi.",
+    "previous": "Trước",
+    "next": "Kế tiếp",
+    "skip": "Bỏ qua phần hướng dẫn",
+    "finish": "Bắt đầu chơi!",
+    "dontShowAgain": "Không hiển thị lại",
+    "stepOf": "Bước {{hiện tại}} của {{tổng}}",
+    "restart": "Xem hướng dẫn",
+    "rollDesc": "Nhấp vào nút để vận may và khám phá một đất nước mới! (Mẹo: Bạn có thể sử dụng thanh [Space] trên bàn phím để chơi nhanh hơn và đóng các cửa sổ).",
+    "collectionDesc": "Ở đây bạn sẽ thấy các quốc gia bạn đã mở khóa. Bạn có thể sắp xếp theo độ hiếm, lục địa hoặc ngày! Khi bạn còn cách điểm cuối 15 quốc gia, bạn sẽ có thể biết mình đang thiếu quốc gia nào.",
+    "achievementsDesc": "Hoàn thành các mục tiêu, từ thu thập các khối kinh tế (như BRICS hay Liên minh châu Âu) đến lăn lộn Ấn Độ 500 lần để giành huy chương.",
+    "historyDesc": "Xem lại tất cả các lần chơi trước của bạn và tìm hiểu xem bạn đã mở khóa một quốc gia cách đây bao lâu."
+  },
+  "settings": {
+    "title": "Cài đặt",
+    "language": "Ngôn ngữ",
+    "languageLabel": "Chọn ngôn ngữ",
+    "data": "Dữ liệu và quyền riêng tư",
+    "exportProgress": "Tiến trình xuất",
+    "importProgress": "Tiến độ nhập",
+    "resetProgress": "Đặt lại tiến trình",
+    "restartTutorial": "Xem hướng dẫn",
+    "aboutData": "Về dữ liệu",
+    "privacy": "Sự riêng tư",
+    "searchLanguage": "Search language..."
+  },
+  "modals": {
+    "aboutData": {
+      "title": "Về dữ liệu",
+      "intro": "Xác suất sinh là ước tính được tính toán dựa trên dữ liệu có sẵn về số ca sinh hàng năm ở mỗi quốc gia.",
+      "methodology": "Phương pháp luận",
+      "methodologyText": "Xác suất sinh ra ở một quốc gia nhất định được tính bằng tỷ lệ số ca sinh hàng năm ước tính của quốc gia đó so với tổng số thế giới. Chúng tôi sử dụng dữ liệu gần đúng từ Ngân hàng Thế giới và Liên Hợp Quốc (Triển vọng Dân số Thế giới). Giá trị là ước tính và có thể không phản ánh số liệu thống kê gần đây nhất.",
+      "sensitivity": "Lưu ý về sự nhạy cảm chính trị",
+      "sensitivityText": "Biên giới, lãnh thổ và sự công nhận quốc gia là những vấn đề nhạy cảm về mặt chính trị. Việc đưa một lãnh thổ vào trò chơi này phục vụ mục đích giáo dục và địa lý và không cấu thành lập trường chính trị. Dữ liệu được đơn giản hóa cho một trò chơi giải trí.",
+      "updates": "Cập nhật dữ liệu",
+      "updatesText": "Dữ liệu nhân khẩu học thay đổi theo thời gian. Dự án này tìm cách giữ cho dữ liệu được cập nhật hợp lý nhưng không đảm bảo độ chính xác theo thời gian thực.",
+      "sources": "Nguồn",
+      "sourcesList": [
+        "Ngân hàng Thế giới — Các chỉ số phát triển thế giới",
+        "Liên Hiệp Quốc — Triển vọng Dân số Thế giới năm 2022",
+        "Trái đất tự nhiên - Dữ liệu địa lý (phạm vi công cộng)",
+        "world-atlas (TopoJSON) - Dữ liệu bản đồ"
+      ],
+      "close": "Đóng"
+    },
+    "privacy": {
+      "title": "Quyền riêng tư và Điều khoản",
+      "project": "Đây là một dự án giáo dục và giải trí miễn phí, phi thương mại.",
+      "noData": "Không có dữ liệu cá nhân được thu thập.",
+      "localStorage": "Tiến trình của bạn được lưu trữ riêng trong bộ nhớ cục bộ của thiết bị (localStorage). Không có thông tin được gửi đến máy chủ.",
+      "noCookies": "Trò chơi này không sử dụng cookie. Chỉ localStorage mới được sử dụng để lưu các tùy chọn và tiến trình của bạn.",
+      "noTracking": "Không có hệ thống phân tích, theo dõi, quảng cáo hoặc bên thứ ba.",
+      "borders": "Dữ liệu địa lý, nhân khẩu học và biên giới là dữ liệu ước tính và có thể không đầy đủ hoặc lỗi thời. Dự án này không có quan điểm chính trị về biên giới, lãnh thổ hoặc sự công nhận của nhà nước.",
+      "license": "Mã nguồn có sẵn theo giấy phép MIT.",
+      "attribution": "Thuộc tính",
+      "close": "Đóng"
+    },
+    "reset": {
+      "title": "Đặt lại tiến độ",
+      "message": "Bạn có chắc không? Tất cả tiến trình, bộ sưu tập, lịch sử và thành tích của bạn sẽ bị xóa vĩnh viễn. Không thể hoàn tác hành động này.",
+      "confirm": "Có, xóa mọi thứ",
+      "cancel": "Hủy bỏ"
+    },
+    "importExport": {
+      "title": "Tiến độ xuất nhập khẩu",
+      "exportTitle": "Xuất khẩu",
+      "exportDescription": "Xuất tiến trình của bạn dưới dạng tệp JSON để sao lưu hoặc chuyển sang thiết bị khác.",
+      "exportButton": "Xuất tệp JSON",
+      "importTitle": "Nhập khẩu",
+      "importDescription": "Nhập tệp JSON đã xuất trước đó. Tiến trình hiện tại của bạn sẽ được thay thế.",
+      "importWarning": "Cảnh báo: tiến trình hiện tại của bạn sẽ được thay thế bằng tệp đã nhập.",
+      "importButton": "Chọn tệp JSON",
+      "importSuccess": "Tiến trình được nhập thành công!",
+      "importError": "Tập tin không hợp lệ hoặc bị hỏng. Đảm bảo trò chơi này đã xuất tệp.",
+      "close": "Đóng"
+    }
+  },
+  "continents": {
+    "africa": "Châu phi",
+    "asia": "Châu Á",
+    "europe": "Châu Âu",
+    "northAmerica": "Bắc Mỹ",
+    "southAmerica": "Nam Mỹ",
+    "oceania": "Châu Đại Dương"
+  },
+  "data": {
+    "estimated": "Ước lượng",
+    "source": "Nguồn",
+    "year": "Năm dữ liệu",
+    "approximation": "Những giá trị này là gần đúng."
+  },
+  "errors": {
+    "mapLoad": "Không thể tải bản đồ. Hãy thử tải lại trang.",
+    "dataCorrupt": "Dữ liệu đã lưu bị hỏng. Tiến trình đã được thiết lập lại.",
+    "importFailed": "Không thể nhập tập tin.",
+    "unknown": "Đã xảy ra lỗi không mong muốn."
+  },
+  "accessibility": {
+    "languageSelector": "Chọn ngôn ngữ",
+    "flagOf": "Cờ của {{quốc gia}}",
+    "rollButton": "Cuộn - vẽ một quốc gia ngẫu nhiên",
+    "closeModal": "Đóng",
+    "mainMap": "Bản đồ thế giới tương tác",
+    "lockedCountry": "{{quốc gia}} — đã khóa",
+    "unlockedCountry": "{{quốc gia}} — đã mở khóa",
+    "rolledCountry": "{{quốc gia}} — vừa mới xuất bản",
+    "progressBar": "{{giá trị}}% quốc gia đã được mở khóa",
+    "achievementLocked": "Đã khóa thành tích: {{tên}}",
+    "achievementUnlocked": "Đã mở khóa thành tích: {{tên}}"
+  },
+  "countries": {
+    "AF": {
+      "name": "Afghanistan",
+      "capital": "Kabul"
+    },
+    "AL": {
+      "name": "Albania",
+      "capital": "Tirana"
+    },
+    "DZ": {
+      "name": "Algérie",
+      "capital": "Algeria"
+    },
+    "AD": {
+      "name": "Andorra",
+      "capital": "Andorra la Vella"
+    },
+    "AO": {
+      "name": "Ăng-gô-la",
+      "capital": "Luanda"
+    },
+    "AG": {
+      "name": "Antigua và Barbuda",
+      "capital": "Thánh Gioan"
+    },
+    "AR": {
+      "name": "Argentina",
+      "capital": "Buenos Aires"
+    },
+    "AM": {
+      "name": "Armenia",
+      "capital": "Yerevan"
+    },
+    "AU": {
+      "name": "Úc",
+      "capital": "Canberra"
+    },
+    "AT": {
+      "name": "Áo",
+      "capital": "Viên"
+    },
+    "AZ": {
+      "name": "Azerbaijan",
+      "capital": "Baku"
+    },
+    "BS": {
+      "name": "Bahamas",
+      "capital": "Nassau"
+    },
+    "BH": {
+      "name": "Bahrain",
+      "capital": "Manama"
+    },
+    "BD": {
+      "name": "Bangladesh",
+      "capital": "Dhaka"
+    },
+    "BB": {
+      "name": "Barbados",
+      "capital": "Bridgetown"
+    },
+    "BY": {
+      "name": "Bêlarut",
+      "capital": "Minsk"
+    },
+    "BE": {
+      "name": "nước Bỉ",
+      "capital": "Bruxelles"
+    },
+    "BZ": {
+      "name": "Belize",
+      "capital": "Belmopan"
+    },
+    "BJ": {
+      "name": "Bénin",
+      "capital": "Porto-Novo"
+    },
+    "BT": {
+      "name": "Bhutan",
+      "capital": "Thimphu"
+    },
+    "BO": {
+      "name": "Bôlivia",
+      "capital": "Sucre"
+    },
+    "BA": {
+      "name": "Bosnia và Herzegovina",
+      "capital": "Sarajevo"
+    },
+    "BW": {
+      "name": "Botswana",
+      "capital": "Gaborone"
+    },
+    "BR": {
+      "name": "Brazil",
+      "capital": "Brasilia"
+    },
+    "BN": {
+      "name": "Brunei",
+      "capital": "Bandar Seri Begawan"
+    },
+    "BG": {
+      "name": "Bulgaria",
+      "capital": "Sofia"
+    },
+    "BF": {
+      "name": "Burkina Faso",
+      "capital": "Ouagadougou"
+    },
+    "BI": {
+      "name": "Burundi",
+      "capital": "Gitega"
+    },
+    "CV": {
+      "name": "Cabo Verde",
+      "capital": "Praia"
+    },
+    "KH": {
+      "name": "Campuchia",
+      "capital": "Phnôm Pênh"
+    },
+    "CM": {
+      "name": "Ca-mơ-run",
+      "capital": "Yaoundé"
+    },
+    "CA": {
+      "name": "Canada",
+      "capital": "Ottawa"
+    },
+    "CF": {
+      "name": "Cộng hòa Trung Phi",
+      "capital": "bangui"
+    },
+    "TD": {
+      "name": "Tchad",
+      "capital": "N'Djamena"
+    },
+    "CL": {
+      "name": "Chilê",
+      "capital": "Santiago"
+    },
+    "CN": {
+      "name": "Trung Quốc",
+      "capital": "Bắc Kinh"
+    },
+    "CO": {
+      "name": "Colombia",
+      "capital": "Bogota"
+    },
+    "KM": {
+      "name": "Comoros",
+      "capital": "Mô Rô Ni"
+    },
+    "CG": {
+      "name": "Congo",
+      "capital": "Brazzaville"
+    },
+    "CD": {
+      "name": "Cộng hòa Dân chủ Congo",
+      "capital": "Kinshasa"
+    },
+    "CR": {
+      "name": "Costa Rica",
+      "capital": "San José"
+    },
+    "CI": {
+      "name": "Bờ Biển Ngà",
+      "capital": "Yamoussoukro"
+    },
+    "HR": {
+      "name": "Croatia",
+      "capital": "Zagreb"
+    },
+    "CU": {
+      "name": "Cuba",
+      "capital": "La Habana"
+    },
+    "CY": {
+      "name": "Síp",
+      "capital": "Nicosia"
+    },
+    "CZ": {
+      "name": "Cộng hòa Séc",
+      "capital": "Praha"
+    },
+    "DK": {
+      "name": "Đan Mạch",
+      "capital": "Copenhagen"
+    },
+    "DJ": {
+      "name": "Djibouti",
+      "capital": "Djibouti"
+    },
+    "DM": {
+      "name": "Dominica",
+      "capital": "hoa hồng"
+    },
+    "DO": {
+      "name": "Cộng hòa Dominica",
+      "capital": "Santo Domingo"
+    },
+    "EC": {
+      "name": "Ecuador",
+      "capital": "Quito"
+    },
+    "EG": {
+      "name": "Ai Cập",
+      "capital": "Cairo"
+    },
+    "SV": {
+      "name": "El Salvador",
+      "capital": "San Salvador"
+    },
+    "GQ": {
+      "name": "Guinea Xích Đạo",
+      "capital": "Malabo"
+    },
+    "ER": {
+      "name": "Eritrea",
+      "capital": "Asmara"
+    },
+    "EE": {
+      "name": "Estonia",
+      "capital": "Tallinn"
+    },
+    "SZ": {
+      "name": "người Eswatini",
+      "capital": "Mbabane"
+    },
+    "ET": {
+      "name": "Ethiopia",
+      "capital": "Addis Ababa"
+    },
+    "FJ": {
+      "name": "Fiji",
+      "capital": "Suva"
+    },
+    "FI": {
+      "name": "Phần Lan",
+      "capital": "Helsinki"
+    },
+    "FR": {
+      "name": "Pháp",
+      "capital": "Paris"
+    },
+    "GA": {
+      "name": "Gabon",
+      "capital": "Libreville"
+    },
+    "GM": {
+      "name": "Gambia",
+      "capital": "Banjul"
+    },
+    "GE": {
+      "name": "Gruzia",
+      "capital": "Tbilisi"
+    },
+    "DE": {
+      "name": "nước Đức",
+      "capital": "Béc-lin"
+    },
+    "GH": {
+      "name": "Ghana",
+      "capital": "Accra"
+    },
+    "GR": {
+      "name": "Hy Lạp",
+      "capital": "Athens"
+    },
+    "GD": {
+      "name": "Grenada",
+      "capital": "Thánh George"
+    },
+    "GT": {
+      "name": "Guatemala",
+      "capital": "Thành phố Guatemala"
+    },
+    "GN": {
+      "name": "Ghi-nê",
+      "capital": "conakry"
+    },
+    "GW": {
+      "name": "Guiné-Bissau",
+      "capital": "Bissau"
+    },
+    "GY": {
+      "name": "Guyana",
+      "capital": "Georgetown"
+    },
+    "HT": {
+      "name": "Haiti",
+      "capital": "Port-au-Prince"
+    },
+    "HN": {
+      "name": "Honduras",
+      "capital": "Tegucigalpa"
+    },
+    "HU": {
+      "name": "Hungary",
+      "capital": "Budapest"
+    },
+    "IS": {
+      "name": "Iceland",
+      "capital": "Reykjavík"
+    },
+    "IN": {
+      "name": "Ấn Độ",
+      "capital": "New Delhi"
+    },
+    "ID": {
+      "name": "Indonesia",
+      "capital": "Jakarta"
+    },
+    "IR": {
+      "name": "Iran",
+      "capital": "Tehran"
+    },
+    "IQ": {
+      "name": "Irắc",
+      "capital": "Bát-đa"
+    },
+    "IE": {
+      "name": "Ireland",
+      "capital": "Dublin"
+    },
+    "IL": {
+      "name": "Israel",
+      "capital": "Giêrusalem"
+    },
+    "IT": {
+      "name": "Ý",
+      "capital": "Rome"
+    },
+    "JM": {
+      "name": "Jamaica",
+      "capital": "Kingston"
+    },
+    "JP": {
+      "name": "Nhật Bản",
+      "capital": "Tokyo"
+    },
+    "JO": {
+      "name": "Jordan",
+      "capital": "Amman"
+    },
+    "KZ": {
+      "name": "Kazakhstan",
+      "capital": "Astana"
+    },
+    "KE": {
+      "name": "Kenya",
+      "capital": "Nairobi"
+    },
+    "KI": {
+      "name": "Kiribati",
+      "capital": "Nam Tarawa"
+    },
+    "KP": {
+      "name": "Bắc Triều Tiên",
+      "capital": "Bình Nhưỡng"
+    },
+    "KR": {
+      "name": "Hàn Quốc",
+      "capital": "Seoul"
+    },
+    "KW": {
+      "name": "Cô-oét",
+      "capital": "Thành phố Cô-oét"
+    },
+    "KG": {
+      "name": "Kyrgyzstan",
+      "capital": "Bishkek"
+    },
+    "LA": {
+      "name": "Lào",
+      "capital": "Viêng Chăn"
+    },
+    "LV": {
+      "name": "Latvia",
+      "capital": "Riga"
+    },
+    "LB": {
+      "name": "Liban",
+      "capital": "Beirut"
+    },
+    "LS": {
+      "name": "Lesotho",
+      "capital": "Maseru"
+    },
+    "LR": {
+      "name": "Liberia",
+      "capital": "Monrovia"
+    },
+    "LY": {
+      "name": "Lybia",
+      "capital": "Tripoli"
+    },
+    "LI": {
+      "name": "Liechtenstein",
+      "capital": "Vaduz"
+    },
+    "LT": {
+      "name": "Litva",
+      "capital": "Vilnius"
+    },
+    "LU": {
+      "name": "Luxembourg",
+      "capital": "Luxembourg"
+    },
+    "MG": {
+      "name": "Madagascar",
+      "capital": "Antananarivo"
+    },
+    "MW": {
+      "name": "Malawi",
+      "capital": "Lilongwe"
+    },
+    "MY": {
+      "name": "Malaysia",
+      "capital": "Kuala Lumpur"
+    },
+    "MV": {
+      "name": "Maldives",
+      "capital": "Nam giới"
+    },
+    "ML": {
+      "name": "Mali",
+      "capital": "Bamako"
+    },
+    "MT": {
+      "name": "Malta",
+      "capital": "Valletta"
+    },
+    "MH": {
+      "name": "Quần đảo Marshall",
+      "capital": "Majuro"
+    },
+    "MR": {
+      "name": "Mauritanie",
+      "capital": "Nouakchott"
+    },
+    "MU": {
+      "name": "Mô-ri-xơ",
+      "capital": "Cảng Louis"
+    },
+    "MX": {
+      "name": "México",
+      "capital": "Thành phố Mexico"
+    },
+    "FM": {
+      "name": "Micronesia",
+      "capital": "Palikir"
+    },
+    "MD": {
+      "name": "Moldova",
+      "capital": "Chisinau"
+    },
+    "MC": {
+      "name": "Monaco",
+      "capital": "Monaco"
+    },
+    "MN": {
+      "name": "Mông Cổ",
+      "capital": "Ulaanbaatar"
+    },
+    "ME": {
+      "name": "Montenegro",
+      "capital": "Podgorica"
+    },
+    "MA": {
+      "name": "Ma-rốc",
+      "capital": "Rabat"
+    },
+    "MZ": {
+      "name": "Mozambique",
+      "capital": "Maputo"
+    },
+    "MM": {
+      "name": "Myanmar",
+      "capital": "naypyidaw"
+    },
+    "NA": {
+      "name": "Namibia",
+      "capital": "Windhoek"
+    },
+    "NR": {
+      "name": "Nauru",
+      "capital": "Yaren"
+    },
+    "NP": {
+      "name": "Nepal",
+      "capital": "Kathmandu"
+    },
+    "NL": {
+      "name": "Hà Lan",
+      "capital": "Amsterdam"
+    },
+    "NZ": {
+      "name": "New Zealand",
+      "capital": "Wellington"
+    },
+    "NI": {
+      "name": "Nicaragua",
+      "capital": "quản lý"
+    },
+    "NE": {
+      "name": "Niger",
+      "capital": "Niamey"
+    },
+    "NG": {
+      "name": "Nigeria",
+      "capital": "Abuja"
+    },
+    "MK": {
+      "name": "Bắc Macedonia",
+      "capital": "Skopje"
+    },
+    "NO": {
+      "name": "Na Uy",
+      "capital": "Oslo"
+    },
+    "OM": {
+      "name": "Ô-man",
+      "capital": "xạ hương"
+    },
+    "PK": {
+      "name": "Pakistan",
+      "capital": "Islamabad"
+    },
+    "PW": {
+      "name": "Palau",
+      "capital": "Ngerulmud"
+    },
+    "PS": {
+      "name": "Palestine",
+      "capital": "Ramallah"
+    },
+    "PA": {
+      "name": "Panama",
+      "capital": "Thành phố Panama"
+    },
+    "PG": {
+      "name": "Papua New Guinea",
+      "capital": "Cảng Moresby"
+    },
+    "PY": {
+      "name": "Paraguay",
+      "capital": "Asunción"
+    },
+    "PE": {
+      "name": "Peru",
+      "capital": "Lima"
+    },
+    "PH": {
+      "name": "Philippin",
+      "capital": "Manila"
+    },
+    "PL": {
+      "name": "Ba Lan",
+      "capital": "Warsaw"
+    },
+    "PT": {
+      "name": "Bồ Đào Nha",
+      "capital": "Lisboa"
+    },
+    "QA": {
+      "name": "Qatar",
+      "capital": "Doha"
+    },
+    "RO": {
+      "name": "Rumani",
+      "capital": "Bucharest"
+    },
+    "RU": {
+      "name": "Nga",
+      "capital": "Mátxcơva"
+    },
+    "RW": {
+      "name": "Rwanda",
+      "capital": "Kigali"
+    },
+    "KN": {
+      "name": "Saint Kitts và Nevis",
+      "capital": "Basseterre"
+    },
+    "LC": {
+      "name": "Thánh Lucia",
+      "capital": "Bánh đúc"
+    },
+    "VC": {
+      "name": "Saint Vincent và Grenadines",
+      "capital": "Kingstown"
+    },
+    "WS": {
+      "name": "Samoa",
+      "capital": "Apia"
+    },
+    "SM": {
+      "name": "San Marino",
+      "capital": "San Marino"
+    },
+    "ST": {
+      "name": "São Tomé và Príncipe",
+      "capital": "São Tomé"
+    },
+    "SA": {
+      "name": "Ả Rập Saudi",
+      "capital": "Riyadh"
+    },
+    "SN": {
+      "name": "Sénégal",
+      "capital": "Dakar"
+    },
+    "RS": {
+      "name": "Serbia",
+      "capital": "Beograd"
+    },
+    "SL": {
+      "name": "Sierra Leone",
+      "capital": "Freetown"
+    },
+    "SG": {
+      "name": "Singapore",
+      "capital": "Singapore"
+    },
+    "SK": {
+      "name": "Slovakia",
+      "capital": "Bratislava"
+    },
+    "SI": {
+      "name": "Slovenia",
+      "capital": "Ljubljana"
+    },
+    "SB": {
+      "name": "Quần đảo Solomon",
+      "capital": "Honiara"
+    },
+    "SO": {
+      "name": "Somali",
+      "capital": "Mogadishu"
+    },
+    "ZA": {
+      "name": "Nam Phi",
+      "capital": "Pretoria"
+    },
+    "SS": {
+      "name": "Nam Sudan",
+      "capital": "Juba"
+    },
+    "ES": {
+      "name": "Tây ban nha",
+      "capital": "Madrid"
+    },
+    "LK": {
+      "name": "Sri Lanka",
+      "capital": "Colombo"
+    },
+    "SD": {
+      "name": "Sudan",
+      "capital": "Khartoum"
+    },
+    "SR": {
+      "name": "Suriname",
+      "capital": "Paramaribo"
+    },
+    "SE": {
+      "name": "Thụy Điển",
+      "capital": "Stockholm"
+    },
+    "CH": {
+      "name": "Thụy Sĩ",
+      "capital": "Bern"
+    },
+    "SY": {
+      "name": "Syria",
+      "capital": "Damacus"
+    },
+    "TW": {
+      "name": "Đài Loan",
+      "capital": "Đài Bắc"
+    },
+    "TJ": {
+      "name": "Tajikistan",
+      "capital": "Dushanbe"
+    },
+    "TZ": {
+      "name": "Tanzania",
+      "capital": "Dodoma"
+    },
+    "TH": {
+      "name": "Thái Lan",
+      "capital": "Băng Cốc"
+    },
+    "TL": {
+      "name": "Timor-Leste",
+      "capital": "Dili"
+    },
+    "TG": {
+      "name": "Togo",
+      "capital": "Lomé"
+    },
+    "TO": {
+      "name": "Tonga",
+      "capital": "Nuku'alofa"
+    },
+    "TT": {
+      "name": "Trinidad và Tobago",
+      "capital": "Cảng Tây Ban Nha"
+    },
+    "TN": {
+      "name": "Tunisia",
+      "capital": "Tunis"
+    },
+    "TR": {
+      "name": "Thổ Nhĩ Kỳ",
+      "capital": "Ankara"
+    },
+    "TM": {
+      "name": "Turkmenistan",
+      "capital": "Ashgabat"
+    },
+    "TV": {
+      "name": "Tuvalu",
+      "capital": "Funafuti"
+    },
+    "UG": {
+      "name": "Uganda",
+      "capital": "Kampala"
+    },
+    "UA": {
+      "name": "Ukraina",
+      "capital": "Kiev"
+    },
+    "AE": {
+      "name": "Các tiểu vương quốc Ả Rập thống nhất",
+      "capital": "Abu Dhabi"
+    },
+    "GB": {
+      "name": "Vương quốc Anh",
+      "capital": "Luân Đôn"
+    },
+    "US": {
+      "name": "Hoa Kỳ",
+      "capital": "Washington D.C."
+    },
+    "UY": {
+      "name": "Uruguay",
+      "capital": "Montevideo"
+    },
+    "UZ": {
+      "name": "Uzbekistan",
+      "capital": "Tashkent"
+    },
+    "VU": {
+      "name": "Vanuatu",
+      "capital": "Cảng Vila"
+    },
+    "VA": {
+      "name": "Thành phố Vatican",
+      "capital": "Thành phố Vatican"
+    },
+    "VE": {
+      "name": "Venezuela",
+      "capital": "Caracas"
+    },
+    "VN": {
+      "name": "Việt Nam",
+      "capital": "Hà Nội"
+    },
+    "YE": {
+      "name": "Yêmen",
+      "capital": "Sanaa"
+    },
+    "ZM": {
+      "name": "Zambia",
+      "capital": "Lusaka"
+    },
+    "ZW": {
+      "name": "Zimbabwe",
+      "capital": "Harare"
+    },
+    "EH": {
+      "name": "Tây Sahara",
+      "capital": "Laayoune"
+    },
+    "XK": {
+      "name": "Kosovo",
+      "capital": "Pristina"
+    }
+  },
+  "pity": {
+    "title": "May mắn tích lũy",
+    "guaranteedTitle": "Đất nước mới được đảm bảo!",
+    "ready": "Cuộn tiếp theo sẽ rất kỳ diệu!"
+  },
+  "tour": {
+    "skip": "Bỏ qua phần hướng dẫn",
+    "next": "Tiếp theo ➔",
+    "prev": "⬅ Trước đó",
+    "done": "Kết thúc ✓",
+    "progress": "Bước {{current}} trong tổng số {{total}}",
+    "step1": {
+      "title": "👋 Chào mừng đến với WorldDex!",
+      "desc": "Tại đây bạn sẽ thu thập tất cả các quốc gia trên thế giới thông qua các đợt rút thăm dựa trên tỷ lệ sinh thực sự trên toàn cầu. Hãy xem nó hoạt động như thế nào?"
+    },
+    "step2": {
+      "title": "🎲 Di chuyển vòng quanh thế giới",
+      "desc": "Bấm vào nút này (hoặc nhấn Space) để quay. Xác suất đặt chân đến một quốc gia <b>hoàn toàn giống với xác suất sinh ra ở đó</b> trong thế giới thực. Càng sinh nhiều, càng phổ biến!"
+    },
+    "step3": {
+      "title": "🗺️ Bản đồ của bạn",
+      "desc": "Bất cứ khi nào bạn mở khóa một quốc gia mới, quốc gia đó sẽ được vẽ trên bản đồ với màu sắc hiếm có (Thông thường, Không phổ biến, Hiếm, Sử thi hoặc Huyền thoại)."
+    },
+    "step4": {
+      "title": "💖 Hệ thống thương hại",
+      "desc": "Mỗi khi bạn nhận được một bản sao, thanh may mắn của bạn sẽ tăng lên. Khi bạn đạt đến mức tối đa, vòng quay tiếp theo <b>đảm bảo 100%</b> sẽ trở thành quốc gia mà bạn chưa có!"
+    },
+    "step5": {
+      "title": "🛒 Mua sắm & Tiết kiệm",
+      "desc": "Đừng lo lắng về sự trùng lặp. Mỗi quốc gia lặp lại sẽ mang lại cho bạn <b>xu</b> (tùy thuộc vào độ hiếm của quốc gia đó). Bạn có thể sử dụng tiền xu trong Cửa hàng này để <b>mua các quốc gia còn thiếu</b> hoặc <b>Nâng cấp</b> (như Autoclicker hoặc hệ số nhân)."
+    },
+    "step6": {
+      "title": "📚 Bộ sưu tập của bạn",
+      "desc": "Trong tab này, bạn có thể thấy tất cả các quốc gia bạn đã đến và số lượng bạn còn lại. Bạn có thể nhấp vào chúng để xem chi tiết và sự tò mò."
+    },
+    "step7": {
+      "title": "🏆 Thành tích",
+      "desc": "Hoàn thành các lục địa, hình thành các nhóm quốc gia cụ thể (như CPLP hoặc Liên minh Châu Âu) và đạt được các mục tiêu để mở khóa những thành tựu độc đáo này."
+    },
+    "step8": {
+      "title": "🌍 Sẵn sàng để chơi!",
+      "desc": "Bây giờ tùy thuộc vào bạn! Chúc bạn may mắn trên hành trình mở khóa toàn bộ thế giới, mỗi lần sinh ra một lần."
+    }
+  }
+}

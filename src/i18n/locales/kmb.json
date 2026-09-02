@@ -1,0 +1,1242 @@
+{
+  "app": {
+    "title": "WorldDex",
+    "subtitle": "Desbloqueia o mundo, um nascimento de cada vez."
+  },
+  "header": {
+    "howToPlay": "Como Jogar",
+    "aboutData": "Sobre os Dados",
+    "resetProgress": "Apagar Progresso",
+    "privacy": "Privacidade",
+    "localStorageNotice": "KMB: Kikalakalu ki ku xika bhabha"
+  },
+  "nav": {
+    "progress": "Progresso",
+    "collection": "Coleção",
+    "history": "Histórico",
+    "achievements": "Conquistas",
+    "settings": "Definições"
+  },
+  "roll": {
+    "button": "Girar",
+    "rolling": "A sortear...",
+    "newCountry": "Novo país desbloqueado!",
+    "duplicate": "Já tinhas este país — continua!",
+    "viewOnMap": "Ver no mapa",
+    "close": "Fechar",
+    "estimatedChance": "Probabilidade estimada",
+    "population": "População",
+    "annualBirths": "Nascimentos anuais estimados",
+    "firstUnlock": "Primeira vez!",
+    "alreadyHave": "Duplicado",
+    "spacebar": "Pressiona [Espaço] para girar"
+  },
+  "country": {
+    "population": "População",
+    "annualBirths": "Nascimentos anuais estimados",
+    "birthChance": "Probabilidade de nascer aqui",
+    "capital": "Capital",
+    "continent": "Continente",
+    "status": {
+      "locked": "Ainda bloqueado",
+      "unlocked": "Desbloqueado"
+    },
+    "rollCount": "Apareceu {{count}} vez",
+    "rollCount_other": "Apareceu {{count}} vezes",
+    "firstUnlocked": "Desbloqueado a {{date}}",
+    "zoomToCountry": "Centrar no mapa",
+    "notFound": "País não encontrado",
+    "clickToExplore": "Clica num país para explorar"
+  },
+  "progress": {
+    "title": "Progresso",
+    "unlocked": "Desbloqueados",
+    "unlockedCount": "{{count}} / {{total}} países",
+    "percentage": "{{value}}% completo",
+    "remaining": "{{count}} países em falta",
+    "totalRolls": "Giros Totais",
+    "duplicates": "Duplicados",
+    "longestStreak": "Melhor série sem duplicados",
+    "continents": "Progresso por continente"
+  },
+  "collection": {
+    "title": "Coleção",
+    "search": "Pesquisar país...",
+    "sort": {
+      "label": "Sola",
+      "recent": "Iobhe",
+      "alphabetical": "Alfabétiku",
+      "mostRolled": "Iadiangala",
+      "continent": "Ixi"
+    },
+    "empty": "Ainda não desbloqueaste nenhum país. Dá um Roll!",
+    "noResults": "Nenhum país corresponde à tua pesquisa.",
+    "rolls": "{{count}} roll",
+    "rolls_other": "{{count}} rolls",
+    "sortChanceDesc": "Maior Chance",
+    "sortChanceAsc": "Menor Chance",
+    "filter": {
+      "all": "Ioso",
+      "new": "Iobhe",
+      "duplicates": "Iadiangala"
+    },
+    "lockedCountries": "{{count}} ixi iobhe",
+    "lockedCountries_other": "{{count}} ixi iobhe"
+  },
+  "history": {
+    "title": "Histórico",
+    "filter": {
+      "all": "Ioso",
+      "new": "Iobhe",
+      "duplicates": "Iadiangala"
+    },
+    "clearHistory": "Jima musoso",
+    "clearConfirmTitle": "Apagar histórico?",
+    "clearConfirmMessage": "Esta ação não pode ser revertida. O histórico de rolls será apagado permanentemente.",
+    "clearConfirm": "Apagar",
+    "clearCancel": "Cancelar",
+    "empty": "Ainda não fizeste nenhum roll. Começa agora!",
+    "emptyFiltered": "Nenhum roll corresponde a este filtro.",
+    "new": "Novo",
+    "duplicate": "Duplicado",
+    "rollNumber": "Roll #{{number}}"
+  },
+  "achievements": {
+    "title": "Conquistas",
+    "locked": "Bloqueado",
+    "unlocked": "Kujikula",
+    "unlockedOn": "Kujikula mu {{date}}",
+    "progress": "{{current}} / {{total}}",
+    "newUnlock": "Conquista desbloqueada!",
+    "firstStep": {
+      "name": "Idima Iobhe",
+      "description": "Idima ia 1"
+    },
+    "explorer": {
+      "name": "Mukueti 10",
+      "description": "Desblokeia 10."
+    },
+    "traveller": {
+      "name": "Mukueti 25",
+      "description": "Desblokeia 25."
+    },
+    "cartographer": {
+      "name": "Mukueti 50",
+      "description": "Desblokeia 50."
+    },
+    "worldCollector1": {
+      "name": "Colecionador do Mundo I",
+      "description": "Desbloqueia 75 países."
+    },
+    "worldCollector2": {
+      "name": "Colecionador do Mundo II",
+      "description": "Desbloqueia 100 países."
+    },
+    "worldCollector3": {
+      "name": "Colecionador do Mundo III",
+      "description": "Desbloqueia 125 países."
+    },
+    "halfwayThere": {
+      "name": "A Meio Caminho",
+      "description": "Desbloqueia 50% de todos os países."
+    },
+    "continentalExplorer": {
+      "name": "Explorador Continental",
+      "description": "Completa um continente inteiro."
+    },
+    "continentalMaster": {
+      "name": "Mestre Continental",
+      "description": "Completa três continentes."
+    },
+    "aroundTheWorld": {
+      "name": "Volta ao Mundo",
+      "description": "Completa todos os continentes."
+    },
+    "worldComplete": {
+      "name": "Mundu Kuosó",
+      "description": "Zubha o mundu!"
+    },
+    "luckyStreak": {
+      "name": "Sorte Iobhe",
+      "description": "5 ixi iobhe"
+    },
+    "persistent": {
+      "name": "Kuzungisa 100",
+      "description": "Faze 100 girus"
+    },
+    "dedicated": {
+      "name": "Dedicado",
+      "description": "Faz 500 rolls no total."
+    },
+    "home_sweet_home": {
+      "name": "Lar Doce Lar",
+      "description": "Calhou-te o país onde estás neste momento!"
+    },
+    "group_palop": {
+      "name": "PALOP kmb",
+      "description": "Desbloqueia todos os Países Africanos de Língua Oficial Portuguesa."
+    },
+    "group_brics": {
+      "name": "BRICS",
+      "description": "Desbloqueia os principais países do bloco BRICS (e novos membros)."
+    },
+    "group_eu": {
+      "name": "EU kmb",
+      "description": "Desbloqueia todos os Estados-membros da União Europeia."
+    },
+    "group_nato": {
+      "name": "NATO kmb",
+      "description": "Desbloqueia todos os países membros da NATO."
+    },
+    "group_g7": {
+      "name": "G7 kmb",
+      "description": "Desbloqueia todas as nações do G7."
+    },
+    "group_mercosul": {
+      "name": "Mercosul kmb",
+      "description": "Desbloqueia os Estados-membros do Mercosul."
+    },
+    "group_asean": {
+      "name": "ASEAN kmb",
+      "description": "Desbloqueia os países da Associação de Nações do Sudeste Asiático."
+    },
+    "group_opep": {
+      "name": "OPEP kmb",
+      "description": "Desbloqueia os membros da Organização dos Países Exportadores de Petróleo."
+    },
+    "india_500": {
+      "name": "Namastê!",
+      "description": "Zungisa Índia 500"
+    },
+    "rarity_epic_1": {
+      "name": "Caçador Épico",
+      "description": "Desbloqueia 1 país de raridade Épica."
+    },
+    "rarity_legendary_1": {
+      "name": "O Mito",
+      "description": "Desbloqueia 1 país de raridade Lendária."
+    },
+    "rarity_rare_5": {
+      "name": "Colecionador Raro",
+      "description": "Desbloqueia 5 países de raridade Rara."
+    },
+    "hideCompleted": "Fisa yabhu"
+  },
+  "tutorial": {
+    "title": "Como Jogar",
+    "step1": "Carrega em <b></b> para descobrir em que país poderias nascer.",
+    "step2": "Cada país tem uma probabilidade estimada baseada na sua percentagem de nascimentos globais — não é aleatório igual!",
+    "step3": "Quando desbloqueias um país pela primeira vez, ele ganha cor no mapa do mundo.",
+    "step4": "Clica num país no mapa ou na tua coleção para veres a capital, população e probabilidade estimada.",
+    "step5": "Completa continentes, conquista achievements e tenta desbloquear o mundo inteiro.",
+    "step6": "O teu progresso fica guardado apenas neste dispositivo — sem contas, sem registos.",
+    "previous": "Anterior",
+    "next": "Próximo",
+    "skip": "Saltar tutorial",
+    "finish": "Começar a jogar!",
+    "dontShowAgain": "Não mostrar novamente",
+    "stepOf": "Passo {{current}} de {{total}}",
+    "restart": "Ver tutorial",
+    "rollDesc": "Clica no botão para rolar a sorte e descobrir um novo país! (Dica: Podes usar a barra de [Espaço] no teclado para jogar mais rápido e fechar as janelas).",
+    "collectionDesc": "Aqui vês os países que já desbloqueaste. Podes ordenar por raridade, continente ou data! Quando estiveres a 15 países do fim, vais poder ver quais te faltam.",
+    "historyDesc": "Revê todas as tuas jogadas anteriores e descobre há quanto tempo desbloqueaste um país.",
+    "achievementsDesc": "Completa objetivos, desde colecionar blocos económicos (como BRICS ou União Europeia) a rolar a Índia 500 vezes, para ganhares medalhas."
+  },
+  "settings": {
+    "title": "Yikoka",
+    "language": "Língua",
+    "languageLabel": "Sola língua",
+    "data": "Ujitu y Kujimba",
+    "exportProgress": "Bhekela",
+    "importProgress": "Bhingisa",
+    "resetProgress": "Zera",
+    "restartTutorial": "Tala Tutorial",
+    "aboutData": "Ujitu ua maka",
+    "privacy": "Kujimba",
+    "searchLanguage": "Sota...",
+    "sound": "Som",
+    "exportImport": "Bhingisa / Bhekela",
+    "viewTutorial": "Tala Tutorial",
+    "dataPrivacy": "Ujitu y Kujimba"
+  },
+  "modals": {
+    "aboutData": {
+      "title": "Ujitu ua maka",
+      "intro": "As probabilidades de nascimento são estimativas calculadas com base nos dados disponíveis sobre nascimentos anuais por país.",
+      "methodology": "Metodologia",
+      "methodologyText": "A probabilidade de nascer num dado país é calculada como a proporção dos nascimentos anuais estimados desse país face ao total mundial. Utilizamos dados aproximados do Banco Mundial e da ONU (World Population Prospects). Os valores são estimativas e podem não refletir as estatísticas mais recentes.",
+      "sensitivity": "Nota sobre sensibilidade política",
+      "sensitivityText": "As fronteiras, os territórios e o reconhecimento dos países são questões politicamente sensíveis. A inclusão de um território neste jogo tem fins educativos e geográficos, e não constitui uma posição política. Os dados são simplificados para um jogo de entretenimento.",
+      "updates": "Atualização dos dados",
+      "updatesText": "Os dados demográficos mudam ao longo do tempo. Este projeto procura manter os dados razoavelmente atualizados, mas não garante precisão em tempo real.",
+      "sources": "Fontes",
+      "sourcesList": [
+        "Banco Mundial — Indicadores de Desenvolvimento Mundial",
+        "ONU — World Population Prospects 2022",
+        "Natural Earth — Dados geográficos (domínio público)",
+        "world-atlas (TopoJSON) — Dados do mapa"
+      ],
+      "close": "Fechar"
+    },
+    "privacy": {
+      "title": "Kujimba",
+      "project": "Este é um projeto gratuito, não comercial e de carácter educativo e lúdico.",
+      "noData": "Não são recolhidos dados pessoais.",
+      "localStorage": "O teu progresso é guardado exclusivamente no armazenamento local (localStorage) do teu dispositivo. Nenhuma informação é enviada para servidores.",
+      "noCookies": "Este jogo não utiliza cookies. Apenas o localStorage é utilizado para guardar as tuas preferências e progresso.",
+      "noTracking": "Não existem sistemas de análise, rastreamento, publicidade ou serviços de terceiros.",
+      "borders": "Os dados geográficos, demográficos e de fronteiras são estimativas e podem estar incompletos ou desatualizados. Este projeto não toma posição política sobre fronteiras, territórios ou reconhecimento de estados.",
+      "license": "Código-fonte disponível sob licença MIT.",
+      "attribution": "Atribuições",
+      "close": "Fechar"
+    },
+    "reset": {
+      "title": "Apagar Progresso",
+      "message": "Tens a certeza? Todo o teu progresso, coleção, histórico e conquistas serão apagados permanentemente. Esta ação não pode ser revertida.",
+      "confirm": "Sim, apagar tudo",
+      "cancel": "Cancelar"
+    },
+    "importExport": {
+      "title": "Importar / Exportar Progresso",
+      "exportTitle": "Bhekela JSON",
+      "exportDescription": "Exporta o teu progresso como um ficheiro JSON para fazer cópia de segurança ou transferir para outro dispositivo.",
+      "exportButton": "Exportar ficheiro JSON",
+      "importTitle": "Bhingisa JSON",
+      "importDescription": "Importa um ficheiro JSON previamente exportado. O teu progresso atual será substituído.",
+      "importWarning": "Atenção: o progresso atual será substituído pelo ficheiro importado.",
+      "importButton": "Selecionar ficheiro JSON",
+      "importSuccess": "Progresso importado com sucesso!",
+      "importError": "Ficheiro inválido ou corrompido. Verifica que o ficheiro foi exportado por este jogo.",
+      "close": "Fechar"
+    }
+  },
+  "continents": {
+    "africa": "África",
+    "asia": "Ásia",
+    "europe": "Europa",
+    "northAmerica": "América do Norte",
+    "southAmerica": "América do Sul",
+    "oceania": "Oceânia"
+  },
+  "data": {
+    "estimated": "Estimado",
+    "source": "Fonte",
+    "year": "Ano dos dados",
+    "approximation": "Estes valores são aproximações."
+  },
+  "errors": {
+    "mapLoad": "Não foi possível carregar o mapa. Tenta recarregar a página.",
+    "dataCorrupt": "Os dados guardados estão corrompidos. O progresso foi reposto.",
+    "importFailed": "Não foi possível importar o ficheiro.",
+    "unknown": "Ocorreu um erro inesperado."
+  },
+  "accessibility": {
+    "languageSelector": "Selecionar idioma",
+    "flagOf": "Bandeira de {{country}}",
+    "rollButton": "Dar roll — sortear um país aleatório",
+    "closeModal": "Fechar",
+    "mainMap": "Mapa-mundo interativo",
+    "lockedCountry": "{{country}} — bloqueado",
+    "unlockedCountry": "{{country}} — desbloqueado",
+    "rolledCountry": "{{country}} — sorteado agora",
+    "progressBar": "{{value}}% dos países desbloqueados",
+    "achievementLocked": "Conquista bloqueada: {{name}}",
+    "achievementUnlocked": "Conquista desbloqueada: {{name}}"
+  },
+  "countries": {
+    "AF": {
+      "name": "Afeganistão",
+      "capital": "Cabul"
+    },
+    "AL": {
+      "name": "Albânia",
+      "capital": "Tirana"
+    },
+    "DZ": {
+      "name": "Argélia",
+      "capital": "Argel"
+    },
+    "AD": {
+      "name": "Andorra",
+      "capital": "Andorra a Velha"
+    },
+    "AO": {
+      "name": "Angola",
+      "capital": "Luanda"
+    },
+    "AG": {
+      "name": "Antígua e Barbuda",
+      "capital": "São João"
+    },
+    "AR": {
+      "name": "Argentina",
+      "capital": "Buenos Aires"
+    },
+    "AM": {
+      "name": "Arménia",
+      "capital": "Erevan"
+    },
+    "AU": {
+      "name": "Austrália",
+      "capital": "Camberra"
+    },
+    "AT": {
+      "name": "Áustria",
+      "capital": "Viena"
+    },
+    "AZ": {
+      "name": "Azerbaijão",
+      "capital": "Baku"
+    },
+    "BS": {
+      "name": "Bahamas",
+      "capital": "Nassau"
+    },
+    "BH": {
+      "name": "Barém",
+      "capital": "Manama"
+    },
+    "BD": {
+      "name": "Bangladesh",
+      "capital": "Dacca"
+    },
+    "BB": {
+      "name": "Barbados",
+      "capital": "Bridgetown"
+    },
+    "BY": {
+      "name": "Bielorrússia",
+      "capital": "Minsk"
+    },
+    "BE": {
+      "name": "Bélgica",
+      "capital": "Bruxelas"
+    },
+    "BZ": {
+      "name": "Belize",
+      "capital": "Belmopan"
+    },
+    "BJ": {
+      "name": "Benim",
+      "capital": "Porto-Novo"
+    },
+    "BT": {
+      "name": "Butão",
+      "capital": "Thimphu"
+    },
+    "BO": {
+      "name": "Bolívia",
+      "capital": "Sucre"
+    },
+    "BA": {
+      "name": "Bósnia-Herzegovina",
+      "capital": "Sarajevo"
+    },
+    "BW": {
+      "name": "Botsuana",
+      "capital": "Gaborone"
+    },
+    "BR": {
+      "name": "Brasil",
+      "capital": "Brasília"
+    },
+    "BN": {
+      "name": "Brunei",
+      "capital": "Bandar Seri Begawan"
+    },
+    "BG": {
+      "name": "Bulgária",
+      "capital": "Sófia"
+    },
+    "BF": {
+      "name": "Burquina Faso",
+      "capital": "Uagadugu"
+    },
+    "BI": {
+      "name": "Burúndi",
+      "capital": "Gitega"
+    },
+    "CV": {
+      "name": "Cabo Verde",
+      "capital": "Praia"
+    },
+    "KH": {
+      "name": "Camboja",
+      "capital": "Phnom Penh"
+    },
+    "CM": {
+      "name": "Camarões",
+      "capital": "Yaundé"
+    },
+    "CA": {
+      "name": "Canadá",
+      "capital": "Otava"
+    },
+    "CF": {
+      "name": "República Centro-Africana",
+      "capital": "Bangui"
+    },
+    "TD": {
+      "name": "Chade",
+      "capital": "N'Djamena"
+    },
+    "CL": {
+      "name": "Chile",
+      "capital": "Santiago"
+    },
+    "CN": {
+      "name": "China",
+      "capital": "Pequim"
+    },
+    "CO": {
+      "name": "Colômbia",
+      "capital": "Bogotá"
+    },
+    "KM": {
+      "name": "Comores",
+      "capital": "Moroni"
+    },
+    "CG": {
+      "name": "Congo",
+      "capital": "Brazzaville"
+    },
+    "CD": {
+      "name": "República Democrática do Congo",
+      "capital": "Quinxassa"
+    },
+    "CR": {
+      "name": "Costa Rica",
+      "capital": "São José"
+    },
+    "CI": {
+      "name": "Costa do Marfim",
+      "capital": "Yamussucro"
+    },
+    "HR": {
+      "name": "Croácia",
+      "capital": "Zagreb"
+    },
+    "CU": {
+      "name": "Cuba",
+      "capital": "Havana"
+    },
+    "CY": {
+      "name": "Chipre",
+      "capital": "Nicósia"
+    },
+    "CZ": {
+      "name": "República Checa",
+      "capital": "Praga"
+    },
+    "DK": {
+      "name": "Dinamarca",
+      "capital": "Copenhaga"
+    },
+    "DJ": {
+      "name": "Jibuti",
+      "capital": "Jibuti"
+    },
+    "DM": {
+      "name": "Dominica",
+      "capital": "Roseau"
+    },
+    "DO": {
+      "name": "República Dominicana",
+      "capital": "Santo Domingo"
+    },
+    "EC": {
+      "name": "Equador",
+      "capital": "Quito"
+    },
+    "EG": {
+      "name": "Egito",
+      "capital": "Cairo"
+    },
+    "SV": {
+      "name": "El Salvador",
+      "capital": "São Salvador"
+    },
+    "GQ": {
+      "name": "Guiné Equatorial",
+      "capital": "Malabo"
+    },
+    "ER": {
+      "name": "Eritreia",
+      "capital": "Asmara"
+    },
+    "EE": {
+      "name": "Estónia",
+      "capital": "Talim"
+    },
+    "SZ": {
+      "name": "Essuatíni",
+      "capital": "Mbabane"
+    },
+    "ET": {
+      "name": "Etiópia",
+      "capital": "Adis Abeba"
+    },
+    "FJ": {
+      "name": "Fiji",
+      "capital": "Suva"
+    },
+    "FI": {
+      "name": "Finlândia",
+      "capital": "Helsínquia"
+    },
+    "FR": {
+      "name": "França",
+      "capital": "Paris"
+    },
+    "GA": {
+      "name": "Gabão",
+      "capital": "Livreville"
+    },
+    "GM": {
+      "name": "Gâmbia",
+      "capital": "Banjul"
+    },
+    "GE": {
+      "name": "Geórgia",
+      "capital": "Tebilisi"
+    },
+    "DE": {
+      "name": "Alemanha",
+      "capital": "Berlim"
+    },
+    "GH": {
+      "name": "Gana",
+      "capital": "Acra"
+    },
+    "GR": {
+      "name": "Grécia",
+      "capital": "Atenas"
+    },
+    "GD": {
+      "name": "Granada",
+      "capital": "São Jorge"
+    },
+    "GT": {
+      "name": "Guatemala",
+      "capital": "Cidade da Guatemala"
+    },
+    "GN": {
+      "name": "Guiné",
+      "capital": "Conacri"
+    },
+    "GW": {
+      "name": "Guiné-Bissau",
+      "capital": "Bissau"
+    },
+    "GY": {
+      "name": "Guiana",
+      "capital": "Georgetown"
+    },
+    "HT": {
+      "name": "Haiti",
+      "capital": "Porto Príncipe"
+    },
+    "HN": {
+      "name": "Honduras",
+      "capital": "Tegucigalpa"
+    },
+    "HU": {
+      "name": "Hungria",
+      "capital": "Budapeste"
+    },
+    "IS": {
+      "name": "Islândia",
+      "capital": "Reiquiavique"
+    },
+    "IN": {
+      "name": "Índia",
+      "capital": "Nova Deli"
+    },
+    "ID": {
+      "name": "Indonésia",
+      "capital": "Jacarta"
+    },
+    "IR": {
+      "name": "Irão",
+      "capital": "Teerão"
+    },
+    "IQ": {
+      "name": "Iraque",
+      "capital": "Bagdade"
+    },
+    "IE": {
+      "name": "Irlanda",
+      "capital": "Dublin"
+    },
+    "IL": {
+      "name": "Israel",
+      "capital": "Jerusalém"
+    },
+    "IT": {
+      "name": "Itália",
+      "capital": "Roma"
+    },
+    "JM": {
+      "name": "Jamaica",
+      "capital": "Kingston"
+    },
+    "JP": {
+      "name": "Japão",
+      "capital": "Tóquio"
+    },
+    "JO": {
+      "name": "Jordânia",
+      "capital": "Amã"
+    },
+    "KZ": {
+      "name": "Cazaquistão",
+      "capital": "Astana"
+    },
+    "KE": {
+      "name": "Quénia",
+      "capital": "Nairobi"
+    },
+    "KI": {
+      "name": "Quiribáti",
+      "capital": "Tarawa do Sul"
+    },
+    "KP": {
+      "name": "Coreia do Norte",
+      "capital": "Pyongyang"
+    },
+    "KR": {
+      "name": "Coreia do Sul",
+      "capital": "Seul"
+    },
+    "KW": {
+      "name": "Koweit",
+      "capital": "Cidade do Koweit"
+    },
+    "KG": {
+      "name": "Quirguistão",
+      "capital": "Bisqueque"
+    },
+    "LA": {
+      "name": "Laos",
+      "capital": "Vientiane"
+    },
+    "LV": {
+      "name": "Letónia",
+      "capital": "Riga"
+    },
+    "LB": {
+      "name": "Líbano",
+      "capital": "Beirute"
+    },
+    "LS": {
+      "name": "Lesoto",
+      "capital": "Maseru"
+    },
+    "LR": {
+      "name": "Libéria",
+      "capital": "Monróvia"
+    },
+    "LY": {
+      "name": "Líbia",
+      "capital": "Trípoli"
+    },
+    "LI": {
+      "name": "Liechtenstein",
+      "capital": "Vaduz"
+    },
+    "LT": {
+      "name": "Lituânia",
+      "capital": "Vilnius"
+    },
+    "LU": {
+      "name": "Luxemburgo",
+      "capital": "Luxemburgo"
+    },
+    "MG": {
+      "name": "Madagáscar",
+      "capital": "Antananarivo"
+    },
+    "MW": {
+      "name": "Maláui",
+      "capital": "Lilongwe"
+    },
+    "MY": {
+      "name": "Malásia",
+      "capital": "Kuala Lumpur"
+    },
+    "MV": {
+      "name": "Maldivas",
+      "capital": "Malé"
+    },
+    "ML": {
+      "name": "Mali",
+      "capital": "Bamako"
+    },
+    "MT": {
+      "name": "Malta",
+      "capital": "Valletta"
+    },
+    "MH": {
+      "name": "Ilhas Marshall",
+      "capital": "Majuro"
+    },
+    "MR": {
+      "name": "Mauritânia",
+      "capital": "Nuaquexote"
+    },
+    "MU": {
+      "name": "Maurícia",
+      "capital": "Port Louis"
+    },
+    "MX": {
+      "name": "México",
+      "capital": "Cidade do México"
+    },
+    "FM": {
+      "name": "Micronésia",
+      "capital": "Palikir"
+    },
+    "MD": {
+      "name": "Moldávia",
+      "capital": "Chisinau"
+    },
+    "MC": {
+      "name": "Mónaco",
+      "capital": "Mónaco"
+    },
+    "MN": {
+      "name": "Mongólia",
+      "capital": "Ulan Bator"
+    },
+    "ME": {
+      "name": "Montenegro",
+      "capital": "Podgorica"
+    },
+    "MA": {
+      "name": "Marrocos",
+      "capital": "Rabat"
+    },
+    "MZ": {
+      "name": "Moçambique",
+      "capital": "Maputo"
+    },
+    "MM": {
+      "name": "Myanmar",
+      "capital": "Naypyidaw"
+    },
+    "NA": {
+      "name": "Namíbia",
+      "capital": "Windhoek"
+    },
+    "NR": {
+      "name": "Nauru",
+      "capital": "Yaren"
+    },
+    "NP": {
+      "name": "Nepal",
+      "capital": "Catmandu"
+    },
+    "NL": {
+      "name": "Países Baixos",
+      "capital": "Amsterdão"
+    },
+    "NZ": {
+      "name": "Nova Zelândia",
+      "capital": "Wellington"
+    },
+    "NI": {
+      "name": "Nicarágua",
+      "capital": "Manágua"
+    },
+    "NE": {
+      "name": "Níger",
+      "capital": "Niamei"
+    },
+    "NG": {
+      "name": "Nigéria",
+      "capital": "Abuja"
+    },
+    "MK": {
+      "name": "Macedónia do Norte",
+      "capital": "Skopje"
+    },
+    "NO": {
+      "name": "Noruega",
+      "capital": "Oslo"
+    },
+    "OM": {
+      "name": "Omã",
+      "capital": "Mascate"
+    },
+    "PK": {
+      "name": "Paquistão",
+      "capital": "Islamabad"
+    },
+    "PW": {
+      "name": "Palau",
+      "capital": "Ngerulmud"
+    },
+    "PS": {
+      "name": "Palestina",
+      "capital": "Ramallah"
+    },
+    "PA": {
+      "name": "Panamá",
+      "capital": "Cidade do Panamá"
+    },
+    "PG": {
+      "name": "Papua-Nova Guiné",
+      "capital": "Port Moresby"
+    },
+    "PY": {
+      "name": "Paraguai",
+      "capital": "Assunção"
+    },
+    "PE": {
+      "name": "Peru",
+      "capital": "Lima"
+    },
+    "PH": {
+      "name": "Filipinas",
+      "capital": "Manila"
+    },
+    "PL": {
+      "name": "Polónia",
+      "capital": "Varsóvia"
+    },
+    "PT": {
+      "name": "Portugal",
+      "capital": "Lisboa"
+    },
+    "QA": {
+      "name": "Catar",
+      "capital": "Doha"
+    },
+    "RO": {
+      "name": "Roménia",
+      "capital": "Bucareste"
+    },
+    "RU": {
+      "name": "Rússia",
+      "capital": "Moscovo"
+    },
+    "RW": {
+      "name": "Ruanda",
+      "capital": "Kigali"
+    },
+    "KN": {
+      "name": "São Cristóvão e Neves",
+      "capital": "Basseterre"
+    },
+    "LC": {
+      "name": "Santa Lúcia",
+      "capital": "Castries"
+    },
+    "VC": {
+      "name": "São Vicente e Granadinas",
+      "capital": "Kingstown"
+    },
+    "WS": {
+      "name": "Samoa",
+      "capital": "Apia"
+    },
+    "SM": {
+      "name": "São Marinho",
+      "capital": "São Marinho"
+    },
+    "ST": {
+      "name": "São Tomé e Príncipe",
+      "capital": "São Tomé"
+    },
+    "SA": {
+      "name": "Arábia Saudita",
+      "capital": "Riade"
+    },
+    "SN": {
+      "name": "Senegal",
+      "capital": "Dakar"
+    },
+    "RS": {
+      "name": "Sérvia",
+      "capital": "Belgrado"
+    },
+    "SL": {
+      "name": "Serra Leoa",
+      "capital": "Freetown"
+    },
+    "SG": {
+      "name": "Singapura",
+      "capital": "Singapura"
+    },
+    "SK": {
+      "name": "Eslováquia",
+      "capital": "Bratislava"
+    },
+    "SI": {
+      "name": "Eslovénia",
+      "capital": "Liubliana"
+    },
+    "SB": {
+      "name": "Ilhas Salomão",
+      "capital": "Honiara"
+    },
+    "SO": {
+      "name": "Somália",
+      "capital": "Mogadíscio"
+    },
+    "ZA": {
+      "name": "África do Sul",
+      "capital": "Pretória"
+    },
+    "SS": {
+      "name": "Sudão do Sul",
+      "capital": "Juba"
+    },
+    "ES": {
+      "name": "Espanha",
+      "capital": "Madrid"
+    },
+    "LK": {
+      "name": "Sri Lanca",
+      "capital": "Colombo"
+    },
+    "SD": {
+      "name": "Sudão",
+      "capital": "Cartum"
+    },
+    "SR": {
+      "name": "Suriname",
+      "capital": "Paramaribo"
+    },
+    "SE": {
+      "name": "Suécia",
+      "capital": "Estocolmo"
+    },
+    "CH": {
+      "name": "Suíça",
+      "capital": "Berna"
+    },
+    "SY": {
+      "name": "Síria",
+      "capital": "Damasco"
+    },
+    "TW": {
+      "name": "Taiwan",
+      "capital": "Taipé"
+    },
+    "TJ": {
+      "name": "Tajiquistão",
+      "capital": "Dusanbe"
+    },
+    "TZ": {
+      "name": "Tanzânia",
+      "capital": "Dodoma"
+    },
+    "TH": {
+      "name": "Tailândia",
+      "capital": "Banguecoque"
+    },
+    "TL": {
+      "name": "Timor-Leste",
+      "capital": "Díli"
+    },
+    "TG": {
+      "name": "Togo",
+      "capital": "Lomé"
+    },
+    "TO": {
+      "name": "Tonga",
+      "capital": "Nukualofa"
+    },
+    "TT": {
+      "name": "Trindade e Tobago",
+      "capital": "Porto de Espanha"
+    },
+    "TN": {
+      "name": "Tunísia",
+      "capital": "Tunes"
+    },
+    "TR": {
+      "name": "Turquia",
+      "capital": "Ancara"
+    },
+    "TM": {
+      "name": "Turquemenistão",
+      "capital": "Asgabate"
+    },
+    "TV": {
+      "name": "Tuvalu",
+      "capital": "Funafuti"
+    },
+    "UG": {
+      "name": "Uganda",
+      "capital": "Kampala"
+    },
+    "UA": {
+      "name": "Ucrânia",
+      "capital": "Kiev"
+    },
+    "AE": {
+      "name": "Emirados Árabes Unidos",
+      "capital": "Abu Dhabi"
+    },
+    "GB": {
+      "name": "Reino Unido",
+      "capital": "Londres"
+    },
+    "US": {
+      "name": "Estados Unidos",
+      "capital": "Washington D.C."
+    },
+    "UY": {
+      "name": "Uruguai",
+      "capital": "Montevideu"
+    },
+    "UZ": {
+      "name": "Usbequistão",
+      "capital": "Taskente"
+    },
+    "VU": {
+      "name": "Vanuatu",
+      "capital": "Port Vila"
+    },
+    "VA": {
+      "name": "Vaticano",
+      "capital": "Vaticano"
+    },
+    "VE": {
+      "name": "Venezuela",
+      "capital": "Caracas"
+    },
+    "VN": {
+      "name": "Vietname",
+      "capital": "Hanói"
+    },
+    "YE": {
+      "name": "Iémen",
+      "capital": "Sanaa"
+    },
+    "ZM": {
+      "name": "Zâmbia",
+      "capital": "Lusaka"
+    },
+    "ZW": {
+      "name": "Zimbabué",
+      "capital": "Harare"
+    },
+    "EH": {
+      "name": "Saara Ocidental",
+      "capital": "El Aaiún"
+    },
+    "XK": {
+      "name": "Kosovo",
+      "capital": "Pristina"
+    }
+  },
+  "pity": {
+    "title": "Sorte Acumulada",
+    "guaranteedTitle": "País Novo Garantido!",
+    "ready": "O próximo roll vai ser mágico!"
+  },
+  "shop": {
+    "title": "Loja",
+    "tabs": {
+      "countries": "Ixi",
+      "upgrades": "Ndandu"
+    },
+    "coins": "Kitadi",
+    "balance": "Kitadi: {{count}}",
+    "buy": "Sumba",
+    "bought": "Ku Sumba",
+    "maxLevel": "Nível máximo",
+    "notEnoughCoins": "Moedas insuficientes",
+    "search": "Sota ixi...",
+    "allUnlocked": "Já tens todos os países!",
+    "duplicateCoins": "+{{count}} moedas por duplicado!",
+    "upgradeLevel": "Nível {{level}}/{{max}}",
+    "upgrades": {
+      "autoclicker": {
+        "name": "Auto-Giro",
+        "description": "Gira automaticamente a cada 5 segundos."
+      },
+      "coinMultiplier": {
+        "name": "Multiplicador de Moedas",
+        "description": "Duplicados dão mais {{mult}}x moedas. (Nível {{level}}/3)"
+      },
+      "luckBoost": {
+        "name": "Aumento de Sorte",
+        "description": "Reduz ligeiramente a chance dos países mais comuns. (Nível {{level}}/3)"
+      },
+      "pityReducer": {
+        "name": "Menos Azar",
+        "description": "Reduz o número de duplicados necessários para o Pity em 25%."
+      }
+    },
+    "lockedCount": "{{count}} ixi iobhe",
+    "lockedCount_other": "{{count}} ixi iobhe"
+  },
+  "completion": {
+    "title": "Parabéns! 🌍",
+    "subtitle": "Zeraste o WorldDex!",
+    "description": "Conseguiste desbloquear todos os países do mundo! Es um verdadeiro explorador global!",
+    "stats": {
+      "rolls": "Giros totais",
+      "countries": "Países desbloqueados"
+    },
+    "close": "Fechar",
+    "share": "Partilhar"
+  },
+  "sounds": {
+    "title": "Sons",
+    "toggle": "Ligar/Desligar Sons"
+  },
+  "tour": {
+    "skip": "Lutuka",
+    "welcome": "Benvindu mu Onde Nascerias!",
+    "welcomeDesc": "Iza tu monekele o mundu.",
+    "map": "Mundu wé",
+    "mapDesc": "Mueni tala o mundu.",
+    "roll": "Zungisa",
+    "rollDesc": "Batika a zungisa!",
+    "pity": "Kitadi kia muxima",
+    "pityDesc": "Kitadi ki ku zungisa, ku bhanga o ixi yobhe.",
+    "shop": "Kitanda",
+    "shopDesc": "Sumba idima mu kitanda.",
+    "next": "Kienhiki ➔",
+    "prev": "⬅ Nvula",
+    "done": "Zubha ✓",
+    "progress": "Dikunda {{current}} kia {{total}}",
+    "step1": {
+      "title": "👋 Benvindu mu WorldDex!",
+      "desc": "Iza tu monekele o mundu."
+    },
+    "step2": {
+      "title": "🎲 Zungisa",
+      "desc": "Batika a zungisa! O <b>kidi kié kió</b>."
+    },
+    "step3": {
+      "title": "🗺️ Mundu wé",
+      "desc": "Mueni tala o mundu."
+    },
+    "step4": {
+      "title": "💖 Kitadi kia muxima",
+      "desc": "Kitadi ki ku zungisa, ku bhanga o ixi yobhe <b>100%</b>."
+    },
+    "step5": {
+      "title": "🛒 Kitanda",
+      "desc": "Sumba idima mu kitanda, u <b>sumba ixi</b> mba <b>ndandu</b>."
+    },
+    "step6": {
+      "title": "📚 Kijimbu",
+      "desc": "Tala o mundu wosó."
+    },
+    "step7": {
+      "title": "🏆 Mabindamu",
+      "desc": "Bhanga mabindamu."
+    },
+    "step8": {
+      "title": "🌍 Zubha!",
+      "desc": "Tu batika!"
+    }
+  }
+}

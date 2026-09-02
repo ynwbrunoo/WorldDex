@@ -1,0 +1,1154 @@
+{
+  "app": {
+    "title": "WorldDex",
+    "subtitle": "Avaa maailma, yksi syntymä kerrallaan."
+  },
+  "header": {
+    "howToPlay": "Kuinka pelata",
+    "aboutData": "Tietoja tiedoista",
+    "resetProgress": "Nollaa edistyminen",
+    "privacy": "Yksityisyys",
+    "localStorageNotice": "Edistyminen tallennettu tälle laitteelle"
+  },
+  "nav": {
+    "progress": "Edistyminen",
+    "collection": "Kokoelma",
+    "history": "Historia",
+    "achievements": "Saavutukset",
+    "settings": "Asetukset"
+  },
+  "roll": {
+    "button": "Roll",
+    "rolling": "Rullaa...",
+    "newCountry": "Uusi maa avattu!",
+    "duplicate": "Sinulla oli jo tämä maa – jatka!",
+    "viewOnMap": "Näytä kartalla",
+    "close": "Lähellä",
+    "estimatedChance": "Arvioitu mahdollisuus",
+    "population": "Väestö",
+    "annualBirths": "Arvioitu vuotuinen syntyvyys",
+    "firstUnlock": "Ensimmäistä kertaa!",
+    "alreadyHave": "Kopioi",
+    "spacebar": "Press [Space] to roll"
+  },
+  "country": {
+    "population": "Väestö",
+    "annualBirths": "Arvioitu vuotuinen syntyvyys",
+    "birthChance": "Mahdollisuus syntyä tänne",
+    "capital": "Pääoma",
+    "continent": "Manner",
+    "status": {
+      "locked": "Edelleen lukossa",
+      "unlocked": "Avattu"
+    },
+    "rollCount": "Ilmestynyt {{määrän}} kerran",
+    "rollCount_other": "Ilmestynyt {{count}} kertaa",
+    "firstUnlocked": "Avattu {{päivänä}}",
+    "zoomToCountry": "Keskellä kartalla",
+    "notFound": "Maata ei löydy",
+    "clickToExplore": "Klikkaa maata tutkiaksesi sitä"
+  },
+  "progress": {
+    "title": "Edistyminen",
+    "unlocked": "Avattu",
+    "unlockedCount": "{{määrä}} / {{yhteensä}} maata",
+    "percentage": "{{arvo}} % valmis",
+    "remaining": "{{count}} maata jäljellä",
+    "totalRolls": "Total Rolls",
+    "duplicates": "Kopiot",
+    "longestStreak": "Paras sarja ilman kaksoiskappaleita",
+    "continents": "Edistyminen mantereittain"
+  },
+  "collection": {
+    "title": "Kokoelma",
+    "search": "Hae maata...",
+    "sort": {
+      "label": "Lajitteluperuste",
+      "recent": "Äskettäin avattu",
+      "alphabetical": "Aakkosellinen",
+      "mostRolled": "Suurin osa rullattu",
+      "continent": "Manner"
+    },
+    "empty": "Et ole vielä avannut yhtään maata. Anna sille rulla!",
+    "noResults": "Yksikään maa ei vastaa hakuasi.",
+    "rolls": "{{count}} rulla",
+    "rolls_other": "{{laske}} rullaa",
+    "sortChanceDesc": "Highest Chance",
+    "sortChanceAsc": "Lowest Chance"
+  },
+  "history": {
+    "title": "Historia",
+    "filter": {
+      "all": "Kaikki",
+      "new": "Uusi",
+      "duplicates": "Kopiot"
+    },
+    "clearHistory": "Tyhjennä historia",
+    "clearConfirmTitle": "Tyhjennä historia?",
+    "clearConfirmMessage": "Tätä toimintoa ei voi kumota. Rullahistoria poistetaan pysyvästi.",
+    "clearConfirm": "Selkeä",
+    "clearCancel": "Peruuttaa",
+    "empty": "Et ole vielä tehnyt yhtään rullaa. Aloita nyt!",
+    "emptyFiltered": "Yksikään rulla ei vastaa tätä suodatinta.",
+    "new": "Uusi",
+    "duplicate": "Kopioi",
+    "rollNumber": "Rulla #{{numero}}"
+  },
+  "achievements": {
+    "title": "Saavutukset",
+    "locked": "Lukittu",
+    "unlocked": "Avattu",
+    "unlockedOn": "Avattu {{päivänä}}",
+    "progress": "{{nykyinen}} / {{yhteensä}}",
+    "newUnlock": "Saavutus avattu!",
+    "firstStep": {
+      "name": "Ensimmäinen askel",
+      "description": "Avaa ensimmäinen maasi."
+    },
+    "explorer": {
+      "name": "Tutkimusmatkailija",
+      "description": "Avaa 10 maata."
+    },
+    "traveller": {
+      "name": "Matkustaja",
+      "description": "Avaa 25 maata."
+    },
+    "cartographer": {
+      "name": "Kartanpiirtäjä",
+      "description": "Avaa 50 maata."
+    },
+    "worldCollector1": {
+      "name": "Maailman keräilijä I",
+      "description": "Avaa 75 maata."
+    },
+    "worldCollector2": {
+      "name": "Maailman keräilijä II",
+      "description": "Avaa 100 maata."
+    },
+    "worldCollector3": {
+      "name": "Maailman keräilijä III",
+      "description": "Avaa 125 maata."
+    },
+    "halfwayThere": {
+      "name": "Puolivälissä",
+      "description": "Avaa 50 % kaikista maista."
+    },
+    "continentalExplorer": {
+      "name": "Continental Explorer",
+      "description": "Täydennä koko maanosa."
+    },
+    "continentalMaster": {
+      "name": "Manner-Mestari",
+      "description": "Täydennä kolme maanosaa."
+    },
+    "aroundTheWorld": {
+      "name": "Maailman ympäri",
+      "description": "Täytä kaikki maanosat."
+    },
+    "worldComplete": {
+      "name": "Maailma valmis",
+      "description": "Avaa kaikki maat ja alueet."
+    },
+    "luckyStreak": {
+      "name": "Onnenputki",
+      "description": "Avaa 5 uutta maata peräkkäin ilman kaksoiskappaleita."
+    },
+    "persistent": {
+      "name": "Pysyvä",
+      "description": "Tee yhteensä 100 rullaa."
+    },
+    "dedicated": {
+      "name": "Omistettu",
+      "description": "Tee yhteensä 500 rullaa."
+    },
+    "home_sweet_home": {
+      "name": "Koti Sweet Home",
+      "description": "Valitsit maan, jossa tällä hetkellä asut!"
+    },
+    "group_palop": {
+      "name": "PALOP",
+      "description": "Avaa kaikki portugalinkieliset Afrikan maat."
+    },
+    "group_brics": {
+      "name": "BRICS",
+      "description": "Avaa BRICS-lohkon tärkeimmät maat (ja uudet jäsenet)."
+    },
+    "group_eu": {
+      "name": "Euroopan unioni",
+      "description": "Avaa kaikki Euroopan unionin jäsenvaltiot."
+    },
+    "group_nato": {
+      "name": "SYNTYNYT",
+      "description": "Avaa kaikki Naton jäsenmaat."
+    },
+    "india_500": {
+      "name": "Namaste!",
+      "description": "Kierrä Intiaa 500 kertaa."
+    },
+    "group_g7": {
+      "description": "Avaa kaikki G7-maat."
+    },
+    "group_mercosul": {
+      "name": "Mercosur",
+      "description": "Avaa Mercosurin jäsenvaltiot."
+    },
+    "group_asean": {
+      "description": "Avaa Kaakkois-Aasian maiden liiton maat."
+    },
+    "group_opep": {
+      "name": "OPEC",
+      "description": "Avaa öljynviejämaiden järjestön jäsenet."
+    }
+  },
+  "tutorial": {
+    "title": "Kuinka pelata",
+    "step1": "Napsauta <b></b> nähdäksesi, mihin maahan saatat syntyä.",
+    "step2": "Jokaisella maalla on arvioitu todennäköisyys, joka perustuu sen osuuteen maailmanlaajuisista syntyvistä – se ei ole yhtä satunnainen!",
+    "step3": "Kun avaat maan lukituksen ensimmäistä kertaa, se värjäytyy maailmankartalla.",
+    "step4": "Napsauta maata kartalla tai kokoelmassasi nähdäksesi pääkaupungin, väestön ja arvioidun mahdollisuuden.",
+    "step5": "Täydennä maanosia, ansaitse saavutuksia ja yritä avata koko maailma.",
+    "step6": "Edistymisesi tallennetaan vain tälle laitteelle – ei tilejä, ei seurantaa.",
+    "previous": "Edellinen",
+    "next": "Seuraavaksi",
+    "skip": "Ohita opetusohjelma",
+    "finish": "Aloita pelaaminen!",
+    "dontShowAgain": "Älä näytä uudelleen",
+    "stepOf": "Vaihe {{nykyinen}} {{kokonaismäärästä}}",
+    "restart": "Katso opetusohjelma",
+    "rollDesc": "Napsauta painiketta vierittääksesi onneasi ja löydä uusi maa! (Vinkki: Voit käyttää näppäimistön [Välilyönti]-näppäintä pelataksesi nopeammin ja sulkeaksesi ikkunat).",
+    "collectionDesc": "Täältä näet maat, jotka olet jo avannut. Voit lajitella harvinaisuuden, maanosan tai päivämäärän mukaan! Kun olet 15 maan päässä lopusta, voit nähdä, mitkä niistä puuttuvat.",
+    "achievementsDesc": "Täydelliset tavoitteet taloudellisten lohkojen keräämisestä (kuten BRICS tai Euroopan unioni) Intian rullaamiseen 500 kertaa mitalien voittamiseen.",
+    "historyDesc": "Tarkista kaikki aiemmat toistosi ja selvitä, kuinka kauan sitten avasit maan lukituksen."
+  },
+  "settings": {
+    "title": "Asetukset",
+    "language": "Kieli",
+    "languageLabel": "Valitse kieli",
+    "data": "Tiedot ja yksityisyys",
+    "exportProgress": "Viennin edistyminen",
+    "importProgress": "Tuonnin edistyminen",
+    "resetProgress": "Nollaa edistyminen",
+    "restartTutorial": "Katso opetusohjelma",
+    "aboutData": "Tietoja tiedoista",
+    "privacy": "Yksityisyys",
+    "searchLanguage": "Search language..."
+  },
+  "modals": {
+    "aboutData": {
+      "title": "Tietoja tiedoista",
+      "intro": "Syntymistodennäköisyydet ovat arvioita, jotka on laskettu saatavilla olevien vuosittaisten syntyneiden maakohtaisten tietojen perusteella.",
+      "methodology": "Metodologia",
+      "methodologyText": "Tiettyyn maahan syntymisen todennäköisyys lasketaan sen maan arvioitujen vuotuisten syntyneiden osuudena maailman kokonaismäärään verrattuna. Käytämme likimääräisiä tietoja Maailmanpankista ja YK:sta (World Population Prospects). Arvot ovat arvioita eivätkä välttämättä vastaa uusimpia tilastoja.",
+      "sensitivity": "Huomio poliittisesta herkkyydestä",
+      "sensitivityText": "Rajat, alueet ja maan tunnustaminen ovat poliittisesti arkaluonteisia asioita. Alueen sisällyttäminen tähän peliin palvelee kasvatuksellisia ja maantieteellisiä tarkoituksia, eikä se muodosta poliittista kantaa. Tiedot on yksinkertaistettu viihdepeliin.",
+      "updates": "Tietojen päivitykset",
+      "updatesText": "Väestötiedot muuttuvat ajan myötä. Tämä projekti pyrkii pitämään tiedot kohtuullisen ajan tasalla, mutta ei takaa reaaliaikaista tarkkuutta.",
+      "sources": "Lähteet",
+      "sourcesList": [
+        "Maailmanpankki – Maailman kehitysindikaattorit",
+        "YK – Maailman väestöennusteet 2022",
+        "Natural Earth – maantieteelliset tiedot (julkinen)",
+        "world-atlas (TopoJSON) — karttatiedot"
+      ],
+      "close": "Lähellä"
+    },
+    "privacy": {
+      "title": "Yksityisyys ja ehdot",
+      "project": "Tämä on ilmainen, ei-kaupallinen koulutus- ja viihdeprojekti.",
+      "noData": "Henkilötietoja ei kerätä.",
+      "localStorage": "Edistymisesi tallennetaan yksinomaan laitteesi paikalliseen tallennustilaan (localStorage). Palvelimille ei lähetetä tietoja.",
+      "noCookies": "Tämä peli ei käytä evästeitä. Vain localStoragea käytetään asetustesi ja edistymisen tallentamiseen.",
+      "noTracking": "Ei ole analytiikka-, seuranta-, mainonta- tai kolmannen osapuolen järjestelmiä.",
+      "borders": "Maantieteelliset, demografiset ja rajatiedot ovat arvioita ja voivat olla epätäydellisiä tai vanhentuneita. Tämä hanke ei ota poliittista kantaa rajoihin, alueisiin tai valtion tunnustamiseen.",
+      "license": "Lähdekoodi saatavilla MIT-lisenssillä.",
+      "attribution": "Attribuutit",
+      "close": "Lähellä"
+    },
+    "reset": {
+      "title": "Nollaa edistyminen",
+      "message": "Oletko varma? Kaikki edistymisesi, kokoelmasi, historiasi ja saavutuksesi poistetaan pysyvästi. Tätä toimintoa ei voi kumota.",
+      "confirm": "Kyllä, poista kaikki",
+      "cancel": "Peruuttaa"
+    },
+    "importExport": {
+      "title": "Tuonnin / viennin edistyminen",
+      "exportTitle": "Viedä",
+      "exportDescription": "Vie edistymisesi JSON-tiedostona varmuuskopioitavaksi tai siirrettäväksi toiseen laitteeseen.",
+      "exportButton": "Vie JSON-tiedosto",
+      "importTitle": "Tuoda",
+      "importDescription": "Tuo aiemmin viety JSON-tiedosto. Nykyinen edistymisesi korvataan.",
+      "importWarning": "Varoitus: nykyinen edistymisesi korvataan tuodulla tiedostolla.",
+      "importButton": "Valitse JSON-tiedosto",
+      "importSuccess": "Edistyksen tuonti onnistui!",
+      "importError": "Virheellinen tai vioittunut tiedosto. Varmista, että tämä peli on vienyt tiedoston.",
+      "close": "Lähellä"
+    }
+  },
+  "continents": {
+    "africa": "Afrikka",
+    "asia": "Aasia",
+    "europe": "Euroopassa",
+    "northAmerica": "Pohjois-Amerikassa",
+    "southAmerica": "Etelä-Amerikka",
+    "oceania": "Oseania"
+  },
+  "data": {
+    "estimated": "Arvioitu",
+    "source": "Lähde",
+    "year": "Tietojen vuosi",
+    "approximation": "Nämä arvot ovat likiarvoja."
+  },
+  "errors": {
+    "mapLoad": "Karttaa ei voitu ladata. Yritä ladata sivu uudelleen.",
+    "dataCorrupt": "Tallennetut tiedot ovat vioittuneet. Edistyminen on nollattu.",
+    "importFailed": "Tiedostoa ei voitu tuoda.",
+    "unknown": "Tapahtui odottamaton virhe."
+  },
+  "accessibility": {
+    "languageSelector": "Valitse kieli",
+    "flagOf": "{{maan}} lippu",
+    "rollButton": "Rullaa — piirrä satunnainen maa",
+    "closeModal": "Lähellä",
+    "mainMap": "Interaktiivinen maailmankartta",
+    "lockedCountry": "{{maa}} – lukittu",
+    "unlockedCountry": "{{maa}} – avattu",
+    "rolledCountry": "{{maa}} – juuri rullattu",
+    "progressBar": "{{arvo}} % maista avattu",
+    "achievementLocked": "Saavutus lukittu: {{nimi}}",
+    "achievementUnlocked": "Saavutus avattu: {{nimi}}"
+  },
+  "countries": {
+    "AF": {
+      "name": "Afganistan",
+      "capital": "Kabul"
+    },
+    "AL": {
+      "name": "Albania",
+      "capital": "Tirana"
+    },
+    "DZ": {
+      "name": "Algeria",
+      "capital": "Alger"
+    },
+    "AD": {
+      "name": "Andorra",
+      "capital": "Andorra la Vella"
+    },
+    "AO": {
+      "name": "Angola",
+      "capital": "Luanda"
+    },
+    "AG": {
+      "name": "Antigua ja Barbuda",
+      "capital": "Pyhän Johanneksen"
+    },
+    "AR": {
+      "name": "Argentiina",
+      "capital": "Buenos Aires"
+    },
+    "AM": {
+      "name": "Armenia",
+      "capital": "Jerevan"
+    },
+    "AU": {
+      "name": "Australia",
+      "capital": "Canberra"
+    },
+    "AT": {
+      "name": "Itävalta",
+      "capital": "Wien"
+    },
+    "AZ": {
+      "name": "Azerbaidžan",
+      "capital": "Baku"
+    },
+    "BS": {
+      "name": "Bahama",
+      "capital": "Nassau"
+    },
+    "BH": {
+      "name": "Bahrain",
+      "capital": "Manama"
+    },
+    "BD": {
+      "name": "Bangladesh",
+      "capital": "Dhaka"
+    },
+    "BB": {
+      "name": "Barbados",
+      "capital": "Bridgetown"
+    },
+    "BY": {
+      "name": "Valko-Venäjä",
+      "capital": "Minsk"
+    },
+    "BE": {
+      "name": "Belgia",
+      "capital": "Bryssel"
+    },
+    "BZ": {
+      "name": "Belize",
+      "capital": "Belmopan"
+    },
+    "BJ": {
+      "name": "Benin",
+      "capital": "Porto-Novo"
+    },
+    "BT": {
+      "name": "Bhutan",
+      "capital": "Thimphu"
+    },
+    "BO": {
+      "name": "Bolivia",
+      "capital": "Sucre"
+    },
+    "BA": {
+      "name": "Bosnia ja Hertsegovina",
+      "capital": "Sarajevo"
+    },
+    "BW": {
+      "name": "Botswana",
+      "capital": "Gaborone"
+    },
+    "BR": {
+      "name": "Brasilia",
+      "capital": "Brasília"
+    },
+    "BN": {
+      "name": "Brunei",
+      "capital": "Bandar Seri Begawan"
+    },
+    "BG": {
+      "name": "Bulgaria",
+      "capital": "Sofia"
+    },
+    "BF": {
+      "name": "Burkina Faso",
+      "capital": "Ouagadougou"
+    },
+    "BI": {
+      "name": "Burundi",
+      "capital": "Gitega"
+    },
+    "CV": {
+      "name": "Kap Verde",
+      "capital": "Praia"
+    },
+    "KH": {
+      "name": "Kambodža",
+      "capital": "Phnom Penh"
+    },
+    "CM": {
+      "name": "Kamerun",
+      "capital": "Yaoundé"
+    },
+    "CA": {
+      "name": "Kanada",
+      "capital": "Ottawa"
+    },
+    "CF": {
+      "name": "Keski-Afrikan tasavalta",
+      "capital": "Bangui"
+    },
+    "TD": {
+      "name": "Tšad",
+      "capital": "N'Djamena"
+    },
+    "CL": {
+      "name": "Chile",
+      "capital": "Santiago"
+    },
+    "CN": {
+      "name": "Kiina",
+      "capital": "Peking"
+    },
+    "CO": {
+      "name": "Kolumbia",
+      "capital": "Bogotá"
+    },
+    "KM": {
+      "name": "Komorit",
+      "capital": "Moroni"
+    },
+    "CG": {
+      "name": "Kongo",
+      "capital": "Brazzaville"
+    },
+    "CD": {
+      "name": "Kongon demokraattinen tasavalta",
+      "capital": "Kinshasa"
+    },
+    "CR": {
+      "name": "Costa Rica",
+      "capital": "San José"
+    },
+    "CI": {
+      "name": "Norsunluurannikko",
+      "capital": "Yamoussoukro"
+    },
+    "HR": {
+      "name": "Kroatia",
+      "capital": "Zagreb"
+    },
+    "CU": {
+      "name": "Kuuba",
+      "capital": "Havanna"
+    },
+    "CY": {
+      "name": "Kypros",
+      "capital": "Nikosia"
+    },
+    "CZ": {
+      "name": "Tšekin tasavalta",
+      "capital": "Praha"
+    },
+    "DK": {
+      "name": "Tanska",
+      "capital": "Kööpenhamina"
+    },
+    "DJ": {
+      "name": "Djibouti",
+      "capital": "Djibouti"
+    },
+    "DM": {
+      "name": "Dominica",
+      "capital": "Roseau"
+    },
+    "DO": {
+      "name": "Dominikaaninen tasavalta",
+      "capital": "Santo Domingo"
+    },
+    "EC": {
+      "name": "Ecuador",
+      "capital": "Quito"
+    },
+    "EG": {
+      "name": "Egypti",
+      "capital": "Kairo"
+    },
+    "SV": {
+      "name": "El Salvador",
+      "capital": "San Salvador"
+    },
+    "GQ": {
+      "name": "Päiväntasaajan Guinea",
+      "capital": "Malabo"
+    },
+    "ER": {
+      "name": "Eritrea",
+      "capital": "Asmara"
+    },
+    "EE": {
+      "name": "Viro",
+      "capital": "Tallinna"
+    },
+    "SZ": {
+      "name": "Eswatini",
+      "capital": "Mbabane"
+    },
+    "ET": {
+      "name": "Etiopia",
+      "capital": "Addis Abeba"
+    },
+    "FJ": {
+      "name": "Fidži",
+      "capital": "Suva"
+    },
+    "FI": {
+      "name": "Suomi",
+      "capital": "Helsinki"
+    },
+    "FR": {
+      "name": "Ranska",
+      "capital": "Pariisi"
+    },
+    "GA": {
+      "name": "Gabon",
+      "capital": "Libreville"
+    },
+    "GM": {
+      "name": "Gambia",
+      "capital": "Banjul"
+    },
+    "GE": {
+      "name": "Georgia",
+      "capital": "Tbilisi"
+    },
+    "DE": {
+      "name": "Saksa",
+      "capital": "Berliini"
+    },
+    "GH": {
+      "name": "Ghana",
+      "capital": "Accra"
+    },
+    "GR": {
+      "name": "Kreikka",
+      "capital": "Ateena"
+    },
+    "GD": {
+      "name": "Grenada",
+      "capital": "St. George's"
+    },
+    "GT": {
+      "name": "Guatemala",
+      "capital": "Guatemala kaupunki"
+    },
+    "GN": {
+      "name": "Guinea",
+      "capital": "Conakry"
+    },
+    "GW": {
+      "name": "Guinea-Bissau",
+      "capital": "Bissau"
+    },
+    "GY": {
+      "name": "Guyana",
+      "capital": "Georgetown"
+    },
+    "HT": {
+      "name": "Haiti",
+      "capital": "Port-au-Prince"
+    },
+    "HN": {
+      "name": "Honduras",
+      "capital": "Tegucigalpa"
+    },
+    "HU": {
+      "name": "Unkari",
+      "capital": "Budapest"
+    },
+    "IS": {
+      "name": "Islanti",
+      "capital": "Reykjavík"
+    },
+    "IN": {
+      "name": "Intia",
+      "capital": "New Delhi"
+    },
+    "ID": {
+      "name": "Indonesia",
+      "capital": "Jakarta"
+    },
+    "IR": {
+      "name": "Iran",
+      "capital": "Teheran"
+    },
+    "IQ": {
+      "name": "Irak",
+      "capital": "Bagdad"
+    },
+    "IE": {
+      "name": "Irlanti",
+      "capital": "Dublin"
+    },
+    "IL": {
+      "name": "Israel",
+      "capital": "Jerusalem"
+    },
+    "IT": {
+      "name": "Italia",
+      "capital": "Rooma"
+    },
+    "JM": {
+      "name": "Jamaika",
+      "capital": "Kingston"
+    },
+    "JP": {
+      "name": "Japani",
+      "capital": "Tokio"
+    },
+    "JO": {
+      "name": "Jordania",
+      "capital": "Amman"
+    },
+    "KZ": {
+      "name": "Kazakstan",
+      "capital": "Astana"
+    },
+    "KE": {
+      "name": "Kenia",
+      "capital": "Nairobi"
+    },
+    "KI": {
+      "name": "Kiribati",
+      "capital": "Etelä-Tarawa"
+    },
+    "KP": {
+      "name": "Pohjois-Korea",
+      "capital": "Pjongjang"
+    },
+    "KR": {
+      "name": "Etelä-Korea",
+      "capital": "Soul"
+    },
+    "KW": {
+      "name": "Kuwait",
+      "capital": "Kuwait City"
+    },
+    "KG": {
+      "name": "Kirgisia",
+      "capital": "Biškek"
+    },
+    "LA": {
+      "name": "Laos",
+      "capital": "Vientiane"
+    },
+    "LV": {
+      "name": "Latvia",
+      "capital": "Riika"
+    },
+    "LB": {
+      "name": "Libanon",
+      "capital": "Beirut"
+    },
+    "LS": {
+      "name": "Lesotho",
+      "capital": "Maseru"
+    },
+    "LR": {
+      "name": "Liberia",
+      "capital": "Monrovia"
+    },
+    "LY": {
+      "name": "Libya",
+      "capital": "Tripoli"
+    },
+    "LI": {
+      "name": "Liechtenstein",
+      "capital": "Vaduz"
+    },
+    "LT": {
+      "name": "Liettua",
+      "capital": "Vilna"
+    },
+    "LU": {
+      "name": "Luxemburg",
+      "capital": "Luxemburg"
+    },
+    "MG": {
+      "name": "Madagaskar",
+      "capital": "Antananarivo"
+    },
+    "MW": {
+      "name": "Malawi",
+      "capital": "Lilongwe"
+    },
+    "MY": {
+      "name": "Malesia",
+      "capital": "Kuala Lumpur"
+    },
+    "MV": {
+      "name": "Malediivit",
+      "capital": "Uros"
+    },
+    "ML": {
+      "name": "Mali",
+      "capital": "Bamako"
+    },
+    "MT": {
+      "name": "Malta",
+      "capital": "Valletta"
+    },
+    "MH": {
+      "name": "Marshallin saaret",
+      "capital": "Majuro"
+    },
+    "MR": {
+      "name": "Mauritania",
+      "capital": "Nouakchott"
+    },
+    "MU": {
+      "name": "Mauritius",
+      "capital": "Port Louis"
+    },
+    "MX": {
+      "name": "Meksiko",
+      "capital": "Mexico City"
+    },
+    "FM": {
+      "name": "Mikronesia",
+      "capital": "Palikir"
+    },
+    "MD": {
+      "name": "Moldova",
+      "capital": "Chisinau"
+    },
+    "MC": {
+      "name": "Monaco",
+      "capital": "Monaco"
+    },
+    "MN": {
+      "name": "Mongolia",
+      "capital": "Ulaanbaatar"
+    },
+    "ME": {
+      "name": "Montenegro",
+      "capital": "Podgorica"
+    },
+    "MA": {
+      "name": "Marokko",
+      "capital": "Rabat"
+    },
+    "MZ": {
+      "name": "Mosambik",
+      "capital": "Maputo"
+    },
+    "MM": {
+      "name": "Myanmar",
+      "capital": "Naypyidaw"
+    },
+    "NA": {
+      "name": "Namibia",
+      "capital": "Windhoek"
+    },
+    "NR": {
+      "name": "Nauru",
+      "capital": "Yaren"
+    },
+    "NP": {
+      "name": "Nepal",
+      "capital": "Kathmandu"
+    },
+    "NL": {
+      "name": "Alankomaat",
+      "capital": "Amsterdam"
+    },
+    "NZ": {
+      "name": "Uusi-Seelanti",
+      "capital": "Wellington"
+    },
+    "NI": {
+      "name": "Nicaragua",
+      "capital": "Managua"
+    },
+    "NE": {
+      "name": "Niger",
+      "capital": "Niamey"
+    },
+    "NG": {
+      "name": "Nigeria",
+      "capital": "Abuja"
+    },
+    "MK": {
+      "name": "Pohjois-Makedonia",
+      "capital": "Skopje"
+    },
+    "NO": {
+      "name": "Norja",
+      "capital": "Oslo"
+    },
+    "OM": {
+      "name": "Oman",
+      "capital": "Muscat"
+    },
+    "PK": {
+      "name": "Pakistan",
+      "capital": "Islamabad"
+    },
+    "PW": {
+      "name": "Palau",
+      "capital": "Ngerulmud"
+    },
+    "PS": {
+      "name": "Palestiina",
+      "capital": "Ramallah"
+    },
+    "PA": {
+      "name": "Panama",
+      "capital": "Panama City"
+    },
+    "PG": {
+      "name": "Papua-Uusi-Guinea",
+      "capital": "Port Moresby"
+    },
+    "PY": {
+      "name": "Paraguay",
+      "capital": "Asunción"
+    },
+    "PE": {
+      "name": "Peru",
+      "capital": "Lima"
+    },
+    "PH": {
+      "name": "Filippiinit",
+      "capital": "Manila"
+    },
+    "PL": {
+      "name": "Puola",
+      "capital": "Varsova"
+    },
+    "PT": {
+      "name": "Portugali",
+      "capital": "Lissabon"
+    },
+    "QA": {
+      "name": "Qatar",
+      "capital": "Doha"
+    },
+    "RO": {
+      "name": "Romania",
+      "capital": "Bukarest"
+    },
+    "RU": {
+      "name": "Venäjä",
+      "capital": "Moskova"
+    },
+    "RW": {
+      "name": "Ruanda",
+      "capital": "Kigali"
+    },
+    "KN": {
+      "name": "Saint Kitts ja Nevis",
+      "capital": "Basseterre"
+    },
+    "LC": {
+      "name": "Saint Lucia",
+      "capital": "Castries"
+    },
+    "VC": {
+      "name": "Saint Vincent ja Grenadiinit",
+      "capital": "Kingstown"
+    },
+    "WS": {
+      "name": "Samoa",
+      "capital": "Apia"
+    },
+    "SM": {
+      "name": "San Marino",
+      "capital": "San Marino"
+    },
+    "ST": {
+      "name": "São Tomé ja Príncipe",
+      "capital": "São Tomé"
+    },
+    "SA": {
+      "name": "Saudi-Arabia",
+      "capital": "Riad"
+    },
+    "SN": {
+      "name": "Senegal",
+      "capital": "Dakar"
+    },
+    "RS": {
+      "name": "Serbia",
+      "capital": "Belgrad"
+    },
+    "SL": {
+      "name": "Sierra Leone",
+      "capital": "Freetown"
+    },
+    "SG": {
+      "name": "Singapore",
+      "capital": "Singapore"
+    },
+    "SK": {
+      "name": "Slovakia",
+      "capital": "Bratislava"
+    },
+    "SI": {
+      "name": "Slovenia",
+      "capital": "Ljubljana"
+    },
+    "SB": {
+      "name": "Salomonsaaret",
+      "capital": "Honiara"
+    },
+    "SO": {
+      "name": "Somalia",
+      "capital": "Mogadishu"
+    },
+    "ZA": {
+      "name": "Etelä-Afrikka",
+      "capital": "Pretoria"
+    },
+    "SS": {
+      "name": "Etelä-Sudan",
+      "capital": "Juba"
+    },
+    "ES": {
+      "name": "Espanja",
+      "capital": "Madrid"
+    },
+    "LK": {
+      "name": "Sri Lanka",
+      "capital": "Colombo"
+    },
+    "SD": {
+      "name": "Sudan",
+      "capital": "Khartum"
+    },
+    "SR": {
+      "name": "Suriname",
+      "capital": "Paramaribo"
+    },
+    "SE": {
+      "name": "Ruotsi",
+      "capital": "Tukholma"
+    },
+    "CH": {
+      "name": "Sveitsi",
+      "capital": "Bern"
+    },
+    "SY": {
+      "name": "Syyria",
+      "capital": "Damaskos"
+    },
+    "TW": {
+      "name": "Taiwan",
+      "capital": "Taipei"
+    },
+    "TJ": {
+      "name": "Tadžikistan",
+      "capital": "Dushanbe"
+    },
+    "TZ": {
+      "name": "Tansania",
+      "capital": "Dodoma"
+    },
+    "TH": {
+      "name": "Thaimaa",
+      "capital": "Bangkok"
+    },
+    "TL": {
+      "name": "Itä-Timor",
+      "capital": "Dili"
+    },
+    "TG": {
+      "name": "Togo",
+      "capital": "Lomé"
+    },
+    "TO": {
+      "name": "Tonga",
+      "capital": "Nukuʻalofa"
+    },
+    "TT": {
+      "name": "Trinidad ja Tobago",
+      "capital": "Espanjan satama"
+    },
+    "TN": {
+      "name": "Tunisia",
+      "capital": "Tunis"
+    },
+    "TR": {
+      "name": "Turkki",
+      "capital": "Ankara"
+    },
+    "TM": {
+      "name": "Turkmenistan",
+      "capital": "Ashgabat"
+    },
+    "TV": {
+      "name": "Tuvalu",
+      "capital": "Funafuti"
+    },
+    "UG": {
+      "name": "Uganda",
+      "capital": "Kampala"
+    },
+    "UA": {
+      "name": "Ukraina",
+      "capital": "Kiova"
+    },
+    "AE": {
+      "name": "Yhdistyneet arabiemiirikunnat",
+      "capital": "Abu Dhabi"
+    },
+    "GB": {
+      "name": "Yhdistynyt kuningaskunta",
+      "capital": "Lontoo"
+    },
+    "US": {
+      "name": "Yhdysvallat",
+      "capital": "Washington D.C."
+    },
+    "UY": {
+      "name": "Uruguay",
+      "capital": "Montevideo"
+    },
+    "UZ": {
+      "name": "Uzbekistan",
+      "capital": "Taškent"
+    },
+    "VU": {
+      "name": "Vanuatu",
+      "capital": "Port Vila"
+    },
+    "VA": {
+      "name": "Vatikaanikaupunki",
+      "capital": "Vatikaanikaupunki"
+    },
+    "VE": {
+      "name": "Venezuela",
+      "capital": "Caracas"
+    },
+    "VN": {
+      "name": "Vietnam",
+      "capital": "Hanoi"
+    },
+    "YE": {
+      "name": "Jemen",
+      "capital": "Sanaa"
+    },
+    "ZM": {
+      "name": "Sambia",
+      "capital": "Lusaka"
+    },
+    "ZW": {
+      "name": "Zimbabwe",
+      "capital": "Harare"
+    },
+    "EH": {
+      "name": "Länsi-Sahara",
+      "capital": "Laayoune"
+    },
+    "XK": {
+      "name": "Kosovo",
+      "capital": "Pristina"
+    }
+  },
+  "pity": {
+    "title": "Kertynyt onni",
+    "guaranteedTitle": "Uusi maa taattu!",
+    "ready": "Seuraava rulla tulee olemaan maaginen!"
+  },
+  "tour": {
+    "skip": "Pular Tutorial",
+    "next": "Seuraava ➔",
+    "prev": "⬅ Anterior",
+    "done": "Valmis ✓",
+    "progress": "Passo {{current}} de {{total}}",
+    "step1": {
+      "title": "👋 Bem-vindo ao WorldDex!",
+      "desc": "Aqui vais colecionar todos os países do mundo através de sorteios baseados na verdadeira taxa de natalidade global. Vamos ver como funciona?"
+    },
+    "step2": {
+      "title": "🎲 Rolar Pelo Mundo",
+      "desc": "Clica neste botão (ou pressiona Espaço) para girares. A probabilidade de te calhar um país é <b>exatamente igual à probabilidade de nasceres lá</b> no mundo real. Quanto mais nascimentos, mais comum!"
+    },
+    "step3": {
+      "title": "🗺️ O Teu Mapa",
+      "desc": "Sempre que desbloqueares um país novo, ele será pintado no mapa com a cor da sua raridade (Comum, Incomum, Raro, Épico ou Lendário)."
+    },
+    "step4": {
+      "title": "💖 Sääli järjestelmä",
+      "desc": "Cada vez que te calha um duplicado, a barra de sorte sobe. Quando chegar ao máximo, o próximo giro é <b>100% garantido</b> de ser um país que ainda não tens!"
+    },
+    "step5": {
+      "title": "🛒 Kauppa & Economy",
+      "desc": "Não te preocupes com os duplicados. Cada país repetido dá-te <b>moedas</b> (dependendo da sua raridade). Podes usar moedas nesta Loja para <b>comprar países em falta</b> ou <b>Upgrades</b> (como o Autoclicker ou multiplicadores)."
+    },
+    "step6": {
+      "title": "📚 Kokoelmasi",
+      "desc": "Tällä välilehdellä näet kaikki maat, jotka olet jo käynyt, ja kuinka monta olet lähtenyt. Voit napsauttaa niitä nähdäksesi yksityiskohdat ja uteliaisuudet."
+    },
+    "step7": {
+      "title": "🏆 Conquistas",
+      "desc": "Completa continentes, forma grupos de países específicos (como a CPLP ou União Europeia) e alcança metas para desbloquear estas conquistas únicas."
+    },
+    "step8": {
+      "title": "🌍 Pronto a Jogar!",
+      "desc": "Agora é contigo! Boa sorte na tua jornada para desbloquear o mundo inteiro, um nascimento de cada vez."
+    }
+  }
+}

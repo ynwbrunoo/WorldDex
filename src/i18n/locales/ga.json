@@ -1,0 +1,1154 @@
+{
+  "app": {
+    "title": "WorldDex",
+    "subtitle": "Díghlasáil an domhan, breith amháin ag an am."
+  },
+  "header": {
+    "howToPlay": "Conas a Seinn",
+    "aboutData": "Maidir leis na Sonraí",
+    "resetProgress": "Athshocraigh Dul Chun Cinn",
+    "privacy": "Príobháideacht",
+    "localStorageNotice": "Sábháladh an dul chun cinn ar an ngléas seo"
+  },
+  "nav": {
+    "progress": "Dul chun cinn",
+    "collection": "Bailiúchán",
+    "history": "Stair",
+    "achievements": "Éachtaí",
+    "settings": "Socruithe"
+  },
+  "roll": {
+    "button": "Roll",
+    "rolling": "Ag rolladh...",
+    "newCountry": "Tír nua díghlasáilte!",
+    "duplicate": "Bhí an tír seo agat cheana féin - lean ort!",
+    "viewOnMap": "Amharc ar an léarscáil",
+    "close": "Dún",
+    "estimatedChance": "Seans measta",
+    "population": "Daonra",
+    "annualBirths": "Breitheanna bliantúla measta",
+    "firstUnlock": "Chéad uair!",
+    "alreadyHave": "Dúblach",
+    "spacebar": "Press [Space] to roll"
+  },
+  "country": {
+    "population": "Daonra",
+    "annualBirths": "Breitheanna bliantúla measta",
+    "birthChance": "Seans gur rugadh anseo",
+    "capital": "Caipitil",
+    "continent": "Mór-roinn",
+    "status": {
+      "locked": "Fós faoi ghlas",
+      "unlocked": "Díghlasáilte"
+    },
+    "rollCount": "Tháinig {{comhaireamh}} ama",
+    "rollCount_other": "Le feiceáil {{count}} amanna",
+    "firstUnlocked": "Díghlasáilte ar {{dáta}}",
+    "zoomToCountry": "Ionad ar an léarscáil",
+    "notFound": "Tír gan aimsiú",
+    "clickToExplore": "Cliceáil ar thír chun iniúchadh a dhéanamh"
+  },
+  "progress": {
+    "title": "Dul chun cinn",
+    "unlocked": "Díghlasáilte",
+    "unlockedCount": "{{count}} / {{iomlán}} tíortha",
+    "percentage": "{{luach}}% críochnaithe",
+    "remaining": "{{count}} tíortha fágtha",
+    "totalRolls": "Total Rolls",
+    "duplicates": "Dúblaigh",
+    "longestStreak": "An stríoc is fearr gan dúbailt",
+    "continents": "Dul chun cinn de réir na mór-roinne"
+  },
+  "collection": {
+    "title": "Bailiúchán",
+    "search": "Cuardach tír...",
+    "sort": {
+      "label": "Sórtáil de réir",
+      "recent": "Díghlasáil le déanaí",
+      "alphabetical": "Aibítre",
+      "mostRolled": "An chuid is mó rollta",
+      "continent": "Mór-roinn"
+    },
+    "empty": "Níor dhíghlasáil tú aon tír go fóill. Tabhair Rolla é!",
+    "noResults": "Níl aon tír ag teacht le do chuardach.",
+    "rolls": "{{comhaireamh}} rolla",
+    "rolls_other": "{{comhaireamh}} rollaí",
+    "sortChanceDesc": "Highest Chance",
+    "sortChanceAsc": "Lowest Chance"
+  },
+  "history": {
+    "title": "Stair",
+    "filter": {
+      "all": "Gach",
+      "new": "Nua",
+      "duplicates": "Dúblaigh"
+    },
+    "clearHistory": "Glan stair",
+    "clearConfirmTitle": "Glan an stair?",
+    "clearConfirmMessage": "Ní féidir an gníomh seo a chealú. Scriosfar stair rolla go buan.",
+    "clearConfirm": "Glan",
+    "clearCancel": "Cealaigh",
+    "empty": "Níl aon rolla déanta agat fós. Tosaigh anois!",
+    "emptyFiltered": "Níl aon rollaí ag teacht leis an scagaire seo.",
+    "new": "Nua",
+    "duplicate": "Dúblach",
+    "rollNumber": "Rollaigh #{{uimhir}}"
+  },
+  "achievements": {
+    "title": "Éachtaí",
+    "locked": "Faoi ghlas",
+    "unlocked": "Díghlasáilte",
+    "unlockedOn": "Díghlasáilte ar {{dáta}}",
+    "progress": "{{reatha}} / {{iomlán}}",
+    "newUnlock": "Gnóthachtáil díghlasáilte!",
+    "firstStep": {
+      "name": "An Chéad Chéim",
+      "description": "Díghlasáil do chéad tír."
+    },
+    "explorer": {
+      "name": "taiscéalaí",
+      "description": "Díghlasáil 10 dtír."
+    },
+    "traveller": {
+      "name": "Lucht Siúil",
+      "description": "Díghlasáil 25 tír."
+    },
+    "cartographer": {
+      "name": "Cartagrafaí",
+      "description": "Díghlasáil 50 tír."
+    },
+    "worldCollector1": {
+      "name": "Bailitheoir Domhanda I",
+      "description": "Díghlasáil 75 tír."
+    },
+    "worldCollector2": {
+      "name": "Bailitheoir Domhanda II",
+      "description": "Díghlasáil 100 tír."
+    },
+    "worldCollector3": {
+      "name": "Bailitheoir Domhanda III",
+      "description": "Díghlasáil 125 tír."
+    },
+    "halfwayThere": {
+      "name": "Leath bealaigh ann",
+      "description": "Díghlasáil 50% de na tíortha go léir."
+    },
+    "continentalExplorer": {
+      "name": "Continental Explorer",
+      "description": "Comhlánaigh mór-roinn iomlán."
+    },
+    "continentalMaster": {
+      "name": "Máistir Ilchríochach",
+      "description": "Comhlánaigh trí mhór-roinn."
+    },
+    "aroundTheWorld": {
+      "name": "Timpeall an Domhain",
+      "description": "Comhlánaigh gach mór-roinn."
+    },
+    "worldComplete": {
+      "name": "Domhanda Críochnaithe",
+      "description": "Díghlasáil gach tír agus críoch."
+    },
+    "luckyStreak": {
+      "name": "Streak Lucky",
+      "description": "Díghlasáil 5 thír nua i ndiaidh a chéile gan dúbailt."
+    },
+    "persistent": {
+      "name": "Seasmhach",
+      "description": "Déan 100 rolla iomlán."
+    },
+    "dedicated": {
+      "name": "tiomnaithe",
+      "description": "Déan 500 rolla iomlán."
+    },
+    "home_sweet_home": {
+      "name": "Baile Sweet Home",
+      "description": "Rinne tú an tír ina bhfuil cónaí ort faoi láthair a rolladh!"
+    },
+    "group_palop": {
+      "name": "PALOP",
+      "description": "Díghlasáiltear gach tír san Afraic ina labhraítear Portaingéilis."
+    },
+    "group_brics": {
+      "name": "BRICS",
+      "description": "Díghlasálann sé príomhthíortha an bhloc BRICS (agus baill nua)."
+    },
+    "group_eu": {
+      "name": "Aontas Eorpach",
+      "description": "Díghlasálann sé ballstáit uile an Aontais Eorpaigh."
+    },
+    "group_nato": {
+      "name": "Rugadh",
+      "description": "Díghlasáiltear gach ballstát de chuid NATO."
+    },
+    "india_500": {
+      "name": "Namaste!",
+      "description": "Rothlaigh an India 500 uair."
+    },
+    "group_g7": {
+      "description": "Díghlasálann sé gach náisiún G7."
+    },
+    "group_mercosul": {
+      "name": "Mercosur",
+      "description": "Díghlasálann sé Ballstáit Mercosur."
+    },
+    "group_asean": {
+      "description": "Díghlasálann sé tíortha Chomhlachas Náisiúin na hÁise Thoir Theas."
+    },
+    "group_opep": {
+      "name": "ETOP",
+      "description": "Díghlasálann sé baill d'Eagraíocht na dTíortha Onnmhairithe Peitriliam."
+    }
+  },
+  "tutorial": {
+    "title": "Conas a Seinn",
+    "step1": "Cliceáil <b></b> le fáil amach cén tír inar rugadh thú.",
+    "step2": "Tá dóchúlacht mheasta ag gach tír bunaithe ar a sciar de bhreitheanna domhanda - níl sé chomh randamach!",
+    "step3": "Nuair a dhíghlasálann tú tír den chéad uair, faigheann sé daite ar léarscáil an domhain.",
+    "step4": "Cliceáil tír ar an léarscáil nó i do bhailiúchán chun an phríomhchathair, an daonra agus an seans measta a fheiceáil.",
+    "step5": "ilchríocha a chomhlánú, éachtaí a thuilleamh, agus iarracht a dhíghlasáil an domhan ar fad.",
+    "step6": "Ní dhéantar do dhul chun cinn a shábháil ach ar an ngléas seo - gan aon chuntais, gan rian.",
+    "previous": "Roimhe Seo",
+    "next": "Ar aghaidh",
+    "skip": "Léim teagaisc",
+    "finish": "Tosaigh ag imirt!",
+    "dontShowAgain": "Ná taispeáin arís",
+    "stepOf": "Céim {{reatha}} de {{iomlán}}",
+    "restart": "Féach ar teagaisc",
+    "rollDesc": "Cliceáil an cnaipe chun do luck a rolladh agus tír nua a fháil amach! (Leid: Is féidir leat an barra [Space] ar do mhéarchlár a úsáid chun imirt níos tapúla agus fuinneoga a dhúnadh).",
+    "collectionDesc": "Anseo feiceann tú na tíortha a dhíghlasáil tú cheana féin. Is féidir leat sórtáil de réir ganntanas, mór-roinne nó dáta! Nuair a bheidh tú 15 tír ar shiúl ón deireadh, beidh tú in ann a fheiceáil cé na cinn atá uait.",
+    "achievementsDesc": "Cuspóirí iomlána, ó bhailiú bloic eacnamaíocha (amhail BRICS nó an tAontas Eorpach) go dtí an India a rolladh 500 uair, chun boinn a bhuachan.",
+    "historyDesc": "Déan athbhreithniú ar na drámaí go léir a rinne tú roimhe seo agus faigh amach cé chomh fada ó shin a dhíghlasáil tú tír."
+  },
+  "settings": {
+    "title": "Socruithe",
+    "language": "Teanga",
+    "languageLabel": "Roghnaigh teanga",
+    "data": "Sonraí agus Príobháideacht",
+    "exportProgress": "Dul chun cinn easpórtála",
+    "importProgress": "Dul chun cinn a allmhairiú",
+    "resetProgress": "Athshocraigh dul chun cinn",
+    "restartTutorial": "Féach ar teagaisc",
+    "aboutData": "Maidir leis na sonraí",
+    "privacy": "Príobháideacht",
+    "searchLanguage": "Search language..."
+  },
+  "modals": {
+    "aboutData": {
+      "title": "Maidir leis na Sonraí",
+      "intro": "Is meastacháin iad dóchúlachtaí breithe a ríomhtar bunaithe ar shonraí atá ar fáil ar bhreitheanna bliantúla in aghaidh na tíre.",
+      "methodology": "Modheolaíocht",
+      "methodologyText": "Ríomhtar an dóchúlacht go mbeirfear i dtír ar leith mar chomhréir de bhreitheanna bliantúla measta na tíre sin i gcomparáid le hiomlán an domhain. Bainimid úsáid as neas-shonraí ón mBanc Domhanda agus na NA (World Population Prospects). Is meastacháin iad luachanna agus b’fhéidir nach léiríonn siad na staitisticí is déanaí.",
+      "sensitivity": "Nóta ar íogaireacht pholaitiúil",
+      "sensitivityText": "Is ceisteanna íogaire polaitiúla iad teorainneacha, críocha agus aitheantas tíre. Freastalaíonn cuimsiú críche sa chluiche seo chun críocha oideachais agus tíreolaíochta agus ní seasamh polaitiúil é. Tá na sonraí simplithe le haghaidh cluiche siamsaíochta.",
+      "updates": "Nuashonruithe sonraí",
+      "updatesText": "Athraíonn sonraí déimeagrafacha le himeacht ama. Féachann an tionscadal seo le sonraí a choinneáil cothrom le dáta go réasúnta ach ní ráthaíonn sé cruinneas fíor-ama.",
+      "sources": "Foinsí",
+      "sourcesList": [
+        "An Banc Domhanda — Táscairí Forbartha Domhanda",
+        "NA — Ionchais Dhaonra an Domhain 2022",
+        "An Domhan Nádúrtha — Sonraí geografacha (fearann ​​poiblí)",
+        "world-atlas (TopoJSON) — Sonraí léarscáile"
+      ],
+      "close": "Dún"
+    },
+    "privacy": {
+      "title": "Príobháideacht agus Téarmaí",
+      "project": "Is tionscadal oideachais agus siamsaíochta neamhthráchtála saor in aisce é seo.",
+      "noData": "Ní bhailítear aon sonraí pearsanta.",
+      "localStorage": "Stóráiltear do dhul chun cinn go heisiach i stóras áitiúil do ghléis (localStorage). Ní sheoltar aon fhaisnéis chuig freastalaithe.",
+      "noCookies": "Ní úsáideann an cluiche seo fianáin. Ní úsáidtear ach localStorage chun do shainroghanna agus dul chun cinn a shábháil.",
+      "noTracking": "Níl aon chórais anailísíochta, rianaithe, fógraíochta ná tríú páirtí ann.",
+      "borders": "Is meastacháin iad sonraí geografacha, déimeagrafacha agus teorann agus féadfaidh siad a bheith neamhiomlán nó as dáta. Ní thógann an tionscadal seo seasamh polaitiúil ar bith ar theorainneacha, ar chríocha ná ar aitheantas stáit.",
+      "license": "Cód foinse atá ar fáil faoin gceadúnas MIT.",
+      "attribution": "Tréithe",
+      "close": "Dún"
+    },
+    "reset": {
+      "title": "Athshocraigh Dul Chun Cinn",
+      "message": "An bhfuil tú cinnte? Scriosfar go buan do dhul chun cinn, do bhailiúchán, do stair agus do ghnóthachtálacha. Ní féidir an gníomh seo a chealú.",
+      "confirm": "Sea, scrios gach rud",
+      "cancel": "Cealaigh"
+    },
+    "importExport": {
+      "title": "Dul Chun Cinn Iompórtála / Easpórtála",
+      "exportTitle": "Easpórtáil",
+      "exportDescription": "Easpórtáil do dhul chun cinn mar chomhad JSON chun cúltaca nó aistriú go gléas eile.",
+      "exportButton": "Easpórtáil comhad JSON",
+      "importTitle": "Iompórtáil",
+      "importDescription": "Iompórtáil comhad JSON a easpórtáladh roimhe seo. Déanfar do dhul chun cinn reatha a athsholáthar.",
+      "importWarning": "Rabhadh: cuirfear an comhad iompórtáilte in ionad do dhul chun cinn reatha.",
+      "importButton": "Roghnaigh comhad JSON",
+      "importSuccess": "D'éirigh le hiompórtáil an dul chun cinn!",
+      "importError": "Comhad neamhbhailí nó truaillithe. Cinntigh gur easpórtáil an cluiche seo an comhad.",
+      "close": "Dún"
+    }
+  },
+  "continents": {
+    "africa": "Afraic",
+    "asia": "Áise",
+    "europe": "Eoraip",
+    "northAmerica": "Meiriceá Thuaidh",
+    "southAmerica": "Meiriceá Theas",
+    "oceania": "Aigéine"
+  },
+  "data": {
+    "estimated": "Measta",
+    "source": "Foinse",
+    "year": "Bliain sonraí",
+    "approximation": "Is mheastacháin iad na luachanna seo."
+  },
+  "errors": {
+    "mapLoad": "Níorbh fhéidir an léarscáil a lódáil. Bain triail as an leathanach a athlódáil.",
+    "dataCorrupt": "Tá sonraí sábháilte truaillithe. Athshocraíodh an dul chun cinn.",
+    "importFailed": "Níorbh fhéidir an comhad a iompórtáil.",
+    "unknown": "Tharla earráid gan choinne."
+  },
+  "accessibility": {
+    "languageSelector": "Roghnaigh teanga",
+    "flagOf": "Bratach na {{tíre}}",
+    "rollButton": "Roll - tarraing tír randamach",
+    "closeModal": "Dún",
+    "mainMap": "Léarscáil an domhain idirghníomhach",
+    "lockedCountry": "{{tír}} — faoi ghlas",
+    "unlockedCountry": "{{tír}} — díghlasáilte",
+    "rolledCountry": "{{tír}} — díreach rollta",
+    "progressBar": "{{luach}} % de na tíortha díghlasáilte",
+    "achievementLocked": "Gnóthachtáil faoi ghlas: {{ainm}}",
+    "achievementUnlocked": "Díghlasáil an ghnóthachtáil: {{ainm}}"
+  },
+  "countries": {
+    "AF": {
+      "name": "Afganastáin",
+      "capital": "Cabúl"
+    },
+    "AL": {
+      "name": "an Albáin",
+      "capital": "Tirana"
+    },
+    "DZ": {
+      "name": "Ailgéir",
+      "capital": "Ailgéir"
+    },
+    "AD": {
+      "name": "Andóra",
+      "capital": "Andóra la Vella"
+    },
+    "AO": {
+      "name": "Angóla",
+      "capital": "Luanda"
+    },
+    "AG": {
+      "name": "Antigua agus Barbúda",
+      "capital": "Naomh Eoin"
+    },
+    "AR": {
+      "name": "an Airgintín",
+      "capital": "Buenos Aires"
+    },
+    "AM": {
+      "name": "Airméin",
+      "capital": "Ierevan"
+    },
+    "AU": {
+      "name": "Astráil",
+      "capital": "Canberra"
+    },
+    "AT": {
+      "name": "Ostair",
+      "capital": "Vín"
+    },
+    "AZ": {
+      "name": "Asarbaiseáin",
+      "capital": "Baku"
+    },
+    "BS": {
+      "name": "Bahámaí",
+      "capital": "Nassau"
+    },
+    "BH": {
+      "name": "Bairéin",
+      "capital": "Manama"
+    },
+    "BD": {
+      "name": "Bhanglaidéis",
+      "capital": "Dhaka"
+    },
+    "BB": {
+      "name": "Barbadós",
+      "capital": "Baile an Droichid"
+    },
+    "BY": {
+      "name": "Bhealarúis",
+      "capital": "Minsc"
+    },
+    "BE": {
+      "name": "an Bheilg",
+      "capital": "an Bhruiséil"
+    },
+    "BZ": {
+      "name": "Bheilís",
+      "capital": "Belmopan"
+    },
+    "BJ": {
+      "name": "Beinin",
+      "capital": "Porto-Novo"
+    },
+    "BT": {
+      "name": "Bhútáin",
+      "capital": "Thimphu"
+    },
+    "BO": {
+      "name": "An Bholaiv",
+      "capital": "Siúcra"
+    },
+    "BA": {
+      "name": "An Bhoisnia agus an Heirseagaivéin",
+      "capital": "Sairéavó"
+    },
+    "BW": {
+      "name": "Bhotsuáin",
+      "capital": "Gaborone"
+    },
+    "BR": {
+      "name": "an Bhrasaíl",
+      "capital": "Brasaíle"
+    },
+    "BN": {
+      "name": "Brúiné",
+      "capital": "Bandar Seri Begawan"
+    },
+    "BG": {
+      "name": "an Bhulgáir",
+      "capital": "Sóifia"
+    },
+    "BF": {
+      "name": "Buircíne Fasó",
+      "capital": "Ouagadougou"
+    },
+    "BI": {
+      "name": "An Bhurúin",
+      "capital": "Gitega"
+    },
+    "CV": {
+      "name": "Rinn Verde",
+      "capital": "Praia"
+    },
+    "KH": {
+      "name": "an Chambóid",
+      "capital": "Phnom Penh"
+    },
+    "CM": {
+      "name": "Camarún",
+      "capital": "Seaoundé"
+    },
+    "CA": {
+      "name": "Ceanada",
+      "capital": "Ottawa"
+    },
+    "CF": {
+      "name": "Poblacht na hAfraice Láir",
+      "capital": "Bangui"
+    },
+    "TD": {
+      "name": "Sead",
+      "capital": "N'Djamena"
+    },
+    "CL": {
+      "name": "an tSile",
+      "capital": "Santiago"
+    },
+    "CN": {
+      "name": "tSín",
+      "capital": "Beijing"
+    },
+    "CO": {
+      "name": "an Cholóim",
+      "capital": "Bogotá"
+    },
+    "KM": {
+      "name": "Oileáin Chomóra",
+      "capital": "Morón"
+    },
+    "CG": {
+      "name": "Chongó",
+      "capital": "Brazzaville"
+    },
+    "CD": {
+      "name": "Poblacht Dhaonlathach an Chongó",
+      "capital": "Cinseasa"
+    },
+    "CR": {
+      "name": "Cósta Ríce",
+      "capital": "San Jose"
+    },
+    "CI": {
+      "name": "Cósta Eabhair",
+      "capital": "Iamoussoukro"
+    },
+    "HR": {
+      "name": "an Chróit",
+      "capital": "Ságrab"
+    },
+    "CU": {
+      "name": "Cúba",
+      "capital": "Habháin"
+    },
+    "CY": {
+      "name": "an Chipir",
+      "capital": "Niocóis"
+    },
+    "CZ": {
+      "name": "Poblacht na Seice",
+      "capital": "Prág"
+    },
+    "DK": {
+      "name": "an Danmhairg",
+      "capital": "Cóbanhávan"
+    },
+    "DJ": {
+      "name": "Djibouti",
+      "capital": "Djibouti"
+    },
+    "DM": {
+      "name": "Doiminic",
+      "capital": "Roseau"
+    },
+    "DO": {
+      "name": "An Phoblacht Dhoiminiceach",
+      "capital": "Santo Domingo"
+    },
+    "EC": {
+      "name": "Eacuadór",
+      "capital": "Quito"
+    },
+    "EG": {
+      "name": "Éigipt",
+      "capital": "Caireo"
+    },
+    "SV": {
+      "name": "El Salvador",
+      "capital": "San Salvador"
+    },
+    "GQ": {
+      "name": "An Ghuine Mheánchriosach",
+      "capital": "Malabo"
+    },
+    "ER": {
+      "name": "Eiritré",
+      "capital": "Asmara"
+    },
+    "EE": {
+      "name": "an Eastóin",
+      "capital": "Tallinn"
+    },
+    "SZ": {
+      "name": "Eswatini",
+      "capital": "Mbabane"
+    },
+    "ET": {
+      "name": "Aetóip",
+      "capital": "Addis Ababa"
+    },
+    "FJ": {
+      "name": "Fidsí",
+      "capital": "Subhaigh"
+    },
+    "FI": {
+      "name": "an Fhionlainn",
+      "capital": "Heilsincí"
+    },
+    "FR": {
+      "name": "Fhrainc",
+      "capital": "Páras"
+    },
+    "GA": {
+      "name": "Ghabúin",
+      "capital": "Libreville"
+    },
+    "GM": {
+      "name": "An Ghaimbia",
+      "capital": "Banjul"
+    },
+    "GE": {
+      "name": "Georgia",
+      "capital": "Tbilisi"
+    },
+    "DE": {
+      "name": "an Ghearmáin",
+      "capital": "Beirlín"
+    },
+    "GH": {
+      "name": "Gána",
+      "capital": "Accra"
+    },
+    "GR": {
+      "name": "an Ghréig",
+      "capital": "an Aithin"
+    },
+    "GD": {
+      "name": "Grenada",
+      "capital": "Naomh Seoirse"
+    },
+    "GT": {
+      "name": "Guatamala",
+      "capital": "Cathair Guatamala"
+    },
+    "GN": {
+      "name": "Ghuine",
+      "capital": "Conacraí"
+    },
+    "GW": {
+      "name": "Guine Bhissau",
+      "capital": "Bhissau"
+    },
+    "GY": {
+      "name": "Ghuáin",
+      "capital": "Baile Sheoirse"
+    },
+    "HT": {
+      "name": "Háití",
+      "capital": "Port-au-Prince"
+    },
+    "HN": {
+      "name": "Hondúras",
+      "capital": "Tegucigalpa"
+    },
+    "HU": {
+      "name": "an Ungáir",
+      "capital": "Búdaipeist"
+    },
+    "IS": {
+      "name": "Íoslainn",
+      "capital": "Réicivíc"
+    },
+    "IN": {
+      "name": "India",
+      "capital": "Deilí Nua"
+    },
+    "ID": {
+      "name": "Indinéis",
+      "capital": "Iacárta"
+    },
+    "IR": {
+      "name": "Iaráin",
+      "capital": "Tehran"
+    },
+    "IQ": {
+      "name": "Iaráic",
+      "capital": "Bagdad"
+    },
+    "IE": {
+      "name": "Éire",
+      "capital": "Áth Cliath"
+    },
+    "IL": {
+      "name": "Iosrael",
+      "capital": "Iarúsailéim"
+    },
+    "IT": {
+      "name": "an Iodáil",
+      "capital": "Róimh"
+    },
+    "JM": {
+      "name": "Iamáice",
+      "capital": "Kingston"
+    },
+    "JP": {
+      "name": "tSeapáin",
+      "capital": "Tóiceo"
+    },
+    "JO": {
+      "name": "an Iordáin",
+      "capital": "Amman"
+    },
+    "KZ": {
+      "name": "Chasacstáin",
+      "capital": "Astana"
+    },
+    "KE": {
+      "name": "an Chéinia",
+      "capital": "Nairobi"
+    },
+    "KI": {
+      "name": "Ciribeas",
+      "capital": "Tarawa Theas"
+    },
+    "KP": {
+      "name": "An Chóiré Thuaidh",
+      "capital": "Pyongyang"
+    },
+    "KR": {
+      "name": "An Chóiré Theas",
+      "capital": "Seoul"
+    },
+    "KW": {
+      "name": "Cuáit",
+      "capital": "Cathair Cuáit"
+    },
+    "KG": {
+      "name": "Chirgeastáin",
+      "capital": "Bishkek"
+    },
+    "LA": {
+      "name": "Laos",
+      "capital": "Vientiane"
+    },
+    "LV": {
+      "name": "an Laitvia",
+      "capital": "Ríge"
+    },
+    "LB": {
+      "name": "Liobáin",
+      "capital": "Béiriút"
+    },
+    "LS": {
+      "name": "Leosóta",
+      "capital": "Maseru"
+    },
+    "LR": {
+      "name": "Libéir",
+      "capital": "Mhóinéir"
+    },
+    "LY": {
+      "name": "Libia",
+      "capital": "Tripoli"
+    },
+    "LI": {
+      "name": "Lichtinstéin",
+      "capital": "Vaduz"
+    },
+    "LT": {
+      "name": "an Liotuáin",
+      "capital": "Vilnius"
+    },
+    "LU": {
+      "name": "Lucsamburg",
+      "capital": "Lucsamburg"
+    },
+    "MG": {
+      "name": "Madagascar",
+      "capital": "Antananarivo"
+    },
+    "MW": {
+      "name": "an Mhaláiv",
+      "capital": "Lilongwe"
+    },
+    "MY": {
+      "name": "Mhalaeisia",
+      "capital": "Kuala Lumpur"
+    },
+    "MV": {
+      "name": "Oileáin Mhaildíve",
+      "capital": "Fireann"
+    },
+    "ML": {
+      "name": "Mailí",
+      "capital": "Bamako"
+    },
+    "MT": {
+      "name": "Málta",
+      "capital": "Valletta"
+    },
+    "MH": {
+      "name": "Oileáin Mharshall",
+      "capital": "Majuro"
+    },
+    "MR": {
+      "name": "Mháratáin",
+      "capital": "Nouakchott"
+    },
+    "MU": {
+      "name": "Oileán Mhuirís",
+      "capital": "Port Louis"
+    },
+    "MX": {
+      "name": "Meicsiceo",
+      "capital": "Cathair Mheicsiceo"
+    },
+    "FM": {
+      "name": "Micrinéise",
+      "capital": "Palikir"
+    },
+    "MD": {
+      "name": "Mholdóiv",
+      "capital": "Chisinau"
+    },
+    "MC": {
+      "name": "Monacó",
+      "capital": "Monacó"
+    },
+    "MN": {
+      "name": "Mhongóil",
+      "capital": "Ulaanbaatar"
+    },
+    "ME": {
+      "name": "Montainéagró",
+      "capital": "Podgorica"
+    },
+    "MA": {
+      "name": "Maracó",
+      "capital": "Rabat"
+    },
+    "MZ": {
+      "name": "Mósaimbíc",
+      "capital": "Maputo"
+    },
+    "MM": {
+      "name": "Maenmar",
+      "capital": "Naipidaw"
+    },
+    "NA": {
+      "name": "Namaib",
+      "capital": "Gaotha"
+    },
+    "NR": {
+      "name": "Nárú",
+      "capital": "Iarainn"
+    },
+    "NP": {
+      "name": "Neipeal",
+      "capital": "Kathmandu"
+    },
+    "NL": {
+      "name": "Ísiltír",
+      "capital": "Amstardam"
+    },
+    "NZ": {
+      "name": "an Nua-Shéalainn",
+      "capital": "Wellington"
+    },
+    "NI": {
+      "name": "Nicearagua",
+      "capital": "Managua"
+    },
+    "NE": {
+      "name": "Nígir",
+      "capital": "Niamey"
+    },
+    "NG": {
+      "name": "Nigéir",
+      "capital": "Abuja"
+    },
+    "MK": {
+      "name": "An Mhacadóin Thuaidh",
+      "capital": "Scopje"
+    },
+    "NO": {
+      "name": "Iorua",
+      "capital": "Osló"
+    },
+    "OM": {
+      "name": "Óman",
+      "capital": "Muscat"
+    },
+    "PK": {
+      "name": "Phacastáin",
+      "capital": "Ioslamabad"
+    },
+    "PW": {
+      "name": "Palau",
+      "capital": "Ngerulmud"
+    },
+    "PS": {
+      "name": "Phalaistín",
+      "capital": "Ramallah"
+    },
+    "PA": {
+      "name": "Panama",
+      "capital": "Cathair Panama"
+    },
+    "PG": {
+      "name": "Nua-Ghuine Phapua",
+      "capital": "Port Moresby"
+    },
+    "PY": {
+      "name": "Paragua",
+      "capital": "Asunción"
+    },
+    "PE": {
+      "name": "Peiriú",
+      "capital": "Lima"
+    },
+    "PH": {
+      "name": "hOileáin Fhilipíneacha",
+      "capital": "Mainile"
+    },
+    "PL": {
+      "name": "an Pholainn",
+      "capital": "Vársá"
+    },
+    "PT": {
+      "name": "an Phortaingéil",
+      "capital": "Liospóin"
+    },
+    "QA": {
+      "name": "Catar",
+      "capital": "Doha"
+    },
+    "RO": {
+      "name": "Rómáin",
+      "capital": "Búcairist"
+    },
+    "RU": {
+      "name": "Rúis",
+      "capital": "Moscó"
+    },
+    "RW": {
+      "name": "Ruanda",
+      "capital": "Cigilí"
+    },
+    "KN": {
+      "name": "San Críostóir-Nimheas",
+      "capital": "Basseterre"
+    },
+    "LC": {
+      "name": "Naomh Lucia",
+      "capital": "Castries"
+    },
+    "VC": {
+      "name": "San Uinseann agus na Greanáidíní",
+      "capital": "Baile an Rí"
+    },
+    "WS": {
+      "name": "Samó",
+      "capital": "Apia"
+    },
+    "SM": {
+      "name": "San Mairíne",
+      "capital": "San Mairíne"
+    },
+    "ST": {
+      "name": "São Tomé agus Príncipe",
+      "capital": "São Tomé"
+    },
+    "SA": {
+      "name": "An Araib Shádach",
+      "capital": "Riyadh"
+    },
+    "SN": {
+      "name": "an tSeineagáil",
+      "capital": "Dacár"
+    },
+    "RS": {
+      "name": "Seirbia",
+      "capital": "Béalgrád"
+    },
+    "SL": {
+      "name": "Siarra Leon",
+      "capital": "Freetown"
+    },
+    "SG": {
+      "name": "Singeapór",
+      "capital": "Singeapór"
+    },
+    "SK": {
+      "name": "an tSlóvaic",
+      "capital": "Bhratasláiv"
+    },
+    "SI": {
+      "name": "an tSlóivéin",
+      "capital": "Liúibleána"
+    },
+    "SB": {
+      "name": "Oileáin Sholamón",
+      "capital": "Honiara"
+    },
+    "SO": {
+      "name": "an tSomáil",
+      "capital": "Mogadishu"
+    },
+    "ZA": {
+      "name": "Afraic Theas",
+      "capital": "Pretoria"
+    },
+    "SS": {
+      "name": "an tSúdáin Theas",
+      "capital": "Juba"
+    },
+    "ES": {
+      "name": "Spáinn",
+      "capital": "Maidrid"
+    },
+    "LK": {
+      "name": "Srí Lanca",
+      "capital": "Colombo"
+    },
+    "SD": {
+      "name": "an tSúdáin",
+      "capital": "Cartúm"
+    },
+    "SR": {
+      "name": "Suranam",
+      "capital": "Paramaribo"
+    },
+    "SE": {
+      "name": "an tSualainn",
+      "capital": "Stócólm"
+    },
+    "CH": {
+      "name": "Eilvéis",
+      "capital": "Bern"
+    },
+    "SY": {
+      "name": "tSiria",
+      "capital": "Damaisc"
+    },
+    "TW": {
+      "name": "Taiwan",
+      "capital": "Taipéi"
+    },
+    "TJ": {
+      "name": "Táidsíceastáin",
+      "capital": "Dushanbe"
+    },
+    "TZ": {
+      "name": "Tansáin",
+      "capital": "Dodoma"
+    },
+    "TH": {
+      "name": "Téalainn",
+      "capital": "Bancác"
+    },
+    "TL": {
+      "name": "Tíomór-Leste",
+      "capital": "Dili"
+    },
+    "TG": {
+      "name": "Tóga",
+      "capital": "Lomé"
+    },
+    "TO": {
+      "name": "Tonga",
+      "capital": "Nukuʻalofa"
+    },
+    "TT": {
+      "name": "Oileán na Tríonóide agus Tobága",
+      "capital": "Port na Spáinne"
+    },
+    "TN": {
+      "name": "an Túinéis",
+      "capital": "Túinis"
+    },
+    "TR": {
+      "name": "Tuirc",
+      "capital": "Ancara"
+    },
+    "TM": {
+      "name": "Tuircméanastáin",
+      "capital": "Ashgabat"
+    },
+    "TV": {
+      "name": "Tuvalu",
+      "capital": "Funafuti"
+    },
+    "UG": {
+      "name": "Uganda",
+      "capital": "Kampala"
+    },
+    "UA": {
+      "name": "Úcráin",
+      "capital": "Kyiv"
+    },
+    "AE": {
+      "name": "Aontas na nÉimíríochtaí Arabacha",
+      "capital": "Abú Dhabi"
+    },
+    "GB": {
+      "name": "An Ríocht Aontaithe",
+      "capital": "Londain"
+    },
+    "US": {
+      "name": "Stáit Aontaithe Mheiriceá",
+      "capital": "Washington D.C."
+    },
+    "UY": {
+      "name": "Uragua",
+      "capital": "Montevideo"
+    },
+    "UZ": {
+      "name": "Úisbéiceastáin",
+      "capital": "Tashkent"
+    },
+    "VU": {
+      "name": "Vanuatú",
+      "capital": "Port Vila"
+    },
+    "VA": {
+      "name": "Cathair na Vatacáine",
+      "capital": "Cathair na Vatacáine"
+    },
+    "VE": {
+      "name": "Veiniséala",
+      "capital": "Caracas"
+    },
+    "VN": {
+      "name": "Vítneam",
+      "capital": "Hanoi"
+    },
+    "YE": {
+      "name": "Éimin",
+      "capital": "Sanaa"
+    },
+    "ZM": {
+      "name": "an tSaimbia",
+      "capital": "Lusaka"
+    },
+    "ZW": {
+      "name": "An tSiombáib",
+      "capital": "Harare"
+    },
+    "EH": {
+      "name": "Sahára Thiar",
+      "capital": "Laayoune"
+    },
+    "XK": {
+      "name": "Chosaiv",
+      "capital": "pristine"
+    }
+  },
+  "pity": {
+    "title": "Ádh Carntha",
+    "guaranteedTitle": "Tír Nua Ráthaithe!",
+    "ready": "Beidh an chéad rolla eile draíochta!"
+  },
+  "tour": {
+    "skip": "Léim Teagaisc",
+    "next": "Ar Aghaidh ➔",
+    "prev": "⬅ Roimhe seo",
+    "done": "Críochnaigh ✓",
+    "progress": "Céim {{current}} de {{total}}",
+    "step1": {
+      "title": "👋 Fáilte go WorldDex!",
+      "desc": "Anseo baileoidh tú gach tír ar domhan trí tharraingtí atá bunaithe ar an bhfíor-ráta breithe domhanda. A ligean ar a fheiceáil conas a oibríonn sé?"
+    },
+    "step2": {
+      "title": "🎲 Scrollaigh Timpeall an Domhain",
+      "desc": "Cliceáil an cnaipe seo (nó brúigh Space) chun casadh. Tá an dóchúlacht go dtiocfaidh tú i dtír <b>go díreach mar a chéile leis an dóchúlacht go mbeirfear ann</b> sa saol fíor. Na breitheanna níos mó, is coitianta!"
+    },
+    "step3": {
+      "title": "🗺️ Do Léarscáil",
+      "desc": "Aon uair a scaoilfidh tú tír nua, déanfar é a phéinteáil ar an léarscáil le dath a thearc (Coiteann, Neamhchoitianta, Neamhchoitianta, Epic nó Finscéalach)."
+    },
+    "step4": {
+      "title": "💖 Córas trua",
+      "desc": "Gach uair a fhaigheann tú dúblach, téann do bharra ádh suas. Nuair a shroicheann tú an t-uasmhéid, tá <b>100% ráthaithe</b> don chéad casadh eile</b> a bheith ina tír nach bhfuil agat fós!"
+    },
+    "step5": {
+      "title": "🛒 Siopa & Geilleagar",
+      "desc": "Ná bí buartha faoi dúblaigh. Tugann gach tír arís agus arís eile <b>boinn</b> duit (ag brath ar a ganntanas). Is féidir leat boinn a úsáid sa Store seo chun <b>tíortha atá ar iarraidh a cheannach</b> nó <b>Uasghrádú</b> (cosúil le Autoclicker nó iolraitheoirí)."
+    },
+    "step6": {
+      "title": "📚 Do Bhailiúchán",
+      "desc": "Sa chluaisín seo feiceann tú na tíortha go léir atá glactha agat cheana féin agus cé mhéad atá fágtha agat. Is féidir leat cliceáil orthu chun sonraí agus fiosrachtaí a fheiceáil."
+    },
+    "step7": {
+      "title": "🏆 Éachtaí",
+      "desc": "Comhlánaigh ilchríocha, foirm grúpaí de thíortha ar leith (amhail an CPLP nó an tAontas Eorpach) agus bain amach spriocanna chun na héachtaí uathúla seo a dhíghlasáil."
+    },
+    "step8": {
+      "title": "🌍 Réidh le himirt!",
+      "desc": "Anois tá sé suas duit! Ádh mór ar do thuras chun an domhan ar fad a dhíghlasáil, breith amháin ag an am."
+    }
+  }
+}

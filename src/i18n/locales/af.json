@@ -1,0 +1,1154 @@
+{
+  "app": {
+    "title": "WorldDex",
+    "subtitle": "Ontsluit die wêreld, een geboorte op 'n slag."
+  },
+  "header": {
+    "howToPlay": "Hoe om te speel",
+    "aboutData": "Oor die data",
+    "resetProgress": "Stel vordering terug",
+    "privacy": "Privaatheid",
+    "localStorageNotice": "Vordering op hierdie toestel gestoor"
+  },
+  "nav": {
+    "progress": "Vordering",
+    "collection": "Versameling",
+    "history": "Geskiedenis",
+    "achievements": "Prestasies",
+    "settings": "Instellings"
+  },
+  "roll": {
+    "button": "Roll",
+    "rolling": "Aan die rol...",
+    "newCountry": "Nuwe land ontsluit!",
+    "duplicate": "Jy het reeds hierdie land gehad — gaan voort!",
+    "viewOnMap": "Kyk op kaart",
+    "close": "Maak toe",
+    "estimatedChance": "Geskatte kans",
+    "population": "Bevolking",
+    "annualBirths": "Geskatte jaarlikse geboortes",
+    "firstUnlock": "Eerste keer!",
+    "alreadyHave": "Duplikaat",
+    "spacebar": "Press [Space] to roll"
+  },
+  "country": {
+    "population": "Bevolking",
+    "annualBirths": "Geskatte jaarlikse geboortes",
+    "birthChance": "Kans om hier gebore te word",
+    "capital": "Kapitaal",
+    "continent": "Kontinent",
+    "status": {
+      "locked": "Steeds gesluit",
+      "unlocked": "Ontsluit"
+    },
+    "rollCount": "Het {{telling}} tyd verskyn",
+    "rollCount_other": "Het {{count}} keer verskyn",
+    "firstUnlocked": "Ontsluit op {{datum}}",
+    "zoomToCountry": "Sentreer op kaart",
+    "notFound": "Land nie gevind nie",
+    "clickToExplore": "Klik 'n land om te verken"
+  },
+  "progress": {
+    "title": "Vordering",
+    "unlocked": "Ontsluit",
+    "unlockedCount": "{{telling}} / {{totaal}} lande",
+    "percentage": "{{waarde}}% voltooi",
+    "remaining": "{{tel}} lande oor",
+    "totalRolls": "Total Rolls",
+    "duplicates": "Duplikate",
+    "longestStreak": "Beste streep sonder duplikate",
+    "continents": "Vordering volgens kontinent"
+  },
+  "collection": {
+    "title": "Versameling",
+    "search": "Soek land...",
+    "sort": {
+      "label": "Sorteer volgens",
+      "recent": "Onlangs ontsluit",
+      "alphabetical": "Alfabeties",
+      "mostRolled": "Die meeste gerol",
+      "continent": "Kontinent"
+    },
+    "empty": "Jy het nog geen lande ontsluit nie. Gee dit 'n rol!",
+    "noResults": "Geen lande pas by jou soektog nie.",
+    "rolls": "{{telling}} rol",
+    "rolls_other": "{{tel}} rolle",
+    "sortChanceDesc": "Highest Chance",
+    "sortChanceAsc": "Lowest Chance"
+  },
+  "history": {
+    "title": "Geskiedenis",
+    "filter": {
+      "all": "Almal",
+      "new": "Nuut",
+      "duplicates": "Duplikate"
+    },
+    "clearHistory": "Vee geskiedenis uit",
+    "clearConfirmTitle": "Vee geskiedenis uit?",
+    "clearConfirmMessage": "Hierdie handeling kan nie ontdoen word nie. Rolgeskiedenis sal permanent uitgevee word.",
+    "clearConfirm": "Duidelik",
+    "clearCancel": "Kanselleer",
+    "empty": "Jy het nog geen rolle gedoen nie. Begin nou!",
+    "emptyFiltered": "Geen rolle pas by hierdie filter nie.",
+    "new": "Nuut",
+    "duplicate": "Duplikaat",
+    "rollNumber": "Rol #{{nommer}}"
+  },
+  "achievements": {
+    "title": "Prestasies",
+    "locked": "Gesluit",
+    "unlocked": "Ontsluit",
+    "unlockedOn": "Ontsluit op {{datum}}",
+    "progress": "{{huidige}} / {{totaal}}",
+    "newUnlock": "Prestasie ontsluit!",
+    "firstStep": {
+      "name": "Eerste Stap",
+      "description": "Ontsluit jou eerste land."
+    },
+    "explorer": {
+      "name": "Verkenner",
+      "description": "Ontsluit 10 lande."
+    },
+    "traveller": {
+      "name": "Reisiger",
+      "description": "Ontsluit 25 lande."
+    },
+    "cartographer": {
+      "name": "Kartograaf",
+      "description": "Ontsluit 50 lande."
+    },
+    "worldCollector1": {
+      "name": "Wêreldversamelaar I",
+      "description": "Ontsluit 75 lande."
+    },
+    "worldCollector2": {
+      "name": "Wêreldversamelaar II",
+      "description": "Ontsluit 100 lande."
+    },
+    "worldCollector3": {
+      "name": "Wêreldversamelaar III",
+      "description": "Ontsluit 125 lande."
+    },
+    "halfwayThere": {
+      "name": "Halfpad Daar",
+      "description": "Ontsluit 50% van alle lande."
+    },
+    "continentalExplorer": {
+      "name": "Continental Explorer",
+      "description": "Voltooi 'n hele kontinent."
+    },
+    "continentalMaster": {
+      "name": "Kontinentale Meester",
+      "description": "Voltooi drie kontinente."
+    },
+    "aroundTheWorld": {
+      "name": "Regoor die wêreld",
+      "description": "Voltooi alle kontinente."
+    },
+    "worldComplete": {
+      "name": "Wêreld voltooi",
+      "description": "Ontsluit alle lande en gebiede."
+    },
+    "luckyStreak": {
+      "name": "Lucky Streak",
+      "description": "Ontsluit 5 nuwe lande in 'n ry sonder duplikate."
+    },
+    "persistent": {
+      "name": "Aanhoudend",
+      "description": "Doen 100 totale rolle."
+    },
+    "dedicated": {
+      "name": "Toegewyde",
+      "description": "Doen 500 totale rolle."
+    },
+    "home_sweet_home": {
+      "name": "Tuis Sweet Home",
+      "description": "Jy het die land waarin jy tans woon gerol!"
+    },
+    "group_palop": {
+      "name": "PALOP",
+      "description": "Ontsluit alle Portugeessprekende Afrikalande."
+    },
+    "group_brics": {
+      "name": "BRICS",
+      "description": "Ontsluit die hooflande van die BRICS-blok (en nuwe lede)."
+    },
+    "group_eu": {
+      "name": "Europese Unie",
+      "description": "Ontsluit alle lidlande van die Europese Unie."
+    },
+    "group_nato": {
+      "name": "GEBORE",
+      "description": "Ontsluit alle NAVO-lidlande."
+    },
+    "india_500": {
+      "name": "Namaste!",
+      "description": "Draai Indië 500 keer."
+    },
+    "group_g7": {
+      "description": "Ontsluit alle G7-nasies."
+    },
+    "group_mercosul": {
+      "name": "Mercosur",
+      "description": "Ontsluit Mercosur-lidstate."
+    },
+    "group_asean": {
+      "description": "Ontsluit die lande van die Vereniging van Suidoos-Asiatiese Nasies."
+    },
+    "group_opep": {
+      "name": "OPEC",
+      "description": "Ontsluit lede van die Organisasie van Petroleumuitvoerlande."
+    }
+  },
+  "tutorial": {
+    "title": "Hoe om te speel",
+    "step1": "Klik <b></b> om te ontdek in watter land jy gebore kan word.",
+    "step2": "Elke land het 'n geskatte waarskynlikheid gebaseer op sy aandeel van wêreldgeboortes - dit is nie ewe lukraak nie!",
+    "step3": "Wanneer jy 'n land vir die eerste keer ontsluit, word dit op die wêreldkaart gekleur.",
+    "step4": "Klik 'n land op die kaart of in jou versameling om die hoofstad, bevolking en geskatte kans te sien.",
+    "step5": "Voltooi vastelande, verdien prestasies en probeer om die hele wêreld te ontsluit.",
+    "step6": "Jou vordering word net op hierdie toestel gestoor – geen rekeninge, geen nasporing nie.",
+    "previous": "Vorige",
+    "next": "Volgende",
+    "skip": "Slaan tutoriaal oor",
+    "finish": "Begin speel!",
+    "dontShowAgain": "Moenie weer wys nie",
+    "stepOf": "Stap {{huidige}} van {{totaal}}",
+    "restart": "Bekyk tutoriaal",
+    "rollDesc": "Klik op die knoppie om jou geluk te rol en 'n nuwe land te ontdek! (Wenk: Jy kan die [Spasie]-balk op jou sleutelbord gebruik om vinniger te speel en vensters toe te maak).",
+    "collectionDesc": "Hier sien jy die lande wat jy reeds ontsluit het. Jy kan sorteer volgens rariteit, kontinent of datum! Wanneer jy 15 lande van die einde af is, sal jy kan sien watter jy mis.",
+    "achievementsDesc": "Voltooi doelwitte, van die insamel van ekonomiese blokke (soos BRICS of die Europese Unie) tot die rol van Indië 500 keer, om medaljes te wen.",
+    "historyDesc": "Hersien al jou vorige toneelstukke en vind uit hoe lank gelede jy 'n land ontsluit het."
+  },
+  "settings": {
+    "title": "Instellings",
+    "language": "Taal",
+    "languageLabel": "Kies taal",
+    "data": "Data en privaatheid",
+    "exportProgress": "Uitvoervordering",
+    "importProgress": "Voer vordering in",
+    "resetProgress": "Stel vordering terug",
+    "restartTutorial": "Bekyk tutoriaal",
+    "aboutData": "Oor die data",
+    "privacy": "Privaatheid",
+    "searchLanguage": "Search language..."
+  },
+  "modals": {
+    "aboutData": {
+      "title": "Oor die data",
+      "intro": "Geboortewaarskynlikhede is skattings wat bereken word op grond van beskikbare data oor jaarlikse geboortes per land.",
+      "methodology": "Metodologie",
+      "methodologyText": "Die waarskynlikheid om in 'n gegewe land gebore te word, word bereken as die proporsie van daardie land se geskatte jaarlikse geboortes in vergelyking met die wêreldtotaal. Ons gebruik benaderde data van die Wêreldbank en die VN (World Population Prospects). Waardes is skattings en weerspieël dalk nie die mees onlangse statistieke nie.",
+      "sensitivity": "Nota oor politieke sensitiwiteit",
+      "sensitivityText": "Grense, gebiede en landerkenning is polities sensitiewe kwessies. Die insluiting van 'n gebied in hierdie speletjie dien opvoedkundige en geografiese doeleindes en vorm nie 'n politieke standpunt nie. Die data is vereenvoudig vir 'n vermaaklikheidspeletjie.",
+      "updates": "Data-opdaterings",
+      "updatesText": "Demografiese data verander met verloop van tyd. Hierdie projek poog om data redelik bygewerk te hou, maar waarborg nie intydse akkuraatheid nie.",
+      "sources": "Bronne",
+      "sourcesList": [
+        "Wêreldbank — Wêreldontwikkelingsaanwysers",
+        "VN — Wêreldbevolkingsvooruitsigte 2022",
+        "Natural Earth — Geografiese data (publieke domein)",
+        "wêreldatlas (TopoJSON) — Kaartdata"
+      ],
+      "close": "Maak toe"
+    },
+    "privacy": {
+      "title": "Privaatheid en bepalings",
+      "project": "Dit is 'n gratis, nie-kommersiële opvoedkundige en vermaaklikheidsprojek.",
+      "noData": "Geen persoonlike data word ingesamel nie.",
+      "localStorage": "Jou vordering word uitsluitlik in jou toestel se plaaslike berging (localStorage) gestoor. Geen inligting word na bedieners gestuur nie.",
+      "noCookies": "Hierdie speletjie gebruik nie koekies nie. Slegs localStorage word gebruik om jou voorkeure en vordering te stoor.",
+      "noTracking": "Daar is geen ontledings-, dop-, advertensie- of derdepartystelsels nie.",
+      "borders": "Geografiese, demografiese en grensdata is skattings en kan onvolledig of verouderd wees. Hierdie projek neem geen politieke standpunt oor grense, gebiede of staatserkenning in nie.",
+      "license": "Bronkode beskikbaar onder die MIT-lisensie.",
+      "attribution": "Erkennings",
+      "close": "Maak toe"
+    },
+    "reset": {
+      "title": "Stel vordering terug",
+      "message": "Is jy seker? Al jou vordering, versameling, geskiedenis en prestasies sal permanent uitgevee word. Hierdie handeling kan nie ontdoen word nie.",
+      "confirm": "Ja, verwyder alles",
+      "cancel": "Kanselleer"
+    },
+    "importExport": {
+      "title": "Invoer / Uitvoer vordering",
+      "exportTitle": "Uitvoer",
+      "exportDescription": "Voer jou vordering as 'n JSON-lêer uit om te rugsteun of oor te dra na 'n ander toestel.",
+      "exportButton": "Voer JSON-lêer uit",
+      "importTitle": "Invoer",
+      "importDescription": "Voer 'n voorheen uitgevoerde JSON-lêer in. Jou huidige vordering sal vervang word.",
+      "importWarning": "Waarskuwing: jou huidige vordering sal deur die ingevoerde lêer vervang word.",
+      "importButton": "Kies JSON-lêer",
+      "importSuccess": "Vordering suksesvol ingevoer!",
+      "importError": "Ongeldige of korrupte lêer. Maak seker dat die lêer deur hierdie speletjie uitgevoer is.",
+      "close": "Maak toe"
+    }
+  },
+  "continents": {
+    "africa": "Afrika",
+    "asia": "Asië",
+    "europe": "Europa",
+    "northAmerica": "Noord-Amerika",
+    "southAmerica": "Suid-Amerika",
+    "oceania": "Oseanië"
+  },
+  "data": {
+    "estimated": "Geskatte",
+    "source": "Bron",
+    "year": "Data jaar",
+    "approximation": "Hierdie waardes is benaderings."
+  },
+  "errors": {
+    "mapLoad": "Kon nie die kaart laai nie. Probeer om die bladsy te herlaai.",
+    "dataCorrupt": "Gestoorde data is beskadig. Vordering is teruggestel.",
+    "importFailed": "Kon nie die lêer invoer nie.",
+    "unknown": "'n Onverwagte fout het voorgekom."
+  },
+  "accessibility": {
+    "languageSelector": "Kies taal",
+    "flagOf": "Vlag van {{land}}",
+    "rollButton": "Rol — teken 'n ewekansige land",
+    "closeModal": "Maak toe",
+    "mainMap": "Interaktiewe wêreldkaart",
+    "lockedCountry": "{{land}} — gesluit",
+    "unlockedCountry": "{{land}} — ontsluit",
+    "rolledCountry": "{{land}} — het pas gerol",
+    "progressBar": "{{waarde}}% van lande ontsluit",
+    "achievementLocked": "Prestasie gesluit: {{naam}}",
+    "achievementUnlocked": "Prestasie ontsluit: {{naam}}"
+  },
+  "countries": {
+    "AF": {
+      "name": "Afghanistan",
+      "capital": "Kaboel"
+    },
+    "AL": {
+      "name": "Albanië",
+      "capital": "Tirana"
+    },
+    "DZ": {
+      "name": "Algerië",
+      "capital": "Algiers"
+    },
+    "AD": {
+      "name": "Andorra",
+      "capital": "Andorra la Vella"
+    },
+    "AO": {
+      "name": "Angola",
+      "capital": "Luanda"
+    },
+    "AG": {
+      "name": "Antigua en Barbuda",
+      "capital": "St John's"
+    },
+    "AR": {
+      "name": "Argentinië",
+      "capital": "Buenos Aires"
+    },
+    "AM": {
+      "name": "Armenië",
+      "capital": "Jerewan"
+    },
+    "AU": {
+      "name": "Australië",
+      "capital": "Canberra"
+    },
+    "AT": {
+      "name": "Oostenryk",
+      "capital": "Wene"
+    },
+    "AZ": {
+      "name": "Azerbeidjan",
+      "capital": "Bakoe"
+    },
+    "BS": {
+      "name": "Bahamas",
+      "capital": "Nassau"
+    },
+    "BH": {
+      "name": "Bahrein",
+      "capital": "Manama"
+    },
+    "BD": {
+      "name": "Bangladesj",
+      "capital": "Dhaka"
+    },
+    "BB": {
+      "name": "Barbados",
+      "capital": "Bridgetown"
+    },
+    "BY": {
+      "name": "Wit-Rusland",
+      "capital": "Minsk"
+    },
+    "BE": {
+      "name": "België",
+      "capital": "Brussel"
+    },
+    "BZ": {
+      "name": "Belize",
+      "capital": "Belmopan"
+    },
+    "BJ": {
+      "name": "Benin",
+      "capital": "Porto-Novo"
+    },
+    "BT": {
+      "name": "Bhoetan",
+      "capital": "Thimphu"
+    },
+    "BO": {
+      "name": "Bolivia",
+      "capital": "Sucre"
+    },
+    "BA": {
+      "name": "Bosnië en Herzegovina",
+      "capital": "Sarajevo"
+    },
+    "BW": {
+      "name": "Botswana",
+      "capital": "Gaborone"
+    },
+    "BR": {
+      "name": "Brasilië",
+      "capital": "Brasilië"
+    },
+    "BN": {
+      "name": "Brunei",
+      "capital": "Bandar Seri Begawan"
+    },
+    "BG": {
+      "name": "Bulgarye",
+      "capital": "Sofia"
+    },
+    "BF": {
+      "name": "Burkina Faso",
+      "capital": "Ouagadougou"
+    },
+    "BI": {
+      "name": "Burundi",
+      "capital": "Gitega"
+    },
+    "CV": {
+      "name": "Kaap Verde",
+      "capital": "Praia"
+    },
+    "KH": {
+      "name": "Kambodja",
+      "capital": "Phnom Penh"
+    },
+    "CM": {
+      "name": "Kameroen",
+      "capital": "Yaoundé"
+    },
+    "CA": {
+      "name": "Kanada",
+      "capital": "Ottawa"
+    },
+    "CF": {
+      "name": "Sentraal-Afrikaanse Republiek",
+      "capital": "Bangui"
+    },
+    "TD": {
+      "name": "Tsjad",
+      "capital": "N'Djamena"
+    },
+    "CL": {
+      "name": "Chili",
+      "capital": "Santiago"
+    },
+    "CN": {
+      "name": "China",
+      "capital": "Beijing"
+    },
+    "CO": {
+      "name": "Colombia",
+      "capital": "Bogotá"
+    },
+    "KM": {
+      "name": "Comore",
+      "capital": "Moroni"
+    },
+    "CG": {
+      "name": "Kongo",
+      "capital": "Brazzaville"
+    },
+    "CD": {
+      "name": "Demokratiese Republiek van die Kongo",
+      "capital": "Kinshasa"
+    },
+    "CR": {
+      "name": "Costa Rica",
+      "capital": "San José"
+    },
+    "CI": {
+      "name": "Ivoorkus",
+      "capital": "Yamoussoukro"
+    },
+    "HR": {
+      "name": "Kroasië",
+      "capital": "Zagreb"
+    },
+    "CU": {
+      "name": "Kuba",
+      "capital": "Havana"
+    },
+    "CY": {
+      "name": "Ciprus",
+      "capital": "Nicosia"
+    },
+    "CZ": {
+      "name": "Tsjeggiese Republiek",
+      "capital": "Praag"
+    },
+    "DK": {
+      "name": "Denemarke",
+      "capital": "Kopenhagen"
+    },
+    "DJ": {
+      "name": "Djiboeti",
+      "capital": "Djiboeti"
+    },
+    "DM": {
+      "name": "Dominica",
+      "capital": "Roseau"
+    },
+    "DO": {
+      "name": "Dominikaanse Republiek",
+      "capital": "Santo Domingo"
+    },
+    "EC": {
+      "name": "Ecuador",
+      "capital": "Quito"
+    },
+    "EG": {
+      "name": "Egipte",
+      "capital": "Kaïro"
+    },
+    "SV": {
+      "name": "El Salvador",
+      "capital": "San Salvador"
+    },
+    "GQ": {
+      "name": "Ekwatoriaal-Guinee",
+      "capital": "Malabo"
+    },
+    "ER": {
+      "name": "Eritrea",
+      "capital": "Asmara"
+    },
+    "EE": {
+      "name": "Estland",
+      "capital": "Tallinn"
+    },
+    "SZ": {
+      "name": "Eswatini",
+      "capital": "Mbabane"
+    },
+    "ET": {
+      "name": "Ethiopië",
+      "capital": "Addis Abeba"
+    },
+    "FJ": {
+      "name": "Fidji",
+      "capital": "Suva"
+    },
+    "FI": {
+      "name": "Finland",
+      "capital": "Helsinki"
+    },
+    "FR": {
+      "name": "Frankryk",
+      "capital": "Parys"
+    },
+    "GA": {
+      "name": "Gaboen",
+      "capital": "Libreville"
+    },
+    "GM": {
+      "name": "Gambië",
+      "capital": "Banjul"
+    },
+    "GE": {
+      "name": "Georgië",
+      "capital": "Tbilisi"
+    },
+    "DE": {
+      "name": "Duitsland",
+      "capital": "Berlyn"
+    },
+    "GH": {
+      "name": "Ghana",
+      "capital": "Accra"
+    },
+    "GR": {
+      "name": "Griekeland",
+      "capital": "Athene"
+    },
+    "GD": {
+      "name": "Grenada",
+      "capital": "St George's"
+    },
+    "GT": {
+      "name": "Guatemala",
+      "capital": "Guatemala Stad"
+    },
+    "GN": {
+      "name": "Guinee",
+      "capital": "Conakry"
+    },
+    "GW": {
+      "name": "Guinee-Bissau",
+      "capital": "Bissau"
+    },
+    "GY": {
+      "name": "Guyana",
+      "capital": "Georgetown"
+    },
+    "HT": {
+      "name": "Haïti",
+      "capital": "Port-au-Prince"
+    },
+    "HN": {
+      "name": "Honduras",
+      "capital": "Tegucigalpa"
+    },
+    "HU": {
+      "name": "Hongarye",
+      "capital": "Boedapest"
+    },
+    "IS": {
+      "name": "Ysland",
+      "capital": "Reykjavík"
+    },
+    "IN": {
+      "name": "Indië",
+      "capital": "Nieu-Delhi"
+    },
+    "ID": {
+      "name": "Indonesië",
+      "capital": "Jakarta"
+    },
+    "IR": {
+      "name": "Iran",
+      "capital": "Teheran"
+    },
+    "IQ": {
+      "name": "Irak",
+      "capital": "Bagdad"
+    },
+    "IE": {
+      "name": "Ierland",
+      "capital": "Dublin"
+    },
+    "IL": {
+      "name": "Israel",
+      "capital": "Jerusalem"
+    },
+    "IT": {
+      "name": "Italië",
+      "capital": "Rome"
+    },
+    "JM": {
+      "name": "Jamaika",
+      "capital": "Kingston"
+    },
+    "JP": {
+      "name": "Japan",
+      "capital": "Tokio"
+    },
+    "JO": {
+      "name": "Jordaan",
+      "capital": "Amman"
+    },
+    "KZ": {
+      "name": "Kasakstan",
+      "capital": "Astana"
+    },
+    "KE": {
+      "name": "Kenia",
+      "capital": "Nairobi"
+    },
+    "KI": {
+      "name": "Kiribati",
+      "capital": "Suid Tarawa"
+    },
+    "KP": {
+      "name": "Noord-Korea",
+      "capital": "Pjongjang"
+    },
+    "KR": {
+      "name": "Suid-Korea",
+      "capital": "Seoel"
+    },
+    "KW": {
+      "name": "Koeweit",
+      "capital": "Koeweit Stad"
+    },
+    "KG": {
+      "name": "Kirgisië",
+      "capital": "Bisjkek"
+    },
+    "LA": {
+      "name": "Laos",
+      "capital": "Vientiane"
+    },
+    "LV": {
+      "name": "Letland",
+      "capital": "Riga"
+    },
+    "LB": {
+      "name": "Libanon",
+      "capital": "Beiroet"
+    },
+    "LS": {
+      "name": "Lesotho",
+      "capital": "Maseru"
+    },
+    "LR": {
+      "name": "Liberië",
+      "capital": "Monrovia"
+    },
+    "LY": {
+      "name": "Libië",
+      "capital": "Tripoli"
+    },
+    "LI": {
+      "name": "Liechtenstein",
+      "capital": "Vaduz"
+    },
+    "LT": {
+      "name": "Litaue",
+      "capital": "Vilnius"
+    },
+    "LU": {
+      "name": "Luxemburg",
+      "capital": "Luxemburg"
+    },
+    "MG": {
+      "name": "Madagaskar",
+      "capital": "Antananarivo"
+    },
+    "MW": {
+      "name": "Malawi",
+      "capital": "Lilongwe"
+    },
+    "MY": {
+      "name": "Maleisië",
+      "capital": "Kuala Lumpur"
+    },
+    "MV": {
+      "name": "Maldive",
+      "capital": "Malé"
+    },
+    "ML": {
+      "name": "Mali",
+      "capital": "Bamako"
+    },
+    "MT": {
+      "name": "Malta",
+      "capital": "Valletta"
+    },
+    "MH": {
+      "name": "Marshall-eilande",
+      "capital": "Majuro"
+    },
+    "MR": {
+      "name": "Mauritanië",
+      "capital": "Nouakchott"
+    },
+    "MU": {
+      "name": "Mauritius",
+      "capital": "Port Louis"
+    },
+    "MX": {
+      "name": "Mexiko",
+      "capital": "Mexiko Stad"
+    },
+    "FM": {
+      "name": "Mikronesië",
+      "capital": "Palikir"
+    },
+    "MD": {
+      "name": "Moldawië",
+      "capital": "Chisinau"
+    },
+    "MC": {
+      "name": "Monaco",
+      "capital": "Monaco"
+    },
+    "MN": {
+      "name": "Mongolië",
+      "capital": "Ulaanbaatar"
+    },
+    "ME": {
+      "name": "Montenegro",
+      "capital": "Podgorica"
+    },
+    "MA": {
+      "name": "Marokko",
+      "capital": "Rabat"
+    },
+    "MZ": {
+      "name": "Mosambiek",
+      "capital": "Maputo"
+    },
+    "MM": {
+      "name": "Myanmar",
+      "capital": "Naypyidaw"
+    },
+    "NA": {
+      "name": "Namibië",
+      "capital": "Windhoek"
+    },
+    "NR": {
+      "name": "Nauru",
+      "capital": "Yaren"
+    },
+    "NP": {
+      "name": "Nepal",
+      "capital": "Katmandu"
+    },
+    "NL": {
+      "name": "Nederland",
+      "capital": "Amsterdam"
+    },
+    "NZ": {
+      "name": "Nieu-Seeland",
+      "capital": "Wellington"
+    },
+    "NI": {
+      "name": "Nicaragua",
+      "capital": "Managua"
+    },
+    "NE": {
+      "name": "Niger",
+      "capital": "Niamey"
+    },
+    "NG": {
+      "name": "Nigerië",
+      "capital": "Abuja"
+    },
+    "MK": {
+      "name": "Noord-Masedonië",
+      "capital": "Skopje"
+    },
+    "NO": {
+      "name": "Noorweë",
+      "capital": "Oslo"
+    },
+    "OM": {
+      "name": "Oman",
+      "capital": "Muscat"
+    },
+    "PK": {
+      "name": "Pakistan",
+      "capital": "Islamabad"
+    },
+    "PW": {
+      "name": "Palau",
+      "capital": "Ngerulmud"
+    },
+    "PS": {
+      "name": "Palestina",
+      "capital": "Ramallah"
+    },
+    "PA": {
+      "name": "Panama",
+      "capital": "Panama Stad"
+    },
+    "PG": {
+      "name": "Papoea-Nieu-Guinee",
+      "capital": "Port Moresby"
+    },
+    "PY": {
+      "name": "Paraguay",
+      "capital": "Asunción"
+    },
+    "PE": {
+      "name": "Peru",
+      "capital": "Lima"
+    },
+    "PH": {
+      "name": "Filippyne",
+      "capital": "Manila"
+    },
+    "PL": {
+      "name": "Pole",
+      "capital": "Warskou"
+    },
+    "PT": {
+      "name": "Portugal",
+      "capital": "Lissabon"
+    },
+    "QA": {
+      "name": "Katar",
+      "capital": "Doha"
+    },
+    "RO": {
+      "name": "Roemenië",
+      "capital": "Boekarest"
+    },
+    "RU": {
+      "name": "Rusland",
+      "capital": "Moskou"
+    },
+    "RW": {
+      "name": "Rwanda",
+      "capital": "Kigali"
+    },
+    "KN": {
+      "name": "Saint Kitts en Nevis",
+      "capital": "Basseterre"
+    },
+    "LC": {
+      "name": "Saint Lucia",
+      "capital": "Castries"
+    },
+    "VC": {
+      "name": "Saint Vincent en die Grenadines",
+      "capital": "Kingstown"
+    },
+    "WS": {
+      "name": "Samoa",
+      "capital": "Apia"
+    },
+    "SM": {
+      "name": "San Marino",
+      "capital": "San Marino"
+    },
+    "ST": {
+      "name": "São Tomé en Príncipe",
+      "capital": "Sao Tomé"
+    },
+    "SA": {
+      "name": "Saoedi-Arabië",
+      "capital": "Riaad"
+    },
+    "SN": {
+      "name": "Senegal",
+      "capital": "Dakar"
+    },
+    "RS": {
+      "name": "Serwië",
+      "capital": "Belgrado"
+    },
+    "SL": {
+      "name": "Sierra Leone",
+      "capital": "Vrystad"
+    },
+    "SG": {
+      "name": "Singapoer",
+      "capital": "Singapoer"
+    },
+    "SK": {
+      "name": "Slowakye",
+      "capital": "Bratislava"
+    },
+    "SI": {
+      "name": "Slowenië",
+      "capital": "Ljubljana"
+    },
+    "SB": {
+      "name": "Salomonseilande",
+      "capital": "Honiara"
+    },
+    "SO": {
+      "name": "Somalië",
+      "capital": "Mogadishu"
+    },
+    "ZA": {
+      "name": "Suid-Afrika",
+      "capital": "Pretoria"
+    },
+    "SS": {
+      "name": "Suid-Soedan",
+      "capital": "Juba"
+    },
+    "ES": {
+      "name": "Spanje",
+      "capital": "Madrid"
+    },
+    "LK": {
+      "name": "Sri Lanka",
+      "capital": "Colombo"
+    },
+    "SD": {
+      "name": "Soedan",
+      "capital": "Khartoem"
+    },
+    "SR": {
+      "name": "Suriname",
+      "capital": "Paramaribo"
+    },
+    "SE": {
+      "name": "Swede",
+      "capital": "Stockholm"
+    },
+    "CH": {
+      "name": "Switserland",
+      "capital": "Bern"
+    },
+    "SY": {
+      "name": "Sirië",
+      "capital": "Damaskus"
+    },
+    "TW": {
+      "name": "Taiwan",
+      "capital": "Taipei"
+    },
+    "TJ": {
+      "name": "Tadjikistan",
+      "capital": "Dushanbe"
+    },
+    "TZ": {
+      "name": "Tanzanië",
+      "capital": "Dodoma"
+    },
+    "TH": {
+      "name": "Thailand",
+      "capital": "Bangkok"
+    },
+    "TL": {
+      "name": "Oost-Timor",
+      "capital": "Dili"
+    },
+    "TG": {
+      "name": "Togo",
+      "capital": "Lomé"
+    },
+    "TO": {
+      "name": "Tonga",
+      "capital": "Nukuʻalofa"
+    },
+    "TT": {
+      "name": "Trinidad en Tobago",
+      "capital": "Port van Spanje"
+    },
+    "TN": {
+      "name": "Tunisië",
+      "capital": "Tunis"
+    },
+    "TR": {
+      "name": "Turkye",
+      "capital": "Ankara"
+    },
+    "TM": {
+      "name": "Turkmenistan",
+      "capital": "Ashgabat"
+    },
+    "TV": {
+      "name": "Tuvalu",
+      "capital": "Funafuti"
+    },
+    "UG": {
+      "name": "Uganda",
+      "capital": "Kampala"
+    },
+    "UA": {
+      "name": "Oekraïne",
+      "capital": "Kiev"
+    },
+    "AE": {
+      "name": "Verenigde Arabiese Emirate",
+      "capital": "Abu Dhabi"
+    },
+    "GB": {
+      "name": "Verenigde Koninkryk",
+      "capital": "Londen"
+    },
+    "US": {
+      "name": "Verenigde State",
+      "capital": "Washington D.C."
+    },
+    "UY": {
+      "name": "Uruguay",
+      "capital": "Montevideo"
+    },
+    "UZ": {
+      "name": "Oesbekistan",
+      "capital": "Tasjkent"
+    },
+    "VU": {
+      "name": "Vanuatu",
+      "capital": "Port Vila"
+    },
+    "VA": {
+      "name": "Vatikaanstad",
+      "capital": "Vatikaanstad"
+    },
+    "VE": {
+      "name": "Venezuela",
+      "capital": "Caracas"
+    },
+    "VN": {
+      "name": "Viëtnam",
+      "capital": "Hanoi"
+    },
+    "YE": {
+      "name": "Jemen",
+      "capital": "Sanaa"
+    },
+    "ZM": {
+      "name": "Zambië",
+      "capital": "Lusaka"
+    },
+    "ZW": {
+      "name": "Zimbabwe",
+      "capital": "Harare"
+    },
+    "EH": {
+      "name": "Wes-Sahara",
+      "capital": "Laayoune"
+    },
+    "XK": {
+      "name": "Kosovo",
+      "capital": "Pristina"
+    }
+  },
+  "pity": {
+    "title": "Opgehoopte geluk",
+    "guaranteedTitle": "Nuwe land gewaarborg!",
+    "ready": "Die volgende rol gaan magies wees!"
+  },
+  "tour": {
+    "skip": "Slaan Tutoriaal oor",
+    "next": "Volgende ➔",
+    "prev": "⬅ Vorige",
+    "done": "Voltooi ✓",
+    "progress": "Stap {{current}} van {{total}}",
+    "step1": {
+      "title": "👋 Welkom by WorldDex!",
+      "desc": "Hier sal jy alle lande in die wêreld versamel deur middel van trekkings gebaseer op die ware globale geboortesyfer. Kom ons kyk hoe dit werk?"
+    },
+    "step2": {
+      "title": "🎲 Blaai om die wêreld",
+      "desc": "Klik hierdie knoppie (of druk spasie) om te draai. Die waarskynlikheid om op 'n land te land is <b>presies dieselfde as die waarskynlikheid om daar gebore te word</b> in die regte wêreld. Hoe meer geboortes, hoe meer algemeen!"
+    },
+    "step3": {
+      "title": "🗺️ Jou kaart",
+      "desc": "Wanneer jy 'n nuwe land ontsluit, sal dit op die kaart geverf word met die kleur van sy skaarsheid (Algemeen, Ongewoon, Skaars, Epos of Legendaries)."
+    },
+    "step4": {
+      "title": "💖 Jammerstelsel",
+      "desc": "Elke keer as jy 'n duplikaat kry, gaan jou gelukbalk op. Sodra jy die maksimum bereik het, is die volgende draai <b>100% gewaarborg</b> om 'n land te wees wat jy nog nie het nie!"
+    },
+    "step5": {
+      "title": "🛒 Winkel en ekonomie",
+      "desc": "Moenie bekommerd wees oor duplikate nie. Elke herhaalde land gee vir jou <b>munte</b> (na gelang van die rariteit daarvan). Jy kan munte in hierdie winkel gebruik om <b>ontbrekende lande te koop</b> of <b>opgraderings</b> (soos outoklikker of vermenigvuldigers)."
+    },
+    "step6": {
+      "title": "📚 Jou versameling",
+      "desc": "In hierdie oortjie kan jy al die lande sien wat jy reeds geneem het en hoeveel jy oor het. Jy kan op hulle klik om besonderhede en nuuskierigheid te sien."
+    },
+    "step7": {
+      "title": "🏆 Prestasies",
+      "desc": "Voltooi vastelande, vorm groepe van spesifieke lande (soos die CPLP of Europese Unie) en bereik doelwitte om hierdie unieke prestasies te ontsluit."
+    },
+    "step8": {
+      "title": "🌍 Gereed om te speel!",
+      "desc": "Nou is dit aan jou! Sterkte op jou reis om die hele wêreld te ontsluit, een geboorte op 'n slag."
+    }
+  }
+}

@@ -1,0 +1,1154 @@
+{
+  "app": {
+    "title": "WorldDex",
+    "subtitle": "Atveriet pasauli, pa vienai dzimšanai."
+  },
+  "header": {
+    "howToPlay": "Kā spēlēt",
+    "aboutData": "Par Datiem",
+    "resetProgress": "Atiestatīt progresu",
+    "privacy": "Privātums",
+    "localStorageNotice": "Progress saglabāts šajā ierīcē"
+  },
+  "nav": {
+    "progress": "Progress",
+    "collection": "Kolekcija",
+    "history": "Vēsture",
+    "achievements": "Sasniegumi",
+    "settings": "Iestatījumi"
+  },
+  "roll": {
+    "button": "Roll",
+    "rolling": "Ripo...",
+    "newCountry": "Atbloķēta jauna valsts!",
+    "duplicate": "Jums jau bija šī valsts — turpiniet!",
+    "viewOnMap": "Skatīt kartē",
+    "close": "Aizvērt",
+    "estimatedChance": "Paredzamā iespēja",
+    "population": "Iedzīvotāju skaits",
+    "annualBirths": "Paredzamie ikgadējie dzimušie",
+    "firstUnlock": "Pirmo reizi!",
+    "alreadyHave": "Dublikāts",
+    "spacebar": "Press [Space] to roll"
+  },
+  "country": {
+    "population": "Iedzīvotāju skaits",
+    "annualBirths": "Paredzamie ikgadējie dzimušie",
+    "birthChance": "Iespēja piedzimt šeit",
+    "capital": "Kapitāls",
+    "continent": "Kontinents",
+    "status": {
+      "locked": "Joprojām aizslēgts",
+      "unlocked": "Atbloķēts"
+    },
+    "rollCount": "Parādījās {{skaita}} reizi",
+    "rollCount_other": "Parādījās {{skaits}} reizes",
+    "firstUnlocked": "Atbloķēts {{datumā}}",
+    "zoomToCountry": "Centrs kartē",
+    "notFound": "Valsts nav atrasta",
+    "clickToExplore": "Noklikšķiniet uz valsts, lai izpētītu"
+  },
+  "progress": {
+    "title": "Progress",
+    "unlocked": "Atbloķēts",
+    "unlockedCount": "{{skaits}} / {{kopā}} valstis",
+    "percentage": "{{vērtība}}% pabeigta",
+    "remaining": "Atlikušas {{skaits}} valstis",
+    "totalRolls": "Total Rolls",
+    "duplicates": "Dublikāti",
+    "longestStreak": "Labākā sērija bez dublikātiem",
+    "continents": "Progress pa kontinentiem"
+  },
+  "collection": {
+    "title": "Kolekcija",
+    "search": "Meklēt valsti...",
+    "sort": {
+      "label": "Kārtot pēc",
+      "recent": "Nesen atbloķēts",
+      "alphabetical": "Alfabētiskā secībā",
+      "mostRolled": "Lielākā daļa velmētas",
+      "continent": "Kontinents"
+    },
+    "empty": "Jūs vēl neesat atbloķējis nevienu valsti. Dodiet tai Roll!",
+    "noResults": "Neviena valsts neatbilst jūsu meklēšanas vaicājumam.",
+    "rolls": "{{count}} rullis",
+    "rolls_other": "{{skaitīt}} ruļļus",
+    "sortChanceDesc": "Highest Chance",
+    "sortChanceAsc": "Lowest Chance"
+  },
+  "history": {
+    "title": "Vēsture",
+    "filter": {
+      "all": "Visi",
+      "new": "Jauns",
+      "duplicates": "Dublikāti"
+    },
+    "clearHistory": "Notīrīt vēsturi",
+    "clearConfirmTitle": "Vai dzēst vēsturi?",
+    "clearConfirmMessage": "Šo darbību nevar atsaukt. Rokas vēsture tiks neatgriezeniski dzēsta.",
+    "clearConfirm": "Skaidrs",
+    "clearCancel": "Atcelt",
+    "empty": "Jūs vēl neesat veicis nevienu ruļļu. Sāciet tūlīt!",
+    "emptyFiltered": "Šim filtram neatbilst neviens ruļlis.",
+    "new": "Jauns",
+    "duplicate": "Dublikāts",
+    "rollNumber": "Ruļļa #{{numurs}}"
+  },
+  "achievements": {
+    "title": "Sasniegumi",
+    "locked": "Bloķēts",
+    "unlocked": "Atbloķēts",
+    "unlockedOn": "Atbloķēts {{datumā}}",
+    "progress": "{{pašreizējais}} / {{kopā}}",
+    "newUnlock": "Sasniegums ir atbloķēts!",
+    "firstStep": {
+      "name": "Pirmais solis",
+      "description": "Atbloķējiet savu pirmo valsti."
+    },
+    "explorer": {
+      "name": "Explorer",
+      "description": "Atbloķējiet 10 valstis."
+    },
+    "traveller": {
+      "name": "Ceļotājs",
+      "description": "Atbloķējiet 25 valstis."
+    },
+    "cartographer": {
+      "name": "Kartogrāfs",
+      "description": "Atbloķējiet 50 valstis."
+    },
+    "worldCollector1": {
+      "name": "Pasaules kolekcionārs I",
+      "description": "Atbloķējiet 75 valstis."
+    },
+    "worldCollector2": {
+      "name": "Pasaules kolekcionārs II",
+      "description": "Atbloķējiet 100 valstis."
+    },
+    "worldCollector3": {
+      "name": "Pasaules kolekcionārs III",
+      "description": "Atbloķējiet 125 valstis."
+    },
+    "halfwayThere": {
+      "name": "Pusceļā Tur",
+      "description": "Atbloķējiet 50% no visām valstīm."
+    },
+    "continentalExplorer": {
+      "name": "Kontinentālais pētnieks",
+      "description": "Pabeigt visu kontinentu."
+    },
+    "continentalMaster": {
+      "name": "Kontinentālais meistars",
+      "description": "Pabeigt trīs kontinentus."
+    },
+    "aroundTheWorld": {
+      "name": "Visapkārt pasaulei",
+      "description": "Pabeigt visus kontinentus."
+    },
+    "worldComplete": {
+      "name": "Pabeigta pasaule",
+      "description": "Atbloķējiet visas valstis un teritorijas."
+    },
+    "luckyStreak": {
+      "name": "Laimīgā sērija",
+      "description": "Atbloķējiet 5 jaunas valstis pēc kārtas bez dublikātiem."
+    },
+    "persistent": {
+      "name": "Noturīgs",
+      "description": "Kopā veiciet 100 ruļļus."
+    },
+    "dedicated": {
+      "name": "Veltīts",
+      "description": "Kopā veiciet 500 ruļļus."
+    },
+    "home_sweet_home": {
+      "name": "Mājas Sweet Home",
+      "description": "Jūs esat izvēlējies valsti, kurā pašlaik dzīvojat!"
+    },
+    "group_palop": {
+      "name": "PALOP",
+      "description": "Atbloķē visas portugāļu valodā runājošās Āfrikas valstis."
+    },
+    "group_brics": {
+      "name": "BRICS",
+      "description": "Atbloķē galvenās BRICS bloka valstis (un jaunus dalībniekus)."
+    },
+    "group_eu": {
+      "name": "Eiropas Savienība",
+      "description": "Atbloķē visas Eiropas Savienības dalībvalstis."
+    },
+    "group_nato": {
+      "name": "dzimusi",
+      "description": "Atbloķē visas NATO dalībvalstis."
+    },
+    "india_500": {
+      "name": "Namaste!",
+      "description": "Pagrieziet Indiju 500 reizes."
+    },
+    "group_g7": {
+      "description": "Atbloķē visas G7 valstis."
+    },
+    "group_mercosul": {
+      "name": "Mercosur",
+      "description": "Atbloķē Mercosur dalībvalstis."
+    },
+    "group_asean": {
+      "description": "Atbloķē Dienvidaustrumāzijas valstu asociācijas valstis."
+    },
+    "group_opep": {
+      "name": "OPEC",
+      "description": "Atbloķē Naftas eksportētājvalstu organizācijas biedrus."
+    }
+  },
+  "tutorial": {
+    "title": "Kā spēlēt",
+    "step1": "Noklikšķiniet uz <b></b>, lai uzzinātu, kurā valstī jūs varētu būt dzimis.",
+    "step2": "Katrai valstij ir aplēsta varbūtība, pamatojoties uz tās globālo dzimstības īpatsvaru — tā nav vienlīdz nejauša!",
+    "step3": "Pirmo reizi atbloķējot valsti, tā tiek iekrāsota pasaules kartē.",
+    "step4": "Noklikšķiniet uz valsts kartē vai savā kolekcijā, lai redzētu galvaspilsētu, iedzīvotājus un aptuveno iespēju.",
+    "step5": "Pabeidziet kontinentus, nopelniet sasniegumus un mēģiniet atbloķēt visu pasauli.",
+    "step6": "Jūsu progress tiek saglabāts tikai šajā ierīcē — bez kontiem, bez izsekošanas.",
+    "previous": "Iepriekšējais",
+    "next": "Tālāk",
+    "skip": "Izlaist apmācību",
+    "finish": "Sāc spēlēt!",
+    "dontShowAgain": "Nerādīt vēlreiz",
+    "stepOf": "{{pašreizējais}} solis no {{kopējā}}",
+    "restart": "Skatīt pamācību",
+    "rollDesc": "Noklikšķiniet uz pogas, lai gūtu veiksmi un atklātu jaunu valsti! (Padoms. Varat izmantot tastatūras taustiņu [Space], lai atskaņotu ātrāk un aizvērtu logus).",
+    "collectionDesc": "Šeit ir redzamas valstis, kuras jau esat atbloķējis. Varat kārtot pēc retuma, kontinenta vai datuma! Kad esat 15 valstu attālumā no beigām, varēsiet redzēt, kuras valstis jums trūkst.",
+    "achievementsDesc": "Pilnīgi mērķi, sākot no ekonomisko bloku savākšanas (piemēram, BRICS vai Eiropas Savienības) līdz Indijas 500 reižu ripināšanai, lai izcīnītu medaļas.",
+    "historyDesc": "Pārskatiet visas savas iepriekšējās atskaņošanas iespējas un uzziniet, cik sen jūs atbloķējāt valsti."
+  },
+  "settings": {
+    "title": "Iestatījumi",
+    "language": "Valoda",
+    "languageLabel": "Izvēlieties valodu",
+    "data": "Dati un privātums",
+    "exportProgress": "Eksporta progress",
+    "importProgress": "Importēšanas progress",
+    "resetProgress": "Atiestatīt progresu",
+    "restartTutorial": "Skatīt pamācību",
+    "aboutData": "Par datiem",
+    "privacy": "Privātums",
+    "searchLanguage": "Search language..."
+  },
+  "modals": {
+    "aboutData": {
+      "title": "Par Datiem",
+      "intro": "Dzimšanas varbūtības ir aprēķini, kas aprēķināti, pamatojoties uz pieejamajiem datiem par katru gadu dzimušo skaitu katrā valstī.",
+      "methodology": "Metodoloģija",
+      "methodologyText": "Varbūtība piedzimt noteiktā valstī tiek aprēķināta kā šīs valsts aplēstā ikgadējā dzimušo skaita attiecība pret pasaules kopējo skaitu. Mēs izmantojam aptuvenos Pasaules Bankas un ANO (Pasaules iedzīvotāju perspektīvas) datus. Vērtības ir aptuvenas un var neatspoguļot jaunāko statistiku.",
+      "sensitivity": "Piezīme par politisko jūtīgumu",
+      "sensitivityText": "Robežas, teritorijas un valsts atzīšana ir politiski jutīgi jautājumi. Teritorijas iekļaušana šajā spēlē kalpo izglītojošiem un ģeogrāfiskiem mērķiem, un tā nav politiska nostāja. Izklaides spēlei dati ir vienkāršoti.",
+      "updates": "Datu atjauninājumi",
+      "updatesText": "Demogrāfiskie dati laika gaitā mainās. Šī projekta mērķis ir regulāri atjaunināt datus, taču tas negarantē reāllaika precizitāti.",
+      "sources": "Avoti",
+      "sourcesList": [
+        "Pasaules Banka — Pasaules attīstības rādītāji",
+        "ANO — Pasaules iedzīvotāju perspektīvas 2022. gadam",
+        "Dabiskā zeme — ģeogrāfiskie dati (publisks īpašums)",
+        "pasaules atlants (TopoJSON) — kartes dati"
+      ],
+      "close": "Aizvērt"
+    },
+    "privacy": {
+      "title": "Privātums un noteikumi",
+      "project": "Šis ir bezmaksas, nekomerciāls izglītības un izklaides projekts.",
+      "noData": "Personas dati netiek vākti.",
+      "localStorage": "Jūsu progress tiek saglabāts tikai jūsu ierīces lokālajā atmiņā (localStorage). Uz serveriem informācija netiek nosūtīta.",
+      "noCookies": "Šī spēle neizmanto sīkfailus. Lai saglabātu preferences un progresu, tiek izmantota tikai vietējā krātuve.",
+      "noTracking": "Nav analītikas, izsekošanas, reklāmas vai trešo pušu sistēmu.",
+      "borders": "Ģeogrāfiskie, demogrāfiskie un robežu dati ir aptuveni un var būt nepilnīgi vai novecojuši. Šim projektam nav politiskas nostājas par robežām, teritorijām vai valsts atzīšanu.",
+      "license": "Avota kods pieejams saskaņā ar MIT licenci.",
+      "attribution": "Attiecinājumi",
+      "close": "Aizvērt"
+    },
+    "reset": {
+      "title": "Atiestatīt progresu",
+      "message": "Vai esat pārliecināts? Visi jūsu panākumi, kolekcija, vēsture un sasniegumi tiks neatgriezeniski izdzēsti. Šo darbību nevar atsaukt.",
+      "confirm": "Jā, dzēst visu",
+      "cancel": "Atcelt"
+    },
+    "importExport": {
+      "title": "Importa/eksporta gaita",
+      "exportTitle": "Eksportēt",
+      "exportDescription": "Eksportējiet savu progresu kā JSON failu, lai dublētu vai pārsūtītu uz citu ierīci.",
+      "exportButton": "Eksportējiet JSON failu",
+      "importTitle": "Importēt",
+      "importDescription": "Importējiet iepriekš eksportētu JSON failu. Jūsu pašreizējais progress tiks aizstāts.",
+      "importWarning": "Brīdinājums: jūsu pašreizējais progress tiks aizstāts ar importēto failu.",
+      "importButton": "Atlasiet JSON failu",
+      "importSuccess": "Progress veiksmīgi importēts!",
+      "importError": "Nederīgs vai bojāts fails. Pārliecinieties, vai šī spēle ir eksportējusi failu.",
+      "close": "Aizvērt"
+    }
+  },
+  "continents": {
+    "africa": "Āfrika",
+    "asia": "Āzija",
+    "europe": "Eiropā",
+    "northAmerica": "Ziemeļamerika",
+    "southAmerica": "Dienvidamerika",
+    "oceania": "Okeānija"
+  },
+  "data": {
+    "estimated": "Aptuvenais",
+    "source": "Avots",
+    "year": "Datu gads",
+    "approximation": "Šīs vērtības ir aptuvenas."
+  },
+  "errors": {
+    "mapLoad": "Nevarēja ielādēt karti. Mēģiniet atkārtoti ielādēt lapu.",
+    "dataCorrupt": "Saglabātie dati ir bojāti. Progress ir atiestatīts.",
+    "importFailed": "Nevarēja importēt failu.",
+    "unknown": "Radās neparedzēta kļūda."
+  },
+  "accessibility": {
+    "languageSelector": "Izvēlieties valodu",
+    "flagOf": "{{valsts}} karogs",
+    "rollButton": "Ritināt — uzzīmējiet nejaušu valsti",
+    "closeModal": "Aizvērt",
+    "mainMap": "Interaktīvā pasaules karte",
+    "lockedCountry": "{{valsts}} — bloķēta",
+    "unlockedCountry": "{{valsts}} — atbloķēta",
+    "rolledCountry": "{{valsts}} — tikko rullēts",
+    "progressBar": "{{vērtība}}% valstu ir atbloķētas",
+    "achievementLocked": "Sasniegums ir bloķēts: {{vārds}}",
+    "achievementUnlocked": "Atbloķēts sasniegums: {{vārds}}"
+  },
+  "countries": {
+    "AF": {
+      "name": "Afganistāna",
+      "capital": "Kabula"
+    },
+    "AL": {
+      "name": "Albānija",
+      "capital": "Tirāna"
+    },
+    "DZ": {
+      "name": "Alžīrija",
+      "capital": "Alžīra"
+    },
+    "AD": {
+      "name": "Andora",
+      "capital": "Andora la Velja"
+    },
+    "AO": {
+      "name": "Angola",
+      "capital": "Luanda"
+    },
+    "AG": {
+      "name": "Antigva un Barbuda",
+      "capital": "Jāņi"
+    },
+    "AR": {
+      "name": "Argentīna",
+      "capital": "Buenosairesa"
+    },
+    "AM": {
+      "name": "Armēnija",
+      "capital": "Erevāna"
+    },
+    "AU": {
+      "name": "Austrālija",
+      "capital": "Kanbera"
+    },
+    "AT": {
+      "name": "Austrija",
+      "capital": "Vīne"
+    },
+    "AZ": {
+      "name": "Azerbaidžāna",
+      "capital": "Baku"
+    },
+    "BS": {
+      "name": "Bahamu salas",
+      "capital": "Nassau"
+    },
+    "BH": {
+      "name": "Bahreina",
+      "capital": "Manama"
+    },
+    "BD": {
+      "name": "Bangladeša",
+      "capital": "Daka"
+    },
+    "BB": {
+      "name": "Barbadosa",
+      "capital": "Bridžtauna"
+    },
+    "BY": {
+      "name": "Baltkrievija",
+      "capital": "Minska"
+    },
+    "BE": {
+      "name": "Beļģija",
+      "capital": "Brisele"
+    },
+    "BZ": {
+      "name": "Beliza",
+      "capital": "Belmopans"
+    },
+    "BJ": {
+      "name": "Benina",
+      "capital": "Porto-Novo"
+    },
+    "BT": {
+      "name": "Butāna",
+      "capital": "Timpu"
+    },
+    "BO": {
+      "name": "Bolīvija",
+      "capital": "Sucre"
+    },
+    "BA": {
+      "name": "Bosnija un Hercegovina",
+      "capital": "Sarajeva"
+    },
+    "BW": {
+      "name": "Botsvāna",
+      "capital": "Gaborone"
+    },
+    "BR": {
+      "name": "Brazīlija",
+      "capital": "Brazīlija"
+    },
+    "BN": {
+      "name": "Bruneja",
+      "capital": "Bandar Seri Begawan"
+    },
+    "BG": {
+      "name": "Bulgārija",
+      "capital": "Sofija"
+    },
+    "BF": {
+      "name": "Burkinafaso",
+      "capital": "Vagadugu"
+    },
+    "BI": {
+      "name": "Burundi",
+      "capital": "Gitega"
+    },
+    "CV": {
+      "name": "Kaboverde",
+      "capital": "Praia"
+    },
+    "KH": {
+      "name": "Kambodža",
+      "capital": "Pnompeņa"
+    },
+    "CM": {
+      "name": "Kamerūna",
+      "capital": "Jaundē"
+    },
+    "CA": {
+      "name": "Kanāda",
+      "capital": "Otava"
+    },
+    "CF": {
+      "name": "Centrālāfrikas Republika",
+      "capital": "Bangi"
+    },
+    "TD": {
+      "name": "Čada",
+      "capital": "Ndžamena"
+    },
+    "CL": {
+      "name": "Čīle",
+      "capital": "Santjago"
+    },
+    "CN": {
+      "name": "Ķīna",
+      "capital": "Pekina"
+    },
+    "CO": {
+      "name": "Kolumbija",
+      "capital": "Bogota"
+    },
+    "KM": {
+      "name": "Komoru salas",
+      "capital": "Moronijs"
+    },
+    "CG": {
+      "name": "Kongo",
+      "capital": "Brazavila"
+    },
+    "CD": {
+      "name": "Kongo Demokrātiskā Republika",
+      "capital": "Kinšasa"
+    },
+    "CR": {
+      "name": "Kostarika",
+      "capital": "Sanhosē"
+    },
+    "CI": {
+      "name": "Kotdivuāra",
+      "capital": "Jamusukro"
+    },
+    "HR": {
+      "name": "Horvātija",
+      "capital": "Zagreba"
+    },
+    "CU": {
+      "name": "Kuba",
+      "capital": "Havana"
+    },
+    "CY": {
+      "name": "Kipra",
+      "capital": "Nikosija"
+    },
+    "CZ": {
+      "name": "Čehijas Republika",
+      "capital": "Prāga"
+    },
+    "DK": {
+      "name": "Dānija",
+      "capital": "Kopenhāgena"
+    },
+    "DJ": {
+      "name": "Džibutija",
+      "capital": "Džibutija"
+    },
+    "DM": {
+      "name": "Dominika",
+      "capital": "Roseau"
+    },
+    "DO": {
+      "name": "Dominikānas Republika",
+      "capital": "Santodomingo"
+    },
+    "EC": {
+      "name": "Ekvadora",
+      "capital": "Kito"
+    },
+    "EG": {
+      "name": "Ēģipte",
+      "capital": "Kaira"
+    },
+    "SV": {
+      "name": "Salvadora",
+      "capital": "Sansalvadora"
+    },
+    "GQ": {
+      "name": "Ekvatoriālā Gvineja",
+      "capital": "Malabo"
+    },
+    "ER": {
+      "name": "Eritreja",
+      "capital": "Asmara"
+    },
+    "EE": {
+      "name": "Igaunija",
+      "capital": "Tallina"
+    },
+    "SZ": {
+      "name": "Esvatīni",
+      "capital": "Mbabane"
+    },
+    "ET": {
+      "name": "Etiopija",
+      "capital": "Adisabeba"
+    },
+    "FJ": {
+      "name": "Fidži",
+      "capital": "Suva"
+    },
+    "FI": {
+      "name": "Somija",
+      "capital": "Helsinki"
+    },
+    "FR": {
+      "name": "Francija",
+      "capital": "Parīze"
+    },
+    "GA": {
+      "name": "Gabona",
+      "capital": "Librevila"
+    },
+    "GM": {
+      "name": "Gambija",
+      "capital": "Bandžula"
+    },
+    "GE": {
+      "name": "Gruzija",
+      "capital": "Tbilisi"
+    },
+    "DE": {
+      "name": "Vācija",
+      "capital": "Berlīne"
+    },
+    "GH": {
+      "name": "Gana",
+      "capital": "Akra"
+    },
+    "GR": {
+      "name": "Grieķija",
+      "capital": "Atēnas"
+    },
+    "GD": {
+      "name": "Grenāda",
+      "capital": "Svētā Jura"
+    },
+    "GT": {
+      "name": "Gvatemala",
+      "capital": "Gvatemalas pilsēta"
+    },
+    "GN": {
+      "name": "Gvineja",
+      "capital": "Konakri"
+    },
+    "GW": {
+      "name": "Gvineja-Bisava",
+      "capital": "Bisava"
+    },
+    "GY": {
+      "name": "Gajāna",
+      "capital": "Džordžtauna"
+    },
+    "HT": {
+      "name": "Haiti",
+      "capital": "Portoprensa"
+    },
+    "HN": {
+      "name": "Hondurasa",
+      "capital": "Tegusigalpa"
+    },
+    "HU": {
+      "name": "Ungārija",
+      "capital": "Budapešta"
+    },
+    "IS": {
+      "name": "Islande",
+      "capital": "Reikjavīka"
+    },
+    "IN": {
+      "name": "Indija",
+      "capital": "Ņūdeli"
+    },
+    "ID": {
+      "name": "Indonēzija",
+      "capital": "Džakarta"
+    },
+    "IR": {
+      "name": "Irāna",
+      "capital": "Teherāna"
+    },
+    "IQ": {
+      "name": "Irāka",
+      "capital": "Bagdāde"
+    },
+    "IE": {
+      "name": "Īrija",
+      "capital": "Dublina"
+    },
+    "IL": {
+      "name": "Izraēla",
+      "capital": "Jeruzaleme"
+    },
+    "IT": {
+      "name": "Itālija",
+      "capital": "Roma"
+    },
+    "JM": {
+      "name": "Jamaika",
+      "capital": "Kingstona"
+    },
+    "JP": {
+      "name": "Japāna",
+      "capital": "Tokija"
+    },
+    "JO": {
+      "name": "Jordānija",
+      "capital": "Ammāna"
+    },
+    "KZ": {
+      "name": "Kazahstāna",
+      "capital": "Astana"
+    },
+    "KE": {
+      "name": "Kenija",
+      "capital": "Nairobi"
+    },
+    "KI": {
+      "name": "Kiribati",
+      "capital": "Dienvidu Tarava"
+    },
+    "KP": {
+      "name": "Ziemeļkoreja",
+      "capital": "Phenjana"
+    },
+    "KR": {
+      "name": "Dienvidkoreja",
+      "capital": "Seula"
+    },
+    "KW": {
+      "name": "Kuveita",
+      "capital": "Kuveitas pilsēta"
+    },
+    "KG": {
+      "name": "Kirgizstāna",
+      "capital": "Biškeka"
+    },
+    "LA": {
+      "name": "Laosa",
+      "capital": "Vientiāna"
+    },
+    "LV": {
+      "name": "Latvija",
+      "capital": "Rīga"
+    },
+    "LB": {
+      "name": "Libāna",
+      "capital": "Beirūta"
+    },
+    "LS": {
+      "name": "Lesoto",
+      "capital": "Maseru"
+    },
+    "LR": {
+      "name": "Libērija",
+      "capital": "Monrovija"
+    },
+    "LY": {
+      "name": "Lībija",
+      "capital": "Tripole"
+    },
+    "LI": {
+      "name": "Lihtenšteina",
+      "capital": "Vaduca"
+    },
+    "LT": {
+      "name": "Lietuva",
+      "capital": "Viļņa"
+    },
+    "LU": {
+      "name": "Luksemburga",
+      "capital": "Luksemburga"
+    },
+    "MG": {
+      "name": "Madagaskara",
+      "capital": "Antananarivo"
+    },
+    "MW": {
+      "name": "Malāvija",
+      "capital": "Lilongve"
+    },
+    "MY": {
+      "name": "Malaizija",
+      "capital": "Kualalumpura"
+    },
+    "MV": {
+      "name": "Maldīvija",
+      "capital": "Malē"
+    },
+    "ML": {
+      "name": "Mali",
+      "capital": "Bamako"
+    },
+    "MT": {
+      "name": "Malta",
+      "capital": "Valleta"
+    },
+    "MH": {
+      "name": "Māršala salas",
+      "capital": "Majuro"
+    },
+    "MR": {
+      "name": "Mauritānija",
+      "capital": "Nuakšota"
+    },
+    "MU": {
+      "name": "Maurīcija",
+      "capital": "Portluisa"
+    },
+    "MX": {
+      "name": "Meksika",
+      "capital": "Mehiko"
+    },
+    "FM": {
+      "name": "Mikronēzija",
+      "capital": "Palikir"
+    },
+    "MD": {
+      "name": "Moldova",
+      "capital": "Kišiņeva"
+    },
+    "MC": {
+      "name": "Monako",
+      "capital": "Monako"
+    },
+    "MN": {
+      "name": "Mongolija",
+      "capital": "Ulanbatora"
+    },
+    "ME": {
+      "name": "Melnkalne",
+      "capital": "Podgorica"
+    },
+    "MA": {
+      "name": "Maroka",
+      "capital": "Rabāta"
+    },
+    "MZ": {
+      "name": "Mozambika",
+      "capital": "Maputu"
+    },
+    "MM": {
+      "name": "Mjanma",
+      "capital": "Naypyidaw"
+    },
+    "NA": {
+      "name": "Namībija",
+      "capital": "Vindhuka"
+    },
+    "NR": {
+      "name": "Nauru",
+      "capital": "Jarēns"
+    },
+    "NP": {
+      "name": "Nepāla",
+      "capital": "Katmandu"
+    },
+    "NL": {
+      "name": "Nīderlande",
+      "capital": "Amsterdama"
+    },
+    "NZ": {
+      "name": "Jaunzēlande",
+      "capital": "Velingtona"
+    },
+    "NI": {
+      "name": "Nikaragva",
+      "capital": "Managva"
+    },
+    "NE": {
+      "name": "Nigēra",
+      "capital": "Niameja"
+    },
+    "NG": {
+      "name": "Nigērija",
+      "capital": "Abudža"
+    },
+    "MK": {
+      "name": "Ziemeļmaķedonija",
+      "capital": "Skopje"
+    },
+    "NO": {
+      "name": "Norvēģija",
+      "capital": "Oslo"
+    },
+    "OM": {
+      "name": "Omāna",
+      "capital": "Maskata"
+    },
+    "PK": {
+      "name": "Pakistāna",
+      "capital": "Islamabāda"
+    },
+    "PW": {
+      "name": "Palau",
+      "capital": "Ngerulmuds"
+    },
+    "PS": {
+      "name": "Palestīna",
+      "capital": "Ramallah"
+    },
+    "PA": {
+      "name": "Panama",
+      "capital": "Panamas pilsēta"
+    },
+    "PG": {
+      "name": "Papua-Jaungvineja",
+      "capital": "Portmorsbija"
+    },
+    "PY": {
+      "name": "Paragvaja",
+      "capital": "Asunsjona"
+    },
+    "PE": {
+      "name": "Peru",
+      "capital": "Lima"
+    },
+    "PH": {
+      "name": "Filipīnas",
+      "capital": "Manila"
+    },
+    "PL": {
+      "name": "Polija",
+      "capital": "Varšava"
+    },
+    "PT": {
+      "name": "Portugāle",
+      "capital": "Lisabona"
+    },
+    "QA": {
+      "name": "Katara",
+      "capital": "Doha"
+    },
+    "RO": {
+      "name": "Rumānija",
+      "capital": "Bukareste"
+    },
+    "RU": {
+      "name": "Krievija",
+      "capital": "Maskava"
+    },
+    "RW": {
+      "name": "Ruanda",
+      "capital": "Kigali"
+    },
+    "KN": {
+      "name": "Sentkitsa un Nevisa",
+      "capital": "Basseterre"
+    },
+    "LC": {
+      "name": "Sentlūsija",
+      "capital": "Castries"
+    },
+    "VC": {
+      "name": "Sentvinsenta un Grenadīnas",
+      "capital": "Kingstauna"
+    },
+    "WS": {
+      "name": "Samoa",
+      "capital": "Apia"
+    },
+    "SM": {
+      "name": "Sanmarīno",
+      "capital": "Sanmarīno"
+    },
+    "ST": {
+      "name": "Santome un Prinsipi",
+      "capital": "Santome"
+    },
+    "SA": {
+      "name": "Saūda Arābija",
+      "capital": "Rijāda"
+    },
+    "SN": {
+      "name": "Senegāla",
+      "capital": "Dakāra"
+    },
+    "RS": {
+      "name": "Serbija",
+      "capital": "Belgrada"
+    },
+    "SL": {
+      "name": "Sjerraleone",
+      "capital": "Frītauna"
+    },
+    "SG": {
+      "name": "Singapūra",
+      "capital": "Singapūra"
+    },
+    "SK": {
+      "name": "Slovākija",
+      "capital": "Bratislava"
+    },
+    "SI": {
+      "name": "Slovēnija",
+      "capital": "Ļubļana"
+    },
+    "SB": {
+      "name": "Zālamana salas",
+      "capital": "Honiara"
+    },
+    "SO": {
+      "name": "Somālija",
+      "capital": "Mogadiša"
+    },
+    "ZA": {
+      "name": "Dienvidāfrika",
+      "capital": "Pretorija"
+    },
+    "SS": {
+      "name": "Dienvidsudāna",
+      "capital": "Džuba"
+    },
+    "ES": {
+      "name": "Spānija",
+      "capital": "Madride"
+    },
+    "LK": {
+      "name": "Šrilanka",
+      "capital": "Kolombo"
+    },
+    "SD": {
+      "name": "Sudāna",
+      "capital": "Hartūma"
+    },
+    "SR": {
+      "name": "Surinama",
+      "capital": "Paramaribo"
+    },
+    "SE": {
+      "name": "Zviedrija",
+      "capital": "Stokholma"
+    },
+    "CH": {
+      "name": "Šveice",
+      "capital": "Berne"
+    },
+    "SY": {
+      "name": "Sīrija",
+      "capital": "Damaska"
+    },
+    "TW": {
+      "name": "Taivāna",
+      "capital": "Taipeja"
+    },
+    "TJ": {
+      "name": "Tadžikistāna",
+      "capital": "Dušanbe"
+    },
+    "TZ": {
+      "name": "Tanzānija",
+      "capital": "Dodoma"
+    },
+    "TH": {
+      "name": "Taizeme",
+      "capital": "Bangkoka"
+    },
+    "TL": {
+      "name": "Austrumtimora",
+      "capital": "Dili"
+    },
+    "TG": {
+      "name": "Togo",
+      "capital": "Lomē"
+    },
+    "TO": {
+      "name": "Tonga",
+      "capital": "Nukuʻalofa"
+    },
+    "TT": {
+      "name": "Trinidāda un Tobāgo",
+      "capital": "Spānijas osta"
+    },
+    "TN": {
+      "name": "Tunisija",
+      "capital": "Tunisa"
+    },
+    "TR": {
+      "name": "Turcija",
+      "capital": "Ankara"
+    },
+    "TM": {
+      "name": "Turkmenistāna",
+      "capital": "Ašhabada"
+    },
+    "TV": {
+      "name": "Tuvalu",
+      "capital": "Funafuti"
+    },
+    "UG": {
+      "name": "Uganda",
+      "capital": "Kampala"
+    },
+    "UA": {
+      "name": "Ukraina",
+      "capital": "Kijeva"
+    },
+    "AE": {
+      "name": "Apvienotie Arābu Emirāti",
+      "capital": "Abū Dabī"
+    },
+    "GB": {
+      "name": "Apvienotā Karaliste",
+      "capital": "Londona"
+    },
+    "US": {
+      "name": "Amerikas Savienotās Valstis",
+      "capital": "Vašingtona D.C."
+    },
+    "UY": {
+      "name": "Urugvaja",
+      "capital": "Montevideo"
+    },
+    "UZ": {
+      "name": "Uzbekistāna",
+      "capital": "Taškenta"
+    },
+    "VU": {
+      "name": "Vanuatu",
+      "capital": "Port Vila"
+    },
+    "VA": {
+      "name": "Vatikāns",
+      "capital": "Vatikāns"
+    },
+    "VE": {
+      "name": "Venecuēla",
+      "capital": "Karakasa"
+    },
+    "VN": {
+      "name": "Vjetnama",
+      "capital": "Hanoja"
+    },
+    "YE": {
+      "name": "Jemena",
+      "capital": "Sanaa"
+    },
+    "ZM": {
+      "name": "Zambija",
+      "capital": "Lusaka"
+    },
+    "ZW": {
+      "name": "Zimbabve",
+      "capital": "Harare"
+    },
+    "EH": {
+      "name": "Rietumsahāra",
+      "capital": "Laayoune"
+    },
+    "XK": {
+      "name": "Kosova",
+      "capital": "Priština"
+    }
+  },
+  "pity": {
+    "title": "Uzkrātā veiksme",
+    "guaranteedTitle": "Jauna valsts garantēta!",
+    "ready": "Nākamais rullis būs maģisks!"
+  },
+  "tour": {
+    "skip": "Pular Tutorial",
+    "next": "Nākamais ➔",
+    "prev": "⬅ Iepriekšējais",
+    "done": "Pabeigt ✓",
+    "progress": "{{current}}. darbība no {{total}}",
+    "step1": {
+      "title": "👋 Laipni lūdzam WorldDex!",
+      "desc": "Šeit jūs apkoposiet visas pasaules valstis, izmantojot izlozes, pamatojoties uz patieso globālo dzimstības līmeni. Apskatīsim, kā tas darbojas?"
+    },
+    "step2": {
+      "title": "🎲 Ritiniet apkārt pasaulei",
+      "desc": "Noklikšķiniet uz šīs pogas (vai nospiediet atstarpes taustiņu), lai grieztu. Varbūtība piezemēties kādā valstī ir <b>tieši tāda pati kā varbūtība piedzimt tur</b> reālajā pasaulē. Jo vairāk dzemdību, jo biežāk!"
+    },
+    "step3": {
+      "title": "🗺️ Jūsu karte",
+      "desc": "Ikreiz, kad atbloķēsit jaunu valsti, tā tiks uzzīmēta kartē ar tās retuma krāsu (parasta, retāk sastopama, reta, episka vai leģendāra)."
+    },
+    "step4": {
+      "title": "💖 Žēl sistēma",
+      "desc": "Katru reizi, kad saņemat dublikātu, jūsu veiksmes josla paaugstinās. Tiklīdz būsit sasniedzis maksimumu, nākamais grieziens ir <b>100% garantēts</b> valstī, kurā vēl nav!"
+    },
+    "step5": {
+      "title": "🛒 Veikals un Ekonomika",
+      "desc": "Neuztraucieties par dublikātiem. Katra atkārtota valsts piešķir jums <b>monētas</b> (atkarībā no to retuma). Šajā veikalā varat izmantot monētas, lai <b>iegādātos trūkstošās valstis</b> vai <b>jauninājumus</b> (piemēram, Autoclicker vai reizinātājus)."
+    },
+    "step6": {
+      "title": "📚 Jūsu kolekcija",
+      "desc": "Šajā cilnē varat redzēt visas valstis, kuras jau esat apmeklējis, un to, cik daudz esat atstājis. Varat noklikšķināt uz tiem, lai skatītu sīkāku informāciju un intereses."
+    },
+    "step7": {
+      "title": "🏆 Sasniegumi",
+      "desc": "Pabeidziet kontinentus, izveidojiet noteiktu valstu grupas (piemēram, CPLP vai Eiropas Savienību) un sasniedziet mērķus, lai atklātu šos unikālos sasniegumus."
+    },
+    "step8": {
+      "title": "🌍 Gatavs spēlēt!",
+      "desc": "Tagad tas ir atkarīgs no jums! Veiksmi jūsu ceļojumā, lai atvērtu visu pasauli, pa vienai dzimšanai."
+    }
+  }
+}

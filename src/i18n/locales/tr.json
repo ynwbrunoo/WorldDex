@@ -1,0 +1,1156 @@
+{
+  "app": {
+    "title": "WorldDex",
+    "subtitle": "Her seferinde bir doğumla dünyanın kilidini açın."
+  },
+  "header": {
+    "howToPlay": "Nasıl Oynanır",
+    "aboutData": "Veriler Hakkında",
+    "resetProgress": "İlerlemeyi Sıfırla",
+    "privacy": "Mahremiyet",
+    "localStorageNotice": "Bu cihazda kaydedilen ilerleme"
+  },
+  "nav": {
+    "progress": "İlerlemek",
+    "collection": "Koleksiyon",
+    "history": "Tarih",
+    "achievements": "Başarılar",
+    "settings": "Ayarlar"
+  },
+  "roll": {
+    "button": "Roll",
+    "rolling": "Yuvarlamak...",
+    "newCountry": "Yeni ülkenin kilidi açıldı!",
+    "duplicate": "Bu ülkeye zaten sahiptiniz; devam edin!",
+    "viewOnMap": "Haritada görüntüle",
+    "close": "Kapalı",
+    "estimatedChance": "Tahmini şans",
+    "population": "Nüfus",
+    "annualBirths": "Tahmini yıllık doğumlar",
+    "firstUnlock": "İlk kez!",
+    "alreadyHave": "Kopyalamak",
+    "spacebar": "Press [Space] to roll"
+  },
+  "country": {
+    "population": "Nüfus",
+    "annualBirths": "Tahmini yıllık doğumlar",
+    "birthChance": "Burada doğma ihtimali",
+    "capital": "Başkent",
+    "continent": "Kıta",
+    "status": {
+      "locked": "Hala kilitli",
+      "unlocked": "Kilitli değil"
+    },
+    "rollCount": "{{sayı}} kez göründü",
+    "rollCount_other": "{{sayım}} kez göründü",
+    "firstUnlocked": "{{date}} tarihinde kilidi açıldı",
+    "zoomToCountry": "Haritada ortala",
+    "notFound": "Ülke bulunamadı",
+    "clickToExplore": "Keşfetmek için bir ülkeyi tıklayın"
+  },
+  "progress": {
+    "title": "İlerlemek",
+    "unlocked": "Kilitli değil",
+    "unlockedCount": "{{sayı}} / {{toplam}} ülke",
+    "percentage": "Tamamlanma yüzdesi {{değer}}",
+    "remaining": "{{sayılan}} ülke kaldı",
+    "totalRolls": "Total Rolls",
+    "duplicates": "Kopyalar",
+    "longestStreak": "Kopyalar olmadan en iyi seri",
+    "continents": "Kıta bazında ilerleme"
+  },
+  "collection": {
+    "title": "Koleksiyon",
+    "search": "Ülkeyi ara...",
+    "sort": {
+      "label": "Göre sırala",
+      "recent": "Yakın zamanda kilidi açıldı",
+      "alphabetical": "Alfabetik",
+      "mostRolled": "En çok yuvarlanan",
+      "continent": "Kıta"
+    },
+    "empty": "Henüz hiçbir ülkenin kilidini açmadınız. Bir rulo ver!",
+    "noResults": "Aramanızla eşleşen ülke yok.",
+    "rolls": "{{sayım}} rulosu",
+    "rolls_other": "{{sayı}} rulo",
+    "sortChanceDesc": "Highest Chance",
+    "sortChanceAsc": "Lowest Chance"
+  },
+  "history": {
+    "title": "Tarih",
+    "filter": {
+      "all": "Tüm",
+      "new": "Yeni",
+      "duplicates": "Kopyalar"
+    },
+    "clearHistory": "Geçmişi temizle",
+    "clearConfirmTitle": "Geçmiş temizlensin mi?",
+    "clearConfirmMessage": "Bu eylem geri alınamaz. Rulo geçmişi kalıcı olarak silinecek.",
+    "clearConfirm": "Temizlemek",
+    "clearCancel": "İptal etmek",
+    "empty": "Henüz herhangi bir rulo yapmadınız. Şimdi başla!",
+    "emptyFiltered": "Bu filtreyle eşleşen rulo yok.",
+    "new": "Yeni",
+    "duplicate": "Kopyalamak",
+    "rollNumber": "#{{sayı}}'yı yuvarlayın"
+  },
+  "achievements": {
+    "title": "Başarılar",
+    "locked": "Kilitli",
+    "unlocked": "Kilitli değil",
+    "unlockedOn": "{{date}} tarihinde kilidi açıldı",
+    "progress": "{{mevcut}} / {{toplam}}",
+    "newUnlock": "Başarının kilidi açıldı!",
+    "firstStep": {
+      "name": "İlk adım",
+      "description": "İlk ülkenizin kilidini açın."
+    },
+    "explorer": {
+      "name": "Kaşif",
+      "description": "10 ülkenin kilidini açın."
+    },
+    "traveller": {
+      "name": "Gezgin",
+      "description": "25 ülkenin kilidini açın."
+    },
+    "cartographer": {
+      "name": "Haritacı",
+      "description": "50 ülkenin kilidini açın."
+    },
+    "worldCollector1": {
+      "name": "Dünya Koleksiyoncusu I",
+      "description": "75 ülkenin kilidini açın."
+    },
+    "worldCollector2": {
+      "name": "Dünya Koleksiyoncusu II",
+      "description": "100 ülkenin kilidini açın."
+    },
+    "worldCollector3": {
+      "name": "Dünya Koleksiyoncusu III",
+      "description": "125 ülkenin kilidini açın."
+    },
+    "halfwayThere": {
+      "name": "Yarı Yolda",
+      "description": "Tüm ülkelerin %50'sinin kilidini açın."
+    },
+    "continentalExplorer": {
+      "name": "Kıta Kaşifi",
+      "description": "Bütün bir kıtayı tamamlayın."
+    },
+    "continentalMaster": {
+      "name": "Kıta Ustası",
+      "description": "Üç kıtayı tamamlayın."
+    },
+    "aroundTheWorld": {
+      "name": "Dünya çapında",
+      "description": "Tüm kıtaları tamamlayın."
+    },
+    "worldComplete": {
+      "name": "Dünya Tamamlandı",
+      "description": "Tüm ülke ve bölgelerin kilidini açın."
+    },
+    "luckyStreak": {
+      "name": "Şanslı Seri",
+      "description": "Kopya olmadan art arda 5 yeni ülkenin kilidini açın."
+    },
+    "persistent": {
+      "name": "Israrcı",
+      "description": "Toplam 100 rulo yapın."
+    },
+    "dedicated": {
+      "name": "Özel",
+      "description": "Toplam 500 rulo yapın."
+    },
+    "home_sweet_home": {
+      "name": "Evim Güzel Evim",
+      "description": "Şu anda yaşadığınız ülkeyi saldınız!"
+    },
+    "group_palop": {
+      "name": "PALOP",
+      "description": "Portekizce konuşulan tüm Afrika ülkelerinin kilidini açar."
+    },
+    "group_brics": {
+      "name": "BRICS",
+      "description": "BRICS bloğunun ana ülkelerinin (ve yeni üyelerin) kilidini açar."
+    },
+    "group_eu": {
+      "name": "Avrupa Birliği",
+      "description": "Tüm Avrupa Birliği üye ülkelerinin kilidini açar."
+    },
+    "group_nato": {
+      "name": "DOĞMAK",
+      "description": "Tüm NATO üyesi ülkelerin kilidini açar."
+    },
+    "group_g7": {
+      "name": "G7",
+      "description": "Tüm G7 ülkelerinin kilidini açar."
+    },
+    "group_mercosul": {
+      "name": "Mercosur",
+      "description": "Mercosur Üye Devletlerinin kilidini açar."
+    },
+    "group_asean": {
+      "name": "ASEAN",
+      "description": "Güneydoğu Asya Ülkeleri Birliği ülkelerinin kilidini açar."
+    },
+    "group_opep": {
+      "name": "OPEC",
+      "description": "Petrol İhraç Eden Ülkeler Örgütü üyelerinin kilidini açar."
+    },
+    "india_500": {
+      "name": "Namaste!",
+      "description": "Hindistan'ı 500 kez döndürün."
+    }
+  },
+  "tutorial": {
+    "title": "Nasıl Oynanır",
+    "step1": "Hangi ülkede doğabileceğinizi keşfetmek için <b></b>'a tıklayın.",
+    "step2": "Her ülkenin küresel doğumlardaki payına dayalı tahmini bir olasılığı vardır; bu aynı derecede rastgele değildir!",
+    "step3": "Bir ülkenin kilidini ilk kez açtığınızda dünya haritasında renklendirilir.",
+    "step4": "Başkentini, nüfusunu ve tahmini şansını görmek için haritada veya koleksiyonunuzda bir ülkeye tıklayın.",
+    "step5": "Kıtaları tamamlayın, başarılar kazanın ve tüm dünyanın kilidini açmaya çalışın.",
+    "step6": "İlerlemeniz yalnızca bu cihaza kaydedilir; hesap yok, takip yok.",
+    "previous": "Öncesi",
+    "next": "Sonraki",
+    "skip": "Eğiticiyi atla",
+    "finish": "Oynamaya başla!",
+    "dontShowAgain": "Bir daha gösterme",
+    "stepOf": "{{Geçerli}} / {{toplam}} adımı",
+    "restart": "Eğiticiyi görüntüle",
+    "rollDesc": "Şansınızı denemek ve yeni bir ülke keşfetmek için düğmeye tıklayın! (İpucu: Daha hızlı oynatmak ve pencereleri kapatmak için klavyenizdeki [Boşluk] çubuğunu kullanabilirsiniz).",
+    "collectionDesc": "Burada zaten kilidini açtığınız ülkeleri göreceksiniz. Nadirliğe, kıtaya veya tarihe göre sıralama yapabilirsiniz! Sondan 15 ülke uzakta olduğunuzda hangilerini kaçırdığınızı görebileceksiniz.",
+    "achievementsDesc": "Madalya kazanmak için ekonomik blokları (BRICS veya Avrupa Birliği gibi) toplamaktan Hindistan'ı 500 kez yuvarlamaya kadar hedefleri tamamlayın.",
+    "historyDesc": "Önceki tüm oyunlarınızı inceleyin ve bir ülkenin kilidini ne kadar zaman önce açtığınızı öğrenin."
+  },
+  "settings": {
+    "title": "Ayarlar",
+    "language": "Dil",
+    "languageLabel": "Dil seçin",
+    "data": "Veri ve Gizlilik",
+    "exportProgress": "Dışa aktarma ilerlemesi",
+    "importProgress": "İthalat ilerlemesi",
+    "resetProgress": "İlerlemeyi sıfırla",
+    "restartTutorial": "Eğiticiyi görüntüle",
+    "aboutData": "Veriler hakkında",
+    "privacy": "Mahremiyet",
+    "searchLanguage": "Search language..."
+  },
+  "modals": {
+    "aboutData": {
+      "title": "Veriler Hakkında",
+      "intro": "Doğum olasılıkları, ülke başına yıllık doğumlara ilişkin mevcut verilere dayanarak hesaplanan tahminlerdir.",
+      "methodology": "Metodoloji",
+      "methodologyText": "Belirli bir ülkede doğma olasılığı, o ülkenin tahmini yıllık doğumlarının dünya toplamına oranı olarak hesaplanır. Dünya Bankası ve BM'nin (Dünya Nüfus Beklentileri) yaklaşık verilerini kullanıyoruz. Değerler tahmindir ve en güncel istatistikleri yansıtmayabilir.",
+      "sensitivity": "Siyasi hassasiyete ilişkin not",
+      "sensitivityText": "Sınırlar, bölgeler ve ülkenin tanınması politik açıdan hassas konulardır. Bir bölgenin bu oyuna dahil edilmesi eğitimsel ve coğrafi amaçlara hizmet eder ve siyasi bir duruş teşkil etmez. Veriler bir eğlence oyunu için basitleştirilmiştir.",
+      "updates": "Veri güncellemeleri",
+      "updatesText": "Demografik veriler zamanla değişir. Bu proje, verileri makul ölçüde güncel tutmayı amaçlamaktadır ancak gerçek zamanlı doğruluğu garanti etmemektedir.",
+      "sources": "Kaynaklar",
+      "sourcesList": [
+        "Dünya Bankası — Dünya Kalkınma Göstergeleri",
+        "BM — Dünya Nüfus Beklentileri 2022",
+        "Doğal Dünya - Coğrafi veriler (kamu malı)",
+        "world-atlas (TopoJSON) — Harita verileri"
+      ],
+      "close": "Kapalı"
+    },
+    "privacy": {
+      "title": "Gizlilik ve Şartlar",
+      "project": "Bu ücretsiz, ticari olmayan bir eğitim ve eğlence projesidir.",
+      "noData": "Hiçbir kişisel veri toplanmaz.",
+      "localStorage": "İlerlemeniz yalnızca cihazınızın yerel deposunda (localStorage) saklanır. Sunuculara hiçbir bilgi gönderilmez.",
+      "noCookies": "Bu oyun çerez kullanmaz. Tercihlerinizi ve ilerlemenizi kaydetmek için yalnızca localStorage kullanılır.",
+      "noTracking": "Analitik, izleme, reklam veya üçüncü taraf sistemleri yoktur.",
+      "borders": "Coğrafi, demografik ve sınır verileri tahminidir ve eksik veya güncelliğini kaybetmiş olabilir. Bu proje sınırlar, bölgeler veya devletlerin tanınması konusunda herhangi bir siyasi duruş sergilememektedir.",
+      "license": "Kaynak kodu MIT lisansı altında mevcuttur.",
+      "attribution": "Nitelikler",
+      "close": "Kapalı"
+    },
+    "reset": {
+      "title": "İlerlemeyi Sıfırla",
+      "message": "Emin misin? Tüm ilerlemeniz, koleksiyonunuz, geçmişiniz ve başarılarınız kalıcı olarak silinecek. Bu eylem geri alınamaz.",
+      "confirm": "Evet, her şeyi sil",
+      "cancel": "İptal etmek"
+    },
+    "importExport": {
+      "title": "İthalat / İhracat İlerlemesi",
+      "exportTitle": "İhracat",
+      "exportDescription": "İlerlemenizi yedeklemek veya başka bir cihaza aktarmak için JSON dosyası olarak dışa aktarın.",
+      "exportButton": "JSON dosyasını dışa aktar",
+      "importTitle": "İçe aktarmak",
+      "importDescription": "Daha önce dışa aktarılan bir JSON dosyasını içe aktarın. Mevcut ilerlemeniz değiştirilecek.",
+      "importWarning": "Uyarı: Mevcut ilerlemenizin yerini içe aktarılan dosya alacak.",
+      "importButton": "JSON dosyasını seçin",
+      "importSuccess": "İlerleme başarıyla içe aktarıldı!",
+      "importError": "Geçersiz veya bozuk dosya. Dosyanın bu oyun tarafından dışa aktarıldığından emin olun.",
+      "close": "Kapalı"
+    }
+  },
+  "continents": {
+    "africa": "Afrika",
+    "asia": "Asya",
+    "europe": "Avrupa",
+    "northAmerica": "Kuzey Amerika",
+    "southAmerica": "Güney Amerika",
+    "oceania": "Okyanusya"
+  },
+  "data": {
+    "estimated": "Tahmini",
+    "source": "Kaynak",
+    "year": "Veri yılı",
+    "approximation": "Bu değerler yaklaşık değerlerdir."
+  },
+  "errors": {
+    "mapLoad": "Harita yüklenemedi. Sayfayı yeniden yüklemeyi deneyin.",
+    "dataCorrupt": "Kaydedilen veriler bozuk. İlerleme sıfırlandı.",
+    "importFailed": "Dosya içe aktarılamadı.",
+    "unknown": "Beklenmeyen bir hata oluştu."
+  },
+  "accessibility": {
+    "languageSelector": "Dil seçin",
+    "flagOf": "{{ülkenin}} bayrağı",
+    "rollButton": "Yuvarla — rastgele bir ülke çiz",
+    "closeModal": "Kapalı",
+    "mainMap": "İnteraktif dünya haritası",
+    "lockedCountry": "{{ülke}} — kilitli",
+    "unlockedCountry": "{{ülke}} — kilidi açıldı",
+    "rolledCountry": "{{ülke}} — az önce aktarıldı",
+    "progressBar": "Kilidi açılan ülkelerin %'si {{value}}",
+    "achievementLocked": "Başarı kilitlendi: {{name}}",
+    "achievementUnlocked": "Başarının kilidi açıldı: {{name}}"
+  },
+  "countries": {
+    "AF": {
+      "name": "Afganistan",
+      "capital": "Kabil"
+    },
+    "AL": {
+      "name": "Arnavutluk",
+      "capital": "Tiran"
+    },
+    "DZ": {
+      "name": "Cezayir",
+      "capital": "Cezayir"
+    },
+    "AD": {
+      "name": "Andorra",
+      "capital": "Andora la Vella"
+    },
+    "AO": {
+      "name": "Angola",
+      "capital": "Luanda"
+    },
+    "AG": {
+      "name": "Antigua ve Barbuda",
+      "capital": "St.John's"
+    },
+    "AR": {
+      "name": "Arjantin",
+      "capital": "Buenos Aires"
+    },
+    "AM": {
+      "name": "Ermenistan",
+      "capital": "Erivan"
+    },
+    "AU": {
+      "name": "Avustralya",
+      "capital": "Kanberra"
+    },
+    "AT": {
+      "name": "Avusturya",
+      "capital": "Viyana"
+    },
+    "AZ": {
+      "name": "Azerbaycan",
+      "capital": "Bakü"
+    },
+    "BS": {
+      "name": "Bahamalar",
+      "capital": "Nassau"
+    },
+    "BH": {
+      "name": "Bahreyn",
+      "capital": "Manama"
+    },
+    "BD": {
+      "name": "Bangladeş",
+      "capital": "Dakka"
+    },
+    "BB": {
+      "name": "Barbados",
+      "capital": "Bridgetown"
+    },
+    "BY": {
+      "name": "Beyaz Rusya",
+      "capital": "Minsk"
+    },
+    "BE": {
+      "name": "Belçika",
+      "capital": "Brüksel"
+    },
+    "BZ": {
+      "name": "Belize",
+      "capital": "Belmopan"
+    },
+    "BJ": {
+      "name": "Benin",
+      "capital": "Porto-Novo"
+    },
+    "BT": {
+      "name": "Butan",
+      "capital": "Thimphu"
+    },
+    "BO": {
+      "name": "Bolivya",
+      "capital": "Sucre"
+    },
+    "BA": {
+      "name": "Bosna Hersek",
+      "capital": "Saraybosna"
+    },
+    "BW": {
+      "name": "Botsvana",
+      "capital": "Gaboron"
+    },
+    "BR": {
+      "name": "Brezilya",
+      "capital": "Brezilya"
+    },
+    "BN": {
+      "name": "Brunei",
+      "capital": "Bandar Seri Begavan"
+    },
+    "BG": {
+      "name": "Bulgaristan",
+      "capital": "Sofya"
+    },
+    "BF": {
+      "name": "Burkina Faso",
+      "capital": "Ouagadougou"
+    },
+    "BI": {
+      "name": "Burundi",
+      "capital": "Gitega"
+    },
+    "CV": {
+      "name": "Yeşil Burun Adaları",
+      "capital": "Praia"
+    },
+    "KH": {
+      "name": "Kamboçya",
+      "capital": "Phnom Penh"
+    },
+    "CM": {
+      "name": "Kamerun",
+      "capital": "Yaounde"
+    },
+    "CA": {
+      "name": "Kanada",
+      "capital": "Ottawa"
+    },
+    "CF": {
+      "name": "Orta Afrika Cumhuriyeti",
+      "capital": "Bangui"
+    },
+    "TD": {
+      "name": "Çad",
+      "capital": "N'Djamena"
+    },
+    "CL": {
+      "name": "Şili",
+      "capital": "Santiago"
+    },
+    "CN": {
+      "name": "Çin",
+      "capital": "Pekin"
+    },
+    "CO": {
+      "name": "Kolombiya",
+      "capital": "Bogota"
+    },
+    "KM": {
+      "name": "Komorlar",
+      "capital": "Moroniler"
+    },
+    "CG": {
+      "name": "Kongo",
+      "capital": "Brazzaville"
+    },
+    "CD": {
+      "name": "Kongo Demokratik Cumhuriyeti",
+      "capital": "Kinşasa"
+    },
+    "CR": {
+      "name": "Kosta Rika",
+      "capital": "San José"
+    },
+    "CI": {
+      "name": "Fildişi Sahili",
+      "capital": "Yamussoukro"
+    },
+    "HR": {
+      "name": "Hırvatistan",
+      "capital": "Zagreb"
+    },
+    "CU": {
+      "name": "Küba",
+      "capital": "Havana"
+    },
+    "CY": {
+      "name": "Kıbrıs",
+      "capital": "Lefkoşa"
+    },
+    "CZ": {
+      "name": "Çek Cumhuriyeti",
+      "capital": "Prag"
+    },
+    "DK": {
+      "name": "Danimarka",
+      "capital": "Kopenhag"
+    },
+    "DJ": {
+      "name": "Cibuti",
+      "capital": "Cibuti"
+    },
+    "DM": {
+      "name": "Dominika",
+      "capital": "Roseau"
+    },
+    "DO": {
+      "name": "Dominik Cumhuriyeti",
+      "capital": "Santo Domingo"
+    },
+    "EC": {
+      "name": "Ekvador",
+      "capital": "Quito"
+    },
+    "EG": {
+      "name": "Mısır",
+      "capital": "Kahire"
+    },
+    "SV": {
+      "name": "El Salvador",
+      "capital": "San Salvador"
+    },
+    "GQ": {
+      "name": "Ekvator Ginesi",
+      "capital": "Malabo"
+    },
+    "ER": {
+      "name": "Eritre",
+      "capital": "Asmara"
+    },
+    "EE": {
+      "name": "Estonya",
+      "capital": "Tallinn"
+    },
+    "SZ": {
+      "name": "Esvatini",
+      "capital": "Mbabane"
+    },
+    "ET": {
+      "name": "Etiyopya",
+      "capital": "Addis Ababa"
+    },
+    "FJ": {
+      "name": "Fiji",
+      "capital": "Suva"
+    },
+    "FI": {
+      "name": "Finlandiya",
+      "capital": "Helsinki"
+    },
+    "FR": {
+      "name": "Fransa",
+      "capital": "Paris"
+    },
+    "GA": {
+      "name": "Gabon",
+      "capital": "Libreville"
+    },
+    "GM": {
+      "name": "Gambiya",
+      "capital": "Banjul"
+    },
+    "GE": {
+      "name": "Georgia",
+      "capital": "Tiflis"
+    },
+    "DE": {
+      "name": "Almanya",
+      "capital": "Berlin"
+    },
+    "GH": {
+      "name": "Gana",
+      "capital": "Akra"
+    },
+    "GR": {
+      "name": "Yunanistan",
+      "capital": "Atina"
+    },
+    "GD": {
+      "name": "Grenada",
+      "capital": "Aziz George's"
+    },
+    "GT": {
+      "name": "Guatemala",
+      "capital": "Guatemala Şehri"
+    },
+    "GN": {
+      "name": "Gine",
+      "capital": "Konakri"
+    },
+    "GW": {
+      "name": "Gine-Bissau",
+      "capital": "Bissau"
+    },
+    "GY": {
+      "name": "Guyana",
+      "capital": "Georgetown"
+    },
+    "HT": {
+      "name": "Haiti",
+      "capital": "Port-au-Prince"
+    },
+    "HN": {
+      "name": "Honduras",
+      "capital": "Tegucigalpa"
+    },
+    "HU": {
+      "name": "Macaristan",
+      "capital": "Budapeşte"
+    },
+    "IS": {
+      "name": "İzlanda",
+      "capital": "Reykjavík"
+    },
+    "IN": {
+      "name": "Hindistan",
+      "capital": "Yeni Delhi"
+    },
+    "ID": {
+      "name": "Endonezya",
+      "capital": "Cakarta"
+    },
+    "IR": {
+      "name": "İran",
+      "capital": "Tahran"
+    },
+    "IQ": {
+      "name": "Irak",
+      "capital": "Bağdat"
+    },
+    "IE": {
+      "name": "İrlanda",
+      "capital": "Dublin"
+    },
+    "IL": {
+      "name": "İsrail",
+      "capital": "Kudüs"
+    },
+    "IT": {
+      "name": "İtalya",
+      "capital": "Roma"
+    },
+    "JM": {
+      "name": "Jamaika",
+      "capital": "Kingston"
+    },
+    "JP": {
+      "name": "Japonya",
+      "capital": "Tokyo"
+    },
+    "JO": {
+      "name": "Ürdün",
+      "capital": "Amman"
+    },
+    "KZ": {
+      "name": "Kazakistan",
+      "capital": "Astana"
+    },
+    "KE": {
+      "name": "Kenya",
+      "capital": "Nairobi"
+    },
+    "KI": {
+      "name": "Kiribati",
+      "capital": "Güney Tarawa"
+    },
+    "KP": {
+      "name": "Kuzey Kore",
+      "capital": "Pyongyang"
+    },
+    "KR": {
+      "name": "Güney Kore",
+      "capital": "Seul"
+    },
+    "KW": {
+      "name": "Kuveyt",
+      "capital": "Kuveyt Şehri"
+    },
+    "KG": {
+      "name": "Kırgızistan",
+      "capital": "Bişkek"
+    },
+    "LA": {
+      "name": "Laos",
+      "capital": "Vientiane"
+    },
+    "LV": {
+      "name": "Letonya",
+      "capital": "Riga"
+    },
+    "LB": {
+      "name": "Lübnan",
+      "capital": "Beyrut"
+    },
+    "LS": {
+      "name": "Lesoto",
+      "capital": "Maseru"
+    },
+    "LR": {
+      "name": "Liberya",
+      "capital": "Monrovia"
+    },
+    "LY": {
+      "name": "Libya",
+      "capital": "Trablus"
+    },
+    "LI": {
+      "name": "Lihtenştayn",
+      "capital": "Vaduz"
+    },
+    "LT": {
+      "name": "Litvanya",
+      "capital": "Vilnüs"
+    },
+    "LU": {
+      "name": "Lüksemburg",
+      "capital": "Lüksemburg"
+    },
+    "MG": {
+      "name": "Madagaskar",
+      "capital": "Antananarivo"
+    },
+    "MW": {
+      "name": "Malawi",
+      "capital": "Lilongwe"
+    },
+    "MY": {
+      "name": "Malezya",
+      "capital": "kuala Lumpur"
+    },
+    "MV": {
+      "name": "Maldivler",
+      "capital": "Erkek"
+    },
+    "ML": {
+      "name": "Mali",
+      "capital": "Bamako"
+    },
+    "MT": {
+      "name": "Malta",
+      "capital": "Valetta"
+    },
+    "MH": {
+      "name": "Marshall Adaları",
+      "capital": "Majuro"
+    },
+    "MR": {
+      "name": "Moritanya",
+      "capital": "Nuakşot"
+    },
+    "MU": {
+      "name": "Mauritius",
+      "capital": "Louis Limanı"
+    },
+    "MX": {
+      "name": "Meksika",
+      "capital": "Meksika Şehri"
+    },
+    "FM": {
+      "name": "Mikronezya",
+      "capital": "Palikir"
+    },
+    "MD": {
+      "name": "Moldova",
+      "capital": "Kişinev"
+    },
+    "MC": {
+      "name": "Monako",
+      "capital": "Monako"
+    },
+    "MN": {
+      "name": "Moğolistan",
+      "capital": "Ulanbator"
+    },
+    "ME": {
+      "name": "Karadağ",
+      "capital": "Podgorica"
+    },
+    "MA": {
+      "name": "Fas",
+      "capital": "Rabat"
+    },
+    "MZ": {
+      "name": "Mozambik",
+      "capital": "Maputo"
+    },
+    "MM": {
+      "name": "Myanmar",
+      "capital": "Naypyidaw"
+    },
+    "NA": {
+      "name": "Namibya",
+      "capital": "Windhoek"
+    },
+    "NR": {
+      "name": "Nauru'lu",
+      "capital": "Yaren"
+    },
+    "NP": {
+      "name": "Nepal",
+      "capital": "Katmandu"
+    },
+    "NL": {
+      "name": "Hollanda",
+      "capital": "Amsterdam"
+    },
+    "NZ": {
+      "name": "Yeni Zelanda",
+      "capital": "Wellington"
+    },
+    "NI": {
+      "name": "Nikaragua",
+      "capital": "Managua"
+    },
+    "NE": {
+      "name": "Nijer",
+      "capital": "Niamey"
+    },
+    "NG": {
+      "name": "Nijerya",
+      "capital": "Abuja"
+    },
+    "MK": {
+      "name": "Kuzey Makedonya",
+      "capital": "Üsküp"
+    },
+    "NO": {
+      "name": "Norveç",
+      "capital": "Oslo"
+    },
+    "OM": {
+      "name": "Umman",
+      "capital": "Maskat"
+    },
+    "PK": {
+      "name": "Pakistan",
+      "capital": "İslamabad"
+    },
+    "PW": {
+      "name": "Palau",
+      "capital": "Ngerulmud"
+    },
+    "PS": {
+      "name": "Filistin",
+      "capital": "Ramallah"
+    },
+    "PA": {
+      "name": "Panama",
+      "capital": "Panama Şehri"
+    },
+    "PG": {
+      "name": "Papua Yeni Gine",
+      "capital": "Port Moresby"
+    },
+    "PY": {
+      "name": "Paraguay",
+      "capital": "Asunción"
+    },
+    "PE": {
+      "name": "Peru",
+      "capital": "Lima"
+    },
+    "PH": {
+      "name": "Filipinler",
+      "capital": "Manila"
+    },
+    "PL": {
+      "name": "Polonya",
+      "capital": "Varşova"
+    },
+    "PT": {
+      "name": "Portekiz",
+      "capital": "Lizbon"
+    },
+    "QA": {
+      "name": "Katar",
+      "capital": "Doha"
+    },
+    "RO": {
+      "name": "Romanya",
+      "capital": "Bükreş"
+    },
+    "RU": {
+      "name": "Rusya",
+      "capital": "Moskova"
+    },
+    "RW": {
+      "name": "Ruanda",
+      "capital": "Kigali"
+    },
+    "KN": {
+      "name": "Saint Kitts ve Nevis",
+      "capital": "Basseterre"
+    },
+    "LC": {
+      "name": "Aziz Lucia",
+      "capital": "Castries"
+    },
+    "VC": {
+      "name": "Saint Vincent ve Grenadinler",
+      "capital": "Kingstown"
+    },
+    "WS": {
+      "name": "Samoa",
+      "capital": "Apia"
+    },
+    "SM": {
+      "name": "San Marino",
+      "capital": "San Marino"
+    },
+    "ST": {
+      "name": "São Tomé ve Príncipe",
+      "capital": "São Tomé"
+    },
+    "SA": {
+      "name": "Suudi Arabistan",
+      "capital": "Riyad"
+    },
+    "SN": {
+      "name": "Senegal",
+      "capital": "Dakar"
+    },
+    "RS": {
+      "name": "Sırbistan",
+      "capital": "Belgrad"
+    },
+    "SL": {
+      "name": "Sierra Leone",
+      "capital": "Freetown"
+    },
+    "SG": {
+      "name": "Singapur",
+      "capital": "Singapur"
+    },
+    "SK": {
+      "name": "Slovakya",
+      "capital": "Bratislava"
+    },
+    "SI": {
+      "name": "Slovenya",
+      "capital": "Ljubljana"
+    },
+    "SB": {
+      "name": "Solomon Adaları",
+      "capital": "Honiara"
+    },
+    "SO": {
+      "name": "Somali",
+      "capital": "Mogadişu"
+    },
+    "ZA": {
+      "name": "Güney Afrika",
+      "capital": "Pretoria"
+    },
+    "SS": {
+      "name": "Güney Sudan",
+      "capital": "Juba"
+    },
+    "ES": {
+      "name": "İspanya",
+      "capital": "Madrid"
+    },
+    "LK": {
+      "name": "Sri Lanka",
+      "capital": "Kolombo"
+    },
+    "SD": {
+      "name": "Sudan",
+      "capital": "Hartum"
+    },
+    "SR": {
+      "name": "Surinam",
+      "capital": "Paramaribo"
+    },
+    "SE": {
+      "name": "İsveç",
+      "capital": "Stokholm"
+    },
+    "CH": {
+      "name": "İsviçre",
+      "capital": "Bern"
+    },
+    "SY": {
+      "name": "Suriye",
+      "capital": "Şam"
+    },
+    "TW": {
+      "name": "Tayvan",
+      "capital": "Taipei"
+    },
+    "TJ": {
+      "name": "Tacikistan",
+      "capital": "Duşanbe"
+    },
+    "TZ": {
+      "name": "Tanzanya",
+      "capital": "Dodoma"
+    },
+    "TH": {
+      "name": "Tayland",
+      "capital": "Bangkok"
+    },
+    "TL": {
+      "name": "Doğu Timor",
+      "capital": "Dili"
+    },
+    "TG": {
+      "name": "Togo",
+      "capital": "Lome"
+    },
+    "TO": {
+      "name": "Tonga",
+      "capital": "Nuku'alofa"
+    },
+    "TT": {
+      "name": "Trinidad ve Tobago",
+      "capital": "İspanya Limanı"
+    },
+    "TN": {
+      "name": "Tunus",
+      "capital": "Tunus"
+    },
+    "TR": {
+      "name": "Türkiye",
+      "capital": "Ankara"
+    },
+    "TM": {
+      "name": "Türkmenistan",
+      "capital": "Aşkabat"
+    },
+    "TV": {
+      "name": "Tuvalu",
+      "capital": "Funafuti"
+    },
+    "UG": {
+      "name": "Uganda",
+      "capital": "Kampala"
+    },
+    "UA": {
+      "name": "Ukrayna",
+      "capital": "Kiev"
+    },
+    "AE": {
+      "name": "Birleşik Arap Emirlikleri",
+      "capital": "Abu Dabi"
+    },
+    "GB": {
+      "name": "Birleşik Krallık",
+      "capital": "Londra"
+    },
+    "US": {
+      "name": "Amerika Birleşik Devletleri",
+      "capital": "Washington DC"
+    },
+    "UY": {
+      "name": "Uruguay",
+      "capital": "Montevideo"
+    },
+    "UZ": {
+      "name": "Özbekistan",
+      "capital": "Taşkent"
+    },
+    "VU": {
+      "name": "Vanuatu",
+      "capital": "Port Vila"
+    },
+    "VA": {
+      "name": "Vatikan Şehri",
+      "capital": "Vatikan Şehri"
+    },
+    "VE": {
+      "name": "Venezuela",
+      "capital": "Karakas"
+    },
+    "VN": {
+      "name": "Vietnam",
+      "capital": "Hanoi"
+    },
+    "YE": {
+      "name": "Yemen",
+      "capital": "Sanaa"
+    },
+    "ZM": {
+      "name": "Zambiya",
+      "capital": "Lusaka"
+    },
+    "ZW": {
+      "name": "Zimbabve",
+      "capital": "Harare"
+    },
+    "EH": {
+      "name": "Batı Sahra",
+      "capital": "Laayoune"
+    },
+    "XK": {
+      "name": "Kosova",
+      "capital": "Priştine"
+    }
+  },
+  "pity": {
+    "title": "Birikmiş Şans",
+    "guaranteedTitle": "Yeni Ülke Garantili!",
+    "ready": "Bir sonraki atış büyülü olacak!"
+  },
+  "tour": {
+    "skip": "Eğiticiyi Atla",
+    "next": "Sonraki ➔",
+    "prev": "⬅ Önceki",
+    "done": "Bitir ✓",
+    "progress": "{{current}}. adım / {{total}}",
+    "step1": {
+      "title": "👋 WorldDex'e hoş geldiniz!",
+      "desc": "Burada gerçek küresel doğum oranına dayalı çekilişlerle dünyadaki tüm ülkeleri toplayacaksınız. Bakalım nasıl çalışıyor?"
+    },
+    "step2": {
+      "title": "🎲 Dünyayı Kaydırın",
+      "desc": "Döndürmek için bu düğmeye tıklayın (veya Space tuşuna basın). Bir ülkeye varma olasılığı, gerçek dünyada <b>orada doğma olasılığıyla tamamen aynıdır</b>. Ne kadar çok doğum olursa, o kadar yaygın olur!"
+    },
+    "step3": {
+      "title": "🗺️ Haritanız",
+      "desc": "Yeni bir ülkenin kilidini açtığınızda, bu ülke haritada nadirliğinin rengiyle (Yaygın, Sıradışı, Nadir, Destansı veya Efsanevi) boyanacaktır."
+    },
+    "step4": {
+      "title": "💖 Acıma Sistemi",
+      "desc": "Her kopya aldığınızda şans çubuğunuz yükselir. Maksimum seviyeye ulaştığınızda, bir sonraki dönüşün henüz sahip olmadığınız bir ülke olması <b>%100 garantilidir</b>!"
+    },
+    "step5": {
+      "title": "🛒 Mağaza ve Ekonomi",
+      "desc": "Kopyalar konusunda endişelenmeyin. Tekrarlanan her ülke size <b>jeton</b> verir (nadirliğine bağlı olarak). Bu Mağazadaki paraları <b>eksik ülkeleri satın almak</b> veya <b>Yükseltmeler</b> (Otomatik Tıklayıcı veya çarpanlar gibi) için kullanabilirsiniz."
+    },
+    "step6": {
+      "title": "📚 Koleksiyonunuz",
+      "desc": "Bu sekmede halihazırda almış olduğunuz tüm ülkeleri ve kaç tane kaldığını görebilirsiniz. Detayları ve merak edilenleri görmek için üzerlerine tıklayabilirsiniz."
+    },
+    "step7": {
+      "title": "🏆 Başarılar",
+      "desc": "Kıtaları tamamlayın, belirli ülkelerden oluşan gruplar oluşturun (CPLP veya Avrupa Birliği gibi) ve bu benzersiz başarıların kilidini açmak için hedeflere ulaşın."
+    },
+    "step8": {
+      "title": "🌍 Oynamaya Hazır!",
+      "desc": "Artık karar size kalmış! Her seferinde bir doğum olmak üzere tüm dünyanın kilidini açma yolculuğunuzda iyi şanslar."
+    }
+  }
+}

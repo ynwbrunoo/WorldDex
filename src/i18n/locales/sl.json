@@ -1,0 +1,1154 @@
+{
+  "app": {
+    "title": "WorldDex",
+    "subtitle": "Odkleni svet, eno rojstvo naenkrat."
+  },
+  "header": {
+    "howToPlay": "Kako igrati",
+    "aboutData": "O podatkih",
+    "resetProgress": "Ponastavi napredek",
+    "privacy": "Zasebnost",
+    "localStorageNotice": "Napredek je shranjen v tej napravi"
+  },
+  "nav": {
+    "progress": "Napredek",
+    "collection": "Zbirka",
+    "history": "Zgodovina",
+    "achievements": "Dosežki",
+    "settings": "nastavitve"
+  },
+  "roll": {
+    "button": "Roll",
+    "rolling": "Rolling ...",
+    "newCountry": "Odklenjena nova država!",
+    "duplicate": "To državo ste že imeli — nadaljujte!",
+    "viewOnMap": "Ogled na zemljevidu",
+    "close": "Zapri",
+    "estimatedChance": "Ocenjena možnost",
+    "population": "Prebivalstvo",
+    "annualBirths": "Ocenjena letna rojstva",
+    "firstUnlock": "Prvič!",
+    "alreadyHave": "Dvojnik",
+    "spacebar": "Press [Space] to roll"
+  },
+  "country": {
+    "population": "Prebivalstvo",
+    "annualBirths": "Ocenjena letna rojstva",
+    "birthChance": "Možnost, da se rodim tukaj",
+    "capital": "Kapital",
+    "continent": "Celina",
+    "status": {
+      "locked": "Še vedno zaklenjeno",
+      "unlocked": "Odklenjeno"
+    },
+    "rollCount": "Prikazan {{štet}} čas",
+    "rollCount_other": "Pojavilo se je {{šteto}}-krat",
+    "firstUnlocked": "Odklenjeno na {{datum}}",
+    "zoomToCountry": "Središče na zemljevidu",
+    "notFound": "Država ni najdena",
+    "clickToExplore": "Kliknite državo za raziskovanje"
+  },
+  "progress": {
+    "title": "Napredek",
+    "unlocked": "Odklenjeno",
+    "unlockedCount": "{{count}} / {{skupaj}} držav",
+    "percentage": "{{vrednost}} % dokončano",
+    "remaining": "{{count}} preostalih držav",
+    "totalRolls": "Total Rolls",
+    "duplicates": "Dvojniki",
+    "longestStreak": "Najboljši niz brez dvojnikov",
+    "continents": "Napredek po celinah"
+  },
+  "collection": {
+    "title": "Zbirka",
+    "search": "Išči državo ...",
+    "sort": {
+      "label": "Razvrsti po",
+      "recent": "Pred kratkim odklenjeno",
+      "alphabetical": "Abecedno",
+      "mostRolled": "Večina valjanih",
+      "continent": "Celina"
+    },
+    "empty": "Odklenili niste še nobene države. Daj to Roll!",
+    "noResults": "Nobena država ne ustreza vašemu iskanju.",
+    "rolls": "{{count}} met",
+    "rolls_other": "{{štetje}} zvitkov",
+    "sortChanceDesc": "Highest Chance",
+    "sortChanceAsc": "Lowest Chance"
+  },
+  "history": {
+    "title": "Zgodovina",
+    "filter": {
+      "all": "Vse",
+      "new": "Novo",
+      "duplicates": "Dvojniki"
+    },
+    "clearHistory": "Počisti zgodovino",
+    "clearConfirmTitle": "Počistiti zgodovino?",
+    "clearConfirmMessage": "Tega dejanja ni mogoče razveljaviti. Zgodovina zvitkov bo trajno izbrisana.",
+    "clearConfirm": "jasno",
+    "clearCancel": "Prekliči",
+    "empty": "Nobenega zvitka še niste naredili. Začni zdaj!",
+    "emptyFiltered": "Noben zvitek ne ustreza temu filtru.",
+    "new": "Novo",
+    "duplicate": "Dvojnik",
+    "rollNumber": "Roll #{{številka}}"
+  },
+  "achievements": {
+    "title": "Dosežki",
+    "locked": "Zaklenjeno",
+    "unlocked": "Odklenjeno",
+    "unlockedOn": "Odklenjeno na {{datum}}",
+    "progress": "{{trenutno}} / {{skupaj}}",
+    "newUnlock": "Dosežek odklenjen!",
+    "firstStep": {
+      "name": "Prvi korak",
+      "description": "Odklenite svojo prvo državo."
+    },
+    "explorer": {
+      "name": "Raziskovalec",
+      "description": "Odkleni 10 držav."
+    },
+    "traveller": {
+      "name": "Popotnik",
+      "description": "Odkleni 25 držav."
+    },
+    "cartographer": {
+      "name": "Kartograf",
+      "description": "Odkleni 50 držav."
+    },
+    "worldCollector1": {
+      "name": "Svetovni zbiratelj I",
+      "description": "Odkleni 75 držav."
+    },
+    "worldCollector2": {
+      "name": "Svetovni zbiratelj II",
+      "description": "Odkleni 100 držav."
+    },
+    "worldCollector3": {
+      "name": "Svetovni zbiralec III",
+      "description": "Odkleni 125 držav."
+    },
+    "halfwayThere": {
+      "name": "Na pol poti",
+      "description": "Odkleni 50 % vseh držav."
+    },
+    "continentalExplorer": {
+      "name": "Continental Explorer",
+      "description": "Dokončajte celotno celino."
+    },
+    "continentalMaster": {
+      "name": "Continental Master",
+      "description": "Dokončajte tri celine."
+    },
+    "aroundTheWorld": {
+      "name": "Okoli sveta",
+      "description": "Izpolnite vse celine."
+    },
+    "worldComplete": {
+      "name": "Svet popoln",
+      "description": "Odkleni vse države in ozemlja."
+    },
+    "luckyStreak": {
+      "name": "Niz sreče",
+      "description": "Odkleni 5 novih držav zapored brez dvojnikov."
+    },
+    "persistent": {
+      "name": "Vztrajen",
+      "description": "Naredite skupno 100 zvitkov."
+    },
+    "dedicated": {
+      "name": "Predano",
+      "description": "Naredite skupno 500 zvitkov."
+    },
+    "home_sweet_home": {
+      "name": "Home Sweet Home",
+      "description": "Zavrteli ste državo, v kateri trenutno živite!"
+    },
+    "group_palop": {
+      "name": "PALOP",
+      "description": "Odklene vse portugalsko govoreče afriške države."
+    },
+    "group_brics": {
+      "name": "BRIKS",
+      "description": "Odklene glavne države bloka BRICS (in nove članice)."
+    },
+    "group_eu": {
+      "name": "Evropska unija",
+      "description": "Odklene vse države članice Evropske unije."
+    },
+    "group_nato": {
+      "name": "ROJEN",
+      "description": "Odklene vse države članice Nata."
+    },
+    "india_500": {
+      "name": "Namaste!",
+      "description": "Zavrtite Indijo 500-krat."
+    },
+    "group_g7": {
+      "description": "Odklene vse države G7."
+    },
+    "group_mercosul": {
+      "name": "Mercosur",
+      "description": "Odklene države članice Mercosurja."
+    },
+    "group_asean": {
+      "description": "Odklene države Združenja držav jugovzhodne Azije."
+    },
+    "group_opep": {
+      "name": "OPEC",
+      "description": "Odklene članice Organizacije držav izvoznic nafte."
+    }
+  },
+  "tutorial": {
+    "title": "Kako igrati",
+    "step1": "Kliknite <b></b>, da ugotovite, v kateri državi bi lahko bili rojeni.",
+    "step2": "Vsaka država ima ocenjeno verjetnost, ki temelji na njenem deležu rojstev po svetu – ni enako naključna!",
+    "step3": "Ko državo odklenete prvič, se na zemljevidu sveta obarva.",
+    "step4": "Kliknite državo na zemljevidu ali v svoji zbirki, da vidite glavno mesto, prebivalstvo in ocenjeno možnost.",
+    "step5": "Dokončajte celine, pridobite dosežke in poskusite odkleniti ves svet.",
+    "step6": "Vaš napredek je shranjen samo v tej napravi – brez računov, brez sledenja.",
+    "previous": "Prejšnja",
+    "next": "Naprej",
+    "skip": "Preskoči vadnico",
+    "finish": "Začni igrati!",
+    "dontShowAgain": "Ne pokaži več",
+    "stepOf": "Korak {{trenutni}} od {{skupaj}}",
+    "restart": "Oglejte si vadnico",
+    "rollDesc": "Kliknite gumb, da zavrtite svojo srečo in odkrijete novo državo! (Namig: za hitrejše predvajanje in zapiranje oken lahko uporabite [preslednico] na tipkovnici).",
+    "collectionDesc": "Tukaj vidite države, ki ste jih že odklenili. Razvrstite jih lahko po redkosti, celini ali datumu! Ko vas do konca loči 15 držav, boste lahko videli, katere pogrešate.",
+    "achievementsDesc": "Dokončajte cilje, od zbiranja gospodarskih blokov (kot je BRICS ali Evropska unija) do 500-kratnega preleta Indije, da osvojite medalje.",
+    "historyDesc": "Preglejte vse svoje prejšnje igre in ugotovite, pred koliko časa ste odklenili državo."
+  },
+  "settings": {
+    "title": "nastavitve",
+    "language": "Jezik",
+    "languageLabel": "Izberite jezik",
+    "data": "Podatki in zasebnost",
+    "exportProgress": "Izvoz napredka",
+    "importProgress": "Napredek uvoza",
+    "resetProgress": "Ponastavi napredek",
+    "restartTutorial": "Oglejte si vadnico",
+    "aboutData": "O podatkih",
+    "privacy": "Zasebnost",
+    "searchLanguage": "Search language..."
+  },
+  "modals": {
+    "aboutData": {
+      "title": "O podatkih",
+      "intro": "Verjetnosti rojstev so ocene, izračunane na podlagi razpoložljivih podatkov o letnih rojstvih po državah.",
+      "methodology": "Metodologija",
+      "methodologyText": "Verjetnost rojstva v določeni državi se izračuna kot delež ocenjenih letnih rojstev te države v primerjavi s skupnim številom rojstev na svetu. Uporabljamo približne podatke Svetovne banke in ZN (World Population Prospects). Vrednosti so ocene in morda ne odražajo najnovejših statističnih podatkov.",
+      "sensitivity": "Opomba glede politične občutljivosti",
+      "sensitivityText": "Meje, ozemlja in priznanje države so politično občutljiva vprašanja. Vključitev ozemlja v to igro služi izobraževalnim in geografskim namenom in ne predstavlja političnega stališča. Podatki so poenostavljeni za zabavno igro.",
+      "updates": "Posodobitve podatkov",
+      "updatesText": "Demografski podatki se skozi čas spreminjajo. Ta projekt poskuša ohraniti podatke razumno posodobljene, vendar ne zagotavlja točnosti v realnem času.",
+      "sources": "Viri",
+      "sourcesList": [
+        "Svetovna banka — Kazalniki svetovnega razvoja",
+        "ZN – Obeti svetovnega prebivalstva 2022",
+        "Naravna Zemlja – Geografski podatki (javna domena)",
+        "atlas sveta (TopoJSON) — Zemljevidni podatki"
+      ],
+      "close": "Zapri"
+    },
+    "privacy": {
+      "title": "Zasebnost in pogoji",
+      "project": "To je brezplačen, nekomercialen izobraževalni in zabavni projekt.",
+      "noData": "Osebni podatki se ne zbirajo.",
+      "localStorage": "Vaš napredek je shranjen izključno v lokalnem pomnilniku vaše naprave (localStorage). Strežnikom se ne pošilja nobena informacija.",
+      "noCookies": "Ta igra ne uporablja piškotkov. Za shranjevanje vaših nastavitev in napredka se uporablja samo localStorage.",
+      "noTracking": "Ni analitike, sledenja, oglaševanja ali sistemov tretjih oseb.",
+      "borders": "Geografski, demografski in mejni podatki so ocene in so lahko nepopolni ali zastareli. Ta projekt ne zavzema političnega stališča do meja, ozemelj ali državnega priznanja.",
+      "license": "Izvorna koda je na voljo pod licenco MIT.",
+      "attribution": "Pripisi",
+      "close": "Zapri"
+    },
+    "reset": {
+      "title": "Ponastavi napredek",
+      "message": "Ste prepričani? Ves vaš napredek, zbirka, zgodovina in dosežki bodo trajno izbrisani. Tega dejanja ni mogoče razveljaviti.",
+      "confirm": "Da, izbriši vse",
+      "cancel": "Prekliči"
+    },
+    "importExport": {
+      "title": "Napredek uvoza/izvoza",
+      "exportTitle": "Izvozi",
+      "exportDescription": "Izvozite svoj napredek kot datoteko JSON za varnostno kopiranje ali prenos v drugo napravo.",
+      "exportButton": "Izvozi datoteko JSON",
+      "importTitle": "Uvozi",
+      "importDescription": "Uvozi predhodno izvoženo datoteko JSON. Vaš trenutni napredek bo nadomeščen.",
+      "importWarning": "Opozorilo: vaš trenutni napredek bo zamenjala uvožena datoteka.",
+      "importButton": "Izberite datoteko JSON",
+      "importSuccess": "Napredek uspešno uvožen!",
+      "importError": "Neveljavna ali poškodovana datoteka. Prepričajte se, da je ta igra izvozila datoteko.",
+      "close": "Zapri"
+    }
+  },
+  "continents": {
+    "africa": "Afrika",
+    "asia": "Azija",
+    "europe": "Evropi",
+    "northAmerica": "Severna Amerika",
+    "southAmerica": "Južna Amerika",
+    "oceania": "Oceanija"
+  },
+  "data": {
+    "estimated": "Ocenjeno",
+    "source": "Vir",
+    "year": "Podatkovno leto",
+    "approximation": "Te vrednosti so približne."
+  },
+  "errors": {
+    "mapLoad": "Zemljevida ni bilo mogoče naložiti. Poskusite znova naložiti stran.",
+    "dataCorrupt": "Shranjeni podatki so poškodovani. Napredek je ponastavljen.",
+    "importFailed": "Datoteke ni bilo mogoče uvoziti.",
+    "unknown": "Prišlo je do nepričakovane napake."
+  },
+  "accessibility": {
+    "languageSelector": "Izberite jezik",
+    "flagOf": "Zastava {{države}}",
+    "rollButton": "Roll — narišite naključno državo",
+    "closeModal": "Zapri",
+    "mainMap": "Interaktivni zemljevid sveta",
+    "lockedCountry": "{{država}} — zaklenjeno",
+    "unlockedCountry": "{{država}} — odklenjeno",
+    "rolledCountry": "{{država}} — pravkar zavihteno",
+    "progressBar": "{{vrednost}} % držav je odklenjenih",
+    "achievementLocked": "Dosežek zaklenjen: {{ime}}",
+    "achievementUnlocked": "Dosežek odklenjen: {{ime}}"
+  },
+  "countries": {
+    "AF": {
+      "name": "Afganistan",
+      "capital": "Kabul"
+    },
+    "AL": {
+      "name": "Albanija",
+      "capital": "Tirana"
+    },
+    "DZ": {
+      "name": "Alžirija",
+      "capital": "Alžir"
+    },
+    "AD": {
+      "name": "Andora",
+      "capital": "Andora la Vella"
+    },
+    "AO": {
+      "name": "Angola",
+      "capital": "Luanda"
+    },
+    "AG": {
+      "name": "Antigva in Barbuda",
+      "capital": "Janeza"
+    },
+    "AR": {
+      "name": "Argentina",
+      "capital": "Buenos Aires"
+    },
+    "AM": {
+      "name": "Armenija",
+      "capital": "Erevan"
+    },
+    "AU": {
+      "name": "Avstralija",
+      "capital": "Canberra"
+    },
+    "AT": {
+      "name": "Avstrija",
+      "capital": "Dunaj"
+    },
+    "AZ": {
+      "name": "Azerbajdžan",
+      "capital": "Baku"
+    },
+    "BS": {
+      "name": "Bahami",
+      "capital": "Nassau"
+    },
+    "BH": {
+      "name": "Bahrajn",
+      "capital": "Manama"
+    },
+    "BD": {
+      "name": "Bangladeš",
+      "capital": "Daka"
+    },
+    "BB": {
+      "name": "Barbados",
+      "capital": "Bridgetown"
+    },
+    "BY": {
+      "name": "Belorusija",
+      "capital": "Minsk"
+    },
+    "BE": {
+      "name": "Belgija",
+      "capital": "Bruselj"
+    },
+    "BZ": {
+      "name": "Belize",
+      "capital": "Belmopan"
+    },
+    "BJ": {
+      "name": "Benin",
+      "capital": "Porto-Novo"
+    },
+    "BT": {
+      "name": "Butan",
+      "capital": "Thimphu"
+    },
+    "BO": {
+      "name": "Bolivija",
+      "capital": "Sucre"
+    },
+    "BA": {
+      "name": "Bosna in Hercegovina",
+      "capital": "Sarajevo"
+    },
+    "BW": {
+      "name": "Bocvana",
+      "capital": "Gaborone"
+    },
+    "BR": {
+      "name": "Brazilija",
+      "capital": "Brasília"
+    },
+    "BN": {
+      "name": "Brunej",
+      "capital": "Bandar Seri Begawan"
+    },
+    "BG": {
+      "name": "Bolgarija",
+      "capital": "Sofija"
+    },
+    "BF": {
+      "name": "Burkina Faso",
+      "capital": "Ouagadougou"
+    },
+    "BI": {
+      "name": "Burundi",
+      "capital": "Gitega"
+    },
+    "CV": {
+      "name": "Zelenortski otoki",
+      "capital": "Praia"
+    },
+    "KH": {
+      "name": "Kambodža",
+      "capital": "Phnom Penh"
+    },
+    "CM": {
+      "name": "Kamerun",
+      "capital": "Yaoundé"
+    },
+    "CA": {
+      "name": "Kanada",
+      "capital": "Ottawa"
+    },
+    "CF": {
+      "name": "Srednjeafriška republika",
+      "capital": "Bangui"
+    },
+    "TD": {
+      "name": "Čad",
+      "capital": "N'Djamena"
+    },
+    "CL": {
+      "name": "Čile",
+      "capital": "Santiago"
+    },
+    "CN": {
+      "name": "Kitajska",
+      "capital": "Peking"
+    },
+    "CO": {
+      "name": "Kolumbija",
+      "capital": "Bogota"
+    },
+    "KM": {
+      "name": "Komori",
+      "capital": "Moroni"
+    },
+    "CG": {
+      "name": "Kongo",
+      "capital": "Brazzaville"
+    },
+    "CD": {
+      "name": "Demokratična republika Kongo",
+      "capital": "Kinšasa"
+    },
+    "CR": {
+      "name": "Kostarika",
+      "capital": "San José"
+    },
+    "CI": {
+      "name": "Slonokoščena obala",
+      "capital": "Yamoussoukro"
+    },
+    "HR": {
+      "name": "Hrvaška",
+      "capital": "Zagreb"
+    },
+    "CU": {
+      "name": "Kuba",
+      "capital": "Havana"
+    },
+    "CY": {
+      "name": "Ciper",
+      "capital": "Nikozija"
+    },
+    "CZ": {
+      "name": "Češka",
+      "capital": "Praga"
+    },
+    "DK": {
+      "name": "Danska",
+      "capital": "Kopenhagen"
+    },
+    "DJ": {
+      "name": "Džibuti",
+      "capital": "Džibuti"
+    },
+    "DM": {
+      "name": "Dominika",
+      "capital": "Roseau"
+    },
+    "DO": {
+      "name": "Dominikanska republika",
+      "capital": "Santo Domingo"
+    },
+    "EC": {
+      "name": "Ekvador",
+      "capital": "Quito"
+    },
+    "EG": {
+      "name": "Egipt",
+      "capital": "Kairo"
+    },
+    "SV": {
+      "name": "El Salvador",
+      "capital": "San Salvador"
+    },
+    "GQ": {
+      "name": "Ekvatorialna Gvineja",
+      "capital": "Malabo"
+    },
+    "ER": {
+      "name": "Eritreja",
+      "capital": "Asmara"
+    },
+    "EE": {
+      "name": "Estonija",
+      "capital": "Talin"
+    },
+    "SZ": {
+      "name": "Eswatini",
+      "capital": "Mbabane"
+    },
+    "ET": {
+      "name": "Etiopija",
+      "capital": "Adis Abeba"
+    },
+    "FJ": {
+      "name": "Fidži",
+      "capital": "Suva"
+    },
+    "FI": {
+      "name": "Finska",
+      "capital": "Helsinki"
+    },
+    "FR": {
+      "name": "Francija",
+      "capital": "Pariz"
+    },
+    "GA": {
+      "name": "Gabon",
+      "capital": "Libreville"
+    },
+    "GM": {
+      "name": "Gambija",
+      "capital": "Banjul"
+    },
+    "GE": {
+      "name": "Georgia",
+      "capital": "Tbilisi"
+    },
+    "DE": {
+      "name": "Nemčija",
+      "capital": "Berlin"
+    },
+    "GH": {
+      "name": "Gana",
+      "capital": "Akra"
+    },
+    "GR": {
+      "name": "Grčija",
+      "capital": "Atene"
+    },
+    "GD": {
+      "name": "Grenada",
+      "capital": "Svetega Jurija"
+    },
+    "GT": {
+      "name": "Gvatemala",
+      "capital": "Guatemala City"
+    },
+    "GN": {
+      "name": "Gvineja",
+      "capital": "Conakry"
+    },
+    "GW": {
+      "name": "Gvineja Bissau",
+      "capital": "Bissau"
+    },
+    "GY": {
+      "name": "Gvajana",
+      "capital": "Georgetown"
+    },
+    "HT": {
+      "name": "Haiti",
+      "capital": "Port-au-Prince"
+    },
+    "HN": {
+      "name": "Honduras",
+      "capital": "Tegucigalpa"
+    },
+    "HU": {
+      "name": "Madžarska",
+      "capital": "Budimpešta"
+    },
+    "IS": {
+      "name": "Islandija",
+      "capital": "Reykjavik"
+    },
+    "IN": {
+      "name": "Indija",
+      "capital": "New Delhi"
+    },
+    "ID": {
+      "name": "Indonezija",
+      "capital": "Jakarta"
+    },
+    "IR": {
+      "name": "Iran",
+      "capital": "Teheran"
+    },
+    "IQ": {
+      "name": "Irak",
+      "capital": "Bagdad"
+    },
+    "IE": {
+      "name": "Irska",
+      "capital": "Dublin"
+    },
+    "IL": {
+      "name": "Izrael",
+      "capital": "Jeruzalem"
+    },
+    "IT": {
+      "name": "Italija",
+      "capital": "Rim"
+    },
+    "JM": {
+      "name": "Jamajka",
+      "capital": "Kingston"
+    },
+    "JP": {
+      "name": "Japonska",
+      "capital": "Tokio"
+    },
+    "JO": {
+      "name": "Jordanija",
+      "capital": "Aman"
+    },
+    "KZ": {
+      "name": "Kazahstan",
+      "capital": "Astana"
+    },
+    "KE": {
+      "name": "Kenija",
+      "capital": "Nairobi"
+    },
+    "KI": {
+      "name": "Kiribati",
+      "capital": "Južna Tarawa"
+    },
+    "KP": {
+      "name": "Severna Koreja",
+      "capital": "Pjongjang"
+    },
+    "KR": {
+      "name": "Južna Koreja",
+      "capital": "Seul"
+    },
+    "KW": {
+      "name": "Kuvajt",
+      "capital": "Kuwait City"
+    },
+    "KG": {
+      "name": "Kirgizistan",
+      "capital": "Bishkek"
+    },
+    "LA": {
+      "name": "Laos",
+      "capital": "Vientiane"
+    },
+    "LV": {
+      "name": "Latvija",
+      "capital": "Riga"
+    },
+    "LB": {
+      "name": "Libanon",
+      "capital": "Bejrut"
+    },
+    "LS": {
+      "name": "Lesoto",
+      "capital": "Maseru"
+    },
+    "LR": {
+      "name": "Liberija",
+      "capital": "Monrovia"
+    },
+    "LY": {
+      "name": "Libija",
+      "capital": "Tripoli"
+    },
+    "LI": {
+      "name": "Liechtenstein",
+      "capital": "Vaduz"
+    },
+    "LT": {
+      "name": "Litva",
+      "capital": "Vilnius"
+    },
+    "LU": {
+      "name": "Luksemburg",
+      "capital": "Luksemburg"
+    },
+    "MG": {
+      "name": "Madagaskar",
+      "capital": "Antananarivo"
+    },
+    "MW": {
+      "name": "Malavi",
+      "capital": "Lilongwe"
+    },
+    "MY": {
+      "name": "Malezija",
+      "capital": "Kuala Lumpur"
+    },
+    "MV": {
+      "name": "Maldivi",
+      "capital": "Malé"
+    },
+    "ML": {
+      "name": "Mali",
+      "capital": "Bamako"
+    },
+    "MT": {
+      "name": "Malta",
+      "capital": "Valletta"
+    },
+    "MH": {
+      "name": "Marshallovi otoki",
+      "capital": "Majuro"
+    },
+    "MR": {
+      "name": "Mavretanija",
+      "capital": "Nouakchott"
+    },
+    "MU": {
+      "name": "Mauritius",
+      "capital": "Port Louis"
+    },
+    "MX": {
+      "name": "Mehika",
+      "capital": "Mexico City"
+    },
+    "FM": {
+      "name": "Mikronezija",
+      "capital": "Palikir"
+    },
+    "MD": {
+      "name": "Moldavija",
+      "capital": "Kišinjev"
+    },
+    "MC": {
+      "name": "Monako",
+      "capital": "Monako"
+    },
+    "MN": {
+      "name": "Mongolija",
+      "capital": "Ulaanbaatar"
+    },
+    "ME": {
+      "name": "Črna gora",
+      "capital": "Podgorica"
+    },
+    "MA": {
+      "name": "Maroko",
+      "capital": "Rabat"
+    },
+    "MZ": {
+      "name": "Mozambik",
+      "capital": "Maputo"
+    },
+    "MM": {
+      "name": "Mjanmar",
+      "capital": "Naypyidaw"
+    },
+    "NA": {
+      "name": "Namibija",
+      "capital": "Windhoek"
+    },
+    "NR": {
+      "name": "Nauru",
+      "capital": "Yaren"
+    },
+    "NP": {
+      "name": "Nepal",
+      "capital": "Katmandu"
+    },
+    "NL": {
+      "name": "Nizozemska",
+      "capital": "Amsterdam"
+    },
+    "NZ": {
+      "name": "Nova Zelandija",
+      "capital": "Wellington"
+    },
+    "NI": {
+      "name": "Nikaragva",
+      "capital": "Managua"
+    },
+    "NE": {
+      "name": "Niger",
+      "capital": "Niamey"
+    },
+    "NG": {
+      "name": "Nigerija",
+      "capital": "Abuja"
+    },
+    "MK": {
+      "name": "Severna Makedonija",
+      "capital": "Skopje"
+    },
+    "NO": {
+      "name": "Norveška",
+      "capital": "Oslo"
+    },
+    "OM": {
+      "name": "Oman",
+      "capital": "Muškat"
+    },
+    "PK": {
+      "name": "Pakistan",
+      "capital": "Islamabad"
+    },
+    "PW": {
+      "name": "Palau",
+      "capital": "Ngerulmud"
+    },
+    "PS": {
+      "name": "Palestina",
+      "capital": "Ramallah"
+    },
+    "PA": {
+      "name": "Panama",
+      "capital": "Panama City"
+    },
+    "PG": {
+      "name": "Papua Nova Gvineja",
+      "capital": "Port Moresby"
+    },
+    "PY": {
+      "name": "Paragvaj",
+      "capital": "Asunción"
+    },
+    "PE": {
+      "name": "Peru",
+      "capital": "Lima"
+    },
+    "PH": {
+      "name": "Filipini",
+      "capital": "Manila"
+    },
+    "PL": {
+      "name": "Poljska",
+      "capital": "Varšava"
+    },
+    "PT": {
+      "name": "Portugalska",
+      "capital": "Lizbona"
+    },
+    "QA": {
+      "name": "Katar",
+      "capital": "Doha"
+    },
+    "RO": {
+      "name": "Romunija",
+      "capital": "Bukarešta"
+    },
+    "RU": {
+      "name": "Rusija",
+      "capital": "Moskva"
+    },
+    "RW": {
+      "name": "Ruanda",
+      "capital": "Kigali"
+    },
+    "KN": {
+      "name": "Saint Kitts in Nevis",
+      "capital": "Basseterre"
+    },
+    "LC": {
+      "name": "Sveta Lucija",
+      "capital": "Castries"
+    },
+    "VC": {
+      "name": "Sveti Vincent in Grenadini",
+      "capital": "Kingstown"
+    },
+    "WS": {
+      "name": "Samoa",
+      "capital": "Apia"
+    },
+    "SM": {
+      "name": "San Marino",
+      "capital": "San Marino"
+    },
+    "ST": {
+      "name": "São Tomé in Príncipe",
+      "capital": "São Tomé"
+    },
+    "SA": {
+      "name": "Savdska Arabija",
+      "capital": "Riad"
+    },
+    "SN": {
+      "name": "Senegal",
+      "capital": "Dakar"
+    },
+    "RS": {
+      "name": "Srbija",
+      "capital": "Beograd"
+    },
+    "SL": {
+      "name": "Sierra Leone",
+      "capital": "Freetown"
+    },
+    "SG": {
+      "name": "Singapur",
+      "capital": "Singapur"
+    },
+    "SK": {
+      "name": "Slovaška",
+      "capital": "Bratislava"
+    },
+    "SI": {
+      "name": "Slovenija",
+      "capital": "Ljubljani"
+    },
+    "SB": {
+      "name": "Salomonovi otoki",
+      "capital": "Honiara"
+    },
+    "SO": {
+      "name": "Somalija",
+      "capital": "Mogadiš"
+    },
+    "ZA": {
+      "name": "Južna Afrika",
+      "capital": "Pretoria"
+    },
+    "SS": {
+      "name": "Južni Sudan",
+      "capital": "Juba"
+    },
+    "ES": {
+      "name": "Španija",
+      "capital": "Madrid"
+    },
+    "LK": {
+      "name": "Šrilanka",
+      "capital": "Colombo"
+    },
+    "SD": {
+      "name": "Sudan",
+      "capital": "Kartum"
+    },
+    "SR": {
+      "name": "Surinam",
+      "capital": "Paramaribo"
+    },
+    "SE": {
+      "name": "Švedska",
+      "capital": "Stockholm"
+    },
+    "CH": {
+      "name": "Švica",
+      "capital": "Bern"
+    },
+    "SY": {
+      "name": "Sirija",
+      "capital": "Damask"
+    },
+    "TW": {
+      "name": "Tajvan",
+      "capital": "Tajpej"
+    },
+    "TJ": {
+      "name": "Tadžikistan",
+      "capital": "Dušanbe"
+    },
+    "TZ": {
+      "name": "Tanzanija",
+      "capital": "Dodoma"
+    },
+    "TH": {
+      "name": "Tajska",
+      "capital": "Bangkok"
+    },
+    "TL": {
+      "name": "Vzhodni Timor",
+      "capital": "Dili"
+    },
+    "TG": {
+      "name": "Togo",
+      "capital": "Lomé"
+    },
+    "TO": {
+      "name": "Tonga",
+      "capital": "Nukuʻalofa"
+    },
+    "TT": {
+      "name": "Trinidad in Tobago",
+      "capital": "Port of Spain"
+    },
+    "TN": {
+      "name": "Tunizija",
+      "capital": "Tunis"
+    },
+    "TR": {
+      "name": "Turkey",
+      "capital": "Ankara"
+    },
+    "TM": {
+      "name": "Turkmenistan",
+      "capital": "Ashgabat"
+    },
+    "TV": {
+      "name": "Tuvalu",
+      "capital": "Funafuti"
+    },
+    "UG": {
+      "name": "Uganda",
+      "capital": "Kampala"
+    },
+    "UA": {
+      "name": "Ukraine",
+      "capital": "Kyiv"
+    },
+    "AE": {
+      "name": "United Arab Emirates",
+      "capital": "Abu Dhabi"
+    },
+    "GB": {
+      "name": "United Kingdom",
+      "capital": "London"
+    },
+    "US": {
+      "name": "United States",
+      "capital": "Washington D.C."
+    },
+    "UY": {
+      "name": "Uruguay",
+      "capital": "Montevideo"
+    },
+    "UZ": {
+      "name": "Uzbekistan",
+      "capital": "Tashkent"
+    },
+    "VU": {
+      "name": "Vanuatu",
+      "capital": "Port Vila"
+    },
+    "VA": {
+      "name": "Vatican City",
+      "capital": "Vatican City"
+    },
+    "VE": {
+      "name": "Venezuela",
+      "capital": "Caracas"
+    },
+    "VN": {
+      "name": "Vietnam",
+      "capital": "Hanoi"
+    },
+    "YE": {
+      "name": "Yemen",
+      "capital": "Sanaa"
+    },
+    "ZM": {
+      "name": "Zambia",
+      "capital": "Lusaka"
+    },
+    "ZW": {
+      "name": "Zimbabwe",
+      "capital": "Harare"
+    },
+    "EH": {
+      "name": "Western Sahara",
+      "capital": "Laayoune"
+    },
+    "XK": {
+      "name": "Kosovo",
+      "capital": "Pristina"
+    }
+  },
+  "pity": {
+    "title": "Zbrana sreča",
+    "guaranteedTitle": "Nova država zagotovljena!",
+    "ready": "Naslednja rolada bo čarobna!"
+  },
+  "tour": {
+    "skip": "Pular Tutorial",
+    "next": "Próximo ➔",
+    "prev": "⬅ Anterior",
+    "done": "Terminar ✓",
+    "progress": "Korak {{current}} od {{total}}",
+    "step1": {
+      "title": "👋 Bem-vindo ao WorldDex!",
+      "desc": "Aqui vais colecionar todos os países do mundo através de sorteios baseados na verdadeira taxa de natalidade global. Vamos ver como funciona?"
+    },
+    "step2": {
+      "title": "🎲 Pomikajte se po svetu",
+      "desc": "Clica neste botão (ou pressiona Espaço) para girares. A probabilidade de te calhar um país é <b>exatamente igual à probabilidade de nasceres lá</b> no mundo real. Quanto mais nascimentos, mais comum!"
+    },
+    "step3": {
+      "title": "🗺️ Vaš zemljevid",
+      "desc": "Kadar koli odklenete novo državo, bo na zemljevidu pobarvana z barvo svoje redkosti (običajna, neobičajna, redka, epska ali legendarna)."
+    },
+    "step4": {
+      "title": "💖 Sistema de Pity",
+      "desc": "Vsakič, ko dobite dvojnik, se vaša vrstica sreče dvigne. Ko dosežete največjo vrednost, je <b>100 % zajamčeno</b>, da bo naslednji vrtljaj država, ki je še nimate!"
+    },
+    "step5": {
+      "title": "🛒 Trgovina & Ekonomija",
+      "desc": "Ne skrbite za dvojnike. Vsaka ponovljena država vam podari <b>kovance</b> (odvisno od redkosti). V tej trgovini lahko uporabite kovance za <b>nakup manjkajočih držav</b> ali <b>nadgradnje</b> (kot je samodejni klik ali množilniki)."
+    },
+    "step6": {
+      "title": "📚 A Tua Coleção",
+      "desc": "V tem zavihku si lahko ogledate vse države, ki ste jih že obiskali, in koliko jih je še ostalo. Lahko jih kliknete za ogled podrobnosti in zanimivosti."
+    },
+    "step7": {
+      "title": "🏆 Conquistas",
+      "desc": "Dokončajte celine, oblikujte skupine določenih držav (kot je CPLP ali Evropska unija) in dosegajte cilje, da odklenete te edinstvene dosežke."
+    },
+    "step8": {
+      "title": "🌍 Pripravljen za igro!",
+      "desc": "Zdaj je odvisno od vas! Vso srečo na vaši poti, da odklenete ves svet, eno rojstvo naenkrat."
+    }
+  }
+}
