@@ -16,7 +16,13 @@ html {
 
 body {
   @apply bg-surface-950 text-slate-100 antialiased;
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family:
+    "Inter",
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
 }
 
 /* ─── Scrollbars ────────────────────────────────────── */
@@ -41,7 +47,7 @@ body {
 /* ─── Focus visible ─────────────────────────────────── */
 
 :focus-visible {
-  outline: 2px solid theme('colors.accent.500');
+  outline: 2px solid theme("colors.accent.500");
   outline-offset: 2px;
 }
 
@@ -97,4 +103,3 @@ body {
 .driver-active-element {
   pointer-events: none !important;
 }
-

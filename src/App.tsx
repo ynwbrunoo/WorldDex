@@ -6,7 +6,16 @@ import React, {
   useRef,
 } from "react";
 import { useTranslation } from "react-i18next";
-import { Map, List, Clock, Trophy, Settings, Store, Maximize2, Minimize2 } from "lucide-react";
+import {
+  Map,
+  List,
+  Clock,
+  Trophy,
+  Settings,
+  Store,
+  Maximize2,
+  Minimize2,
+} from "lucide-react";
 
 // Core
 import { useGameState } from "@/hooks/useGameState";
@@ -364,17 +373,17 @@ export function App(): React.ReactElement {
     state.showTutorial,
   ]);
 
-return (
-    <div className="h-[100dvh] overflow-x-hidden overflow-y-auto lg:overflow-hidden bg-surface-950 text-slate-100 flex flex-col">
+  return (
+    <div className={`h-[100dvh] overflow-x-hidden ${isMobileMaximized ? "overflow-y-hidden" : "overflow-y-auto lg:overflow-hidden"} bg-surface-950 text-slate-100 flex flex-col`}>
       {/* Header */}
       <Header dispatch={dispatch} isMuted={isMuted} toggleMute={toggleMute} />
 
       {/* Main layout */}
-      <div className="flex-1 flex flex-col lg:flex-row min-h-0 pointer-events-auto overflow-y-auto lg:overflow-hidden">
+      <div className={`flex-1 flex flex-col lg:flex-row min-h-0 pointer-events-auto ${isMobileMaximized ? "overflow-hidden" : "overflow-y-auto lg:overflow-hidden"}`}>
         {/* ── Left/Main: Map + Roll button ─────────────────── */}
         <main
           className={`flex-1 flex flex-col p-2 sm:p-3 gap-3 ${
-            isMobileMaximized ? "min-h-[100dvh]" : "min-h-[50vh]"
+            isMobileMaximized ? "h-full overflow-hidden" : "min-h-[50vh]"
           } lg:min-h-0 relative z-10 shrink-0`}
         >
           <div

@@ -1,3 +1,9 @@
+/**
+ * WorldMap Component
+ * 
+ * Renders an interactive D3/react-simple-maps globe or equirectangular projection.
+ * Handles pan, zoom, hover tooltips, and dynamic coloring for unlocked countries.
+ */
 import React, {
   useRef,
   useEffect,

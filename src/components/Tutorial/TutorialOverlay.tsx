@@ -1,3 +1,10 @@
+/**
+ * TutorialOverlay Component
+ * 
+ * Manages the interactive driver.js tutorial overlay for new users.
+ * Handles highlighting UI elements and explaining game mechanics.
+ * Customizes driver.js styles to match the dark theme and accessibility requirements.
+ */
 import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { driver } from "driver.js";
@@ -88,15 +95,19 @@ export function TutorialOverlay({
             };
             footer.insertBefore(skipBtn, footer.firstChild);
           }
-          
+
           // Prevent the progress text from wrapping awkwardly
-          const progressText = footer.querySelector('.driver-popover-progress-text') as HTMLElement;
+          const progressText = footer.querySelector(
+            ".driver-popover-progress-text",
+          ) as HTMLElement;
           if (progressText) {
             progressText.style.whiteSpace = "nowrap";
             progressText.style.fontSize = "0.85rem";
           }
-          
-          const navBtns = footer.querySelector('.driver-popover-navigation-btns') as HTMLElement;
+
+          const navBtns = footer.querySelector(
+            ".driver-popover-navigation-btns",
+          ) as HTMLElement;
           if (navBtns) {
             navBtns.style.display = "flex";
             navBtns.style.gap = "8px";
@@ -119,8 +130,8 @@ export function TutorialOverlay({
             btn.style.whiteSpace = "nowrap";
             btn.style.flex = "1"; // Allow buttons to flex if needed
             btn.style.textAlign = "center";
-              btn.style.minHeight = "44px";
-              btn.style.padding = "8px 16px";
+            btn.style.minHeight = "44px";
+            btn.style.padding = "8px 16px";
             if (btn.classList.contains("driver-popover-next-btn")) {
               btn.style.backgroundColor = "#0891b2";
             }

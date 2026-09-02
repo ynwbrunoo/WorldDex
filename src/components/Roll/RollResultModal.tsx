@@ -77,7 +77,7 @@ export function RollResultModal({
     <AnimatePresence>
       {isOpen && (
         <div
-          className="fixed inset-0 z-40 flex items-end sm:items-center justify-center p-4"
+          className="fixed inset-0 z-40 flex items-center justify-center p-4 sm:p-6"
           onKeyDown={handleKeyDown}
         >
           {/* Backdrop */}
@@ -144,7 +144,9 @@ export function RollResultModal({
                     transition={{ delay: 0.2, type: "spring", damping: 12 }}
                     className={`text-[10px] font-black tracking-[0.2em] mb-3 ${colorClass}`}
                   >
-                    <span aria-hidden="true" className="mr-1">{symbol}</span>
+                    <span aria-hidden="true" className="mr-1">
+                      {symbol}
+                    </span>
                     {label === "Lendário"
                       ? `🌟 LENDÁRIO 🌟`
                       : label.toUpperCase()}

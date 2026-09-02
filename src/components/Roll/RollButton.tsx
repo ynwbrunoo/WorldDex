@@ -56,10 +56,14 @@ export function RollButton({
             const hlCountry = COUNTRIES.find((c) => c.id === highlightId);
             if (hlCountry) {
               const p = hlCountry.birthProbability;
-              if (p < 0.0005) return "bg-gradient-to-br from-amber-400 to-orange-500 border-b-4 border-r-2 border-amber-600 shadow-[0_8px_30px_rgba(251,191,36,0.6),inset_0_4px_10px_rgba(255,255,255,0.4)] text-white";
-              if (p < 0.0025) return "bg-gradient-to-br from-purple-500 to-fuchsia-600 border-b-4 border-r-2 border-purple-700 shadow-[0_8px_30px_rgba(192,132,252,0.6),inset_0_4px_10px_rgba(255,255,255,0.4)] text-white";
-              if (p < 0.01) return "bg-gradient-to-br from-blue-400 to-indigo-500 border-b-4 border-r-2 border-blue-600 shadow-[0_8px_30px_rgba(96,165,250,0.6),inset_0_4px_10px_rgba(255,255,255,0.4)] text-white";
-              if (p < 0.05) return "bg-gradient-to-br from-emerald-400 to-teal-500 border-b-4 border-r-2 border-emerald-600 shadow-[0_8px_30px_rgba(52,211,153,0.6),inset_0_4px_10px_rgba(255,255,255,0.4)] text-white";
+              if (p < 0.0005)
+                return "bg-gradient-to-br from-amber-400 to-orange-500 border-b-4 border-r-2 border-amber-600 shadow-[0_8px_30px_rgba(251,191,36,0.6),inset_0_4px_10px_rgba(255,255,255,0.4)] text-white";
+              if (p < 0.0025)
+                return "bg-gradient-to-br from-purple-500 to-fuchsia-600 border-b-4 border-r-2 border-purple-700 shadow-[0_8px_30px_rgba(192,132,252,0.6),inset_0_4px_10px_rgba(255,255,255,0.4)] text-white";
+              if (p < 0.01)
+                return "bg-gradient-to-br from-blue-400 to-indigo-500 border-b-4 border-r-2 border-blue-600 shadow-[0_8px_30px_rgba(96,165,250,0.6),inset_0_4px_10px_rgba(255,255,255,0.4)] text-white";
+              if (p < 0.05)
+                return "bg-gradient-to-br from-emerald-400 to-teal-500 border-b-4 border-r-2 border-emerald-600 shadow-[0_8px_30px_rgba(52,211,153,0.6),inset_0_4px_10px_rgba(255,255,255,0.4)] text-white";
               return "bg-gradient-to-br from-slate-400 to-slate-500 border-b-4 border-r-2 border-slate-600 shadow-[0_8px_30px_rgba(148,163,184,0.6),inset_0_4px_10px_rgba(255,255,255,0.4)] text-white";
             }
           }

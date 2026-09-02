@@ -1,3 +1,9 @@
+/**
+ * Rarity Utility
+ * 
+ * Calculates the rarity tier (Comum to Lendário) of a country based on its birth probability.
+ * Includes color classes, badge styles, and geometrical symbols for colorblind accessibility.
+ */
 export type RarityTier = "Lendário" | "Épico" | "Raro" | "Incomum" | "Comum";
 
 export interface RarityInfo {

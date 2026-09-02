@@ -86,7 +86,9 @@ function CountryCard({ id, probability, coins, onBuy }: CountryCardProps) {
           <Badge
             className={`mt-0.5 text-[10px] px-1.5 py-0 ${rarity.badgeClass}`}
           >
-            <span aria-hidden="true" className="mr-1">{rarity.symbol}</span>
+            <span aria-hidden="true" className="mr-1">
+              {rarity.symbol}
+            </span>
             {rarity.label}
           </Badge>
         </div>
