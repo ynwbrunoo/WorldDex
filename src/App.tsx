@@ -749,11 +749,13 @@ export function App(): React.ReactElement {
           isNew={rollIsNew}
           onClose={() => dispatch({ type: "CLOSE_ROLL_RESULT" })}
           onViewOnMap={(id) => {
+            if (autoRollEnabled) setAutoRollEnabled(false);
             handleZoomToCountry(id);
             dispatch({ type: "CLOSE_ROLL_RESULT" });
             dispatch({ type: "SET_PANEL", payload: "progress" });
           }}
           locale={locale}
+          autoCloseTimer={autoRollEnabled && rollIsNew ? 5000 : null}
         />
       )}
 
