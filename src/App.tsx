@@ -256,18 +256,12 @@ export function App(): React.ReactElement {
   // Autoclicker logic
   useEffect(() => {
     if (autoRollEnabled && hasAutoclicker && !state.showCompletion) {
-      if (state.showRollResult) {
-        if (rollIsNew) {
-          // Pause auto-rolling while the new country modal is open
-          return;
-        } else {
-          // It's a duplicate: wait briefly and auto-close it
-          const timer = setTimeout(() => {
-            dispatch({ type: "CLOSE_ROLL_RESULT" });
-          }, 400); // 400ms to see the mini result
-          return () => clearTimeout(timer);
-        }
-      } else if (!isRolling) {
+      if (state.showRollResult && rollIsNew) {
+        // Pause auto-rolling while the new country modal is open
+        return;
+      }
+
+      if (!isRolling) {
         // Start next roll as soon as modal is closed and we're not rolling
         const timer = setTimeout(handleRoll, 50);
         return () => clearTimeout(timer);
@@ -561,8 +555,14 @@ export function App(): React.ReactElement {
                 {hasAutoclicker && (
                   <button
                     onClick={() => {
-                      if (!state.showTutorial)
-                        setAutoRollEnabled((prev) => !prev);
+                      if (!state.showTutorial) {
+                        setAutoRollEnabled((prev) => {
+                          if (prev) {
+                            dispatch({ type: "CLOSE_ROLL_RESULT" });
+                          }
+                          return !prev;
+                        });
+                      }
                     }}
                     disabled={state.showTutorial}
                     className={`flex flex-col items-center justify-center px-3 sm:px-4 rounded-xl border-2 transition-all duration-200 shadow-md ${
