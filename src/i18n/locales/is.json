@@ -184,7 +184,7 @@
     },
     "india_500": {
       "name": "Namaste!",
-      "description": "Snúðu Indlandi 500 sinnum."
+      "description": "Snúðu Indlandi 50 sinnum."
     },
     "group_g7": {
       "description": "Opnar allar G7 þjóðir."
@@ -200,7 +200,11 @@
       "name": "OPEC",
       "description": "Opnar meðlimi Samtaka olíuútflutningslanda."
     },
-    "hideCompleted": "Fela heill"
+    "hideCompleted": "Fela heill",
+    "all_achievements": {
+      "name": "Perfectionist",
+      "description": "Unlock all other achievements."
+    }
   },
   "tutorial": {
     "title": "Hvernig á að spila",

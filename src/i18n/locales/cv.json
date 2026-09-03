@@ -207,7 +207,7 @@
     },
     "india_500": {
       "name": "Namastê!",
-      "description": "Gira Índia 500 bês."
+      "description": "Gira Índia 50 bês."
     },
     "rarity_epic_1": {
       "name": "Kasadôr Épiku",
@@ -221,7 +221,11 @@
       "name": "Kolesionador Raru",
       "description": "Desblokeia 5 país Raru."
     },
-    "hideCompleted": "Esconder completas"
+    "hideCompleted": "Esconder completas",
+    "all_achievements": {
+      "name": "Deus di Achievements",
+      "description": "Zblokeia tudu otu achievements."
+    }
   },
   "tutorial": {
     "title": "Como Jogar",

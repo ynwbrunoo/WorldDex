@@ -184,7 +184,7 @@
     },
     "india_500": {
       "name": "Намасте!",
-      "description": "Завъртете Индия 500 пъти."
+      "description": "Завъртете Индия 50 пъти."
     },
     "group_g7": {
       "description": "Отключва всички държави от G7."
@@ -201,7 +201,11 @@
       "name": "ОПЕК",
       "description": "Отключва членовете на Организацията на страните износителки на петрол."
     },
-    "hideCompleted": "Скриването е завършено"
+    "hideCompleted": "Скриването е завършено",
+    "all_achievements": {
+      "name": "Perfectionist",
+      "description": "Unlock all other achievements."
+    }
   },
   "tutorial": {
     "title": "Как се играе",

@@ -184,7 +184,7 @@
     },
     "india_500": {
       "name": "Namaste!",
-      "description": "Xoay Ấn Độ 500 lần."
+      "description": "Xoay Ấn Độ 50 lần."
     },
     "group_g7": {
       "description": "Mở khóa tất cả các quốc gia G7."
@@ -200,7 +200,11 @@
       "name": "OPEC",
       "description": "Mở khóa các thành viên của Tổ chức các nước xuất khẩu dầu mỏ."
     },
-    "hideCompleted": "Ẩn hoàn tất"
+    "hideCompleted": "Ẩn hoàn tất",
+    "all_achievements": {
+      "name": "Perfectionist",
+      "description": "Unlock all other achievements."
+    }
   },
   "tutorial": {
     "title": "Cách chơi",

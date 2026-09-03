@@ -38,6 +38,7 @@ export type AchievementType =
   | "continent" // complete 1 continent
   | "continents" // complete N continents
   | "all" // unlock every country
+  | "all_achievements" // unlock all other achievements
   | "streak" // N new countries in a row
   | "rolls" // make N total rolls
   | "country_rolls" // roll a specific country N times
@@ -109,6 +110,8 @@ export interface SaveData {
   pityCounter: number;
   /** Player's current coin balance. */
   coins: number;
+  /** Whether the user has seen the completion modal. */
+  hasSeenCompletion?: boolean;
   /** Purchased upgrade levels, keyed by upgrade ID. 0 / missing = not bought. */
   shopUpgrades: Record<string, number>;
   settings: GameSettings;

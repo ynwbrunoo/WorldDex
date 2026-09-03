@@ -184,7 +184,7 @@
     },
     "india_500": {
       "name": "Namaste!",
-      "description": "Περιστρέψτε την Ινδία 500 φορές."
+      "description": "Περιστρέψτε την Ινδία 50 φορές."
     },
     "group_g7": {
       "description": "Ξεκλειδώνει όλα τα έθνη της G7."
@@ -200,7 +200,11 @@
       "name": "ΟΠΕΚ",
       "description": "Ξεκλειδώνει μέλη του Οργανισμού Πετρελαιοεξαγωγικών Χωρών."
     },
-    "hideCompleted": "Η απόκρυψη ολοκληρώθηκε"
+    "hideCompleted": "Η απόκρυψη ολοκληρώθηκε",
+    "all_achievements": {
+      "name": "Perfectionist",
+      "description": "Unlock all other achievements."
+    }
   },
   "tutorial": {
     "title": "Πώς να παίξετε",

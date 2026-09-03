@@ -184,7 +184,7 @@
     },
     "india_500": {
       "name": "Namaste!",
-      "description": "هند را 500 بار بچرخانید."
+      "description": "هند را 50 بار بچرخانید."
     },
     "group_g7": {
       "description": "قفل تمام کشورهای G7 را باز می کند."
@@ -201,7 +201,11 @@
       "name": "اوپک",
       "description": "اعضای سازمان کشورهای صادرکننده نفت را باز می کند."
     },
-    "hideCompleted": "پنهان کردن کامل"
+    "hideCompleted": "پنهان کردن کامل",
+    "all_achievements": {
+      "name": "Perfectionist",
+      "description": "Unlock all other achievements."
+    }
   },
   "tutorial": {
     "title": "چگونه بازی کنیم",

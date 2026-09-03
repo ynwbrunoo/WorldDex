@@ -184,7 +184,7 @@
     },
     "india_500": {
       "name": "नमस्ते!",
-      "description": "भारत को 500 बार घुमाओ."
+      "description": "भारत को 50 बार घुमाओ."
     },
     "group_g7": {
       "name": "जी7",
@@ -202,7 +202,11 @@
       "name": "ओपेक",
       "description": "पेट्रोलियम निर्यातक देशों के संगठन के सदस्यों को अनलॉक करता है।"
     },
-    "hideCompleted": "पूरा छिपाएँ"
+    "hideCompleted": "पूरा छिपाएँ",
+    "all_achievements": {
+      "name": "Perfectionist",
+      "description": "Unlock all other achievements."
+    }
   },
   "tutorial": {
     "title": "कैसे खेलने के लिए",

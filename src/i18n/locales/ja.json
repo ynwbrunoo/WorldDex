@@ -200,9 +200,13 @@
     },
     "india_500": {
       "name": "ナマステ！",
-      "description": "インドを500回転させます。"
+      "description": "インドを50回転させます。"
     },
-    "hideCompleted": "非表示完了"
+    "hideCompleted": "非表示完了",
+    "all_achievements": {
+      "name": "Perfectionist",
+      "description": "Unlock all other achievements."
+    }
   },
   "tutorial": {
     "title": "遊び方",

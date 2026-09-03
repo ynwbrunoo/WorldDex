@@ -184,7 +184,7 @@
     },
     "india_500": {
       "name": "Namaste!",
-      "description": "Pagrieziet Indiju 500 reizes."
+      "description": "Pagrieziet Indiju 50 reizes."
     },
     "group_g7": {
       "description": "Atbloķē visas G7 valstis."
@@ -200,7 +200,11 @@
       "name": "OPEC",
       "description": "Atbloķē Naftas eksportētājvalstu organizācijas biedrus."
     },
-    "hideCompleted": "Paslēpt pabeigtu"
+    "hideCompleted": "Paslēpt pabeigtu",
+    "all_achievements": {
+      "name": "Perfectionist",
+      "description": "Unlock all other achievements."
+    }
   },
   "tutorial": {
     "title": "Kā spēlēt",

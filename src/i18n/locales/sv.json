@@ -184,7 +184,7 @@
     },
     "india_500": {
       "name": "Namaste!",
-      "description": "Rotera Indien 500 gånger."
+      "description": "Rotera Indien 50 gånger."
     },
     "group_g7": {
       "description": "Låser upp alla G7-nationer."
@@ -200,7 +200,11 @@
       "name": "OPEC",
       "description": "Låser upp medlemmar i Organisationen för oljeexporterande länder."
     },
-    "hideCompleted": "Göm komplett"
+    "hideCompleted": "Göm komplett",
+    "all_achievements": {
+      "name": "Perfectionist",
+      "description": "Unlock all other achievements."
+    }
   },
   "tutorial": {
     "title": "Hur man spelar",

@@ -8,6 +8,8 @@ import {
   Coffee,
   Volume2,
   VolumeX,
+  Trophy,
+  Repeat,
 } from "lucide-react";
 import type { GameAction } from "@/store/types";
 
@@ -15,12 +17,16 @@ interface HeaderProps {
   dispatch: React.Dispatch<GameAction>;
   isMuted: boolean;
   toggleMute: () => void;
+  isGameCompleted?: boolean;
+  onPlayReplay?: () => void;
 }
 
 export function Header({
   dispatch,
   isMuted,
   toggleMute,
+  isGameCompleted,
+  onPlayReplay,
 }: HeaderProps): React.ReactElement {
   const { t } = useTranslation();
 
@@ -49,6 +55,19 @@ export function Header({
             {t("app.title")}
           </h1>
         </div>
+        
+        {isGameCompleted && (
+          <button
+            onClick={onPlayReplay}
+            className="ml-1 sm:ml-2 px-2 py-1 bg-amber-500/20 border border-amber-500/50 rounded-lg flex items-center gap-1.5 hover:bg-amber-500/30 transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-500"
+            title={t("completion.replay", "Ver Replay")}
+            aria-label={t("completion.replay", "Ver Replay")}
+          >
+             <Trophy className="w-3.5 h-3.5 text-amber-400" />
+             <span className="text-[10px] sm:text-xs font-bold tracking-wide text-amber-400">100%</span>
+             <Repeat className="w-3 h-3 text-amber-400/80 ml-0.5 hidden sm:block" />
+          </button>
+        )}
       </div>
 
       {/* Actions */}

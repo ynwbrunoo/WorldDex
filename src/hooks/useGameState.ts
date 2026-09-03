@@ -179,7 +179,7 @@ export function useGameState(): UseGameStateReturn {
 
   // Roll action
   const roll = useCallback(
-    (country: (typeof COUNTRIES)[0], userCountryId?: string | null) => {
+    (country: (typeof COUNTRIES)[0]) => {
       const isNew = !unlockedIds.has(country.id);
 
       dispatch({
@@ -191,22 +191,6 @@ export function useGameState(): UseGameStateReturn {
         },
       });
 
-      if (
-        userCountryId &&
-        country.id === userCountryId &&
-        !state.save.achievements["home_sweet_home"]
-      ) {
-        dispatch({ type: "UNLOCK_ACHIEVEMENT", payload: "home_sweet_home" });
-        dispatch({
-          type: "ADD_TOAST",
-          payload: {
-            id: `achievement-home`,
-            message: `achievements.home_sweet_home.name`,
-            type: "achievement",
-            achievementId: "home_sweet_home",
-          },
-        });
-      }
     },
     [unlockedIds, dispatch, state.save.achievements],
   );

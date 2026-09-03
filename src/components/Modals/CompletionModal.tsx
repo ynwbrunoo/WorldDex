@@ -1,12 +1,13 @@
 import React, { useEffect, useMemo } from "react";
 import { useTranslation } from "react-i18next";
 import { motion, AnimatePresence } from "framer-motion";
-import { X, Globe, Dice6, Clock } from "lucide-react";
+import { X, Globe, Dice6, Clock, Repeat } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 
 interface CompletionModalProps {
   isOpen: boolean;
   onClose: () => void;
+  onPlayReplay: () => void;
   totalRolls: number;
   unlockedCount: number;
 }
@@ -55,6 +56,7 @@ function estimateTimePlayed(totalRolls: number): string {
 export function CompletionModal({
   isOpen,
   onClose,
+  onPlayReplay,
   totalRolls,
   unlockedCount,
 }: CompletionModalProps): React.ReactElement {
@@ -264,15 +266,31 @@ export function CompletionModal({
                   </div>
                 </div>
 
-                {/* Close button */}
-                <Button
-                  variant="primary"
-                  size="lg"
-                  onClick={onClose}
-                  className="w-full mt-1"
+                {/* Buttons */}
+                <motion.div
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 1 }}
+                  className="p-6 bg-surface-900/50 flex flex-col gap-3"
                 >
-                  {t("roll.close", "Fechar")}
-                </Button>
+                  <Button
+                    variant="secondary"
+                    size="lg"
+                    onClick={onPlayReplay}
+                    className="w-full flex items-center justify-center gap-2 bg-accent-600 hover:bg-accent-500 text-white border-none"
+                  >
+                    <Repeat className="w-5 h-5" />
+                    {t("completion.replay", "Ver Replay")}
+                  </Button>
+                  <Button
+                    variant="ghost"
+                    size="lg"
+                    onClick={onClose}
+                    className="w-full mt-1 border border-slate-700 hover:bg-slate-800 text-slate-300"
+                  >
+                    {t("roll.close", "Fechar")}
+                  </Button>
+                </motion.div>
               </motion.div>
             </motion.div>
           </motion.div>

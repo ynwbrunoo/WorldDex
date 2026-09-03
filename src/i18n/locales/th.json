@@ -184,7 +184,7 @@
     },
     "india_500": {
       "name": "นมัสเต!",
-      "description": "หมุนอินเดีย 500 ครั้ง"
+      "description": "หมุนอินเดีย 50 ครั้ง"
     },
     "group_g7": {
       "description": "ปลดล็อคประเทศ G7 ทั้งหมด"
@@ -201,7 +201,11 @@
       "name": "โอเปก",
       "description": "ปลดล็อคสมาชิกขององค์การประเทศผู้ส่งออกน้ำมัน"
     },
-    "hideCompleted": "ซ่อนเสร็จสมบูรณ์"
+    "hideCompleted": "ซ่อนเสร็จสมบูรณ์",
+    "all_achievements": {
+      "name": "Perfectionist",
+      "description": "Unlock all other achievements."
+    }
   },
   "tutorial": {
     "title": "วิธีการเล่น",

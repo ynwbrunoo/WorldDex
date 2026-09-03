@@ -184,7 +184,7 @@
     },
     "india_500": {
       "name": "Namaste!",
-      "description": "Dawwar l-Indja 500 darba."
+      "description": "Dawwar l-Indja 50 darba."
     },
     "group_g7": {
       "description": "Jiftaħ in-nazzjonijiet kollha tal-G7."
@@ -200,7 +200,11 @@
       "name": "OPEC",
       "description": "Jiftaħ membri tal-Organizzazzjoni tal-Pajjiżi Esportaturi taż-Żejt."
     },
-    "hideCompleted": "Aħbi kompluta"
+    "hideCompleted": "Aħbi kompluta",
+    "all_achievements": {
+      "name": "Perfectionist",
+      "description": "Unlock all other achievements."
+    }
   },
   "tutorial": {
     "title": "Kif tilgħab",

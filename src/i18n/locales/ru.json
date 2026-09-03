@@ -200,9 +200,13 @@
     },
     "india_500": {
       "name": "Намасте!",
-      "description": "Поверните Индию 500 раз."
+      "description": "Поверните Индию 50 раз."
     },
-    "hideCompleted": "Скрыть завершено"
+    "hideCompleted": "Скрыть завершено",
+    "all_achievements": {
+      "name": "Perfectionist",
+      "description": "Unlock all other achievements."
+    }
   },
   "tutorial": {
     "title": "Как играть",

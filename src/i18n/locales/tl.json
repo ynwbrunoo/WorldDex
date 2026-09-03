@@ -184,7 +184,7 @@
     },
     "india_500": {
       "name": "Namaste!",
-      "description": "I-rotate ang India ng 500 beses."
+      "description": "I-rotate ang India ng 50 beses."
     },
     "group_g7": {
       "description": "Binubuksan ang lahat ng G7 na bansa."
@@ -200,7 +200,11 @@
       "name": "OPEC",
       "description": "Binubuksan ang mga miyembro ng Organization of Petroleum Exporting Countries."
     },
-    "hideCompleted": "Itago nang kumpleto"
+    "hideCompleted": "Itago nang kumpleto",
+    "all_achievements": {
+      "name": "Perfectionist",
+      "description": "Unlock all other achievements."
+    }
   },
   "tutorial": {
     "title": "Paano maglaro",

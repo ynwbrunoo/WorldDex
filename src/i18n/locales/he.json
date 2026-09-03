@@ -184,7 +184,7 @@
     },
     "india_500": {
       "name": "נמסטה!",
-      "description": "סובב את הודו 500 פעמים."
+      "description": "סובב את הודו 50 פעמים."
     },
     "group_g7": {
       "description": "פותח את כל מדינות ה-G7."
@@ -200,7 +200,11 @@
       "name": "אופ\"ק",
       "description": "פותח חברים בארגון מדינות ייצוא נפט."
     },
-    "hideCompleted": "הסתר שלם"
+    "hideCompleted": "הסתר שלם",
+    "all_achievements": {
+      "name": "Perfectionist",
+      "description": "Unlock all other achievements."
+    }
   },
   "tutorial": {
     "title": "איך לשחק",

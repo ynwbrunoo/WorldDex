@@ -200,7 +200,7 @@
     },
     "india_500": {
       "name": "Namaste!",
-      "description": "Roll India 500 times."
+      "description": "Roll India 50 times."
     },
     "rarity_epic_1": {
       "name": "Epic Hunter",
@@ -214,7 +214,11 @@
       "name": "Rare Collector",
       "description": "Unlock 5 countries of Rare rarity."
     },
-    "hideCompleted": "Hide complete"
+    "hideCompleted": "Hide complete",
+    "all_achievements": {
+      "name": "Perfectionist",
+      "description": "Unlock all other achievements."
+    }
   },
   "tutorial": {
     "title": "How to Play",

@@ -184,7 +184,7 @@
     },
     "india_500": {
       "name": "Namaste!",
-      "description": "Rotiți India de 500 de ori."
+      "description": "Rotiți India de 50 de ori."
     },
     "group_g7": {
       "description": "Deblochează toate națiunile G7."
@@ -200,7 +200,11 @@
       "name": "OPEC",
       "description": "Deblochează membrii Organizației Țărilor Exportatoare de Petrol."
     },
-    "hideCompleted": "Ascunde complet"
+    "hideCompleted": "Ascunde complet",
+    "all_achievements": {
+      "name": "Perfectionist",
+      "description": "Unlock all other achievements."
+    }
   },
   "tutorial": {
     "title": "Cum să joci",

@@ -2,6 +2,11 @@ import type { AchievementDefinition } from "@/store/types";
 
 export const ACHIEVEMENTS: AchievementDefinition[] = [
   {
+    id: "all_achievements",
+    type: "all_achievements",
+    i18nKey: "achievements.all_achievements",
+  },
+  {
     id: "firstStep",
     type: "count",
     threshold: 1,
@@ -63,7 +68,7 @@ export const ACHIEVEMENTS: AchievementDefinition[] = [
     id: "india_500",
     type: "country_rolls",
     countryId: "IN",
-    threshold: 500,
+    threshold: 50,
     i18nKey: "achievements.india_500",
   },
   {

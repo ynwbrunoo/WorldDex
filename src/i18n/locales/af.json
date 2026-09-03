@@ -184,7 +184,7 @@
     },
     "india_500": {
       "name": "Namaste!",
-      "description": "Draai Indië 500 keer."
+      "description": "Draai Indië 50 keer."
     },
     "group_g7": {
       "description": "Ontsluit alle G7-nasies."
@@ -200,7 +200,11 @@
       "name": "OPEC",
       "description": "Ontsluit lede van die Organisasie van Petroleumuitvoerlande."
     },
-    "hideCompleted": "Versteek volledig"
+    "hideCompleted": "Versteek volledig",
+    "all_achievements": {
+      "name": "Perfectionist",
+      "description": "Unlock all other achievements."
+    }
   },
   "tutorial": {
     "title": "Hoe om te speel",

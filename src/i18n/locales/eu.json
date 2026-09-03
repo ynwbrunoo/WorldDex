@@ -184,7 +184,7 @@
     },
     "india_500": {
       "name": "Namaste!",
-      "description": "Biratu India 500 aldiz."
+      "description": "Biratu India 50 aldiz."
     },
     "group_g7": {
       "description": "G7 nazio guztiak desblokeatzen ditu."
@@ -200,7 +200,11 @@
       "name": "OPEC",
       "description": "Petrolioa Esportatzen duten Herrialdeen Erakundeko kideak desblokeatzen ditu."
     },
-    "hideCompleted": "Ezkutatu osoa"
+    "hideCompleted": "Ezkutatu osoa",
+    "all_achievements": {
+      "name": "Perfectionist",
+      "description": "Unlock all other achievements."
+    }
   },
   "tutorial": {
     "title": "Nola jokatu",

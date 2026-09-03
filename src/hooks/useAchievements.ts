@@ -35,6 +35,7 @@ export function useAchievements(
   unlockedCount: number,
   completedContinents: ContinentKey[],
   longestStreak: number,
+  userCountryId?: string | null,
 ): void {
   const totalCountries = COUNTRIES.length;
 
@@ -169,6 +170,21 @@ export function useAchievements(
             }
           }
           break;
+
+        case "special":
+          if (achievement.id === "home_sweet_home" && userCountryId && state.save.unlockedCountries[userCountryId]) {
+            tryUnlock(achievement.id);
+          }
+          break;
+
+        case "all_achievements": {
+          const totalOtherAchievements = ACHIEVEMENTS.length - 1;
+          const unlockedOtherAchievements = Object.keys(state.save.achievements).filter(id => id !== achievement.id).length;
+          if (unlockedOtherAchievements >= totalOtherAchievements) {
+            tryUnlock(achievement.id);
+          }
+          break;
+        }
       }
     }
 
@@ -180,6 +196,7 @@ export function useAchievements(
     unlockedCount,
     completedContinents,
     longestStreak,
+    userCountryId,
     state,
     dispatch,
     totalCountries,
@@ -203,6 +220,7 @@ export function getAchievementProgress(
   longestStreak: number,
   unlockedCountries: Record<string, unknown>,
   rollCounts: Record<string, number>,
+  achievements: Record<string, any>,
 ): { current: number; total: number } | null {
   const def = ACHIEVEMENTS.find((a) => a.id === achievementId);
   if (!def) return null;
@@ -224,6 +242,12 @@ export function getAchievementProgress(
 
     case "all":
       return { current: unlockedCount, total: totalCountries };
+      
+    case "all_achievements": {
+      const totalOtherAchievements = ACHIEVEMENTS.length - 1;
+      const unlockedOtherAchievements = Object.keys(achievements).filter(id => id !== achievementId).length;
+      return { current: unlockedOtherAchievements, total: totalOtherAchievements };
+    }
 
     case "streak":
       return { current: longestStreak, total: def.threshold ?? 5 };

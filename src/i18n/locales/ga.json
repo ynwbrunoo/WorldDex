@@ -184,7 +184,7 @@
     },
     "india_500": {
       "name": "Namaste!",
-      "description": "Rothlaigh an India 500 uair."
+      "description": "Rothlaigh an India 50 uair."
     },
     "group_g7": {
       "description": "Díghlasálann sé gach náisiún G7."
@@ -200,7 +200,11 @@
       "name": "ETOP",
       "description": "Díghlasálann sé baill d'Eagraíocht na dTíortha Onnmhairithe Peitriliam."
     },
-    "hideCompleted": "Folaigh iomlán"
+    "hideCompleted": "Folaigh iomlán",
+    "all_achievements": {
+      "name": "Perfectionist",
+      "description": "Unlock all other achievements."
+    }
   },
   "tutorial": {
     "title": "Conas a Seinn",

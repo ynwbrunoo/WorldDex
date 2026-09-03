@@ -184,7 +184,7 @@
     },
     "india_500": {
       "name": "Namaste!",
-      "description": "Kierrä Intiaa 500 kertaa."
+      "description": "Kierrä Intiaa 50 kertaa."
     },
     "group_g7": {
       "description": "Avaa kaikki G7-maat."
@@ -200,7 +200,11 @@
       "name": "OPEC",
       "description": "Avaa öljynviejämaiden järjestön jäsenet."
     },
-    "hideCompleted": "Piilota valmis"
+    "hideCompleted": "Piilota valmis",
+    "all_achievements": {
+      "name": "Perfectionist",
+      "description": "Unlock all other achievements."
+    }
   },
   "tutorial": {
     "title": "Kuinka pelata",

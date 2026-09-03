@@ -200,9 +200,13 @@
     },
     "india_500": {
       "name": "Namasté!",
-      "description": "Ruota l'India 500 volte."
+      "description": "Ruota l'India 50 volte."
     },
-    "hideCompleted": "Nascondi completato"
+    "hideCompleted": "Nascondi completato",
+    "all_achievements": {
+      "name": "Perfectionist",
+      "description": "Unlock all other achievements."
+    }
   },
   "tutorial": {
     "title": "Come giocare",

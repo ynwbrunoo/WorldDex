@@ -184,7 +184,7 @@
     },
     "india_500": {
       "name": "Namaste!",
-      "description": "Zungusha India mara 500."
+      "description": "Zungusha India mara 50."
     },
     "group_g7": {
       "description": "Inafungua mataifa yote ya G7."
@@ -200,7 +200,11 @@
       "name": "OPEC",
       "description": "Inafungua wanachama wa Shirika la Nchi Zinazouza Petroli."
     },
-    "hideCompleted": "Ficha kamili"
+    "hideCompleted": "Ficha kamili",
+    "all_achievements": {
+      "name": "Perfectionist",
+      "description": "Unlock all other achievements."
+    }
   },
   "tutorial": {
     "title": "Jinsi ya Kucheza",

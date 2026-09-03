@@ -184,7 +184,7 @@
     },
     "india_500": {
       "name": "Namasté!",
-      "description": "Roteer India 500 keer."
+      "description": "Roteer India 50 keer."
     },
     "group_g7": {
       "description": "Ontgrendelt alle G7-landen."
@@ -200,7 +200,11 @@
       "name": "OPEC",
       "description": "Ontgrendelt leden van de Organisatie van Olie-exporterende Landen."
     },
-    "hideCompleted": "Verbergen voltooid"
+    "hideCompleted": "Verbergen voltooid",
+    "all_achievements": {
+      "name": "Perfectionist",
+      "description": "Unlock all other achievements."
+    }
   },
   "tutorial": {
     "title": "Hoe te spelen",

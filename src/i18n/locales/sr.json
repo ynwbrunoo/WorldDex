@@ -184,7 +184,7 @@
     },
     "india_500": {
       "name": "Намасте!",
-      "description": "Ротирајте Индију 500 пута."
+      "description": "Ротирајте Индију 50 пута."
     },
     "group_g7": {
       "name": "Г7",
@@ -202,7 +202,11 @@
       "name": "ОПЕЦ",
       "description": "Откључава чланове Организације земаља извозница нафте."
     },
-    "hideCompleted": "Сакриј довршено"
+    "hideCompleted": "Сакриј довршено",
+    "all_achievements": {
+      "name": "Perfectionist",
+      "description": "Unlock all other achievements."
+    }
   },
   "tutorial": {
     "title": "Како играти",

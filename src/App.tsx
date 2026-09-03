@@ -105,6 +105,59 @@ export function App(): React.ReactElement {
 
   const locale = state.save.settings.language;
 
+  // Replay Logic
+  const startReplay = useCallback(() => {
+    setIsPlayingReplay(true);
+    setReplayUnlockedIds(new Set());
+    dispatch({ type: "DISMISS_COMPLETION" });
+    dispatch({ type: "SET_PANEL", payload: "progress" });
+    setResetZoomTrigger(Date.now()); // global zoom out
+
+    // Ordered chronological unlocked countries
+    const ordered = Object.values(state.save.unlockedCountries)
+      .sort(
+        (a, b) =>
+          new Date(a.unlockedAt).getTime() - new Date(b.unlockedAt).getTime(),
+      )
+      .map((u) => u.countryId);
+
+    let index = 0;
+
+    const playNext = () => {
+      if (index >= ordered.length) {
+        // finished
+        replayTimerRef.current = setTimeout(() => setIsPlayingReplay(false), 4000);
+        return;
+      }
+
+      const nextId = ordered[index];
+      setReplayUnlockedIds((prev) => {
+        const next = new Set(prev);
+        next.add(nextId);
+        return next;
+      });
+
+      const countryData = COUNTRIES.find((c) => c.id === nextId);
+      if (countryData) {
+        playUnlock(getCountryRarity(countryData.birthProbability).label);
+      }
+
+      setHighlightId(nextId);
+      index++;
+      replayTimerRef.current = setTimeout(playNext, 120);
+    };
+
+    // start slightly after to allow map to zoom out
+    if (replayTimerRef.current) clearTimeout(replayTimerRef.current);
+    replayTimerRef.current = setTimeout(playNext, 1000);
+  }, [state.save.unlockedCountries, dispatch, playUnlock]);
+
+  useEffect(() => {
+    return () => {
+      if (replayTimerRef.current) clearTimeout(replayTimerRef.current);
+    };
+  }, []);
+
   // Achievement checking
   useAchievements(
     state,
@@ -161,6 +214,9 @@ export function App(): React.ReactElement {
   const userCountryId = useUserCountry();
 
   const [highlightId, setHighlightId] = useState<string | null>(null);
+  const [isPlayingReplay, setIsPlayingReplay] = useState(false);
+  const [replayUnlockedIds, setReplayUnlockedIds] = useState<Set<string>>(new Set());
+  const replayTimerRef = useRef<NodeJS.Timeout | null>(null);
   const [viewOnMapTrigger, setViewOnMapTrigger] = useState<{
     id: string;
     t: number;
@@ -215,7 +271,7 @@ export function App(): React.ReactElement {
         // After a pause, hit the real result
         setHighlightId(null);
         setRollingRarityColor(null);
-        roll(targetCountry, userCountryId);
+        roll(targetCountry);
         setIsRolling(false);
       }
     };
@@ -370,7 +426,13 @@ export function App(): React.ReactElement {
   return (
     <div className={`h-[100dvh] overflow-x-hidden ${isMobileMaximized ? "overflow-y-hidden" : "overflow-y-auto lg:overflow-hidden"} bg-surface-950 text-slate-100 flex flex-col`}>
       {/* Header */}
-      <Header dispatch={dispatch} isMuted={isMuted} toggleMute={toggleMute} />
+      <Header
+        dispatch={dispatch}
+        isMuted={isMuted}
+        toggleMute={toggleMute}
+        isGameCompleted={progress.unlockedCount >= COUNTRIES.length}
+        onPlayReplay={startReplay}
+      />
 
       {/* Main layout */}
       <div className={`flex-1 flex flex-col lg:flex-row min-h-0 pointer-events-auto ${isMobileMaximized ? "overflow-hidden" : "overflow-y-auto lg:overflow-hidden"}`}>
@@ -402,7 +464,7 @@ export function App(): React.ReactElement {
               )}
             </button>
             <WorldMap
-              unlockedIds={unlockedIds}
+              unlockedIds={isPlayingReplay ? replayUnlockedIds : unlockedIds}
               lastRolledId={state.lastRolledCountryId}
               selectedId={state.selectedCountryId}
               highlightId={highlightId}
@@ -763,6 +825,7 @@ export function App(): React.ReactElement {
       <CompletionModal
         isOpen={state.showCompletion}
         onClose={() => dispatch({ type: "DISMISS_COMPLETION" })}
+        onPlayReplay={startReplay}
         totalRolls={state.save.totalRolls}
         unlockedCount={progress.unlockedCount}
       />

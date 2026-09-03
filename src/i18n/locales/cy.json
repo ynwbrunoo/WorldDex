@@ -184,7 +184,7 @@
     },
     "india_500": {
       "name": "Namaste!",
-      "description": "Cylchdroi India 500 o weithiau."
+      "description": "Cylchdroi India 50 o weithiau."
     },
     "group_g7": {
       "description": "Yn datgloi holl genhedloedd y G7."
@@ -200,7 +200,11 @@
       "name": "OPEC",
       "description": "Yn datgloi aelodau o Sefydliad y Gwledydd Allforio Petroliwm."
     },
-    "hideCompleted": "Cuddio yn gyflawn"
+    "hideCompleted": "Cuddio yn gyflawn",
+    "all_achievements": {
+      "name": "Perfectionist",
+      "description": "Unlock all other achievements."
+    }
   },
   "tutorial": {
     "title": "Sut i Chwarae",

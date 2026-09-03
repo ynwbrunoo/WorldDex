@@ -200,9 +200,13 @@
     },
     "india_500": {
       "name": "Namaste!",
-      "description": "Hindistan'ı 500 kez döndürün."
+      "description": "Hindistan'ı 50 kez döndürün."
     },
-    "hideCompleted": "Tamamlananları gizle"
+    "hideCompleted": "Tamamlananları gizle",
+    "all_achievements": {
+      "name": "Perfectionist",
+      "description": "Unlock all other achievements."
+    }
   },
   "tutorial": {
     "title": "Nasıl Oynanır",

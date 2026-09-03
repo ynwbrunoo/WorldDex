@@ -184,7 +184,7 @@
     },
     "india_500": {
       "name": "Namaste!",
-      "description": "Gira l'Índia 500 vegades."
+      "description": "Gira l'Índia 50 vegades."
     },
     "group_g7": {
       "description": "Desbloqueja totes les nacions del G7."
@@ -199,7 +199,11 @@
     "group_opep": {
       "description": "Desbloqueja membres de l'Organització de Països Exportadors de Petroli."
     },
-    "hideCompleted": "Amaga completa"
+    "hideCompleted": "Amaga completa",
+    "all_achievements": {
+      "name": "Perfectionist",
+      "description": "Unlock all other achievements."
+    }
   },
   "tutorial": {
     "title": "Com jugar",

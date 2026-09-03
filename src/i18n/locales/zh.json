@@ -184,7 +184,7 @@
     },
     "india_500": {
       "name": "合十礼！",
-      "description": "将印度旋转500次。"
+      "description": "将印度旋转50次。"
     },
     "group_g7": {
       "description": "解锁所有 G7 国家。"
@@ -201,7 +201,11 @@
       "name": "欧佩克",
       "description": "解锁石油输出国组织成员。"
     },
-    "hideCompleted": "隐藏完成"
+    "hideCompleted": "隐藏完成",
+    "all_achievements": {
+      "name": "Perfectionist",
+      "description": "Unlock all other achievements."
+    }
   },
   "tutorial": {
     "title": "How to Play",

@@ -184,7 +184,7 @@
     },
     "india_500": {
       "name": "ناماستي!",
-      "description": "قم بتدوير الهند 500 مرة."
+      "description": "قم بتدوير الهند 50 مرة."
     },
     "group_g7": {
       "description": "يفتح جميع دول مجموعة السبع."
@@ -201,7 +201,11 @@
       "name": "أوبك",
       "description": "يفتح أعضاء منظمة الدول المصدرة للبترول."
     },
-    "hideCompleted": "إخفاء كاملة"
+    "hideCompleted": "إخفاء كاملة",
+    "all_achievements": {
+      "name": "Perfectionist",
+      "description": "Unlock all other achievements."
+    }
   },
   "tutorial": {
     "title": "كيفية اللعب",

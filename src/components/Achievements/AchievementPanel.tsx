@@ -99,6 +99,7 @@ export function AchievementPanel({
             longestStreak,
             unlockedCountries,
             rollCounts,
+            achievements,
           );
           const progressPct = progress
             ? Math.min((progress.current / progress.total) * 100, 100)

@@ -184,7 +184,7 @@
     },
     "india_500": {
       "name": "Namaste!",
-      "description": "Putar India 500 kali."
+      "description": "Putar India 50 kali."
     },
     "group_g7": {
       "description": "Membuka kunci semua negara G7."
@@ -200,7 +200,11 @@
       "name": "OPEC",
       "description": "Membuka kunci anggota Organisasi Negara-negara Pengekspor Minyak."
     },
-    "hideCompleted": "Sembunyikan selesai"
+    "hideCompleted": "Sembunyikan selesai",
+    "all_achievements": {
+      "name": "Perfectionist",
+      "description": "Unlock all other achievements."
+    }
   },
   "tutorial": {
     "title": "Cara Bermain",

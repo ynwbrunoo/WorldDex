@@ -184,7 +184,7 @@
     },
     "india_500": {
       "name": "Namaste!",
-      "description": "Zavrtite Indijo 500-krat."
+      "description": "Zavrtite Indijo 50-krat."
     },
     "group_g7": {
       "description": "Odklene vse države G7."
@@ -200,7 +200,11 @@
       "name": "OPEC",
       "description": "Odklene članice Organizacije držav izvoznic nafte."
     },
-    "hideCompleted": "Skrivanje končano"
+    "hideCompleted": "Skrivanje končano",
+    "all_achievements": {
+      "name": "Perfectionist",
+      "description": "Unlock all other achievements."
+    }
   },
   "tutorial": {
     "title": "Kako igrati",

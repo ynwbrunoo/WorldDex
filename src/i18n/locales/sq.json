@@ -184,7 +184,7 @@
     },
     "india_500": {
       "name": "Namaste!",
-      "description": "Rrotulloni Indinë 500 herë."
+      "description": "Rrotulloni Indinë 50 herë."
     },
     "group_g7": {
       "description": "Zhbllokon të gjitha vendet e G7."
@@ -200,7 +200,11 @@
       "name": "OPEC",
       "description": "Zhbllokon anëtarët e Organizatës së Vendeve Eksportuese të Naftës."
     },
-    "hideCompleted": "Fshehja e plotë"
+    "hideCompleted": "Fshehja e plotë",
+    "all_achievements": {
+      "name": "Perfectionist",
+      "description": "Unlock all other achievements."
+    }
   },
   "tutorial": {
     "title": "Si për të luajtur",

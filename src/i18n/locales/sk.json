@@ -184,7 +184,7 @@
     },
     "india_500": {
       "name": "Namaste!",
-      "description": "Otočte Indiu 500-krát."
+      "description": "Otočte Indiu 50-krát."
     },
     "group_g7": {
       "description": "Odomkne všetky krajiny G7."
@@ -200,7 +200,11 @@
       "name": "OPEC",
       "description": "Odomkne členov Organizácie krajín vyvážajúcich ropu."
     },
-    "hideCompleted": "Skryť dokončené"
+    "hideCompleted": "Skryť dokončené",
+    "all_achievements": {
+      "name": "Perfectionist",
+      "description": "Unlock all other achievements."
+    }
   },
   "tutorial": {
     "title": "Ako hrať",

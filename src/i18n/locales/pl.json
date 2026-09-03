@@ -200,9 +200,13 @@
     },
     "india_500": {
       "name": "Namaste!",
-      "description": "Obróć Indie 500 razy."
+      "description": "Obróć Indie 50 razy."
     },
-    "hideCompleted": "Ukryj ukończony"
+    "hideCompleted": "Ukryj ukończony",
+    "all_achievements": {
+      "name": "Perfectionist",
+      "description": "Unlock all other achievements."
+    }
   },
   "tutorial": {
     "title": "Jak grać",

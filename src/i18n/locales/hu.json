@@ -184,7 +184,7 @@
     },
     "india_500": {
       "name": "Namaste!",
-      "description": "Forgasd el Indiát 500-szor."
+      "description": "Forgasd el Indiát 50-szor."
     },
     "group_g7": {
       "description": "Felszabadítja az összes G7 nemzetet."
@@ -200,7 +200,11 @@
       "name": "OPEC",
       "description": "Felszabadítja a Kőolaj-exportáló Országok Szervezetének tagjait."
     },
-    "hideCompleted": "Elrejtés kész"
+    "hideCompleted": "Elrejtés kész",
+    "all_achievements": {
+      "name": "Perfectionist",
+      "description": "Unlock all other achievements."
+    }
   },
   "tutorial": {
     "title": "Hogyan kell játszani",

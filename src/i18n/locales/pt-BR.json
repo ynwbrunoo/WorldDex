@@ -194,7 +194,11 @@
       "name": "Colecionador Raro",
       "description": "Desbloqueia 5 países de raridade Rara."
     },
-    "hideCompleted": "Esconder completas"
+    "hideCompleted": "Esconder completas",
+    "all_achievements": {
+      "name": "Deus dos Achievements",
+      "description": "Desbloqueia todos os outros achievements."
+    }
   },
   "tutorial": {
     "title": "Como Jogar",

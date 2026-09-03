@@ -184,7 +184,7 @@
     },
     "india_500": {
       "name": "나마스테!",
-      "description": "인도를 500번 회전하세요."
+      "description": "인도를 50번 회전하세요."
     },
     "group_g7": {
       "description": "모든 G7 국가를 잠금 해제합니다."
@@ -201,7 +201,11 @@
       "name": "OPEC",
       "description": "석유 수출국 기구의 회원을 잠금 해제합니다."
     },
-    "hideCompleted": "숨기기 완료"
+    "hideCompleted": "숨기기 완료",
+    "all_achievements": {
+      "name": "Perfectionist",
+      "description": "Unlock all other achievements."
+    }
   },
   "tutorial": {
     "title": "플레이 방법",

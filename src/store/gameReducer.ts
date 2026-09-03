@@ -241,7 +241,11 @@ export function gameReducer(state: GameState, action: GameAction): GameState {
       return { ...state, showCompletion: true };
 
     case "DISMISS_COMPLETION":
-      return { ...state, showCompletion: false };
+      return {
+        ...state,
+        showCompletion: false,
+        save: { ...state.save, hasSeenCompletion: true },
+      };
 
     case "ADD_COINS":
       return {

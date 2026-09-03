@@ -200,9 +200,13 @@
     },
     "india_500": {
       "name": "Namaste!",
-      "description": "Drehen Sie Indien 500 Mal um."
+      "description": "Drehen Sie Indien 50 Mal um."
     },
-    "hideCompleted": "Komplett ausblenden"
+    "hideCompleted": "Komplett ausblenden",
+    "all_achievements": {
+      "name": "Perfectionist",
+      "description": "Unlock all other achievements."
+    }
   },
   "tutorial": {
     "title": "Spielanleitung",

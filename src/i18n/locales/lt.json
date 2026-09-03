@@ -184,7 +184,7 @@
     },
     "india_500": {
       "name": "Namaste!",
-      "description": "Pasukite Indiją 500 kartų."
+      "description": "Pasukite Indiją 50 kartų."
     },
     "group_g7": {
       "description": "Atrakina visas G7 šalis."
@@ -200,7 +200,11 @@
       "name": "OPEC",
       "description": "Atrakina Naftą eksportuojančių šalių organizacijos narius."
     },
-    "hideCompleted": "Slėpti baigta"
+    "hideCompleted": "Slėpti baigta",
+    "all_achievements": {
+      "name": "Perfectionist",
+      "description": "Unlock all other achievements."
+    }
   },
   "tutorial": {
     "title": "Kaip žaisti",

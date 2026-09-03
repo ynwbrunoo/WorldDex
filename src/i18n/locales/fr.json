@@ -200,9 +200,13 @@
     },
     "india_500": {
       "name": "Namasté !",
-      "description": "Faites pivoter l'Inde 500 fois."
+      "description": "Faites pivoter l'Inde 50 fois."
     },
-    "hideCompleted": "Masquer complètement"
+    "hideCompleted": "Masquer complètement",
+    "all_achievements": {
+      "name": "Perfectionist",
+      "description": "Unlock all other achievements."
+    }
   },
   "tutorial": {
     "title": "Comment Jouer",

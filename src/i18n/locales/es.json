@@ -200,9 +200,13 @@
     },
     "india_500": {
       "name": "¡Namasté!",
-      "description": "Gira la India 500 veces."
+      "description": "Gira la India 50 veces."
     },
-    "hideCompleted": "Ocultar completo"
+    "hideCompleted": "Ocultar completo",
+    "all_achievements": {
+      "name": "Perfectionist",
+      "description": "Unlock all other achievements."
+    }
   },
   "tutorial": {
     "title": "Cómo Jugar",

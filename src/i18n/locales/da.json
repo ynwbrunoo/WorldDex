@@ -184,7 +184,7 @@
     },
     "india_500": {
       "name": "Namaste!",
-      "description": "Roter Indien 500 gange."
+      "description": "Roter Indien 50 gange."
     },
     "group_g7": {
       "description": "Låser op for alle G7-nationer."
@@ -200,7 +200,11 @@
       "name": "OPEC",
       "description": "Låser op for medlemmer af Organisationen af ​​olieeksporterende lande."
     },
-    "hideCompleted": "Skjul komplet"
+    "hideCompleted": "Skjul komplet",
+    "all_achievements": {
+      "name": "Perfectionist",
+      "description": "Unlock all other achievements."
+    }
   },
   "tutorial": {
     "title": "Sådan spiller du",
