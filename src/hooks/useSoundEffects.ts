@@ -108,7 +108,7 @@ export function useSoundEffects() {
    * playUnlock — chord tones depending on rarity
    */
   const playUnlock = useCallback(
-    (rarityLabel: string = "Comum") => {
+    (rarityLabel: string = "Comum", volumeMultiplier: number = 1) => {
       const ctx = getCtx();
       if (!ctx) return;
       try {
@@ -138,11 +138,11 @@ export function useSoundEffects() {
           osc.frequency.setValueAtTime(freq, t);
 
           const volume =
-            rarityLabel === "Lendário"
+            (rarityLabel === "Lendário"
               ? 0.4
               : rarityLabel === "Épico"
                 ? 0.35
-                : 0.25;
+                : 0.25) * volumeMultiplier;
           gain.gain.setValueAtTime(0, t);
           gain.gain.linearRampToValueAtTime(volume, t + 0.02);
           gain.gain.exponentialRampToValueAtTime(0.001, t + noteDuration);

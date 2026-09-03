@@ -139,7 +139,7 @@ export function App(): React.ReactElement {
 
       const countryData = COUNTRIES.find((c) => c.id === nextId);
       if (countryData) {
-        playUnlock(getCountryRarity(countryData.birthProbability).label);
+        playUnlock(getCountryRarity(countryData.birthProbability).label, 0.15);
       }
 
       setHighlightId(nextId);
@@ -169,16 +169,23 @@ export function App(): React.ReactElement {
 
   // Check for 100% completion
   useEffect(() => {
-    import("@/data/countries").then(({ COUNTRIES }) => {
+    // Small delay to allow the last modal to close or animations to finish
+    setTimeout(() => {
       if (
-        progress.unlockedCount === COUNTRIES.length &&
+        progress.unlockedCount >= COUNTRIES.length &&
         !state.showCompletion &&
+        !state.save.hasSeenCompletion &&
         progress.unlockedCount > 0
       ) {
         dispatch({ type: "SHOW_COMPLETION" });
       }
     });
-  }, [progress.unlockedCount, state.showCompletion, dispatch]);
+  }, [
+    progress.unlockedCount,
+    state.showCompletion,
+    dispatch,
+    state.save.hasSeenCompletion,
+  ]);
 
   // Toast from state toasts
   const handleRemoveToast = useCallback(
